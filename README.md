@@ -38,8 +38,20 @@ shape everything here:
   corners 8/12/18/24px.
 - **Grid** 1240px max content, 12/8/4 columns, 390px mobile art-direction size.
 - **Motion** micro 160ms, entrances 420ms. `prefers-reduced-motion` drops all of it.
-- **Truth** no invented price, metric, testimonial or product screenshot — see
-  `CONTENT-TODO.md`.
+- **Truth** no invented price, metric, testimonial or product screenshot. The product
+  frames hold a stylised illustration (bars and status words, no figures or money),
+  captioned as an illustration — see `CONTENT-TODO.md`.
+
+## Visual structure
+
+The page runs a deliberate arc rather than one flat white scroll:
+
+1. white hero with the product illustration on a pale panel
+2. **navy pivot** for the problem — the low point, so the turn to clarity is visible
+3. white and pale-blue alternating through system, fit, principles, journey, setup
+4. pale-blue commercial grid for pricing
+5. **bright blue climax** for the closing CTA (navy text, 6.70:1), then the quiet
+   navy footer — so the ending is not one long dark block
 
 ## Language
 

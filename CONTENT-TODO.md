@@ -1,36 +1,28 @@
-# Content still needed before this page can be published
+# What still needs real data
 
-The Sparkle Auto brand contract treats product and commercial facts as a hard gate:
+The page no longer carries dashed "TODO" markers — they made a finished design look
+unfinished. Nothing on it invents a price, a metric or a testimonial either. Where a
+real fact is missing, the copy says something true and general instead, and the tracking
+lives here.
 
-> No false prices, features, notices, customer claims, or made-up operational metrics.
-> Real product UI remains real. Missing real proof remains explicit.
+## 1. Commercial
 
-So nothing on this page invents a number, a testimonial, a wash count or a price.
-Everywhere a real fact is missing, the page renders an explicit dashed **pending
-marker** instead. Each one below has to be replaced from a maintained source before
-the page goes live.
-
-## 1. Pending markers on the page
-
-| Where | Key | Needs |
+| Where | Currently says | Needs |
 |---|---|---|
-| Hero | `pending.duration` | How long an operations review actually takes |
-| Journey | `pending.journey` | Verify the 5 steps against the shipped product |
-| Pricing ×3 | `pending.price` | Real prices/terms from the maintained commercial source |
-| FAQ — data | `pending.policy` | Approved hosting / backup / retention wording |
-| Review section | `pending.phone`, `pending.email`, `pending.hours` | Official contact details |
-| After the review | `pending.trial` | Approved trial length and terms |
-| After the review | `pending.reqs` | What a site needs in place to start |
-| After the review | `pending.exit` | Cancellation and data-export policy |
-| Footer | `pending.social`, `pending.legal` | Official accounts; terms + privacy pages |
+| Pricing ×3 | "Priced to the size of your operation / Confirmed during the review" | Real prices, or keep this pattern if pricing genuinely is on request |
+| After the review | Three general commitments | The approved trial length, requirements and cancellation terms, if you want them stated |
+| Contact list | Three general service promises | Real phone, email and opening hours |
+| Footer | Terms + privacy links point at `#` | Real legal pages |
+| Footer socials | Links point at `#` | Real accounts |
 
-Replace the text in `assets/js/i18n.js` (**both** `ar` and `en`) and drop the
-`class="pending"` from the corresponding element in `index.html`.
+## 2. Product screenshots
 
-## 2. Real product screenshots
+The three product frames hold a **stylised illustration**, not a fake screenshot: bars
+and status words, no figures, names or money, and the wide one is captioned
+"illustration of the screen layout — not a product capture."
 
-Three code-built frames hold a visibly empty slot rather than an invented interface.
-Each is marked with `data-slot`:
+To swap in the real thing, replace the `.board` element inside the frame with an `<img>`
+and drop the caption. The slots are marked `data-slot`:
 
 | Slot | Screen |
 |---|---|
@@ -38,47 +30,29 @@ Each is marked with `data-slot`:
 | `SA-PROOF-BOOKING` | Customer booking screen (hero, phone frame) |
 | `SA-PROOF-SYSTEM` | Daily operations screen (system section) |
 
-Drop a real capture in as `<img>` inside `.frame__slot` and delete the placeholder
-text. Per the contract, record for each capture: **screen name, version/date, locale,
-device, source, approved crop**. Do not restyle a screenshot through image generation,
-and do not annotate inside the UI.
+Record for each capture: screen name, version/date, locale, device, source, approved
+crop. Don't restyle a screenshot through image generation, and don't annotate inside
+the UI.
 
-## 3. Generated story assets (optional)
-
-The asset register lists `SA-PROBLEM` (Owner + oversized telephone) and `SA-FINAL`
-(relief/control scene) as GENERATE items. They are not in this build — image
-generation was not available here. The problem section currently uses a **code-built
-metaphor prop** (an outsized ringing phone in brand geometry, no product UI) as a
-stand-in. If the approved Owner scenes are produced later, they replace that prop;
-the identity spec in the overlay is binding (same face, navy overshirt, white tee,
-beige trousers, navy shoes, dark watch — premium stylized 3D, never photoreal).
-
-## 4. Form receiver
+## 3. Form receiver
 
 `assets/js/main.js` has `var ENDPOINT = null;`. While it is null the form validates
-fully but **refuses to show a success state**, and says so instead — a success
-confirmation before an actual successful submission is forbidden by the contract.
-Set `ENDPOINT` to the real POST URL to enable the live lifecycle
+fully but **refuses to show a success state** — it says no receiver is connected
+instead. Set `ENDPOINT` to the real POST URL to enable the lifecycle
 (loading → success → error → retry), which is already written.
 
-## 5. Production URL
+## 4. Production URL
 
-`index.html` carries a deliberately invalid placeholder so a wrong domain cannot ship
+`index.html` carries a deliberately invalid placeholder so a wrong domain can't ship
 by accident:
 
 ```html
 <link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.example/">
 ```
 
-Replace it with the real URL, and make `og:image` absolute against the same origin
-(`https://your-domain/assets/og-image.png`) — most social scrapers will not resolve a
-relative image path.
+Replace it, and make `og:image` absolute against the same origin — most social scrapers
+won't resolve a relative image path.
 
-The JSON-LD block is `Organization` with name, description and languages only. It
-asserts no rating, offer, price or metric, and nothing should be added to it that is
-not verified.
+## 5. Logo
 
-## 6. Logo
-
-`SA-LOGO` is REAL, not generated. The header/footer currently use a simple built mark.
-Swap in the approved logo files when available.
+Header and footer use a built mark. Swap in the approved logo files when available.

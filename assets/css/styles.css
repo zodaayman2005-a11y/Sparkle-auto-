@@ -710,3 +710,210 @@ a { color: var(--sa-text-secondary); }
   }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* ==========================================================================
+   BOARD — stylised operations illustration that fills the product frames.
+   Abstract on purpose: state words and shapes, no figures, names or money.
+   ========================================================================== */
+.board { background: var(--sa-white); }
+
+.board__bar {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 18px;
+  border-block-end: 2px solid #E4F0FA;
+}
+.board__search {
+  flex: 1; height: 30px; border-radius: 999px;
+  background: var(--sa-surface-soft);
+  border: 2px solid #DCEBF8;
+}
+.board__chip {
+  height: 30px; border-radius: 999px;
+  border: 2px solid var(--sa-navy);
+  background: var(--sa-white);
+}
+.board__chip--w1 { width: 62px; }
+.board__chip--w2 { width: 44px; }
+.board__chip--on { background: var(--sa-blue); }
+
+.board__row {
+  display: flex; align-items: center; gap: 14px;
+  padding: 15px 18px;
+  border-block-end: 2px solid #EDF5FC;
+}
+.board__row:last-child { border-block-end: 0; }
+
+.board__avatar {
+  width: 34px; height: 34px; flex: none; border-radius: 50%;
+  background: var(--sa-surface-blue);
+  border: 2px solid var(--sa-navy);
+}
+.board__avatar--fill { background: var(--sa-blue); }
+
+.board__lines { flex: 1; display: grid; gap: 7px; }
+.board__line { height: 9px; border-radius: 999px; background: #D9E9F7; }
+.board__line--dark { background: #B9D3EB; }
+.board__line--w70 { width: 70%; } .board__line--w55 { width: 55%; }
+.board__line--w45 { width: 45%; } .board__line--w35 { width: 35%; }
+.board__line--w30 { width: 30%; } .board__line--w25 { width: 25%; }
+
+.board__state {
+  flex: none; padding: 5px 13px;
+  font-size: 12px; font-weight: 800; line-height: 1.5;
+  border: 2px solid var(--sa-navy); border-radius: 999px;
+  color: var(--sa-navy); background: var(--sa-white);
+  white-space: nowrap;
+}
+.board__state--done { background: var(--sa-blue); }
+.board__state--wait { background: var(--sa-surface-soft); color: var(--sa-text-muted); border-color: var(--sa-soft-blue); }
+
+.board__foot {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  padding: 16px 18px;
+  background: var(--sa-surface-soft);
+  border-block-start: 2px solid #DCEBF8;
+}
+.board__foot .board__line { width: 96px; }
+
+/* sidebar variant for the wide system frame */
+.board--wide { display: grid; grid-template-columns: 168px 1fr; }
+.board__rail {
+  padding: 18px 14px; display: grid; gap: 10px; align-content: start;
+  background: var(--sa-surface-soft);
+  border-inline-end: 2px solid #DCEBF8;
+}
+.board__rail span { height: 30px; border-radius: var(--sa-radius-sm); background: #DDEBF8; }
+.board__rail span:first-child { background: var(--sa-blue); border: 2px solid var(--sa-navy); }
+@media (max-width: 560px) { .board--wide { grid-template-columns: 1fr; } .board__rail { display: none; } }
+
+/* phone variant */
+.board--phone .board__row { padding: 13px 14px; gap: 10px; }
+.board--phone .board__state { padding: 4px 10px; font-size: 11px; }
+.board--phone .board__avatar { width: 26px; height: 26px; }
+
+/* small caption under a frame, so the illustration never poses as a screenshot */
+.frame__note {
+  margin-block-start: var(--s-12);
+  font-size: 13px; color: var(--sa-text-muted); text-align: center;
+}
+
+
+/* ==========================================================================
+   POLISH PASS
+   ========================================================================== */
+
+/* --- hero support line: three quiet facts instead of one dangling note --- */
+.hero__note {
+  list-style: none; margin: var(--s-32) 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: var(--s-8) var(--s-24);
+  font-size: 15px; font-weight: 700; color: var(--sa-text-muted);
+}
+.hero__note li { display: flex; align-items: center; gap: 8px; }
+.hero__note li::before {
+  content: ""; width: 7px; height: 7px; flex: none;
+  background: var(--sa-blue); border-radius: 50%;
+}
+
+/* --- the dark pivot: confusion before the page turns to clarity --- */
+.section--pivot { border-block: var(--sa-border-em) solid var(--sa-navy); }
+.section--navy .section__title, .section--navy .h2, .section--navy .h3 { color: var(--sa-white); }
+.section--navy .lead { color: var(--sa-soft-blue); }
+.section--pivot .pain-list li {
+  background: rgba(255, 255, 255, .05);
+  border: 2px solid rgba(145, 177, 216, .45);
+  color: var(--sa-white);
+}
+.section--pivot .pain-list li::before {
+  background: var(--sa-blue); border-color: var(--sa-blue); color: var(--sa-navy);
+}
+.section--pivot .prop-scene svg rect[fill="#FFFFFF"] { fill: #0B1E3D; }
+.section--pivot .prop-scene svg rect[fill="#F2FAFF"] { fill: #071630; }
+.section--pivot .prop-scene svg [stroke="#03132E"] { stroke: #91B1D8; }
+.section--pivot .prop-scene svg [fill="#03132E"] { fill: #91B1D8; }
+
+/* --- pricing: a real "priced on review" treatment, not an empty slot --- */
+.plan__price { display: grid; gap: 4px; }
+.plan__on-req { font-size: 1.12rem; font-weight: 800; color: var(--sa-navy); line-height: 1.4; }
+.plan__quote  { font-size: 14px; font-weight: 700; color: var(--sa-text-muted); }
+
+/* --- after the review --- */
+.next__terms li { align-items: flex-start; color: var(--sa-text-secondary); }
+.next__tick {
+  flex: none; width: 24px; height: 24px; margin-block-start: 1px;
+  display: grid; place-items: center;
+  font-size: 13px; font-weight: 900; color: var(--sa-navy);
+  background: var(--sa-blue);
+  border: 2px solid var(--sa-navy); border-radius: 50%;
+}
+
+/* --- cards earn a blue edge on hover instead of sitting flat --- */
+.card {
+  position: relative; overflow: hidden;
+  border-radius: var(--sa-radius-lg);
+}
+.card::after {
+  content: ""; position: absolute; inset-block-start: 0; inset-inline: 0;
+  height: 4px; background: var(--sa-blue);
+  transform: scaleX(0); transform-origin: var(--edge, left);
+  transition: transform var(--t-comp) var(--ease);
+}
+[dir="rtl"] .card::after { --edge: right; }
+.card--raised:hover { transform: translate(calc(-2px * var(--sx)), -2px); box-shadow: var(--sa-shadow-lg); }
+.card--raised:hover::after { transform: scaleX(1); }
+
+/* --- footer legal links --- */
+.footer__legal { display: flex; gap: var(--s-24); }
+
+/* --- section rhythm: give the eye a beat between the big white blocks --- */
+.section--soft + .section--soft { padding-block-start: 0; }
+
+
+/* --- board rows read as records, not stretched stripes --- */
+.board__lines { max-width: 360px; margin-inline-end: auto; }
+.board--phone .board__lines { max-width: none; margin-inline-end: 0; }
+
+/* --- hero: let the headline hold its line, and keep the phone at the corner --- */
+.hero__grid { grid-template-columns: 5.4fr 6.6fr; }
+[dir="rtl"] .hero__title { font-size: clamp(2rem, .95rem + 3.5vw, 3.3rem); }
+@media (min-width: 1024px) {
+  .frame-stack__phone { inset-block-end: -56px; inset-inline-end: -48px; width: 164px; }
+}
+/* Mobile shows one clear proof, not the whole desktop collage shrunk down. */
+@media (max-width: 1023px) { .frame-stack__phone { display: none; } }
+@media (max-width: 1023px) { .hero__grid { grid-template-columns: 1fr; } }
+
+/* --- headings get room so a single word never lands alone on a line --- */
+.section__head { max-width: 900px; }
+
+/* --- featured plan badge, centred on the card edge in both directions --- */
+.plan__badge { inset-inline-start: 50%; transform: translateX(50%); }
+[dir="ltr"] .plan__badge { transform: translateX(-50%); }
+
+
+/* --- setup + after-the-review read as one block, not two floating ones --- */
+#next { padding-block-start: 0; }
+
+/* --- closing stage: a bright climax, then the quiet navy footer --- */
+.section--blue {
+  background: var(--sa-blue);
+  border-block: var(--sa-border-w-em) solid var(--sa-navy);
+}
+.section--blue .h2, .section--blue .section__title { color: var(--sa-navy); }
+.section--blue .lead { color: var(--sa-dark-blue); }
+.section--blue .btn--primary {
+  background: var(--sa-navy); color: var(--sa-white);
+  box-shadow: calc(5px * var(--sx)) 5px 0 rgba(3, 19, 46, .28);
+}
+.section--blue .btn--primary:hover {
+  transform: translate(calc(2px * var(--sx)), 2px);
+  box-shadow: calc(3px * var(--sx)) 3px 0 rgba(3, 19, 46, .28);
+}
+.section--blue .btn--secondary {
+  background: var(--sa-white); color: var(--sa-navy);
+  border-color: var(--sa-navy); box-shadow: var(--sa-shadow-sm);
+}
+.section--blue .btn--secondary:hover {
+  background: var(--sa-white);
+  transform: translate(calc(2px * var(--sx)), 2px); box-shadow: none;
+}
+.section--blue :focus-visible { outline-color: var(--sa-navy); }
