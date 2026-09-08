@@ -19,6 +19,9 @@ the page goes live.
 | Pricing ×3 | `pending.price` | Real prices/terms from the maintained commercial source |
 | FAQ — data | `pending.policy` | Approved hosting / backup / retention wording |
 | Review section | `pending.phone`, `pending.email`, `pending.hours` | Official contact details |
+| After the review | `pending.trial` | Approved trial length and terms |
+| After the review | `pending.reqs` | What a site needs in place to start |
+| After the review | `pending.exit` | Cancellation and data-export policy |
 | Footer | `pending.social`, `pending.legal` | Official accounts; terms + privacy pages |
 
 Replace the text in `assets/js/i18n.js` (**both** `ar` and `en`) and drop the
@@ -58,7 +61,24 @@ confirmation before an actual successful submission is forbidden by the contract
 Set `ENDPOINT` to the real POST URL to enable the live lifecycle
 (loading → success → error → retry), which is already written.
 
-## 5. Logo
+## 5. Production URL
+
+`index.html` carries a deliberately invalid placeholder so a wrong domain cannot ship
+by accident:
+
+```html
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.example/">
+```
+
+Replace it with the real URL, and make `og:image` absolute against the same origin
+(`https://your-domain/assets/og-image.png`) — most social scrapers will not resolve a
+relative image path.
+
+The JSON-LD block is `Organization` with name, description and languages only. It
+asserts no rating, offer, price or metric, and nothing should be added to it that is
+not verified.
+
+## 6. Logo
 
 `SA-LOGO` is REAL, not generated. The header/footer currently use a simple built mark.
 Swap in the approved logo files when available.

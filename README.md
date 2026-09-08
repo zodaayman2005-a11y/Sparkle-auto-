@@ -16,6 +16,7 @@ assets/css/tokens.css   brand tokens (palette, borders, shadows, spacing, grid)
 assets/css/styles.css   components
 assets/js/i18n.js       ar + en dictionaries, key-for-key
 assets/js/main.js       language, drawer, reveal, accordion, form lifecycle
+assets/og-image.png     1200x630 social card, rendered from the brand tokens
 .claude/skills/         the HDI design skills this page was built against
 CONTENT-TODO.md         what real data is still needed before publishing
 ```
@@ -49,10 +50,24 @@ Arabic is the default and the primary composition.
 
 ## Accessibility
 
-Semantic landmarks and heading order · skip link · visible focus rings never
-removed · 44px+ touch targets · labels always visible · errors announced as text
-plus state, never colour alone · `aria-live` form status · full keyboard operation
-for the drawer (Escape closes) and the accordion · reduced-motion honoured.
+Verified in-browser, not assumed:
+
+- one `h1`, no skipped heading levels
+- skip link; focus rings never removed
+- collapsed FAQ panels leave the accessibility tree and the tab order (`visibility`,
+  not just zero height), and each panel is wired to its button with
+  `aria-controls` / `aria-labelledby`
+- the mobile drawer is a real `role="dialog" aria-modal="true"`: focus moves into it
+  on open, Tab is trapped inside, Escape closes it and focus returns to the burger
+- 44px+ touch targets · labels always visible · errors announced as text plus state,
+  never colour alone · `aria-live` form status · reduced motion honoured
+
+## Known limitation
+
+The web fonts could not be loaded in the sandbox this was built in, so the rendered
+checks ran on the fallback stack. The font URL itself is verified (HTTP 200) and the
+markup is a standard Google Fonts link — but the first look on a real browser is
+worth a glance.
 
 ## Before publishing
 

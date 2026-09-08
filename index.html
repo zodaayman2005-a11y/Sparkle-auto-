@@ -11,11 +11,29 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ar_EG">
 <meta property="og:locale:alternate" content="en_US">
+<meta property="og:image" content="assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sparkle Auto — اعرف حالة العربيات وإيراد اليوم من مكان واحد">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="robots" content="index, follow">
+<!-- Set this to the real production URL before publishing (see CONTENT-TODO.md). -->
+<link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.example/">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2301A2FF' stroke='%2303132E' stroke-width='3'/><path d='M16 7l2.3 6.2L24.5 15.5l-6.2 2.3L16 24l-2.3-6.2L7.5 15.5l6.2-2.3L16 7z' fill='%2303132E'/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<!-- Only the weights the stylesheet actually uses; display=swap keeps text visible while they load. -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&family=Manrope:wght@400;700;800&display=swap">
 <link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Sparkle Auto",
+  "description": "نظام تشغيل لمغاسل ومراكز خدمة السيارات — الحجز والاستلام والتنفيذ والتحصيل في مكان واحد.",
+  "inLanguage": ["ar", "en"]
+}
+</script>
 </head>
 <body>
 
@@ -50,7 +68,8 @@
   </div>
 </header>
 
-<div class="drawer" id="drawer" hidden>
+<div class="drawer__scrim" id="drawerScrim" hidden></div>
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="القائمة" hidden>
   <a href="#system" data-i18n="nav.system">النظام</a>
   <a href="#principles" data-i18n="nav.principles">طريقة الشغل</a>
   <a href="#journey" data-i18n="nav.journey">رحلة العربية</a>
@@ -344,6 +363,47 @@
   </div>
 </section>
 
+<!-- ========================= AFTER THE REVIEW =========================
+     Compact review-to-action transition. Terms are pending markers until the
+     verified commercial source supplies them. The calendar prop is code-built
+     and deliberately blank — no date, plan or price baked into artwork. -->
+<section class="section section--tight" id="next">
+  <div class="container container--narrow">
+    <div class="next reveal">
+      <svg class="next__prop" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <rect x="10" y="22" width="100" height="88" rx="14" fill="#FFFFFF" stroke="#03132E" stroke-width="4"/>
+        <path d="M10 46h100" stroke="#03132E" stroke-width="4"/>
+        <rect x="10" y="22" width="100" height="24" rx="14" fill="#01A2FF"/>
+        <path d="M10 46h100" stroke="#03132E" stroke-width="4"/>
+        <g stroke="#03132E" stroke-width="5" stroke-linecap="round">
+          <path d="M36 10v20M84 10v20"/>
+        </g>
+        <g fill="#91B1D8">
+          <rect x="26" y="60" width="16" height="12" rx="3"/>
+          <rect x="52" y="60" width="16" height="12" rx="3"/>
+          <rect x="78" y="60" width="16" height="12" rx="3"/>
+          <rect x="26" y="82" width="16" height="12" rx="3"/>
+        </g>
+        <rect x="52" y="82" width="16" height="12" rx="3" fill="#01A2FF" stroke="#03132E" stroke-width="3"/>
+        <rect x="78" y="82" width="16" height="12" rx="3" fill="#91B1D8"/>
+      </svg>
+
+      <div>
+        <p class="eyebrow" data-i18n="next.eyebrow">بعد المراجعة</p>
+        <h2 class="h3" data-i18n="next.title">تقرر إنت، مش إحنا</h2>
+        <p data-i18n="next.lead" style="color:var(--sa-text-secondary);margin-block-start:var(--s-12);max-width:var(--sa-measure)">
+          المراجعة مالهاش أي التزام. لو قررت تكمّل، بنتفق على الشروط مكتوبة قبل أي حاجة تانية.
+        </p>
+        <ul class="next__terms">
+          <li><b data-i18n="next.1t">مدة التجربة:</b> <span class="pending" data-i18n="pending.trial">حدّد المدة والشروط المعتمدة</span></li>
+          <li><b data-i18n="next.2t">اللي محتاجه للبدء:</b> <span class="pending" data-i18n="pending.reqs">حدّد متطلبات التشغيل</span></li>
+          <li><b data-i18n="next.3t">لو وقفت:</b> <span class="pending" data-i18n="pending.exit">حدّد سياسة الإلغاء وتصدير البيانات</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ========================= PRICING =========================
      Calm commercial grid. No invented prices: every commercial value is an
      explicit pending marker until the maintained source is supplied. -->
@@ -407,39 +467,39 @@
 
     <div class="accordion" id="accordion">
       <div class="acc reveal">
-        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-panel-1" id="faq-btn-1">
           <span data-i18n="faq.1q">فريقي مش بيتعامل مع أنظمة. هيعرفوا؟</span>
           <span class="acc__icon" aria-hidden="true"></span>
         </button></h3>
-        <div class="acc__a"><div><p data-i18n="faq.1a">الشاشات اللي بيستخدمها الفني قليلة وواضحة: استلام، تغيير حالة، إقفال. التدريب العملي بيحصل في مكانك على شغلك إنت.</p></div></div>
+        <div class="acc__a" id="faq-panel-1" role="region" aria-labelledby="faq-btn-1"><div><p data-i18n="faq.1a">الشاشات اللي بيستخدمها الفني قليلة وواضحة: استلام، تغيير حالة، إقفال. التدريب العملي بيحصل في مكانك على شغلك إنت.</p></div></div>
       </div>
       <div class="acc reveal">
-        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-panel-2" id="faq-btn-2">
           <span data-i18n="faq.2q">شغّال بالورق والواتساب. هننقل البيانات إزاي؟</span>
           <span class="acc__icon" aria-hidden="true"></span>
         </button></h3>
-        <div class="acc__a"><div><p data-i18n="faq.2a">بنبدأ بالخدمات والأسعار والفريق — ودي بتتظبط في الإعداد. التفاصيل القديمة بنتفق على اللي يستاهل ينتقل منها في المراجعة.</p></div></div>
+        <div class="acc__a" id="faq-panel-2" role="region" aria-labelledby="faq-btn-2"><div><p data-i18n="faq.2a">بنبدأ بالخدمات والأسعار والفريق — ودي بتتظبط في الإعداد. التفاصيل القديمة بنتفق على اللي يستاهل ينتقل منها في المراجعة.</p></div></div>
       </div>
       <div class="acc reveal">
-        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-panel-3" id="faq-btn-3">
           <span data-i18n="faq.3q">النظام بيشتغل على الموبايل؟</span>
           <span class="acc__icon" aria-hidden="true"></span>
         </button></h3>
-        <div class="acc__a"><div><p data-i18n="faq.3a">الشاشات مصمّمة تشتغل على الموبايل والتابلت. تفاصيل الأجهزة والمتطلبات بتتأكد من المنتج قبل التشغيل.</p></div></div>
+        <div class="acc__a" id="faq-panel-3" role="region" aria-labelledby="faq-btn-3"><div><p data-i18n="faq.3a">الشاشات مصمّمة تشتغل على الموبايل والتابلت. تفاصيل الأجهزة والمتطلبات بتتأكد من المنتج قبل التشغيل.</p></div></div>
       </div>
       <div class="acc reveal">
-        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-panel-4" id="faq-btn-4">
           <span data-i18n="faq.4q">مراجعة التشغيل دي بالظبط إيه؟</span>
           <span class="acc__icon" aria-hidden="true"></span>
         </button></h3>
-        <div class="acc__a"><div><p data-i18n="faq.4a">جلسة بنمشي فيها على يوم شغل حقيقي عندك، نحدد فين الوقت والفلوس بيضيعوا، ونقولك بصراحة لو النظام مش هيفرق معاك.</p></div></div>
+        <div class="acc__a" id="faq-panel-4" role="region" aria-labelledby="faq-btn-4"><div><p data-i18n="faq.4a">جلسة بنمشي فيها على يوم شغل حقيقي عندك، نحدد فين الوقت والفلوس بيضيعوا، ونقولك بصراحة لو النظام مش هيفرق معاك.</p></div></div>
       </div>
       <div class="acc reveal">
-        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-panel-5" id="faq-btn-5">
           <span data-i18n="faq.5q">بياناتي هتبقى فين؟</span>
           <span class="acc__icon" aria-hidden="true"></span>
         </button></h3>
-        <div class="acc__a"><div><p data-i18n="faq.5a">بيانات مغسلتك ملكك. تفاصيل الاستضافة والنسخ الاحتياطي والاحتفاظ بتتشرح مكتوبة قبل التعاقد — <span class="pending" data-i18n="pending.policy">أضف نص سياسة البيانات المعتمد</span></p></div></div>
+        <div class="acc__a" id="faq-panel-5" role="region" aria-labelledby="faq-btn-5"><div><p data-i18n="faq.5a">بيانات مغسلتك ملكك. تفاصيل الاستضافة والنسخ الاحتياطي والاحتفاظ بتتشرح مكتوبة قبل التعاقد — <span class="pending" data-i18n="pending.policy">أضف نص سياسة البيانات المعتمد</span></p></div></div>
       </div>
     </div>
   </div>

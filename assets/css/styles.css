@@ -276,6 +276,14 @@ a { color: var(--sa-text-secondary); }
 }
 .drawer.is-open { transform: none; opacity: 1; visibility: visible; }
 .drawer[hidden] { display: none; }
+.drawer__scrim {
+  position: fixed; inset: 76px 0 0 0; z-index: 98;
+  background: rgba(3, 19, 46, .35);
+  opacity: 0; visibility: hidden;
+  transition: opacity var(--t-micro) var(--ease), visibility var(--t-micro);
+}
+.drawer__scrim.is-open { opacity: 1; visibility: visible; }
+@media (min-width: 1024px) { .drawer__scrim { display: none; } }
 .drawer a:not(.btn) {
   padding: 16px 12px; font-size: 19px; font-weight: 700;
   color: var(--sa-navy); text-decoration: none;
@@ -405,7 +413,7 @@ a { color: var(--sa-text-secondary); }
   background: var(--sa-white);
   border: var(--sa-border); border-radius: var(--sa-radius-md);
   padding: var(--s-16) var(--s-24);
-  font-weight: 600;
+  font-weight: 700;
 }
 .pain-list li::before {
   content: "!"; flex: none;
@@ -522,6 +530,26 @@ a { color: var(--sa-text-secondary); }
 .plan .btn { margin-block-start: auto; }
 
 /* ==========================================================================
+   NEXT-STEP BAND — compact review-to-action transition
+   ========================================================================== */
+.next {
+  display: grid; grid-template-columns: auto 1fr; gap: var(--s-40);
+  align-items: center;
+  background: var(--sa-white);
+  border: var(--sa-border-em); border-radius: var(--sa-radius-xl);
+  box-shadow: var(--sa-shadow-md);
+  padding: var(--s-40);
+}
+.next__prop { width: 132px; flex: none; }
+.next__terms { list-style: none; margin: var(--s-24) 0 0; padding: 0; display: grid; gap: var(--s-12); }
+.next__terms li { display: flex; gap: var(--s-12); align-items: center; flex-wrap: wrap; font-size: 16px; }
+.next__terms b { font-weight: 800; color: var(--sa-navy); }
+@media (max-width: 767px) {
+  .next { grid-template-columns: 1fr; gap: var(--s-24); padding: var(--s-24); }
+  .next__prop { width: 104px; }
+}
+
+/* ==========================================================================
    ACCORDION
    ========================================================================== */
 .accordion { display: grid; gap: var(--s-12); }
@@ -554,7 +582,10 @@ a { color: var(--sa-text-secondary); }
 .acc.is-open .acc__icon::after { transform: translate(-50%, -50%) rotate(0); opacity: 0; }
 .acc__a { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 240ms var(--ease); }
 .acc.is-open .acc__a { grid-template-rows: 1fr; }
-.acc__a > div { overflow: hidden; }
+/* visibility (not just zero height) keeps collapsed copy out of the a11y tree
+   and out of the tab order, while still animating open. */
+.acc__a > div { overflow: hidden; visibility: hidden; transition: visibility 240ms var(--ease); }
+.acc.is-open .acc__a > div { visibility: visible; }
 .acc__a p { padding: 0 var(--s-24) var(--s-24); color: var(--sa-text-secondary); max-width: var(--sa-measure); }
 
 /* ==========================================================================
@@ -571,7 +602,7 @@ a { color: var(--sa-text-secondary); }
 
 .field { display: grid; gap: var(--s-8); }
 .field label { font-size: 15px; font-weight: 800; color: var(--sa-navy); }
-.field label .opt { font-weight: 600; color: var(--sa-text-muted); }
+.field label .opt { font-weight: 400; color: var(--sa-text-muted); }
 .field input, .field select, .field textarea {
   min-height: 52px; padding: 12px 16px;
   font-family: inherit; font-size: 16px; color: var(--sa-navy);

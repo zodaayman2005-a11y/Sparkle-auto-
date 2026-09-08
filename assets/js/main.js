@@ -80,6 +80,7 @@
   var header = document.getElementById("header");
   var burger = document.getElementById("burger");
   var drawer = document.getElementById("drawer");
+  var scrim = document.getElementById("drawerScrim");
 
   if (header) {
     var onScrollHeader = function () {
@@ -89,18 +90,59 @@
     onScrollHeader();
   }
 
+  var FOCUSABLE = 'a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
   function setDrawer(open) {
     if (!drawer || !burger) return;
     burger.setAttribute("aria-expanded", String(open));
+
     if (open) {
       drawer.hidden = false;
-      requestAnimationFrame(function () { drawer.classList.add("is-open"); });
+      if (scrim) {
+        scrim.hidden = false;
+        requestAnimationFrame(function () { scrim.classList.add("is-open"); });
+      }
+      requestAnimationFrame(function () {
+        drawer.classList.add("is-open");
+        // Second frame: the panel is only focusable once `is-open` has actually
+        // flipped its computed visibility.
+        requestAnimationFrame(function () {
+          var first = drawer.querySelector(FOCUSABLE);
+          if (first) first.focus();
+        });
+      });
       document.body.style.overflow = "hidden";
     } else {
       drawer.classList.remove("is-open");
+      if (scrim) scrim.classList.remove("is-open");
       document.body.style.overflow = "";
-      setTimeout(function () { if (!drawer.classList.contains("is-open")) drawer.hidden = true; }, 200);
+      setTimeout(function () {
+        if (!drawer.classList.contains("is-open")) {
+          drawer.hidden = true;
+          if (scrim) scrim.hidden = true;
+        }
+      }, 200);
     }
+  }
+
+  // Keep Tab inside the open drawer: the page behind it is not reachable.
+  if (drawer) {
+    drawer.addEventListener("keydown", function (e) {
+      if (e.key !== "Tab") return;
+      var items = Array.prototype.slice.call(drawer.querySelectorAll(FOCUSABLE));
+      if (!items.length) return;
+      // The burger is the drawer's own close control, so it stays in the loop.
+      items.unshift(burger);
+      var first = items[0];
+      var last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    });
   }
 
   if (burger) {
@@ -111,6 +153,12 @@
   if (drawer) {
     drawer.addEventListener("click", function (e) {
       if (e.target.closest("a")) setDrawer(false);
+    });
+  }
+  if (scrim) {
+    scrim.addEventListener("click", function () {
+      setDrawer(false);
+      burger.focus();
     });
   }
   addEventListener("keydown", function (e) {

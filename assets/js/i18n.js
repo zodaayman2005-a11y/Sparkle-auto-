@@ -111,6 +111,16 @@ window.SA_I18N = {
     "faq.5q": "بياناتي هتبقى فين؟",
     "faq.5a": "بيانات مغسلتك ملكك. تفاصيل الاستضافة والنسخ الاحتياطي والاحتفاظ بتتشرح مكتوبة قبل التعاقد —",
 
+    "next.eyebrow": "بعد المراجعة",
+    "next.title": "تقرر إنت، مش إحنا",
+    "next.lead": "المراجعة مالهاش أي التزام. لو قررت تكمّل، بنتفق على الشروط مكتوبة قبل أي حاجة تانية.",
+    "next.1t": "مدة التجربة:",
+    "next.2t": "اللي محتاجه للبدء:",
+    "next.3t": "لو وقفت:",
+    "pending.trial": "حدّد المدة والشروط المعتمدة",
+    "pending.reqs": "حدّد متطلبات التشغيل",
+    "pending.exit": "حدّد سياسة الإلغاء وتصدير البيانات",
+
     "rev.eyebrow": "ابدأ من هنا",
     "rev.title": "احجز مراجعة تشغيل لمكانك",
     "rev.lead": "بنتكلم عن يوم شغلك الحقيقي، مش عرض مبيعات. ولو النظام مش مناسب لحجمك دلوقتي هنقولك.",
@@ -262,6 +272,16 @@ window.SA_I18N = {
     "faq.4a": "A working session on a real day at your place. We find where time and money leak, and we tell you plainly if the system would not make a difference for you.",
     "faq.5q": "Where does my data live?",
     "faq.5a": "Your operation's data is yours. Hosting, backup and retention are explained in writing before any contract —",
+
+    "next.eyebrow": "After the review",
+    "next.title": "The decision is yours",
+    "next.lead": "The review commits you to nothing. If you decide to go ahead, the terms are agreed in writing before anything else happens.",
+    "next.1t": "Trial length:",
+    "next.2t": "What you need to start:",
+    "next.3t": "If you stop:",
+    "pending.trial": "set the approved length and terms",
+    "pending.reqs": "set the operating requirements",
+    "pending.exit": "set the cancellation and data-export policy",
 
     "rev.eyebrow": "Start here",
     "rev.title": "Book an operations review for your site",
