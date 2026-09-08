@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sparkle Auto — نظام تشغيل مغسلة العربيات</title>
+<meta name="description" content="Sparkle Auto — نظام يجمع الحجز والاستلام والتشغيل والتحصيل في مكان واحد، عشان صاحب المغسلة يعرف حالة العربيات وإيراد اليوم من غير ما يفضل يتصل.">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:title" content="Sparkle Auto — نظام تشغيل مغسلة العربيات">
+<meta property="og:description" content="اعرف حالة العربيات وإيراد اليوم من مكان واحد.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:locale:alternate" content="en_US">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2301A2FF' stroke='%2303132E' stroke-width='3'/><path d='M16 7l2.3 6.2L24.5 15.5l-6.2 2.3L16 24l-2.3-6.2L7.5 15.5l6.2-2.3L16 7z' fill='%2303132E'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link" data-i18n="a11y.skip">تخطَّ إلى المحتوى</a>
+
+<!-- ========================= HEADER =========================
+     Quiet native header: logo, navigation, language, one primary action. -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo" aria-label="Sparkle Auto">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5l1.9 5.1 5.1 1.9-5.1 1.9L12 16.5l-1.9-5.1L5 9.5l5.1-1.9L12 2.5z" fill="#03132E"/></svg>
+      </span>
+      <span class="logo__word">Sparkle<span>Auto</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
+      <a href="#system" data-i18n="nav.system">النظام</a>
+      <a href="#principles" data-i18n="nav.principles">طريقة الشغل</a>
+      <a href="#journey" data-i18n="nav.journey">رحلة العربية</a>
+      <a href="#pricing" data-i18n="nav.pricing">الباقات</a>
+      <a href="#faq" data-i18n="nav.faq">أسئلة</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="lang-btn" id="langBtn" type="button" lang="en">EN</button>
+      <a href="#review" class="btn btn--primary btn--sm header__cta" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+      <button class="burger" id="burger" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden>
+  <a href="#system" data-i18n="nav.system">النظام</a>
+  <a href="#principles" data-i18n="nav.principles">طريقة الشغل</a>
+  <a href="#journey" data-i18n="nav.journey">رحلة العربية</a>
+  <a href="#pricing" data-i18n="nav.pricing">الباقات</a>
+  <a href="#faq" data-i18n="nav.faq">أسئلة</a>
+  <a href="#review" class="btn btn--primary" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+</div>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ========================= HERO =========================
+     One result, not a feature catalogue. Copy 5 cols / proof 7 cols. -->
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">نظام تشغيل لمغاسل وخدمات السيارات</p>
+      <h1 class="hero__title reveal" style="--d:60ms">
+        <span data-i18n="hero.title.a">اعرف حالة العربيات</span><br>
+        <span class="underline-mark" data-i18n="hero.title.b">وإيراد اليوم</span><br>
+        <span data-i18n="hero.title.c">من مكان واحد</span>
+      </h1>
+      <p class="lead reveal" style="--d:120ms" data-i18n="hero.lead">
+        بدل ما كل سؤال يرجع لموبايلك — الحجز والاستلام وحالة الشغل والتحصيل بيتسجّلوا لحظة بلحظة، وإنت شايف الصورة كاملة وإنت في أي مكان.
+      </p>
+      <div class="btn-row reveal" style="--d:180ms">
+        <a href="#review" class="btn btn--primary" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+        <a href="#system" class="btn btn--tertiary">
+          <span data-i18n="cta.seeSystem">شوف النظام شغال</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+      <p class="hero__note reveal" style="--d:220ms">
+        <span data-i18n="hero.note">مراجعة تشغيل مدتها</span>
+        <span class="pending" data-i18n="pending.duration">حدّد مدة المراجعة</span>
+      </p>
+    </div>
+
+    <div class="frame-stack reveal" style="--d:120ms">
+      <!-- SA-PROOF-OWNER: real dashboard capture goes here. Slot stays
+           visibly empty rather than showing invented product UI. -->
+      <figure class="frame" style="margin:0">
+        <div class="frame__bar" aria-hidden="true">
+          <span class="frame__dot"></span><span class="frame__dot"></span><span class="frame__dot"></span>
+          <span class="frame__url">app.sparkleauto.com</span>
+        </div>
+        <div class="frame__slot" data-slot="SA-PROOF-OWNER">
+          <p class="frame__slot-label" data-i18n="slot.owner">شاشة تشغيل صاحب المغسلة</p>
+          <p class="frame__slot-hint" data-i18n="slot.hint">ضع هنا لقطة حقيقية من المنتج مع تسجيل اسم الشاشة وتاريخ اللقطة واللغة. لا يتم رسم واجهة وهمية مكانها.</p>
+        </div>
+      </figure>
+
+      <figure class="frame frame--phone frame-stack__phone" style="margin:0">
+        <div class="frame__slot" data-slot="SA-PROOF-BOOKING">
+          <p class="frame__slot-label" data-i18n="slot.booking">شاشة حجز العميل</p>
+        </div>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= PROBLEM ========================= -->
+<section class="section section--soft" id="problem">
+  <div class="container stage">
+    <div>
+      <p class="eyebrow reveal" data-i18n="problem.eyebrow">المشكلة</p>
+      <h2 class="h2 reveal" style="--d:60ms" data-i18n="problem.title">كل سؤال في المغسلة بيرجع لموبايلك</h2>
+      <p class="lead reveal" style="--d:100ms" data-i18n="problem.lead">
+        مش لأن الفريق مش شاطر — لأن المعلومة مش متسجّلة في مكان واحد يقدروا يرجعوا له.
+      </p>
+      <ul class="pain-list">
+        <li class="reveal" data-i18n="problem.1">«العربية اللي جات الساعة عشرة خلصت ولا لأ؟»</li>
+        <li class="reveal" style="--d:60ms" data-i18n="problem.2">«العميل ده دفع ولا لسه؟»</li>
+        <li class="reveal" style="--d:120ms" data-i18n="problem.3">«إحنا عملنا كام عربية النهارده؟»</li>
+        <li class="reveal" style="--d:180ms" data-i18n="problem.4">«مين اللي وعد العميل بالميعاد ده؟»</li>
+      </ul>
+    </div>
+
+    <!-- SA-PROBLEM: metaphor prop, built in code as a placeholder for the
+         approved generated Owner scene. Contains no product UI. -->
+    <div class="prop-scene reveal" style="--d:120ms" aria-hidden="true">
+      <svg viewBox="0 0 400 380" fill="none">
+        <rect x="118" y="40" width="164" height="300" rx="26" fill="#FFFFFF" stroke="#03132E" stroke-width="4"/>
+        <rect x="132" y="70" width="136" height="240" rx="12" fill="#F2FAFF" stroke="#03132E" stroke-width="3"/>
+        <rect x="176" y="52" width="48" height="7" rx="3.5" fill="#03132E"/>
+        <g stroke="#03132E" stroke-width="3">
+          <rect x="146" y="88"  width="108" height="34" rx="9" fill="#01A2FF"/>
+          <rect x="146" y="132" width="108" height="34" rx="9" fill="#FFFFFF"/>
+          <rect x="146" y="176" width="108" height="34" rx="9" fill="#FFFFFF"/>
+          <rect x="146" y="220" width="108" height="34" rx="9" fill="#01A2FF"/>
+          <rect x="146" y="264" width="108" height="34" rx="9" fill="#FFFFFF"/>
+        </g>
+        <g fill="#03132E">
+          <circle cx="163" cy="105" r="6"/><circle cx="163" cy="149" r="6"/>
+          <circle cx="163" cy="193" r="6"/><circle cx="163" cy="237" r="6"/>
+          <circle cx="163" cy="281" r="6"/>
+        </g>
+        <g stroke="#91B1D8" stroke-width="3" stroke-linecap="round">
+          <path d="M182 105h56M182 149h44M182 193h52M182 237h40M182 281h48"/>
+        </g>
+        <g stroke="#03132E" stroke-width="4" stroke-linecap="round">
+          <path d="M62 118c-16 10-22 30-16 48"/>
+          <path d="M40 96c-26 18-34 52-24 82"/>
+          <path d="M338 118c16 10 22 30 16 48"/>
+          <path d="M360 96c26 18 34 52 24 82"/>
+        </g>
+        <g fill="#01A2FF" stroke="#03132E" stroke-width="3">
+          <circle cx="76" cy="252" r="17"/><circle cx="324" cy="252" r="17"/>
+          <circle cx="200" cy="352" r="14"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= DEFINITION ========================= -->
+<section class="section" id="system">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow" data-i18n="def.eyebrow">النظام</p>
+      <h2 class="h2" data-i18n="def.title">مكان واحد بيجمع الشغل كله</h2>
+      <p class="lead" data-i18n="def.lead">
+        Sparkle Auto مش تطبيق حجز بس. هو السجل اللي بيربط الحجز بالعربية اللي دخلت، بالفني اللي شغال عليها، بالفاتورة اللي اتحصّلت.
+      </p>
+    </header>
+
+    <div class="grid grid--3">
+      <article class="card card--raised reveal">
+        <span class="icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
+        </span>
+        <h3 class="card__title" data-i18n="def.1t">حجوزات مسجّلة</h3>
+        <p class="card__body" data-i18n="def.1d">كل حجز له وقت ومسؤول وحالة واضحة، مش رسالة واتساب بتضيع في الشات.</p>
+      </article>
+
+      <article class="card card--raised reveal" style="--d:60ms">
+        <span class="icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15V9l2-4h9l3 4h4v6"/><path d="M3 15h18"/><circle cx="8" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+        </span>
+        <h3 class="card__title" data-i18n="def.2t">حالة كل عربية</h3>
+        <p class="card__body" data-i18n="def.2d">من لحظة الاستلام لحد التسليم — تعرف هي فين دلوقتي ومين ماسكها وفاضلها قد إيه.</p>
+      </article>
+
+      <article class="card card--raised reveal" style="--d:120ms">
+        <span class="icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+        </span>
+        <h3 class="card__title" data-i18n="def.3t">إيراد واضح</h3>
+        <p class="card__body" data-i18n="def.3d">المحصّل والمتبقي محسوبين لحظيًا، فبتقفل اليوم على رقم مش على تخمين.</p>
+      </article>
+    </div>
+
+    <!-- SA-PROOF: real system capture -->
+    <figure class="frame reveal" style="--d:80ms; margin: var(--s-64) 0 0">
+      <div class="frame__bar" aria-hidden="true">
+        <span class="frame__dot"></span><span class="frame__dot"></span><span class="frame__dot"></span>
+        <span class="frame__url">app.sparkleauto.com/operations</span>
+      </div>
+      <div class="frame__slot" data-slot="SA-PROOF-SYSTEM" style="min-height:420px">
+        <p class="frame__slot-label" data-i18n="slot.system">شاشة متابعة التشغيل اليومي</p>
+        <p class="frame__slot-hint" data-i18n="slot.hint">ضع هنا لقطة حقيقية من المنتج مع تسجيل اسم الشاشة وتاريخ اللقطة واللغة. لا يتم رسم واجهة وهمية مكانها.</p>
+      </div>
+      <figcaption class="sr-only" data-i18n="slot.captionPending">في انتظار لقطة حقيقية من المنتج.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ========================= AUDIENCE FIT ========================= -->
+<section class="section section--tight section--soft" id="fit">
+  <div class="container">
+    <div class="measure">
+      <p class="eyebrow reveal" data-i18n="fit.eyebrow">هل ده مناسب ليك؟</p>
+      <h2 class="h2 reveal" style="--d:60ms" data-i18n="fit.title">النظام معمول لمكان بيستقبل عربيات كل يوم</h2>
+    </div>
+    <div class="segments">
+      <span class="segment reveal"><b>◆</b><span data-i18n="fit.1">مغاسل السيارات</span></span>
+      <span class="segment reveal" style="--d:40ms"><b>◆</b><span data-i18n="fit.2">مراكز التلميع والحماية</span></span>
+      <span class="segment reveal" style="--d:80ms"><b>◆</b><span data-i18n="fit.3">ورش الصيانة السريعة</span></span>
+      <span class="segment reveal" style="--d:120ms"><b>◆</b><span data-i18n="fit.4">الخدمة المتنقلة</span></span>
+      <span class="segment reveal" style="--d:160ms"><b>◆</b><span data-i18n="fit.5">الفروع المتعددة</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= OPERATING PRINCIPLES ========================= -->
+<section class="section" id="principles">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow" data-i18n="prin.eyebrow">طريقة الشغل</p>
+      <h2 class="h2" data-i18n="prin.title">إدارة أوضح معناها أربع حاجات</h2>
+    </header>
+
+    <div class="principles">
+      <article class="principle reveal">
+        <span class="principle__num" aria-hidden="true"></span>
+        <div>
+          <h3 class="h3" data-i18n="prin.1t">المعلومة تتسجّل مرة واحدة</h3>
+          <p data-i18n="prin.1d">اللي بيستلم العربية هو اللي بيسجّلها. مفيش دفتر جنب النظام ولا نسخة تانية في الواتساب.</p>
+        </div>
+      </article>
+      <article class="principle reveal">
+        <span class="principle__num" aria-hidden="true"></span>
+        <div>
+          <h3 class="h3" data-i18n="prin.2t">كل عربية ليها مسؤول</h3>
+          <p data-i18n="prin.2d">الحالة مش «شغالين عليها» — الحالة اسم ووقت. وده اللي بيخلّي المتابعة سؤال واحد بدل خمسة.</p>
+        </div>
+      </article>
+      <article class="principle reveal">
+        <span class="principle__num" aria-hidden="true"></span>
+        <div>
+          <h3 class="h3" data-i18n="prin.3t">الفلوس تتقفل مع الخدمة</h3>
+          <p data-i18n="prin.3d">التحصيل جزء من إقفال العربية، فالمتبقي بيبان في وقته مش آخر الشهر.</p>
+        </div>
+      </article>
+      <article class="principle reveal">
+        <span class="principle__num" aria-hidden="true"></span>
+        <div>
+          <h3 class="h3" data-i18n="prin.4t">الصاحب بيتابع من غير ما يقاطع</h3>
+          <p data-i18n="prin.4d">تفتح تشوف الصورة كاملة وتقفلها. من غير ما تكلّم حد وتوقّفه عن شغله.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= JOURNEY ========================= -->
+<section class="section section--soft" id="journey">
+  <div class="container">
+    <header class="section__head is-center reveal">
+      <p class="eyebrow" data-i18n="jr.eyebrow">رحلة العربية</p>
+      <h2 class="h2" data-i18n="jr.title">من باب المغسلة لحد إقفال اليوم</h2>
+    </header>
+
+    <div class="journey">
+      <!-- SA-TRAIL: one purposeful spark connecting the real journey steps -->
+      <svg class="journey__spark" viewBox="0 0 1000 48" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M100 24C200 6 300 42 400 24S600 6 700 24 900 42 900 24" />
+      </svg>
+      <ol class="journey__steps" style="list-style:none;margin:0;padding:0">
+        <li class="jstep reveal">
+          <span class="jstep__dot" aria-hidden="true">1</span>
+          <div><h3 data-i18n="jr.1t">الحجز</h3><p data-i18n="jr.1d">العميل يحجز أو الاستقبال يسجّله.</p></div>
+        </li>
+        <li class="jstep reveal" style="--d:60ms">
+          <span class="jstep__dot" aria-hidden="true">2</span>
+          <div><h3 data-i18n="jr.2t">الاستلام</h3><p data-i18n="jr.2d">بيانات العربية وحالتها وقت الدخول.</p></div>
+        </li>
+        <li class="jstep reveal" style="--d:120ms">
+          <span class="jstep__dot" aria-hidden="true">3</span>
+          <div><h3 data-i18n="jr.3t">التنفيذ</h3><p data-i18n="jr.3d">الخدمة والفني والوقت الفعلي.</p></div>
+        </li>
+        <li class="jstep reveal" style="--d:180ms">
+          <span class="jstep__dot" aria-hidden="true">4</span>
+          <div><h3 data-i18n="jr.4t">التحصيل</h3><p data-i18n="jr.4d">الفاتورة وطريقة الدفع والمتبقي.</p></div>
+        </li>
+        <li class="jstep reveal" style="--d:240ms">
+          <span class="jstep__dot" aria-hidden="true">5</span>
+          <div><h3 data-i18n="jr.5t">الإقفال</h3><p data-i18n="jr.5d">ملخص اليوم من غير جرد يدوي.</p></div>
+        </li>
+      </ol>
+    </div>
+
+    <p class="lead reveal" style="margin-block-start:var(--s-48)">
+      <span data-i18n="jr.note">الخطوات دي بتتأكد من المنتج الفعلي قبل النشر —</span>
+      <span class="pending" data-i18n="pending.journey">راجع الخطوات مع النسخة الحالية</span>
+    </p>
+  </div>
+</section>
+
+<!-- ========================= SETUP ========================= -->
+<section class="section section--tight" id="setup">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow" data-i18n="setup.eyebrow">التشغيل</p>
+      <h2 class="h2" data-i18n="setup.title">إيه اللي بيحصل بعد المراجعة؟</h2>
+    </header>
+    <div class="grid grid--3">
+      <article class="card reveal">
+        <h3 class="card__title" data-i18n="setup.1t">١ — نفهم شغلك</h3>
+        <p class="card__body" data-i18n="setup.1d">نمشي معاك على يوم عادي في المغسلة ونشوف الخطوات الفعلية والورق اللي بتستخدمه.</p>
+      </article>
+      <article class="card reveal" style="--d:60ms">
+        <h3 class="card__title" data-i18n="setup.2t">٢ — نجهّز النظام</h3>
+        <p class="card__body" data-i18n="setup.2d">الخدمات والأسعار والفريق بيتظبطوا على واقع مكانك، مش على قالب جاهز.</p>
+      </article>
+      <article class="card reveal" style="--d:120ms">
+        <h3 class="card__title" data-i18n="setup.3t">٣ — نشغّل مع الفريق</h3>
+        <p class="card__body" data-i18n="setup.3d">تدريب عملي قصير على الشاشات اللي هيستخدموها فعلًا، ومتابعة أول فترة تشغيل.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= PRICING =========================
+     Calm commercial grid. No invented prices: every commercial value is an
+     explicit pending marker until the maintained source is supplied. -->
+<section class="section section--soft" id="pricing">
+  <div class="container">
+    <header class="section__head is-center reveal">
+      <p class="eyebrow" data-i18n="pr.eyebrow">الباقات</p>
+      <h2 class="h2" data-i18n="pr.title">اختار اللي مناسب لحجم شغلك</h2>
+      <p class="lead" data-i18n="pr.lead">الأسعار والشروط النهائية بتتأكد في المراجعة قبل أي التزام.</p>
+    </header>
+
+    <div class="grid grid--3">
+      <article class="plan reveal">
+        <h3 class="plan__name" data-i18n="pr.1n">فرع واحد</h3>
+        <p class="plan__for" data-i18n="pr.1f">لمكان واحد وفريق صغير.</p>
+        <p class="plan__price"><span class="pending" data-i18n="pending.price">حدّد السعر من المصدر الرسمي</span></p>
+        <ul class="plan__list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.1a">حجوزات وحالة العربيات</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.1b">فواتير وتحصيل</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.1c">ملخص يومي</span></li>
+        </ul>
+        <a href="#review" class="btn btn--secondary btn--block" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+      </article>
+
+      <article class="plan plan--featured reveal" style="--d:60ms">
+        <span class="plan__badge" data-i18n="pr.common">الأنسب لمعظم المغاسل</span>
+        <h3 class="plan__name" data-i18n="pr.2n">تشغيل كامل</h3>
+        <p class="plan__for" data-i18n="pr.2f">لمكان بيشتغل بفريق وورديات.</p>
+        <p class="plan__price"><span class="pending" data-i18n="pending.price">حدّد السعر من المصدر الرسمي</span></p>
+        <ul class="plan__list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.2a">كل مميزات «فرع واحد»</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.2b">صلاحيات وأدوار للفريق</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.2c">تقارير تشغيل وإيراد</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.2d">دعم أثناء التشغيل</span></li>
+        </ul>
+        <a href="#review" class="btn btn--primary btn--block" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+      </article>
+
+      <article class="plan reveal" style="--d:120ms">
+        <h3 class="plan__name" data-i18n="pr.3n">فروع متعددة</h3>
+        <p class="plan__for" data-i18n="pr.3f">لأكتر من فرع تحت إدارة واحدة.</p>
+        <p class="plan__price"><span class="pending" data-i18n="pending.price">حدّد السعر من المصدر الرسمي</span></p>
+        <ul class="plan__list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.3a">كل مميزات «تشغيل كامل»</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.3b">مقارنة بين الفروع</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span data-i18n="pr.3c">إعداد وتدريب موسّع</span></li>
+        </ul>
+        <a href="#review" class="btn btn--secondary btn--block" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= FAQ ========================= -->
+<section class="section" id="faq">
+  <div class="container container--narrow">
+    <header class="section__head is-center reveal">
+      <p class="eyebrow" data-i18n="faq.eyebrow">أسئلة</p>
+      <h2 class="h2" data-i18n="faq.title">اللي ممكن يوقّفك قبل ما تبدأ</h2>
+    </header>
+
+    <div class="accordion" id="accordion">
+      <div class="acc reveal">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+          <span data-i18n="faq.1q">فريقي مش بيتعامل مع أنظمة. هيعرفوا؟</span>
+          <span class="acc__icon" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__a"><div><p data-i18n="faq.1a">الشاشات اللي بيستخدمها الفني قليلة وواضحة: استلام، تغيير حالة، إقفال. التدريب العملي بيحصل في مكانك على شغلك إنت.</p></div></div>
+      </div>
+      <div class="acc reveal">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+          <span data-i18n="faq.2q">شغّال بالورق والواتساب. هننقل البيانات إزاي؟</span>
+          <span class="acc__icon" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__a"><div><p data-i18n="faq.2a">بنبدأ بالخدمات والأسعار والفريق — ودي بتتظبط في الإعداد. التفاصيل القديمة بنتفق على اللي يستاهل ينتقل منها في المراجعة.</p></div></div>
+      </div>
+      <div class="acc reveal">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+          <span data-i18n="faq.3q">النظام بيشتغل على الموبايل؟</span>
+          <span class="acc__icon" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__a"><div><p data-i18n="faq.3a">الشاشات مصمّمة تشتغل على الموبايل والتابلت. تفاصيل الأجهزة والمتطلبات بتتأكد من المنتج قبل التشغيل.</p></div></div>
+      </div>
+      <div class="acc reveal">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+          <span data-i18n="faq.4q">مراجعة التشغيل دي بالظبط إيه؟</span>
+          <span class="acc__icon" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__a"><div><p data-i18n="faq.4a">جلسة بنمشي فيها على يوم شغل حقيقي عندك، نحدد فين الوقت والفلوس بيضيعوا، ونقولك بصراحة لو النظام مش هيفرق معاك.</p></div></div>
+      </div>
+      <div class="acc reveal">
+        <h3 style="margin:0"><button class="acc__q" type="button" aria-expanded="false">
+          <span data-i18n="faq.5q">بياناتي هتبقى فين؟</span>
+          <span class="acc__icon" aria-hidden="true"></span>
+        </button></h3>
+        <div class="acc__a"><div><p data-i18n="faq.5a">بيانات مغسلتك ملكك. تفاصيل الاستضافة والنسخ الاحتياطي والاحتفاظ بتتشرح مكتوبة قبل التعاقد — <span class="pending" data-i18n="pending.policy">أضف نص سياسة البيانات المعتمد</span></p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= REVIEW FORM ========================= -->
+<section class="section section--soft" id="review">
+  <div class="container stage">
+    <div>
+      <p class="eyebrow reveal" data-i18n="rev.eyebrow">ابدأ من هنا</p>
+      <h2 class="h2 reveal" style="--d:60ms" data-i18n="rev.title">احجز مراجعة تشغيل لمكانك</h2>
+      <p class="lead reveal" style="--d:100ms" data-i18n="rev.lead">
+        بنتكلم عن يوم شغلك الحقيقي، مش عرض مبيعات. ولو النظام مش مناسب لحجمك دلوقتي هنقولك.
+      </p>
+
+      <ul class="contact-list">
+        <li class="reveal">
+          <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6a2 2 0 012-2h2.5l1.5 4-2 1.5a12 12 0 006 6L15.5 13l4 1.5V17a2 2 0 01-2 2A14 14 0 014 6z"/></svg></span>
+          <span class="pending" data-i18n="pending.phone">أضف رقم التواصل الرسمي</span>
+        </li>
+        <li class="reveal" style="--d:60ms">
+          <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7l8 6 8-6"/></svg></span>
+          <span class="pending" data-i18n="pending.email">أضف بريد التواصل الرسمي</span>
+        </li>
+        <li class="reveal" style="--d:120ms">
+          <span class="icon-box" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
+          <span class="pending" data-i18n="pending.hours">أضف مواعيد العمل</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form reveal" style="--d:120ms" id="reviewForm" novalidate>
+      <div class="form__row">
+        <div class="field">
+          <label for="f-name" data-i18n="form.name">اسمك</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+          <small class="field__error" data-i18n="form.errName">اكتب اسمك عشان نعرف نكلمك.</small>
+        </div>
+        <div class="field">
+          <label for="f-phone" data-i18n="form.phone">رقم الموبايل</label>
+          <input id="f-phone" name="phone" type="tel" dir="ltr" inputmode="tel" autocomplete="tel" required>
+          <small class="field__error" data-i18n="form.errPhone">الرقم مش مكتوب صح.</small>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="f-place" data-i18n="form.place">اسم المغسلة أو المركز</label>
+        <input id="f-place" name="place" type="text" required>
+        <small class="field__error" data-i18n="form.errPlace">اكتب اسم المكان.</small>
+      </div>
+
+      <div class="field">
+        <label for="f-size" data-i18n="form.size">تقريبًا بتستقبلوا كام عربية في اليوم؟</label>
+        <select id="f-size" name="size">
+          <option data-i18n="form.size1">أقل من 20</option>
+          <option data-i18n="form.size2">من 20 لـ 50</option>
+          <option data-i18n="form.size3">من 50 لـ 100</option>
+          <option data-i18n="form.size4">أكتر من 100</option>
+          <option data-i18n="form.size5">أكتر من فرع</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="f-note"><span data-i18n="form.note">أكبر حاجة مضايقاك دلوقتي</span> <span class="opt" data-i18n="form.optional">(اختياري)</span></label>
+        <textarea id="f-note" name="note" rows="3"></textarea>
+      </div>
+
+      <p class="form__consent" data-i18n="form.consent">
+        بنستخدم البيانات دي عشان نرتب معاد المراجعة بس. مش بنبيعها ولا بنستخدمها في إعلانات.
+      </p>
+
+      <button class="btn btn--primary btn--block" type="submit" id="submitBtn">
+        <span class="btn__spinner" aria-hidden="true"></span>
+        <span data-i18n="form.submit">ابعت الطلب</span>
+      </button>
+
+      <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ========================= FINAL CTA ========================= -->
+<section class="section section--tight section--navy">
+  <div class="container cta-panel">
+    <h2 class="h2 reveal" data-i18n="final.title">تقفل يومك على رقم، مش على تخمين</h2>
+    <p class="lead reveal" style="--d:60ms" data-i18n="final.lead">ابدأ بمراجعة تشغيل واحدة وشوف الفرق بنفسك.</p>
+    <div class="btn-row reveal" style="--d:120ms">
+      <a href="#review" class="btn btn--primary" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+      <a href="#faq" class="btn btn--secondary" data-i18n="cta.faq">اقرأ الأسئلة الشائعة</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <a href="#top" class="logo" aria-label="Sparkle Auto">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2.5l1.9 5.1 5.1 1.9-5.1 1.9L12 16.5l-1.9-5.1L5 9.5l5.1-1.9L12 2.5z" fill="#03132E"/></svg>
+          </span>
+          <span class="logo__word">Sparkle<span>Auto</span></span>
+        </a>
+        <p class="footer__about" data-i18n="footer.about">نظام تشغيل لمغاسل ومراكز خدمة السيارات — الحجز والاستلام والتنفيذ والتحصيل في مكان واحد.</p>
+      </div>
+
+      <div class="footer__col">
+        <h3 data-i18n="footer.product">المنتج</h3>
+        <nav aria-label="Product">
+          <a href="#system" data-i18n="nav.system">النظام</a>
+          <a href="#journey" data-i18n="nav.journey">رحلة العربية</a>
+          <a href="#pricing" data-i18n="nav.pricing">الباقات</a>
+        </nav>
+      </div>
+
+      <div class="footer__col">
+        <h3 data-i18n="footer.help">مساعدة</h3>
+        <nav aria-label="Help">
+          <a href="#faq" data-i18n="footer.faq">أسئلة شائعة</a>
+          <a href="#setup" data-i18n="footer.setup">التشغيل والإعداد</a>
+          <a href="#review" data-i18n="cta.primary">احجز مراجعة تشغيل</a>
+        </nav>
+      </div>
+
+      <div class="footer__col">
+        <h3 data-i18n="footer.contact">تواصل</h3>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.2c0-.9.3-1.5 1.6-1.5h1.6V4.1C16.4 4 15.5 4 14.5 4c-2.3 0-3.9 1.4-3.9 4v2H8v3h2.6v8h2.9z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.9 8.5H4.2V20h2.7V8.5zM5.5 4a1.6 1.6 0 100 3.2 1.6 1.6 0 000-3.2zM20 20h-2.7v-5.8c0-1.5-.6-2.2-1.7-2.2-1 0-1.7.7-1.7 2.2V20h-2.7V8.5h2.6v1.2c.5-.8 1.5-1.4 2.8-1.4 2 0 3.4 1.3 3.4 4V20z"/></svg></a>
+        </div>
+        <p class="footer__about" style="margin-block-start:var(--s-16)">
+          <span class="pending" data-i18n="pending.social">اربط الحسابات الرسمية</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year">2026</span> Sparkle Auto. <span data-i18n="footer.rights">كل الحقوق محفوظة.</span></p>
+      <p><span data-i18n="footer.legalPending">الصفحات القانونية</span> <span class="pending" data-i18n="pending.legal">أضف الشروط وسياسة الخصوصية</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

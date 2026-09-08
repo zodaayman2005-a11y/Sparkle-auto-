@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Sparkle Auto — design tokens
+   Source: hdi-web-visual-art-director / sparkle-01-brand-web-contract
+   Values marked "derived" are implementation derivations, not approved brand
+   accents. Reconcile with the project brand system before treating as canon.
+   ========================================================================== */
+
+:root {
+  /* --- palette ------------------------------------------------------- */
+  --sa-blue:          #01A2FF;   /* action surface, energetic accent      */
+  --sa-dark-blue:     #0C264B;   /* supporting structure, readable dark   */
+  --sa-navy:          #03132E;   /* main text, border, physical shadow    */
+  --sa-soft-blue:     #91B1D8;   /* non-critical support only             */
+  --sa-white:         #FFFFFF;
+  --sa-surface-soft:  #F2FAFF;   /* derived quiet surface                 */
+  --sa-surface-blue:  #E4F4FF;   /* derived, deeper quiet tint            */
+  --sa-error:         #B3261E;   /* genuine errors / critical warning only */
+
+  /* --- semantic ------------------------------------------------------ */
+  --sa-text-primary:   var(--sa-navy);
+  --sa-text-secondary: var(--sa-dark-blue);
+  --sa-text-muted:     #4A6183;  /* derived: navy lightened, 5.9:1 on white */
+  --sa-on-blue:        var(--sa-navy);   /* 6.70:1 — never white on blue   */
+  --sa-bg:             var(--sa-white);
+
+  /* --- structure ----------------------------------------------------- */
+  --sa-border-w:    2px;
+  --sa-border-w-em: 3px;
+  --sa-border:      var(--sa-border-w) solid var(--sa-navy);
+  --sa-border-em:   var(--sa-border-w-em) solid var(--sa-navy);
+
+  --sa-radius-sm: 8px;
+  --sa-radius-md: 12px;
+  --sa-radius-lg: 18px;
+  --sa-radius-xl: 24px;
+  --sa-radius-btn: 12px;
+
+  /* Hard offset shadows. --sx flips the horizontal offset for RTL so the
+     light source stays consistent instead of mirroring the whole page. */
+  --sx: 1;
+  --sa-shadow-sm: calc(3px * var(--sx)) 3px 0 var(--sa-navy);
+  --sa-shadow-md: calc(5px * var(--sx)) 5px 0 var(--sa-navy);
+  --sa-shadow-lg: calc(7px * var(--sx)) 7px 0 var(--sa-navy);
+  --sa-shadow-press: calc(2px * var(--sx)) 2px 0 var(--sa-navy);
+  --sa-shadow-blue: calc(5px * var(--sx)) 5px 0 var(--sa-blue);
+
+  /* --- spacing scale -------------------------------------------------- */
+  --s-4: 4px;    --s-8: 8px;    --s-12: 12px;  --s-16: 16px;
+  --s-24: 24px;  --s-32: 32px;  --s-40: 40px;  --s-48: 48px;
+  --s-64: 64px;  --s-80: 80px;  --s-96: 96px;  --s-120: 120px;
+  --s-144: 144px;
+
+  /* --- layout --------------------------------------------------------- */
+  --sa-content-max: 1240px;
+  --sa-measure: 640px;          /* 560–680px copy measure */
+  --sa-gutter: 32px;
+  --sa-outer: 32px;
+
+  /* --- motion --------------------------------------------------------- */
+  --t-micro: 160ms;
+  --t-comp:  420ms;
+  --t-edit:  760ms;
+  --ease: cubic-bezier(.2, .7, .3, 1);
+
+  /* --- type ----------------------------------------------------------- */
+  --font-ar: "Cairo", system-ui, "Segoe UI", sans-serif;
+  --font-en: "Manrope", system-ui, "Segoe UI", sans-serif;
+  --font: var(--font-ar);
+}
+
+[dir="rtl"] { --sx: -1; }
+[data-lang="en"] { --font: var(--font-en); }
+
+@media (max-width: 1199px) { :root { --sa-gutter: 24px; --sa-outer: 24px; } }
+@media (max-width: 767px)  { :root { --sa-gutter: 16px; --sa-outer: 20px; } }
