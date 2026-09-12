@@ -11,6 +11,7 @@ import {
 } from "@/content/site";
 import { SectionLabel, ProofWindow, VideoButton } from "./Primitives";
 import { StrategyStory } from "./AudienceStory";
+import { StorySequence } from "./StorySequence";
 import { SystemOverviewVideo } from "./SystemOverviewVideo";
 import { StrategyVideo } from "./StrategyVideo";
 import { type VideoAsset } from "@/content/media";
@@ -132,6 +133,7 @@ export function ProductShowcase({ locale }: { locale: Locale }) {
       id="showcase"
     >
       <div className="shell">
+        <div className="system-proof-intro"><div className="system-proof-copy">
         <SectionLabel number="06">
           {ar ? "السيستم على حقيقته" : "THE SYSTEM, UP CLOSE"}
         </SectionLabel>
@@ -157,28 +159,14 @@ export function ProductShowcase({ locale }: { locale: Locale }) {
               : "Don’t just take our word for it. See the questions the system answers. Each Sparkle Auto screen is designed around a question that comes up in the owner’s working day."}
           </p>
         </div>
-        <SystemOverviewVideo locale={locale} />
-        <nav className="proof-chapter-nav" aria-label={ar ? "شاشات السيستم" : "System screens"}>
-          {screens.map((screen, index) => (
-            <a key={screen.id} href={`#${screen.id}`}><span dir="ltr">0{index + 1}</span> {pick(screen.title, locale)}</a>
-          ))}
-          <a href="#journey">{ar ? "تابع رحلة التشغيل" : "Continue to the workflow"}</a>
-        </nav>
-        <div className="proof-chapters">
-          {screens.map((screen, index) => (
-            <article className="screen-chapter proof-chapter" id={screen.id} key={screen.id} aria-labelledby={`${screen.id}-title`}>
-              <div className="proof-chapter-copy">
-                <span className="proof-chapter-number" dir="ltr">0{index + 1} / 07</span>
-                <h3 id={`${screen.id}-title`}>{pick(screen.title, locale)}</h3>
-                <h4>{pick(screen.question, locale)}</h4>
-                <p>{pick(screen.body, locale)}</p>
-                <button className="text-link" onClick={() => setZoom(screen.id)}>{ar ? "كبّر الشاشة" : "Enlarge screenshot"}</button>
-                <VideoButton id={screen.id} locale={locale} onPlay={setVideo} />
-              </div>
-              <div className="proof-chapter-image"><ProofWindow id={screen.id} locale={locale} large /></div>
-            </article>
-          ))}
-        </div>
+        </div><SystemOverviewVideo locale={locale} /></div>
+        <StorySequence locale={locale} after="journey" label={ar ? "شاشات السيستم" : "System screens"} className="system-proof-story" dwell={125}
+          slides={screens.map((screen) => ({
+            id: screen.id, label: pick(screen.title, locale),
+            media: <ProofWindow id={screen.id} locale={locale} large />,
+            content: <><h3>{pick(screen.title, locale)}</h3><h4>{pick(screen.question, locale)}</h4><p>{pick(screen.body, locale)}</p><button className="text-link" onClick={() => setZoom(screen.id)}>{ar ? "كبّر الشاشة" : "Enlarge screenshot"}</button><VideoButton id={screen.id} locale={locale} onPlay={setVideo} /></>,
+          }))}
+        />
       </div>
       {zoom && (
         <ScreenshotDialog id={zoom} locale={locale} onClose={() => setZoom(null)} />

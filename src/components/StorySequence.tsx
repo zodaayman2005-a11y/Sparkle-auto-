@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState, type CSSProperties, type MouseEvent, type ReactNode } from "react";
 import type { Locale } from "@/content/site";
 
-export type StorySlide = { id: string; label: string; image: string; content: ReactNode };
+export type StorySlide = { id: string; label: string; image?: string; media?: ReactNode; content: ReactNode };
 const eligibleQuery = "(min-width:1024px) and (min-height:800px) and (prefers-reduced-motion:no-preference)";
 
 /** Native scroll with one interruptible visual state; mobile and overflowing copy stay in flow. */
@@ -100,7 +100,7 @@ export function StorySequence({ slides, locale, after, label, className = "", dw
                   {slide.content}
                   <span className="audience-copy-rule" aria-hidden="true" />
                 </div>
-                <figure className="audience-art"><Image src={slide.image} width={960} height={1200} alt="" sizes="(max-width: 767px) 260px, (max-width: 1023px) 45vw, 48vw" /></figure>
+                <div className="audience-art">{slide.media ?? (slide.image ? <Image src={slide.image} width={960} height={1200} alt="" sizes="(max-width: 767px) 260px, (max-width: 1023px) 45vw, 48vw" /> : null)}</div>
               </li>
             ))}
           </ol>
