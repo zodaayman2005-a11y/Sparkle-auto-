@@ -3,12 +3,12 @@ import AxeBuilder from "@axe-core/playwright";
 import { audience, pick } from "../src/content/site";
 
 for (const locale of ["ar", "en"] as const) {
-  test(`audience ${locale}: desktop dwell, ten scenes, keyboard and reversal`, async ({ page }) => {
+  test(`audience ${locale}: desktop dwell, eleven scenes, keyboard and reversal`, async ({ page }) => {
     await page.setViewportSize({ width:1440, height:1000 });
     await page.goto(`${locale === "en" ? "/en" : "/"}#fit-case-1`);
     const story = page.locator(".fit .audience-story");
     await expect(story).toHaveAttribute("data-pinned", "true");
-    for (let index=0;index<10;index++) {
+    for (let index=0;index<11;index++) {
       const link = story.locator(".audience-nav a").nth(index);
       await link.click();
       await expect(story).toHaveAttribute("data-active", String(index+1));
@@ -42,7 +42,7 @@ for (const locale of ["ar", "en"] as const) {
     const story=page.locator(".fit .audience-story");
     await expect(story).toHaveAttribute("data-pinned","false");
     await expect(page.locator("#fit-case-8")).toBeInViewport();
-    for(let i=0;i<10;i++) {
+    for(let i=0;i<11;i++) {
       const scene=story.locator(".audience-scene").nth(i);
       await scene.scrollIntoViewIfNeeded();
       if(i<9) await expect(scene.locator("p")).toHaveText(pick(audience[i],locale));
@@ -61,7 +61,7 @@ test("no JavaScript retains all situations and illustrations",async({browser})=>
   const page=await context.newPage();
   await page.goto("/");
   await expect(page.locator(".fit .audience-story")).toHaveAttribute("data-pinned","false");
-  await expect(page.locator(".fit .audience-scene img")).toHaveCount(10);
+  await expect(page.locator(".fit .audience-scene img")).toHaveCount(11);
   for(let i=0;i<9;i++) await expect(page.locator(".fit .audience-scene p").nth(i)).toHaveText(pick(audience[i],"ar"));
   await context.close();
 });

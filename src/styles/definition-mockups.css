@@ -34,7 +34,7 @@
 }
 
 .surface-mockup-mobile img {
-  mix-blend-mode: multiply;
+  object-fit: contain;
 }
 
 @media (max-width: 767px) {

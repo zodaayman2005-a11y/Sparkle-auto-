@@ -119,7 +119,7 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
               </p>
               <figure className="surface-mockup surface-mockup-mobile">
                 <Image
-                  src="/art/customer-booking-mobile.jpg"
+                  src="/art/customer-booking-mobile-cutout.webp"
                   fill
                   alt={
                     ar
