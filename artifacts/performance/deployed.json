@@ -1,0 +1,242 @@
+{
+  "conditions": {
+    "base": "https://sparkle-auto-landing.vercel.app",
+    "cache": "cold",
+    "cpu": "4x",
+    "downloadMbps": 6,
+    "latencyMs": 80,
+    "dpr": 1,
+    "browser": "153.0.8010.12",
+    "fieldData": false
+  },
+  "results": [
+    {
+      "width": 390,
+      "heroReady": 2787.899999976158,
+      "lcp": 2096,
+      "shiftSum": 0,
+      "resources": [
+        {
+          "name": "/fonts/alexandria-arabic-400-normal.woff2",
+          "bytes": 12800,
+          "duration": 302.90000009536743,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-500-normal.woff2",
+          "bytes": 13340,
+          "duration": 287,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-700-normal.woff2",
+          "bytes": 13524,
+          "duration": 178.20000004768372,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-800-normal.woff2",
+          "bytes": 13392,
+          "duration": 277.89999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-400-normal.woff2",
+          "bytes": 13688,
+          "duration": 353,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-500-normal.woff2",
+          "bytes": 13612,
+          "duration": 303.40000009536743,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-700-normal.woff2",
+          "bytes": 13140,
+          "duration": 333.5,
+          "type": "link"
+        },
+        {
+          "name": "/delivery/hero/ar-1056f6e85b98-640.webp",
+          "bytes": 25866,
+          "duration": 445.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/0_ul1_s36sjk1.css",
+          "bytes": 15405,
+          "duration": 342.2000000476837,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/0bmaq4y_u0fym.js",
+          "bytes": 7969,
+          "duration": 297.6999999284744,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/1mkvyp3c18iyv.js",
+          "bytes": 47933,
+          "duration": 508.5,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/260gpv2s7zj_w.js",
+          "bytes": 73435,
+          "duration": 540.4000000953674,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/turbopack-14y4j_h-949_0.js",
+          "bytes": 4327,
+          "duration": 296.5,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/0vt0h1vu0bf7u.js",
+          "bytes": 4103,
+          "duration": 295.6999999284744,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/1bxs3gf-5l_vq.js",
+          "bytes": 20646,
+          "duration": 428.89999997615814,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/02w0222sqlj0t.js",
+          "bytes": 18502,
+          "duration": 414.60000002384186,
+          "type": "script"
+        },
+        {
+          "name": "/delivery/brand/logo-144.webp",
+          "bytes": 12748,
+          "duration": 136.09999990463257,
+          "type": "img"
+        }
+      ],
+      "hero": {
+        "source": "https://sparkle-auto-landing.vercel.app/delivery/hero/ar-1056f6e85b98-640.webp",
+        "naturalWidth": 480
+      }
+    },
+    {
+      "width": 1440,
+      "heroReady": 3252,
+      "lcp": 2748,
+      "shiftSum": 0,
+      "resources": [
+        {
+          "name": "/fonts/alexandria-arabic-400-normal.woff2",
+          "bytes": 12800,
+          "duration": 165.69999992847443,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-500-normal.woff2",
+          "bytes": 13340,
+          "duration": 240.70000004768372,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-700-normal.woff2",
+          "bytes": 13524,
+          "duration": 210,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-800-normal.woff2",
+          "bytes": 13392,
+          "duration": 241.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-400-normal.woff2",
+          "bytes": 13688,
+          "duration": 294.2999999523163,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-500-normal.woff2",
+          "bytes": 13612,
+          "duration": 251.09999990463257,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-700-normal.woff2",
+          "bytes": 13140,
+          "duration": 240.30000007152557,
+          "type": "link"
+        },
+        {
+          "name": "/delivery/hero/ar-1056f6e85b98-1920.webp",
+          "bytes": 163750,
+          "duration": 640.8999999761581,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/0_ul1_s36sjk1.css",
+          "bytes": 15405,
+          "duration": 264.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/0bmaq4y_u0fym.js",
+          "bytes": 7969,
+          "duration": 249.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/1mkvyp3c18iyv.js",
+          "bytes": 47933,
+          "duration": 455.10000002384186,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/260gpv2s7zj_w.js",
+          "bytes": 73435,
+          "duration": 516.2999999523163,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/turbopack-14y4j_h-949_0.js",
+          "bytes": 4327,
+          "duration": 230.10000002384186,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/0vt0h1vu0bf7u.js",
+          "bytes": 4103,
+          "duration": 214.79999995231628,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/1bxs3gf-5l_vq.js",
+          "bytes": 20646,
+          "duration": 344.60000002384186,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/immutable/chunks/02w0222sqlj0t.js",
+          "bytes": 18502,
+          "duration": 344.5,
+          "type": "script"
+        },
+        {
+          "name": "/delivery/brand/logo-144.webp",
+          "bytes": 12748,
+          "duration": 137.10000002384186,
+          "type": "img"
+        }
+      ],
+      "hero": {
+        "source": "https://sparkle-auto-landing.vercel.app/delivery/hero/ar-1056f6e85b98-1920.webp",
+        "naturalWidth": 1440
+      }
+    }
+  ]
+}

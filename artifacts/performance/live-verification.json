@@ -1,0 +1,42 @@
+{
+  "base": "https://sparkle-auto-landing.vercel.app",
+  "checkedAt": "2026-09-12T15:24:06.578Z",
+  "results": [
+    {
+      "locale": "ar",
+      "width": 390,
+      "hero": "https://sparkle-auto-landing.vercel.app/delivery/hero/ar-1056f6e85b98-960.webp",
+      "bytes": 47060,
+      "cache": "public, max-age=31536000, immutable",
+      "logo": "/delivery/brand/logo-144.webp",
+      "errors": []
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "hero": "https://sparkle-auto-landing.vercel.app/delivery/hero/ar-1056f6e85b98-1920.webp",
+      "bytes": 163450,
+      "cache": "public, max-age=31536000, immutable",
+      "logo": "/delivery/brand/logo-144.webp",
+      "errors": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "hero": "https://sparkle-auto-landing.vercel.app/delivery/hero/en-3e8e552e11b0-960.webp",
+      "bytes": 47018,
+      "cache": "public, max-age=31536000, immutable",
+      "logo": "/delivery/brand/logo-144.webp",
+      "errors": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "hero": "https://sparkle-auto-landing.vercel.app/delivery/hero/en-3e8e552e11b0-1920.webp",
+      "bytes": 151496,
+      "cache": "public, max-age=31536000, immutable",
+      "logo": "/delivery/brand/logo-144.webp",
+      "errors": []
+    }
+  ]
+}

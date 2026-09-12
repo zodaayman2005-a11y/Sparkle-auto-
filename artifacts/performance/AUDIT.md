@@ -76,4 +76,12 @@ Local build note: OneDrive marked an old `.next/static` directory as a reparse p
 2. Maintained base-price/annual commercial content still carries provisional approval status. New user-provided add-ons/FAQ decisions are preserved; this audit does not invent approval of remaining commercial terms.
 3. No owner-confirmed `SITE_URL` is configured. Existing preview/noindex metadata is retained rather than publishing an invented canonical or hiding unresolved release gates.
 
-Deployment and final brand-delivery verification are recorded below after completion.
+## Deployed verification
+
+- App commit: `3a67653`, pushed to `origin/main`. Vercel production build passed asset checks, compilation and TypeScript on Linux, including the final brand-delivery change.
+- Deployment: https://sparkle-auto-landing-6trhxmkk5-zodaayman2005-3362s-projects.vercel.app
+- Stable alias: https://sparkle-auto-landing.vercel.app
+- `node scripts/verify-live-media.mjs https://sparkle-auto-landing.vercel.app`: passed all four locale/viewport combinations. Recorded no console errors or uncaught page errors; no original hero/Drive request before interaction. Exact deployed hero bytes and immutable cache headers confirmed. Final 12,448-byte brand mark confirmed. Both mobile drawers opened and restored focus after Escape. Evidence: `live-verification.json` and `live-*.png`.
+- Final production URL: **7 targeted Playwright tests passed**, covering both locale hero candidates, tablet separation, full-page axe and mobile navigation/language switching. The final mark change required no wider behavior change.
+- `node scripts/measure-loading.mjs https://sparkle-auto-landing.vercel.app artifacts/performance/deployed.json`: cold-cache 6 Mbps / CPU 4x lab observations on the live URL: 390 px hero decoded **2,788 ms**, LCP **2,096 ms**; 1440 px hero decoded **3,252 ms**, LCP **2,748 ms**. Initial shift sum **0**. Network origin differs from the local before/after comparison, so these are reported separately. Desktop LCP still exceeds the 2.5 s aspiration in this throttled sample; instant loading and field CWV compliance are not claimed.
+- Runtime app code is deployed; this report and its live captures are a subsequent evidence-only commit. No external lead was submitted and no new commercial facts were assumed.
