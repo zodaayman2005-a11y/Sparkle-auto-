@@ -8,9 +8,8 @@ export function PricingAddons({ locale }: { locale: Locale }) {
       <div className="addons-heading">
         <div>
           <span className="addons-eyebrow">{ar ? "خدمات إضافية اختيارية" : "OPTIONAL ADD-ONS"}</span>
-          <h3 id="addons-title">{ar ? "إضافات على قد احتياجك." : "Extra support. On your terms."}</h3>
+          <h3 id="addons-title">{ar ? "خدمات إضافية." : "Optional services."}</h3>
         </div>
-        <p>{ar ? "اختار اللي يخدم شغلك، وضيفه على باقتك وقت ما تحتاجه." : "Choose the support your business needs and add it to your plan when you need it."}</p>
       </div>
       <div className="addons-grid">
         {addons.map((addon, index) => (

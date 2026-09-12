@@ -42,11 +42,6 @@ export function Commercial({ locale }: { locale: Locale }) {
               </button>
             </div>
           </div>
-          <p className="draft-notice">
-            {ar
-              ? "مسودة أسعار للمعاينة — القيم والشروط لم تُعتمد للنشر بعد."
-              : "PREVIEW PRICING — VALUES AND TERMS ARE NOT YET APPROVED FOR PUBLICATION."}
-          </p>
           <div className="pricing-grid">
             {plans.map((p, i) => {
               const price = annual ? p.annual : p.monthly;
@@ -120,11 +115,6 @@ export function Commercial({ locale }: { locale: Locale }) {
               );
             })}
           </div>
-          <p className="fineprint">
-            {ar
-              ? "* فترة حد الـ600 عربية والضرائب وشروط العرض تحتاج تأكيد. عرض السنوي المقترح: قيمة 10 شهور مقابل 12 شهر استخدام."
-              : "* The period for the 600-vehicle limit, taxes and offer terms require confirmation. Proposed annual offer: 12 months for the equivalent of 10 monthly payments."}
-          </p>
           <PricingAddons locale={locale} />
           <div className="trial-strip">
             <span className="trial-number" dir="ltr">

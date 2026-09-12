@@ -1,8 +1,7 @@
 .pricing-addons { margin-block: 72px; color: var(--navy); }
-.addons-heading { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-block-end: 32px; }
+.addons-heading { margin-block-end: 32px; }
 .addons-eyebrow { display: block; font-size: 13px; font-weight: 700; margin-block-end: 12px; }
 .addons-heading h3 { font-size: clamp(26px, 2.8vw, 38px); line-height: 1.5; margin: 0; }
-.addons-heading > p { max-width: 38ch; font-size: 16px; line-height: 1.9; margin: 0; }
 .addons-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: var(--border); border-radius: var(--radius-lg); overflow: hidden; background: var(--white); }
 .addon-card { display: flex; flex-direction: column; padding: 30px; min-width: 0; }
 .addon-card + .addon-card { border-inline-start: 1px solid var(--navy); }
@@ -22,8 +21,6 @@
 @media (max-width: 1050px) { .addon-card { padding: 22px; } .addon-card h4 { font-size: 19px; } }
 @media (max-width: 800px) {
   .pricing-addons { margin-block: 48px; }
-  .addons-heading { display: block; }
-  .addons-heading > p { margin-block-start: 12px; max-width: none; }
   .addons-grid { grid-template-columns: 1fr; }
   .addon-card { padding: 24px; }
   .addon-card + .addon-card { border-inline-start: 0; border-block-start: var(--border); }
