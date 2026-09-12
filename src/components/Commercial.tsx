@@ -1,4 +1,5 @@
 "use client";
+import { PricingAddons } from "./PricingAddons";
 import { useState } from "react";
 import { SectionLabel } from "./Primitives";
 
@@ -124,6 +125,7 @@ export function Commercial({ locale }: { locale: Locale }) {
               ? "* فترة حد الـ600 عربية والضرائب وشروط العرض تحتاج تأكيد. عرض السنوي المقترح: قيمة 10 شهور مقابل 12 شهر استخدام."
               : "* The period for the 600-vehicle limit, taxes and offer terms require confirmation. Proposed annual offer: 12 months for the equivalent of 10 monthly payments."}
           </p>
+          <PricingAddons locale={locale} />
           <div className="trial-strip">
             <span className="trial-number" dir="ltr">
               14

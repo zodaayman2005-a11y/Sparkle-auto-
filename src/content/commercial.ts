@@ -145,3 +145,31 @@ export const problems = [
   pair("مشكلة تانية", "Something else"),
 ];
 
+
+// Add-on prices and scope supplied by the project owner on 12 September 2026.
+export const addons = [
+  {
+    id: "capacity", price: 1000,
+    title: pair("وحدة تشغيل إضافية", "Additional operating capacity"),
+    billing: pair("/ شهر", "/ month"),
+    lead: pair("كبر شغلك من غير ما تغيّر نظامك.", "Grow your business. Keep the system you know."),
+    description: pair("ضيف فرع جديد أو حتى 600 عربية إضافية شهريًا وخلي كل تشغيلك متجمع ومتابَع من نفس المكان.", "Add a new branch or up to 600 additional vehicles per month, and manage your entire operation in one place."),
+    note: pair("مناسبة لو مغسلتك بتكبر أو حجم التشغيل زاد عن باقتك الحالية.", "For growing car washes and operations that have outgrown their current plan."),
+  },
+  {
+    id: "setup", price: 1990,
+    title: pair("التجهيز الكامل للسيستم", "Complete system setup"),
+    billing: pair("مرة واحدة", "one-time payment"),
+    lead: pair("سيب التجهيز علينا وابدأ على طول.", "Leave the setup to us. Get straight to work."),
+    description: pair("فريق Sparkle Auto يدخل بيانات مغسلتك ويجهز إعدادات السيستم على طريقة شغلك، بدل ما تضيع وقتك في الإعداد من الصفر.", "Our team enters your car wash data and configures Sparkle Auto around your workflow, saving you the work of setting everything up from scratch."),
+    note: pair("أنت تركز في شغلك… وإحنا نسلّمك السيستم جاهز للاستخدام.", "Focus on your business. We’ll hand over a system ready to use."),
+  },
+  {
+    id: "migration", price: 3990,
+    title: pair("نقل البيانات الاحترافي", "Professional data migration"),
+    billing: pair("حسب حجم وتعقيد البيانات", "based on data volume and complexity"),
+    lead: pair("بياناتك كتير ومعقدة؟ مش لازم تبدأ من الصفر.", "Complex records? You don’t have to start over."),
+    description: pair("عندك بيانات عملاء أو خدمات أو تشغيل قديمة؟ نتولى نقل وترتيب وتجهيز بياناتك الحالية داخل Sparkle Auto بأمان وتنظيم، حسب حجم وتعقيد البيانات.", "Bring your existing customer, service and operational records with you. We securely transfer, organise and prepare your data in Sparkle Auto, with the scope tailored to its volume and complexity."),
+    note: pair("احتفظ بتاريخ شغلك وانتقل للنظام الجديد بأقل مجهود ممكن.", "Keep your business history and make the transition with less effort."),
+  },
+];

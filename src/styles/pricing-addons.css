@@ -1,0 +1,32 @@
+.pricing-addons { margin-block: 72px; color: var(--navy); }
+.addons-heading { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-block-end: 32px; }
+.addons-eyebrow { display: block; font-size: 13px; font-weight: 700; margin-block-end: 12px; }
+.addons-heading h3 { font-size: clamp(26px, 2.8vw, 38px); line-height: 1.5; margin: 0; }
+.addons-heading > p { max-width: 38ch; font-size: 16px; line-height: 1.9; margin: 0; }
+.addons-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: var(--border); border-radius: var(--radius-lg); overflow: hidden; background: var(--white); }
+.addon-card { display: flex; flex-direction: column; padding: 30px; min-width: 0; }
+.addon-card + .addon-card { border-inline-start: 1px solid var(--navy); }
+.addon-index { font-size: 13px; font-weight: 700; color: var(--dark); margin-block-end: 16px; }
+.addon-card h4 { font-size: 22px; line-height: 1.65; margin: 0 0 24px; }
+.addon-price { padding-block: 20px; border-block: 1px solid var(--soft); margin-block-end: 24px; }
+.addon-price-prefix { display: block; font-size: 13px; margin-block-end: 6px; }
+.addon-price strong { font-size: clamp(34px, 3vw, 44px); line-height: 1.2; font-family: var(--font-en, "Space Grotesk"), sans-serif; }
+.addon-price > div { display: flex; gap: 10px; align-items: baseline; }
+.addon-billing { display: block; font-size: 13px; line-height: 1.8; margin-block-start: 8px; }
+.addon-lead { font-weight: 700; font-size: 16px; line-height: 1.9; margin: 0 0 12px; }
+.addon-description { font-size: 15px; line-height: 2; margin: 0 0 24px; }
+.addon-note { font-size: 14px; line-height: 1.9; margin: auto 0 0; padding-block-start: 20px; border-block-start: 1px solid var(--soft); }
+.addons-footer { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 24px 0 0; }
+.addons-footer p { font-size: 15px; line-height: 1.9; margin: 0; }
+.addons-footer .button { flex-shrink: 0; }
+@media (max-width: 1050px) { .addon-card { padding: 22px; } .addon-card h4 { font-size: 19px; } }
+@media (max-width: 800px) {
+  .pricing-addons { margin-block: 48px; }
+  .addons-heading { display: block; }
+  .addons-heading > p { margin-block-start: 12px; max-width: none; }
+  .addons-grid { grid-template-columns: 1fr; }
+  .addon-card { padding: 24px; }
+  .addon-card + .addon-card { border-inline-start: 0; border-block-start: var(--border); }
+  .addon-card h4 { font-size: 22px; margin-block-end: 18px; }
+  .addons-footer { align-items: stretch; flex-direction: column; }
+}
