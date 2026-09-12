@@ -38,7 +38,7 @@
 .strategy-art-proof { border-inline-start:3px solid var(--blue); padding-inline-start:18px; margin-top:22px; }
 .strategy-art-proof > span { display:block; font-size:12px; color:var(--dark); margin-bottom:8px; }
 .strategy-art-story .audience-copy-rule { display:none; }
-.strategy-art-story .audience-art img { border-radius:var(--radius-md); }
+.strategy-art-story .audience-art img { border-radius:0; }
 .strategies.illustrated-strategies { background:var(--pale); color:var(--navy); }
 .strategies .strategy-heading p,.strategies .text-link { color:var(--navy); }
 .strategy-art-story { --story-surface:var(--pale); }
@@ -78,4 +78,9 @@
 @media(max-width:359px) {
  .fit .audience-scene { grid-template-columns:minmax(0,1fr) 94px; gap:14px; }
  .fit .audience-art { height:132px; }
+}
+/* The legacy-system scene needs room for both the owner and the large console. */
+@media (max-width: 767px) {
+  .fit #fit-case-10 { grid-template-columns: minmax(0, 1fr); }
+  .fit #fit-case-10 .audience-art { height: clamp(260px, 78vw, 360px); }
 }

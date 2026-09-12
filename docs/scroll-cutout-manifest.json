@@ -1,0 +1,275 @@
+[
+  {
+    "source": "public/art/audience/01.webp",
+    "sourceSHA256": "69e1f0afcfbd34c7642e01898ab628fb88421d47065b6dafe746e59564e902e6",
+    "cutout": "public/art/cutouts/audience/01.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/02.webp",
+    "sourceSHA256": "92d203ab43b6a42b76f49382ae1f6879a78257b234e30b45e6d72e44cec4f620",
+    "cutout": "public/art/cutouts/audience/02.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/03.webp",
+    "sourceSHA256": "8934767faef0b8a74ea975893b54774b1de4c4008ba4194bce486918f77892d8",
+    "cutout": "public/art/cutouts/audience/03.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/04.webp",
+    "sourceSHA256": "6008fbee86fb840305ddb8d8355bb078f59ae072e3012936f2df2d579ae5d71e",
+    "cutout": "public/art/cutouts/audience/04.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/05.webp",
+    "sourceSHA256": "c81c2133e0af0f1d4600d415124479b8a9ddb4311d8a62ea5390ecdb776bbd8a",
+    "cutout": "public/art/cutouts/audience/05.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/06.webp",
+    "sourceSHA256": "2364b8a4177b5a74a38c448d8020025c16efd4ac8c3a34f530215b070b3d88c6",
+    "cutout": "public/art/cutouts/audience/06.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/07.webp",
+    "sourceSHA256": "375ad1c15b6ea4ceb19850a5ce83775d20f3d0b1e07c356a7084d039acbb9c0e",
+    "cutout": "public/art/cutouts/audience/07.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/08.webp",
+    "sourceSHA256": "3c982ac39da52feaea63558112468b423137ebb944c1e1efc1b4f8ae2e2964da",
+    "cutout": "public/art/cutouts/audience/08.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/09.webp",
+    "sourceSHA256": "da6e0ef65106b93735b6a86fa023185119fa92e27ebc54d19f96b111c9bf649f",
+    "cutout": "public/art/cutouts/audience/09.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/10.webp",
+    "sourceSHA256": "21d515fe4c0d2ac42a911b988005eb5fa75f86c4fad7e5521bfd56665baa306f",
+    "cutout": "public/art/cutouts/audience/10.webp",
+    "size": [
+      1024,
+      1280
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/audience/11.webp",
+    "sourceSHA256": "4c6d4c18f93271071ac1b9c7c96a7dfac48dba6b6e757ca6d098ade8a1816d4f",
+    "cutout": "public/art/cutouts/audience/11.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/setup/01.webp",
+    "sourceSHA256": "e716e5cd3e49bd6154324c7eed9a190dfb1770ca8374a4e03c3df11a8b9b9c27",
+    "cutout": "public/art/cutouts/setup/01.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/setup/02.webp",
+    "sourceSHA256": "db17b379a190f8fb655789c55dde5067e1259421964f3be3eca750db1d436785",
+    "cutout": "public/art/cutouts/setup/02.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/setup/03.webp",
+    "sourceSHA256": "ef7d0c86c560a05fc103025b71c9bbc7094a5f0481f42a205f181ca2d886c611",
+    "cutout": "public/art/cutouts/setup/03.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/setup/04.webp",
+    "sourceSHA256": "7f3c0052167fc90f195deb49d8df950d4079b60bbf440131c73ff1e402f44436",
+    "cutout": "public/art/cutouts/setup/04.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/setup/05.webp",
+    "sourceSHA256": "ef245c451ac02b8fa518d238843c77d4b5f3daea08b5edbc40e85bef746fd86d",
+    "cutout": "public/art/cutouts/setup/05.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/strategies/01.webp",
+    "sourceSHA256": "34be0ee78ca5b059f7db839ace7dfb7d93a70f05a95d3a30bcff1e22658a2692",
+    "cutout": "public/art/cutouts/strategies/01.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/strategies/02.webp",
+    "sourceSHA256": "a737d243ba21b597242c04bb4a2e9ae7e563f03ccc945ff028952fc42f2fae0d",
+    "cutout": "public/art/cutouts/strategies/02.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/strategies/03.webp",
+    "sourceSHA256": "47c7a4baff0bdf26c63a27bfda549c2ad80dfa6f4bfa7cf69b0e3d76c51be398",
+    "cutout": "public/art/cutouts/strategies/03.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/strategies/04.webp",
+    "sourceSHA256": "adf25ae05eee94998a0da7b7c55129b0d23c3fe0448416b863673e42f73ddbd2",
+    "cutout": "public/art/cutouts/strategies/04.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  },
+  {
+    "source": "public/art/strategies/05.webp",
+    "sourceSHA256": "da5cf5f61801f236020425909354f7d19c9b7bd97db6c2f7cc35d36a76c548e4",
+    "cutout": "public/art/cutouts/strategies/05.webp",
+    "size": [
+      960,
+      1200
+    ],
+    "alpha": true,
+    "RGBPreserved": true,
+    "state": "agent_selected",
+    "method": "BiRefNet mask, with reviewed local prop-mask refinement where needed"
+  }
+]

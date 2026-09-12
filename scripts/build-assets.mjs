@@ -21,11 +21,11 @@ for (const source of entries) {
     const destination = path.join("public/delivery", relative);
     if (!checkOnly) {
       await fs.mkdir(path.dirname(destination), { recursive:true });
-      if (width >= metadata.width && metadata.format === "webp") await fs.copyFile(source, destination);
+      if (width >= metadata.width && metadata.format === "webp" && !source.includes("cutouts")) await fs.copyFile(source, destination);
       else await sharp(source).resize({ width, withoutEnlargement:true }).webp({ quality: metadata.format === "webp" ? 88 : 92, effort:5 }).toFile(destination);
     }
     const delivered = await sharp(destination).metadata();
-    if (delivered.width !== Math.min(width, metadata.width) || delivered.format !== "webp") throw new Error(`Invalid delivery image: ${destination}`);
+    if (delivered.width !== Math.min(width, metadata.width) || delivered.format !== "webp" || Boolean(delivered.hasAlpha) !== Boolean(metadata.hasAlpha)) throw new Error(`Invalid delivery image: ${destination}`);
     total += (await fs.stat(destination)).size;
   }
 }
