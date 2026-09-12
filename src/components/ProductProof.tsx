@@ -22,21 +22,3 @@ export function ScreenshotDialog({ id, locale, onClose }: { id: string; locale: 
     </Modal>
   );
 }
-
-export function IntroProof({ locale }: { locale: Locale }) {
-  const [open, setOpen] = useState(false);
-  const ar = locale === "ar";
-  return (
-    <section className="intro-proof section" aria-labelledby="intro-proof-title">
-      <div className="shell">
-        <div className="intro-proof-heading">
-          <h2 id="intro-proof-title">{ar ? "تشغيلك في صورة واحدة" : "Your operation, in one view"}</h2>
-          <button className="text-link" onClick={() => setOpen(true)}>{ar ? "كبّر الشاشة" : "Enlarge screenshot"}</button>
-        </div>
-        <ProofWindow locale={locale} large />
-        <p className="proof-provenance">{ar ? "لقطة فعلية من النظام · الواجهة بالإنجليزية · الأرقام المعروضة ليست نتائج عملاء" : "Actual system capture · English interface · Figures shown are not customer results"}</p>
-      </div>
-      {open && <ScreenshotDialog id="screen-overview" locale={locale} onClose={() => setOpen(false)} />}
-    </section>
-  );
-}

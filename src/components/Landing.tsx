@@ -5,7 +5,6 @@ import { ScrollStory, ProductShowcase } from "./Stories";
 import { FAQ } from "./FAQ";
 import { Commercial } from "./Commercial";
 import { ReviewForm } from "./ReviewForm";
-import { IntroProof } from "./ProductProof";
 import type { Locale } from "@/content/site";
 export function Landing({ locale }: { locale: Locale }) {
   return (
@@ -18,7 +17,6 @@ export function Landing({ locale }: { locale: Locale }) {
       <Header locale={locale} />
       <main id="main">
         <Hero locale={locale} />
-        <IntroProof locale={locale} />
         <OpeningNarrative locale={locale} />
         <ScrollStory locale={locale} />
         <ProductShowcase locale={locale} />

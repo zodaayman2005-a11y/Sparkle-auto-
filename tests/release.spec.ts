@@ -41,7 +41,7 @@ for (const locale of ["ar", "en"] as const) {
   test(`${locale}: narrow full-image inspection and focus restoration`, async ({ page }) => {
     await page.setViewportSize({width:360,height:800});
     await page.goto(locale === "ar" ? "/" : "/en");
-    const trigger = page.locator(".intro-proof button");
+    const trigger = page.locator(".screen-chapter .text-link").first();
     await trigger.click();
     const dialog = page.getByRole("dialog");
     await expect(dialog).toBeVisible();
