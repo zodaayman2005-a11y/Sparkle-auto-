@@ -14,65 +14,38 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
     <>
-      <section className="problem section" id="problem">
+      <section className="operations-pressure section" id="problem" aria-labelledby="pressure-title">
         <div className="shell">
           <SectionLabel number="02">
             {ar ? "المشكلة مش فيك." : "IT’S NOT YOU. IT’S THE PROCESS."}
           </SectionLabel>
-          <div className="problem-heading">
-            <h2>
-              {ar ? (
-                <>
-                  صاحب المغسلة
-                  <br />
-                  مش المفروض يبقى <span className="blue-slab">سنترال.</span>
-                </>
-              ) : (
-                <>
-                  You run a car wash.
-                  <br />
-                  Not a <span className="blue-slab">switchboard.</span>
-                </>
-              )}
+          <div className="pressure-intro">
+            <h2 id="pressure-title">
+              {ar ? <>صاحب المغسلة<br />مش المفروض يكون<br /><span>هو السيستم.</span></>
+                : <>You own the car wash.<br />You shouldn’t have to<br /><span>be the system.</span></>}
             </h2>
-            <p>
+            <p className="pressure-context">
               {ar
                 ? "لو كل سؤال لازم يرجعلك، وكل قرار مستنيك، وكل تقرير بيوصلك بطريقة مختلفة… يبقى المشكلة مش إن الشغل كتير. المشكلة إن التشغيل لسه معتمد عليك إنت، مش على نظام واضح."
-                : "When every question comes back to you, every decision waits for you and every report arrives in a different format, the problem is not simply that there is too much work. The operation still depends on you personally, rather than on a clear system."}
+                : "When every question comes back to you, every decision waits for you and every report arrives in a different format, the operation still depends on you personally. It needs a clear system."}
             </p>
           </div>
-          <div className="phone-scene">
-            <Image
-              src="/art/telephone.webp"
-              width={800}
-              height={800}
-              alt={
-                ar
-                  ? "سماعة هاتف ضخمة تعبّر عن ضغط الأسئلة والمكالمات على صاحب المغسلة"
-                  : "An oversized telephone receiver representing the pressure of constant questions and calls"
-              }
-              sizes="(max-width: 767px) 85vw, 500px"
-            />
-            <div className="phone-questions">
-              {painQuestions.slice(0, 3).map((q, i) => (
-                <div key={i}>
-                  <span dir="ltr">0{i + 1}</span>
-                  <p>{pick(q, locale)}</p>
-                </div>
-              ))}
+          <div className="pressure-body">
+            <div className="pressure-summary">
+              <p className="pressure-kicker">{ar ? "يومك أكبر من متابعة كل تفصيلة." : "Your day is bigger than every small detail."}</p>
+              <p>{ar ? "Sparkle Auto مش بيزودلك شاشة جديدة… هو بيقلل عدد الأسئلة اللي محتاج تسألها."
+                : "Sparkle Auto is not another screen to watch. It reduces the number of questions you need to ask."}</p>
+              <a className="text-link" href="#showcase">{ar ? "شوف الصورة كاملة" : "See the whole picture"}</a>
             </div>
+            <ol className="pressure-questions">
+              {painQuestions.map((q, i) => (
+                <li key={i}>
+                  <span className="pressure-number" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
+                  <p>{pick(q, locale)}</p>
+                </li>
+              ))}
+            </ol>
           </div>
-          <div className="pain-rail">
-            {painQuestions.slice(3).map((q, i) => (
-              <span key={i}>{pick(q, locale)}</span>
-            ))}
-          </div>
-          <p className="problem-close">
-            {ar
-              ? "Sparkle Auto مش بيزودلك شاشة جديدة… هو بيقلل عدد الأسئلة اللي محتاج تسألها."
-              : "Sparkle Auto is not another screen to watch. It reduces the number of questions you need to ask."}
-            
-          </p>
         </div>
       </section>
       <section className="section definition" id="system">

@@ -1,0 +1,33 @@
+/* Editorial owner-dependence section: real questions, without decorative props. */
+.operations-pressure { background:var(--pale); border-block:1px solid var(--soft); }
+.pressure-intro { display:grid; grid-template-columns:1.35fr 1fr; align-items:end; gap:var(--space-xl); padding-bottom:var(--space-xl); }
+.pressure-intro h2 { margin:0; font-size:clamp(36px,4.2vw,60px); line-height:1.45; }
+.pressure-intro h2 span { color:var(--dark); }
+.pressure-context { max-width:480px; font-size:16px; line-height:2; padding-bottom:var(--space-xs); }
+.pressure-body { display:grid; grid-template-columns:1fr 1.35fr; gap:var(--space-xl); border-top:2px solid var(--navy); padding-top:var(--space-xl); }
+.pressure-summary { align-self:start; padding:var(--space-lg); background:var(--navy); color:var(--white); border-radius:var(--radius-lg); }
+.pressure-summary .pressure-kicker { font-size:clamp(24px,2.4vw,32px); font-weight:700; line-height:1.65; margin-bottom:var(--space-md); }
+.pressure-summary > p:not(.pressure-kicker) { font-size:15px; color:var(--ice); }
+.pressure-summary .text-link { margin-top:var(--space-md); color:var(--white); }
+.pressure-summary a:focus-visible { outline-color:var(--blue); }
+.pressure-questions { margin:0; padding:0; list-style:none; }
+.pressure-questions li { display:flex; gap:var(--space-md); align-items:baseline; padding-block:18px; border-bottom:1px solid var(--soft); }
+.pressure-questions li:first-child { padding-top:0; }
+.pressure-number { font-family:var(--font-latin); font-size:13px; color:var(--muted); direction:ltr; min-width:24px; }
+.pressure-questions p { font-size:clamp(18px,1.8vw,24px); font-weight:500; line-height:1.65; }
+.site[lang="en"] .pressure-intro h2 { line-height:1.14; font-size:clamp(36px,4vw,56px); }
+@media(max-width:1023px) {
+ .pressure-intro { grid-template-columns:1fr; gap:var(--space-md); }
+ .pressure-context { max-width:680px; }
+ .pressure-body { grid-template-columns:1fr 1.2fr; gap:var(--space-lg); }
+}
+@media(max-width:767px) {
+ .pressure-intro { padding-bottom:var(--space-lg); }
+ .pressure-intro h2 { font-size:clamp(29px,7.7vw,42px); }
+ .site[lang="en"] .pressure-intro h2 { font-size:clamp(29px,7.8vw,40px); }
+ .pressure-context { font-size:15px; }
+ .pressure-body { display:flex; flex-direction:column; gap:var(--space-lg); padding-top:var(--space-lg); }
+ .pressure-questions { order:-1; }
+ .pressure-summary { padding:var(--space-md); width:100%; }
+ .pressure-questions li { gap:var(--space-sm); padding-block:var(--space-sm); }
+}

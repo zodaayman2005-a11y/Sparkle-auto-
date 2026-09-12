@@ -6,6 +6,7 @@ import "../styles/refinement.css";
 import "../styles/audience-story.css";
 import "../styles/hero.css";
 import "../styles/product-proof.css";
+import "../styles/operations-pressure.css";
 export const metadata: Metadata = {
   title: "Sparkle Auto — معاينة التصميم",
   description: "Sparkle Auto · Your car wash, in your pocket.",
