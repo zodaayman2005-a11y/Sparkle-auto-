@@ -7,7 +7,19 @@ export function AudienceStory({ locale, children }: { locale: Locale; children: 
     id: `fit-case-${index + 1}`, label: pick(item, locale),
     image: `/art/audience/${String(index + 1).padStart(2, "0")}.webp`, content: <p key={`fit-copy-${index}`}>{pick(item, locale)}</p>,
   }));
-  slides.push({ id: "fit-case-10", label: locale === "ar" ? "سهولة استخدام النظام" : "An approachable system", image: "/art/audience/10.webp", content: <div key="fit-copy-10">{children}</div> });
+  slides.push({
+    id: "fit-case-10",
+    label: locale === "ar" ? "عندك سيستم لكن استخدامه معقد" : "Your current system is difficult to use",
+    image: "/art/audience/10.webp",
+    content: (
+      <p key="fit-copy-10">
+        {locale === "ar"
+          ? "عندك سيستم بالفعل، لكن استخدامه صعب وتصميمه قديم؟ Sparkle Auto يديك تجربة أوضح وأسهل وأجمل، علشان أنت وفريقك تنجزوا شغلكم براحة ومن غير تعقيد."
+          : "Already using a system that feels difficult and dated? Sparkle Auto gives you a clearer, easier and more polished experience, so you and your team can get work done without unnecessary complexity."}
+      </p>
+    ),
+  });
+  slides.push({ id: "fit-case-11", label: locale === "ar" ? "سهولة استخدام النظام" : "An approachable system", image: "/art/audience/11.webp", content: <div key="fit-copy-11">{children}</div> });
   return <StorySequence slides={slides} locale={locale} after="fit-after" dwell={86} label={locale === "ar" ? "حالات تشغيل المغسلة" : "Car-wash operating situations"} />;
 }
 

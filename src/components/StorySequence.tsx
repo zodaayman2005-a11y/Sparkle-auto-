@@ -115,6 +115,10 @@ export function StorySequence({ slides, locale, after, label, className = "", dw
 
 function scrollToSlide(track: HTMLElement, stage: HTMLElement, index: number, count: number) {
   const inset = parseFloat(getComputedStyle(stage).top) || 0;
-  const step = (track.offsetHeight - stage.offsetHeight) / count;
-  window.scrollTo({ top: track.getBoundingClientRect().top + scrollY - inset + index * step + 4, behavior: "instant" });
+  const range = track.offsetHeight - stage.offsetHeight;
+  const step = range / count;
+  // Land inside the requested step instead of on its boundary, where sub-pixel
+  // layout differences can resolve to the previous slide.
+  const stepPosition = Math.min(range, (index + 0.5) * step);
+  window.scrollTo({ top: track.getBoundingClientRect().top + scrollY - inset + stepPosition, behavior: "instant" });
 }
