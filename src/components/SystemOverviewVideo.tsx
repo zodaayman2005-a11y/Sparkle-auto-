@@ -15,21 +15,24 @@ export function SystemOverviewVideo({ locale }: { locale: Locale }) {
   };
   return (
     <div className="system-overview-video">
-      <div className="system-video-heading">
-        <h3>{ar ? "شوف السيستم وهو شغال" : "See the system in action"}</h3>
-        <a href={`${source}/view`} target="_blank" rel="noopener noreferrer">
-          {ar ? "افتح الفيديو على Google Drive — تبويب جديد" : "Open on Google Drive — new tab"}
-        </a>
-      </div>
       {open ? (
         <div onKeyDown={(event) => { if (event.key === "Escape") close(); }}>
           <button className="text-link system-video-close" onClick={close}>{ar ? "إغلاق الفيديو" : "Close video"}</button>
           <iframe src={`${source}/preview`} title={ar ? "شرح Sparkle Auto" : "Sparkle Auto walkthrough"} allow="fullscreen" allowFullScreen />
         </div>
       ) : (
-        <button ref={trigger} className="system-video-trigger" onClick={() => setOpen(true)}>
+        <button
+          ref={trigger}
+          className="system-video-trigger"
+          onClick={() => setOpen(true)}
+          aria-label={ar ? "شغّل فيديو شرح السيستم" : "Play the system walkthrough"}
+        >
           <Image src="/art/system-video-thumbnail.jpg" alt="" width={1280} height={720} sizes="(max-width: 767px) 100vw, 55vw" />
-          <span className="system-video-play" aria-hidden="true">▶</span>
+          <span className="strategy-video-play system-video-play" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28">
+              <path d="M8 5v14l11-7z" fill="currentColor" />
+            </svg>
+          </span>
           <span>{ar ? "شغّل فيديو شرح السيستم" : "Play the system walkthrough"}</span>
         </button>
       )}
