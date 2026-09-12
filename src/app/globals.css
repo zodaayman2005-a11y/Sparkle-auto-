@@ -477,6 +477,11 @@ summary:focus-visible {
 .price-card li {
   font-size: 13px;
 }
+@media (max-width: 1180px) {
+  .header .menu-trigger {
+    display: grid;
+  }
+}
 @media (max-width: 1023px) {
   .header .menu-trigger {
     display: grid;

@@ -4,7 +4,7 @@ import { useAnchorRestoration } from "./useAnchorRestoration";
 import { ReadingRail } from "./VisualDetails";
 import { Brand } from "./Primitives";
 import { Modal } from "./Modal";
-import { cta, nav, pick, type Locale } from "@/content/site";
+import { nav, pick, type Locale } from "@/content/site";
 export function Header({ locale }: { locale: Locale }) {
   useAnchorRestoration();
   const [open, setOpen] = useState(false);
@@ -25,7 +25,11 @@ export function Header({ locale }: { locale: Locale }) {
             }
           >
             {nav.map((n) => (
-              <a key={n.id} href={`#${n.id}`}>
+              <a
+                key={n.id}
+                href={`#${n.id}`}
+                className={n.id === "review" ? "button primary nav-cta" : undefined}
+              >
                 {pick(n.label, locale)}
               </a>
             ))}
@@ -37,10 +41,6 @@ export function Header({ locale }: { locale: Locale }) {
               lang={locale === "ar" ? "en" : "ar"}
             >
               {locale === "ar" ? "EN" : "عربي"}
-            </a>
-            <a className="button primary header-cta" href="#review">
-              {pick(cta, locale)}
-              
             </a>
             <button
               className="icon-button menu-trigger"
@@ -62,19 +62,16 @@ export function Header({ locale }: { locale: Locale }) {
         >
           <nav className="drawer-links">
             {nav.map((n, i) => (
-              <a href={`#${n.id}`} key={n.id} onClick={() => setOpen(false)}>
+              <a
+                href={`#${n.id}`}
+                key={n.id}
+                className={n.id === "review" ? "button primary" : undefined}
+                onClick={() => setOpen(false)}
+              >
                 <span dir="ltr">0{i + 1}</span>
                 {pick(n.label, locale)}
-                
               </a>
             ))}
-            <a
-              className="button primary"
-              href="#review"
-              onClick={() => setOpen(false)}
-            >
-              {pick(cta, locale)}
-            </a>
             <a href={locale === "ar" ? "/en" : "/"}>
               {locale === "ar" ? "English" : "العربية"}
             </a>

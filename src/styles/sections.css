@@ -7,7 +7,8 @@
 }
 .desktop-nav {
   display: flex;
-  gap: 25px;
+  align-items: center;
+  gap: 18px;
 }
 .header-actions {
   display: flex;
@@ -18,6 +19,14 @@
   font-size: 11px;
   min-height: 46px;
   padding: 8px 14px;
+}
+.header .desktop-nav .nav-cta {
+  min-height: 42px;
+  padding: 8px 15px;
+  font-size: 12px;
+}
+.header .desktop-nav .nav-cta::after {
+  display: none;
 }
 .header .language-link {
   display: flex;
@@ -66,7 +75,7 @@
   color: var(--muted);
 }
 .drawer-links > .button {
-  margin-top: 30px;
+  margin-top: 0;
   padding: 18px;
 }
 .section {
@@ -980,6 +989,14 @@
   }
   .faq-layout {
     gap: 45px;
+  }
+}
+@media (max-width: 1180px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .header .menu-trigger {
+    display: grid;
   }
 }
 @media (max-width: 1023px) {

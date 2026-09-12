@@ -31,11 +31,14 @@ export const hero = {
 };
 export const cta = pair("احجز مراجعة تشغيل", "Book an Operations Review");
 export const nav = [
-  { id: "system", label: pair("السيستم", "The System") },
-  { id: "strategies", label: pair("طريقة الشغل", "How It Works") },
+  { id: "system", label: pair("سباركل أوتو", "Sparkle Auto") },
+  { id: "fit", label: pair("لمين؟", "Who It’s For") },
+  { id: "strategies", label: pair("طوّر مغسلتك", "Grow Your Wash") },
+  { id: "showcase", label: pair("عرض السيستم", "System Tour") },
   { id: "setup", label: pair("التجهيز", "Setup") },
   { id: "pricing", label: pair("الأسعار", "Pricing") },
-  { id: "faq", label: pair("الأسئلة الشائعة", "FAQs") },
+  { id: "faq", label: pair("الأسئلة", "FAQs") },
+  { id: "review", label: pair("احجز", "Book") },
 ];
 export const painQuestions = [
   pair("العربية دي خلصت ولا لسه؟", "Is this car finished yet?"),
