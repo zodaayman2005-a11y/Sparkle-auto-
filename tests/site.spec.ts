@@ -72,11 +72,13 @@ test("mobile menu, Escape, focus return and locale link", async ({ page }) => {
 test("FAQ and pricing toggle", async ({ page }) => {
   await page.goto("/");
   const faq = page.locator(".faq-item").nth(2).getByRole("button");
+  const answerId = await faq.getAttribute("aria-controls");
+  expect(answerId).toBeTruthy();
   await faq.click();
   await expect(faq).toHaveAttribute("aria-expanded", "true");
-  await expect(page.locator("#faq-answer-2")).toBeVisible();
+  await expect(page.locator(`#${answerId}`)).toBeVisible();
   await faq.click();
-  await expect(page.locator("#faq-answer-2")).toBeHidden();
+  await expect(page.locator(`#${answerId}`)).toBeHidden();
   await page.getByRole("button", { name: "سنوي", exact: true }).click();
   await expect(
     page.locator(".price-card").first().locator(".price strong"),
