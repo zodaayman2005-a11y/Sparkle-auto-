@@ -11,11 +11,12 @@ export function AudienceStory({ locale, children }: { locale: Locale; children: 
     id: "fit-case-10",
     label: locale === "ar" ? "عندك سيستم لكن استخدامه معقد" : "Your current system is difficult to use",
     image: "/art/audience/10.webp",
+    loading: "eager",
     content: (
       <p key="fit-copy-10">
         {locale === "ar"
-          ? "عندك سيستم بالفعل، لكن استخدامه صعب وتصميمه قديم؟ Sparkle Auto يديك تجربة أوضح وأسهل وأجمل، علشان أنت وفريقك تنجزوا شغلكم براحة ومن غير تعقيد."
-          : "Already using a system that feels difficult and dated? Sparkle Auto gives you a clearer, easier and more polished experience, so you and your team can get work done without unnecessary complexity."}
+          ? "عندك سيستم بالفعل، لكن استخدامه صعب وتصميمه قديم؟"
+          : "Already using a system that is difficult to use and looks dated?"}
       </p>
     ),
   });
