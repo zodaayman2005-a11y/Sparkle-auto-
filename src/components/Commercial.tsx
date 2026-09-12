@@ -128,8 +128,8 @@ export function Commercial({ locale }: { locale: Locale }) {
               </h3>
               <p>
                 {ar
-                  ? "مسودة العرض: تجربة 14 يوم على باقة النمو بعد مراجعة طريقة شغلك وتحديد هدف واضح. الإتاحة والشروط لسه قيد التأكيد."
-                  : "Proposed offer: a 14-day Growth trial after reviewing your operation and setting a clear goal. Availability and terms are still awaiting confirmation."}
+                  ? "جرّب Sparkle Auto على شغل مغسلتك لمدة 14 يوم، وشوف الفرق بنفسك قبل ما تقرر."
+                  : "Try Sparkle Auto in your operation for 14 days, then decide from real experience."}
               </p>
             </div>
             <a className="button secondary" href="#review">
