@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { strategyOverview } from "@/content/media";
 import type { Locale } from "@/content/site";
 
@@ -14,10 +15,21 @@ export function StrategyVideo({ locale }: { locale: Locale }) {
         ? "شاهد فيديو الاستراتيجيات على Google Drive، يفتح في تبويب جديد"
         : "Watch the strategies video on Google Drive, opens in a new tab"}
     >
-      <span className="strategy-video-play" aria-hidden="true">
-        <svg viewBox="0 0 24 24" width="28" height="28">
-          <path d="M8 5v14l11-7z" fill="currentColor" />
-        </svg>
+      <Image
+        className="strategy-video-image"
+        src="/art/strategy-video-thumbnail.jpg"
+        alt=""
+        fill
+        sizes="(max-width: 767px) 100vw, (max-width: 1199px) 52vw, 640px"
+        loading="eager"
+        unoptimized
+      />
+      <span className="strategy-video-overlay" aria-hidden="true">
+        <span className="strategy-video-play">
+          <svg viewBox="0 0 24 24" width="28" height="28">
+            <path d="M8 5v14l11-7z" fill="currentColor" />
+          </svg>
+        </span>
       </span>
       <span className="strategy-video-caption">
         {ar ? "شاهد فيديو الاستراتيجيات" : "Watch the strategies video"}

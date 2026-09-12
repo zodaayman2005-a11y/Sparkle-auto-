@@ -127,39 +127,41 @@ export function ScrollStory({
       id="strategies"
     >
       <div className="shell">
-        <SectionLabel number="05">
-          {ar
-            ? "طريقة شغل. مش مجرد برنامج."
-            : "A WAY OF WORKING. NOT JUST SOFTWARE."}
-        </SectionLabel>
-        <div className="strategy-heading">
-          <h2>
-            {ar ? (
-              <>
-                المغسلة القوية.
-                <br />
-                <span>وراها نظام.</span>
-              </>
-            ) : (
-              <>
-                A strong car wash.
-                <br />
-                <span>A clear system.</span>
-              </>
-            )}
-          </h2>
-          <div>
-            <p>
+        <div className="strategy-intro">
+          <div className="strategy-copy">
+            <SectionLabel number="05">
               {ar
-                ? "المغسلة القوية مش معدات وعمال أكتر وبس. المغسلة اللي تقدر تكبر وتحافظ على مستواها بتتبني على طريقة تشغيل واضحة. وعشان كده Sparkle Auto مبني على خمس استراتيجيات أساسية."
-                : "A strong car wash needs more than equipment and a bigger team. A car wash that grows while maintaining its standards needs a clear way of working. Sparkle Auto is built around five operating strategies."}
-            </p>
-            <a className="text-link" href="#showcase">
-              {ar ? "انتقل لشاشات السيستم" : "Skip to the system screens"} 
-            </a>
+                ? "طريقة شغل. مش مجرد برنامج."
+                : "A WAY OF WORKING. NOT JUST SOFTWARE."}
+            </SectionLabel>
+            <div className="strategy-heading">
+              <h2>
+                {ar ? (
+                  <>
+                    المغسلة القوية.
+                    <br />
+                    <span>وراها نظام.</span>
+                  </>
+                ) : (
+                  <>
+                    A strong car wash.
+                    <br />
+                    <span>A clear system.</span>
+                  </>
+                )}
+              </h2>
+              <p>
+                {ar
+                  ? "المغسلة القوية مش معدات وعمال أكتر وبس. المغسلة اللي تقدر تكبر وتحافظ على مستواها بتتبني على طريقة تشغيل واضحة. وعشان كده Sparkle Auto مبني على خمس استراتيجيات أساسية."
+                  : "A strong car wash needs more than equipment and a bigger team. A car wash that grows while maintaining its standards needs a clear way of working. Sparkle Auto is built around five operating strategies."}
+              </p>
+              <a className="text-link" href="#showcase">
+                {ar ? "انتقل لشاشات السيستم" : "Skip to the system screens"}
+              </a>
+            </div>
           </div>
+          <StrategyVideo locale={locale} />
         </div>
-        <StrategyVideo locale={locale} />
         <StrategyStory locale={locale} chapters={chapters} />
       </div>
     </section>
