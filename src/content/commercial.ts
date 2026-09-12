@@ -3,6 +3,7 @@ export const plans = [
   {
     id: "operations",
     title: pair("التشغيل", "Operations"),
+    type: pair("سيستم إدارة", "Management system"),
     monthly: 1290,
     annual: 12900,
     description: pair(
@@ -25,6 +26,7 @@ export const plans = [
   {
     id: "growth",
     title: pair("النمو", "Growth"),
+    type: pair("سيستم + تطبيق العملاء", "System + customer app"),
     monthly: 1990,
     annual: 19900,
     description: pair(
@@ -47,6 +49,7 @@ export const plans = [
   {
     id: "expansion",
     title: pair("التوسع", "Expansion"),
+    type: pair("إدارة متعددة الفروع", "Multi-branch management"),
     monthly: null,
     annual: null,
     description: pair(

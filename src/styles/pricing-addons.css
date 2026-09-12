@@ -27,3 +27,34 @@
   .addon-card h4 { font-size: 22px; margin-block-end: 18px; }
   .addons-footer { align-items: stretch; flex-direction: column; }
 }
+/* Shared comparison rows keep content aligned without fixed text heights. */
+.pricing-heading { gap: var(--space-lg); margin-block-end: var(--space-xl); align-items: end; }
+.pricing-heading h2 { margin-block-end: 0; }
+.pricing .pricing-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.pricing .price-card,
+.pricing .price-card.growth { display: grid; grid-template-rows: subgrid; grid-row: span 8; gap: 0; padding: 28px; margin: 0; border: var(--border); border-radius: var(--radius-lg); }
+.pricing .price-card.growth { box-shadow: var(--shadow-md); }
+.pricing .plan-top { margin-block-end: 16px; min-height: 0; }
+.pricing .plan-type { font-size: 16px; font-weight: 700; line-height: 1.7; margin: 0 0 12px; color: var(--dark); }
+.pricing .plan-description { min-height: 0; margin: 0 0 24px; line-height: 1.9; }
+.pricing .price { min-height: 0; margin: 0 0 12px; padding-block: 8px; flex-wrap: wrap; }
+.pricing .plan-price-note { margin-block-end: 16px; }
+.pricing .plan-price-note p { margin: 0; font-size: 11px; line-height: 1.8; }
+.pricing .price-card > .button { align-self: end; min-height: 52px; }
+.pricing .price-card ul { margin-block-start: 24px; }
+.pricing .addons-grid { gap: 20px; border: 0; border-radius: 0; overflow: visible; background: transparent; }
+.pricing .addon-card { display: grid; grid-template-rows: subgrid; grid-row: span 7; gap: 0; border: var(--border); border-radius: var(--radius-lg); padding: 28px; background: var(--pale); }
+.pricing .addon-card h4 { font-size: 21px; }
+.pricing .addon-note { margin: 0; }
+@media (max-width: 1100px) {
+  .pricing .pricing-grid, .pricing .addons-grid { grid-template-columns: 1fr; gap: 24px; }
+  .pricing .price-card, .pricing .price-card.growth, .pricing .addon-card { display: flex; flex-direction: column; grid-row: auto; padding: 24px; }
+  .pricing .price-card > .button { align-self: stretch; }
+  .pricing .plan-description { margin-block-end: 16px; }
+  .pricing .plan-price-note:empty { display: none; }
+}
+@media (max-width: 600px) {
+  .pricing-heading { align-items: stretch; gap: 24px; margin-block-end: 28px; }
+  .pricing .price-card, .pricing .price-card.growth, .pricing .addon-card { padding: 22px; }
+  .pricing .plan-type { font-size: 15px; }
+}

@@ -23,11 +23,7 @@ export function Commercial({ locale }: { locale: Locale }) {
                   ? "خطط اشتراك Sparkle Auto."
                   : "Sparkle Auto subscription plans."}
               </h2>
-              <p>
-                {ar
-                  ? "مقارنة واضحة بين سعر كل باقة، حدود التشغيل، والمزايا المتاحة."
-                  : "A clear comparison of each plan’s price, operating limits and included features."}
-              </p>
+
             </div>
             <div
               className="billing-switch"
@@ -52,15 +48,10 @@ export function Commercial({ locale }: { locale: Locale }) {
                 >
                   <div className="plan-top">
                     <span dir="ltr">0{i + 1}</span>
-                    {i === 1 && (
-                      <span>
-                        {ar
-                          ? "للنمو وتجربة العميل"
-                          : "GROWTH & CUSTOMER EXPERIENCE"}
-                      </span>
-                    )}
+
                   </div>
                   <h3>{pick(p.title, locale)}</h3>
+                  <p className="plan-type">{pick(p.type, locale)}</p>
                   <p className="plan-description">
                     {pick(p.description, locale)}
                   </p>
@@ -89,6 +80,7 @@ export function Commercial({ locale }: { locale: Locale }) {
                       </strong>
                     )}
                   </div>
+                  <div className="plan-price-note">
                   {price === null && (
                     <p className="fineprint">
                       {ar
@@ -96,6 +88,7 @@ export function Commercial({ locale }: { locale: Locale }) {
                         : "Final pricing is determined during the review."}
                     </p>
                   )}
+                  </div>
                   <a
                     className={`button ${i === 1 ? "primary" : "secondary"}`}
                     href={`#review`}
