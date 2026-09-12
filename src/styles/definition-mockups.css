@@ -7,11 +7,9 @@
 
 .surface-mockup {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   margin: auto 0 0;
-  background: var(--white);
-  border: 1px solid var(--soft);
-  border-radius: var(--radius-md);
+  background: transparent;
 }
 
 .surface-mockup img {
@@ -32,6 +30,11 @@
   width: min(100%, 300px);
   aspect-ratio: 4 / 5;
   margin-inline: auto;
+  background: var(--ice);
+}
+
+.surface-mockup-mobile img {
+  mix-blend-mode: multiply;
 }
 
 @media (max-width: 767px) {
