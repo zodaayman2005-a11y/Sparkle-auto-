@@ -1,0 +1,72 @@
+{
+  "ar": {
+    "base": "/delivery/hero/ar-1056f6e85b98",
+    "sizes": [
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ],
+    "sourceSha256": "1056f6e85b9829562b8923f791a7dc94872dd15730d00a8e368a6bda31f5d59c",
+    "sourceBytes": 29518984,
+    "variants": [
+      {
+        "width": 640,
+        "bytes": 25566
+      },
+      {
+        "width": 960,
+        "bytes": 47060
+      },
+      {
+        "width": 1280,
+        "bytes": 76442
+      },
+      {
+        "width": 1920,
+        "bytes": 163450
+      },
+      {
+        "width": 2560,
+        "bytes": 293850
+      }
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAABwBQCdASowABsAPsFMokwno6MiNVQIAPAYCUAHyAEEKDrOQYxW5DWjtSkGBa3a3Zc9+24AAP6aeWib1jRYcWk/r1KlfR3M8iMW6SseyiWJSlmBysdtoMMDrbtGwKq8p2tn/TNUePvPZ0/uWYFkc3nF4rv5gd1UvuLw2Tz8BSOzs0o2U+T+BzJDZ+wiGESzuxdK7gRUQR6dxN4fnuVx4k5Cb6JObpzKN6ZEF0gUWQfHK57fVVzZ+S5LggU6wVjosidY7Z2oC53aSEVdrcS0rfJlxUn5ubDUoQpLuWpVsAmhMpyQJT1VPZ2VdcGqaRM6h3YAzsZK3DloAAAA"
+  },
+  "en": {
+    "base": "/delivery/hero/en-3e8e552e11b0",
+    "sizes": [
+      640,
+      960,
+      1280,
+      1920,
+      2560
+    ],
+    "sourceSha256": "3e8e552e11b066b4e999339183bc7269f78bf2efee87fcec0de9d2174b759457",
+    "sourceBytes": 29647936,
+    "variants": [
+      {
+        "width": 640,
+        "bytes": 25424
+      },
+      {
+        "width": 960,
+        "bytes": 47018
+      },
+      {
+        "width": 1280,
+        "bytes": 75504
+      },
+      {
+        "width": 1920,
+        "bytes": 151496
+      },
+      {
+        "width": 2560,
+        "bytes": 264280
+      }
+    ],
+    "blurDataURL": "data:image/webp;base64,UklGRgYBAABXRUJQVlA4IPoAAADQBgCdASowABsAPsFOo00no6MiKrgMAPAYCUAZjjQG2gFPmrqGgrvWxbNctKJb4n9s157OPpw/XUT0sT+9YAAA/vqqzXPtIUBcdKQSHw6+n7yDHibZiNiMlVF92aLkErJE2ggh9F77MsRc8gQTq/d1/WrQITh4InzI5qgIxTg8Jks03zmVzrZ60RHKVn4ZKaGngNsGIGvMgVzuSowela2Pfya3dui7KHcbdqUmM7kUTW+3CPTH+ILvH7fc9VV3GbDmkMfvv/1srUMB0xGYPs5oRBE3pi66O0uEQrmkm5ssW9TN/NZxwh2uzPt6ul5PNQba2NS9UVUZGJgA"
+  }
+}

@@ -21,8 +21,7 @@ export function StrategyVideo({ locale }: { locale: Locale }) {
         alt=""
         fill
         sizes="(max-width: 767px) 100vw, (max-width: 1199px) 52vw, 640px"
-        loading="eager"
-        unoptimized
+        loading="lazy"
       />
       <span className="strategy-video-overlay" aria-hidden="true">
         <span className="strategy-video-play">

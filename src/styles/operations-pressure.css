@@ -13,7 +13,7 @@
 .pressure-questions { margin:0; padding:0; list-style:none; }
 .pressure-questions li { display:flex; gap:var(--space-md); align-items:baseline; padding-block:18px; border-bottom:1px solid var(--soft); }
 .pressure-questions li:first-child { padding-top:0; }
-.pressure-number { font-family:var(--font-latin); font-size:13px; color:var(--muted); direction:ltr; min-width:24px; }
+.pressure-number { font-family:var(--font-latin); font-size:13px; color:var(--dark); direction:ltr; min-width:24px; }
 .pressure-questions p { font-size:clamp(18px,1.8vw,24px); font-weight:500; line-height:1.65; }
 .site[lang="en"] .pressure-intro h2 { line-height:1.14; font-size:clamp(36px,4vw,56px); }
 @media(max-width:1023px) {

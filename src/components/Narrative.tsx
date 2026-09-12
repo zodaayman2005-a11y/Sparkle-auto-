@@ -100,7 +100,6 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
                       : "Illustrative laptop mockup for the car-wash owner dashboard"
                   }
                   sizes="(max-width: 767px) calc(100vw - 76px), (max-width: 1023px) 55vw, 680px"
-                  unoptimized
                 />
               </figure>
             </article>
@@ -128,7 +127,6 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
                       : "Illustrative mobile mockup for the customer booking experience"
                   }
                   sizes="(max-width: 767px) 240px, (max-width: 1023px) 230px, 300px"
-                  unoptimized
                 />
               </figure>
             </article>

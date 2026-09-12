@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-test("two-chapter prototype plus zero and one chapter fixtures", async ({
+test("two-chapter prototype plus zero and one chapter fixtures", { tag: "@development" }, async ({
   page,
 }) => {
   for (const count of [0, 1, 2]) {
@@ -8,7 +8,7 @@ test("two-chapter prototype plus zero and one chapter fixtures", async ({
     if (count === 0) await expect(page.locator("#strategies")).toHaveCount(0);
   }
 });
-test("ready test video plays only after click, closes, reopens, handles failure", async ({
+test("ready test video plays only after click, closes, reopens, handles failure", { tag: "@development" }, async ({
   page,
 }) => {
   await page.goto("/design/motion");

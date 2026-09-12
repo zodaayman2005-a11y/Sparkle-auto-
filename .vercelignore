@@ -3,6 +3,7 @@
 .21st
 node_modules
 .next
+.next-audit-backup
 .next-locked-backup
 artifacts
 assets
@@ -10,6 +11,7 @@ docs
 tests
 playwright-report
 test-results
+test-results-*
 *.tsbuildinfo
 .env*
 AGENTS.md

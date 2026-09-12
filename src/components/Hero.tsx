@@ -1,5 +1,6 @@
 import { hero, pick, cta, type Locale } from "@/content/site";
 import Image from "next/image";
+import heroMedia from "@/content/hero-media.json";
 export function Hero({
   locale,
   variant = "a",
@@ -11,17 +12,6 @@ export function Hero({
 }) {
   return (
     <section className={`hero hero-${variant} hero-background`} aria-labelledby="hero-title">
-      <div className="hero-art-layer">
-        {/* User-requested original PNGs: preserve source bytes, dimensions and format. */}
-        <Image
-          className="hero-backdrop"
-          src={locale === "en" ? "/hero/hero-en-original.png" : "/hero/hero-ar-original.png"}
-          alt=""
-          fill
-          preload
-          unoptimized
-        />
-      </div>
       <div className="hero-grid">
         <div className="hero-copy">
           <h1 id="hero-title">
@@ -54,7 +44,21 @@ export function Hero({
           </div>
           <p className="reassurance">{pick(hero.reassurance, locale)}</p>
         </div>
-        <div className="hero-stage hero-owner-stage" id="hero-proof" aria-hidden="true" />
+        <div className="hero-stage hero-owner-stage" id="hero-proof" aria-hidden="true">
+          <div className="hero-art-layer">
+            {/* Full-bleed on desktop; contained in its own flow area on compact screens. */}
+            <Image
+              className="hero-backdrop"
+              src={locale === "en" ? "/hero/hero-en-original.png" : "/hero/hero-ar-original.png"}
+              alt=""
+              fill
+              preload
+              sizes="(max-width: 480px) 480px, 100vw"
+              placeholder="blur"
+              blurDataURL={heroMedia[locale].blurDataURL}
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

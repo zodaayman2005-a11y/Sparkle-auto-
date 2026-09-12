@@ -28,7 +28,7 @@ export function SystemOverviewVideo({ locale }: { locale: Locale }) {
         </div>
       ) : (
         <button ref={trigger} className="system-video-trigger" onClick={() => setOpen(true)}>
-          <Image src="/art/system-video-thumbnail.jpg" alt="" width={1280} height={720} unoptimized />
+          <Image src="/art/system-video-thumbnail.jpg" alt="" width={1280} height={720} sizes="(max-width: 767px) 100vw, 55vw" />
           <span className="system-video-play" aria-hidden="true">▶</span>
           <span>{ar ? "شغّل فيديو شرح السيستم" : "Play the system walkthrough"}</span>
         </button>

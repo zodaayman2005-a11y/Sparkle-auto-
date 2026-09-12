@@ -7,7 +7,7 @@ import { pick, pair, type Locale } from "@/content/site";
 export function Brand() {
   return (
     <span className="brand">
-      <Image src="/brand/logo.jpg" alt="" width={48} height={48} unoptimized />
+      <Image src="/delivery/brand/logo-144.webp" alt="" width={48} height={48} unoptimized />
       <span dir="ltr">
         sparkle<span className="brand-auto">AUTO</span>
       </span>

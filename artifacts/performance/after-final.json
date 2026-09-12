@@ -1,0 +1,242 @@
+{
+  "conditions": {
+    "base": "http://127.0.0.1:3131",
+    "cache": "cold",
+    "cpu": "4x",
+    "downloadMbps": 6,
+    "latencyMs": 80,
+    "dpr": 1,
+    "browser": "153.0.8010.12",
+    "fieldData": false
+  },
+  "results": [
+    {
+      "width": 390,
+      "heroReady": 3484.5,
+      "lcp": 2636,
+      "shiftSum": 0,
+      "resources": [
+        {
+          "name": "/fonts/alexandria-arabic-400-normal.woff2",
+          "bytes": 12800,
+          "duration": 200,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-500-normal.woff2",
+          "bytes": 13340,
+          "duration": 199.30000007152557,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-700-normal.woff2",
+          "bytes": 13524,
+          "duration": 199.20000004768372,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-800-normal.woff2",
+          "bytes": 13392,
+          "duration": 197.5,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-400-normal.woff2",
+          "bytes": 13688,
+          "duration": 201.30000007152557,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-500-normal.woff2",
+          "bytes": 13612,
+          "duration": 203.89999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-700-normal.woff2",
+          "bytes": 13140,
+          "duration": 379.5,
+          "type": "link"
+        },
+        {
+          "name": "/delivery/hero/ar-1056f6e85b98-640.webp",
+          "bytes": 25866,
+          "duration": 425.5,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/0kcb1ey_rm15c.css",
+          "bytes": 13249,
+          "duration": 349.2000000476837,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/12aruqaur5huj.js",
+          "bytes": 7646,
+          "duration": 347.7999999523163,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/2gr5eh3tt0c3u.js",
+          "bytes": 47358,
+          "duration": 516.9000000953674,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/10nz_i4zu_48l.js",
+          "bytes": 71875,
+          "duration": 593.2000000476837,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-3raj-6cdz9dc8.js",
+          "bytes": 4135,
+          "duration": 455.5,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/453cd1tlxz5wi.js",
+          "bytes": 3961,
+          "duration": 470.2000000476837,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/0qzj4hky278y5.js",
+          "bytes": 19345,
+          "duration": 547.6000000238419,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/3gr2cuouppjab.js",
+          "bytes": 17535,
+          "duration": 578,
+          "type": "script"
+        },
+        {
+          "name": "/brand/logo.jpg",
+          "bytes": 111306,
+          "duration": 245.69999992847443,
+          "type": "img"
+        }
+      ],
+      "hero": {
+        "source": "http://127.0.0.1:3131/delivery/hero/ar-1056f6e85b98-640.webp",
+        "naturalWidth": 480
+      }
+    },
+    {
+      "width": 1440,
+      "heroReady": 2929.2999999523163,
+      "lcp": 2768,
+      "shiftSum": 0,
+      "resources": [
+        {
+          "name": "/fonts/alexandria-arabic-400-normal.woff2",
+          "bytes": 12800,
+          "duration": 207.89999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-500-normal.woff2",
+          "bytes": 13340,
+          "duration": 209.60000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-700-normal.woff2",
+          "bytes": 13524,
+          "duration": 215.29999995231628,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-800-normal.woff2",
+          "bytes": 13392,
+          "duration": 209.29999995231628,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-400-normal.woff2",
+          "bytes": 13688,
+          "duration": 217.5,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-500-normal.woff2",
+          "bytes": 13612,
+          "duration": 315.2000000476837,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-700-normal.woff2",
+          "bytes": 13140,
+          "duration": 393.39999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/delivery/hero/ar-1056f6e85b98-1920.webp",
+          "bytes": 163750,
+          "duration": 803.6999999284744,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/0kcb1ey_rm15c.css",
+          "bytes": 13249,
+          "duration": 208.39999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/12aruqaur5huj.js",
+          "bytes": 7646,
+          "duration": 368.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/2gr5eh3tt0c3u.js",
+          "bytes": 47358,
+          "duration": 574.3999999761581,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/10nz_i4zu_48l.js",
+          "bytes": 71875,
+          "duration": 666.2000000476837,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-3raj-6cdz9dc8.js",
+          "bytes": 4135,
+          "duration": 420.40000009536743,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/453cd1tlxz5wi.js",
+          "bytes": 3961,
+          "duration": 467.3000000715256,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/0qzj4hky278y5.js",
+          "bytes": 19345,
+          "duration": 603.7999999523163,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/3gr2cuouppjab.js",
+          "bytes": 17535,
+          "duration": 620.0999999046326,
+          "type": "script"
+        },
+        {
+          "name": "/brand/logo.jpg",
+          "bytes": 111306,
+          "duration": 260.60000002384186,
+          "type": "img"
+        }
+      ],
+      "hero": {
+        "source": "http://127.0.0.1:3131/delivery/hero/ar-1056f6e85b98-1920.webp",
+        "naturalWidth": 1440
+      }
+    }
+  ]
+}

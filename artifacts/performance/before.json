@@ -1,0 +1,254 @@
+{
+  "conditions": {
+    "base": "http://127.0.0.1:3130",
+    "cache": "cold",
+    "cpu": "4x",
+    "downloadMbps": 6,
+    "latencyMs": 80,
+    "dpr": 1,
+    "browser": "153.0.8010.12",
+    "fieldData": false
+  },
+  "results": [
+    {
+      "width": 390,
+      "heroReady": 42038.39999997616,
+      "lcp": 2548,
+      "shiftSum": 0,
+      "resources": [
+        {
+          "name": "/fonts/alexandria-arabic-400-normal.woff2",
+          "bytes": 12800,
+          "duration": 131.60000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-500-normal.woff2",
+          "bytes": 13340,
+          "duration": 189.39999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-700-normal.woff2",
+          "bytes": 13524,
+          "duration": 197,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-800-normal.woff2",
+          "bytes": 13392,
+          "duration": 201.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-400-normal.woff2",
+          "bytes": 13688,
+          "duration": 202.70000004768372,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-500-normal.woff2",
+          "bytes": 13612,
+          "duration": 234.5,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-700-normal.woff2",
+          "bytes": 13140,
+          "duration": 309.7000000476837,
+          "type": "link"
+        },
+        {
+          "name": "/hero/hero-ar-original.png",
+          "bytes": 29519284,
+          "duration": 41268,
+          "type": "link"
+        },
+        {
+          "name": "/art/strategy-video-thumbnail.jpg",
+          "bytes": 116021,
+          "duration": 863.5999999046326,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/32j403wy6arfg.css",
+          "bytes": 13257,
+          "duration": 193,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/12aruqaur5huj.js",
+          "bytes": 7646,
+          "duration": 356.39999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/2gr5eh3tt0c3u.js",
+          "bytes": 47358,
+          "duration": 594.8000000715256,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/10nz_i4zu_48l.js",
+          "bytes": 71875,
+          "duration": 735.6999999284744,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-3raj-6cdz9dc8.js",
+          "bytes": 4135,
+          "duration": 408.6999999284744,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/453cd1tlxz5wi.js",
+          "bytes": 3961,
+          "duration": 469.89999997615814,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/2rxnhf1wzfh36.js",
+          "bytes": 16423,
+          "duration": 624.5,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/0qzj4hky278y5.js",
+          "bytes": 19345,
+          "duration": 686.7000000476837,
+          "type": "script"
+        },
+        {
+          "name": "/brand/logo.jpg",
+          "bytes": 111306,
+          "duration": 406.40000009536743,
+          "type": "img"
+        }
+      ],
+      "hero": {
+        "source": "http://127.0.0.1:3130/hero/hero-ar-original.png",
+        "naturalWidth": 6688
+      }
+    },
+    {
+      "width": 1440,
+      "heroReady": 41574.800000071526,
+      "lcp": 42624,
+      "shiftSum": 0,
+      "resources": [
+        {
+          "name": "/fonts/alexandria-arabic-400-normal.woff2",
+          "bytes": 12800,
+          "duration": 195.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-500-normal.woff2",
+          "bytes": 13340,
+          "duration": 197.69999992847443,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-700-normal.woff2",
+          "bytes": 13524,
+          "duration": 200.79999995231628,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/alexandria-arabic-800-normal.woff2",
+          "bytes": 13392,
+          "duration": 197.40000009536743,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-400-normal.woff2",
+          "bytes": 13688,
+          "duration": 206.10000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-500-normal.woff2",
+          "bytes": 13612,
+          "duration": 210.39999997615814,
+          "type": "link"
+        },
+        {
+          "name": "/fonts/space-grotesk-latin-700-normal.woff2",
+          "bytes": 13140,
+          "duration": 384.5,
+          "type": "link"
+        },
+        {
+          "name": "/hero/hero-ar-original.png",
+          "bytes": 29519284,
+          "duration": 41245.299999952316,
+          "type": "link"
+        },
+        {
+          "name": "/art/strategy-video-thumbnail.jpg",
+          "bytes": 116021,
+          "duration": 896.6999999284744,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/32j403wy6arfg.css",
+          "bytes": 13257,
+          "duration": 374.60000002384186,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/12aruqaur5huj.js",
+          "bytes": 7646,
+          "duration": 372,
+          "type": "link"
+        },
+        {
+          "name": "/_next/static/chunks/2gr5eh3tt0c3u.js",
+          "bytes": 47358,
+          "duration": 565.3000000715256,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/10nz_i4zu_48l.js",
+          "bytes": 71875,
+          "duration": 843.5,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/turbopack-3raj-6cdz9dc8.js",
+          "bytes": 4135,
+          "duration": 508.7999999523163,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/453cd1tlxz5wi.js",
+          "bytes": 3961,
+          "duration": 509.09999990463257,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/2rxnhf1wzfh36.js",
+          "bytes": 16423,
+          "duration": 718.5,
+          "type": "script"
+        },
+        {
+          "name": "/_next/static/chunks/0qzj4hky278y5.js",
+          "bytes": 19345,
+          "duration": 734.5,
+          "type": "script"
+        },
+        {
+          "name": "/brand/logo.jpg",
+          "bytes": 111306,
+          "duration": 394.10000002384186,
+          "type": "img"
+        }
+      ],
+      "hero": {
+        "source": "http://127.0.0.1:3130/hero/hero-ar-original.png",
+        "naturalWidth": 6688
+      }
+    }
+  ]
+}

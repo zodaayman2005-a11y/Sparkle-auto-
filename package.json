@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3100",
     "build": "next build",
+    "prebuild": "npm run assets:check",
     "start": "next start --hostname 127.0.0.1 --port 3100",
     "lint": "eslint src tests",
     "typecheck": "tsc --noEmit",
     "test": "playwright test",
+    "test:production": "playwright test --grep-invert @development",
+    "test:development": "playwright test --grep @development",
     "assets:build": "node scripts/build-assets.mjs",
     "assets:check": "node scripts/build-assets.mjs --check"
   },
@@ -16,8 +19,8 @@
     "next": "16.3.4",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "@fontsource/alexandria": "latest",
-    "@fontsource/space-grotesk": "latest"
+    "@fontsource/alexandria": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3",
@@ -26,8 +29,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
-    "@playwright/test": "latest",
-    "@axe-core/playwright": "latest",
-    "sharp": "latest"
+    "@playwright/test": "1.63.0",
+    "@axe-core/playwright": "4.13.0",
+    "sharp": "0.35.4"
   }
 }

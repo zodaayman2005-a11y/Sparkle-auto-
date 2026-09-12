@@ -17,7 +17,7 @@ for (const lang of ["ar", "en"])
         ),
       ).toBe(true);
       await expect(page.locator(".strategy-art-story .audience-scene")).toHaveCount(5);
-      await expect(page.locator(".screen-chapter")).toHaveCount(7);
+      await expect(page.locator(".system-proof-story .audience-scene")).toHaveCount(7);
       await expect(page.locator(".journey-rail li")).toHaveCount(8);
       await expect(page.locator(".setup-story .audience-scene")).toHaveCount(5);
       await expect(page.locator("video")).toHaveCount(0);
