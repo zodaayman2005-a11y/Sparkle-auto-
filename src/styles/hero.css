@@ -11,8 +11,10 @@
 .hero-body { font-size:16px; line-height:1.9; max-width:580px; }
 .hero-more { font-size:15px; line-height:1.8; color:var(--dark); max-width:540px; margin-top:12px; }
 .hero .cta-row { display:flex; gap:22px; align-items:center; flex-wrap:wrap; margin-top:26px; }
-.hero-secondary { display:inline-flex; min-height:44px; align-items:center; font-size:13px; font-weight:700; border-bottom:2px solid transparent; }
-.hero-secondary:hover { border-color:var(--blue); }
+.hero .hero-secondary { gap:10px; padding:12px 18px; min-height:54px; background:var(--white); color:var(--navy); border:var(--border); border-radius:var(--radius-md); box-shadow:var(--shadow-sm); font-size:13px; font-weight:700; }
+.hero .hero-secondary:hover { background:var(--pale); transform:translate(1px,1px); box-shadow:2px 2px 0 var(--navy); }
+.hero .hero-secondary:active { transform:translate(3px,3px); box-shadow:none; }
+.hero-play-icon { display:grid; place-items:center; width:28px; height:28px; flex:none; border-radius:50%; background:var(--ice); color:var(--navy); }
 .reassurance { font-size:12px; line-height:1.8; max-width:520px; margin-top:20px; color:var(--dark); }
 .site[lang="ar"] .hero .reassurance { max-width:none; }
 .hero-owner-stage { grid-column:1; grid-row:1; align-self:end; width:100%; }
