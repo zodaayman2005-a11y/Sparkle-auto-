@@ -1,0 +1,55 @@
+[
+  {
+    "id": "color-contrast",
+    "nodes": [
+      {
+        "target": [
+          ".owner-surface > .surface-label > b"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #01a2ff, background color: #ffffff, font size: 36.0pt (48px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          ".customer-surface > .surface-label > b"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.4 (foreground color: #01a2ff, background color: #ddf3ff, font size: 36.0pt (48px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          ".setup-steps > li:nth-child(1) > span[dir=\"ltr\"]"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #01a2ff, background color: #ffffff, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          ".setup-steps > li:nth-child(2) > span[dir=\"ltr\"]"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #01a2ff, background color: #ffffff, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          ".setup-steps > li:nth-child(3) > span[dir=\"ltr\"]"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #01a2ff, background color: #ffffff, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          ".setup-steps > li:nth-child(4) > span[dir=\"ltr\"]"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #01a2ff, background color: #ffffff, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          ".setup-steps > li:nth-child(5) > span[dir=\"ltr\"]"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.75 (foreground color: #01a2ff, background color: #ffffff, font size: 30.0pt (40px), font weight: normal). Expected contrast ratio of 3:1"
+      },
+      {
+        "target": [
+          "button[aria-controls=\"faq-answer-0\"] > .faq-number[dir=\"ltr\"]"
+        ],
+        "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.45 (foreground color: #54769f, background color: #f2faff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  }
+]

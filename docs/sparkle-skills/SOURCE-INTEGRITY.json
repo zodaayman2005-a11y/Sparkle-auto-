@@ -1,0 +1,290 @@
+{
+  "hdi_archive_sha256": "d6f060e420002d17aaa36c890caf0511521ccd88979875c5dad3152b424c734d",
+  "hdi_archive_entries": [
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/00-CODEX-SETUP.md",
+      "bytes": 799,
+      "sha256": "5fcaa1cccee336a45dc49cab78e487f3c6b0aa3047db79cad988065f26ab9baa"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/00-START-HERE.md",
+      "bytes": 2535,
+      "sha256": "112064d7c6b98f6f20c0109edd7c79db91d252a041e276889ebb17179c6932fa"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/data-enterprise.md",
+      "bytes": 2527,
+      "sha256": "a75fa267247a29bcf00092c88dbd2e29b145bbea85d544104e6a9025331cff47"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/saas-product.md",
+      "bytes": 3205,
+      "sha256": "e88633359ba33be0e9de949212e30d8afd3642b73d77ab6f60fd4cd7bb1db06e"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/mobile-app.md",
+      "bytes": 2583,
+      "sha256": "e938141eff7a6d2e1a5cd05270e71dd24d0c9d95481c6df30395175099e8978d"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/editorial-portfolio.md",
+      "bytes": 2480,
+      "sha256": "87ff5154f799406a6db17068ba98be8728344dece28ac9771a104ad4dbb10344"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/landing-pages.md",
+      "bytes": 3495,
+      "sha256": "f026f4e6c0c6c6d706097ecc8564726da58dd41792dc66f3f916081f0ee9a945"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/README.md.md",
+      "bytes": 476,
+      "sha256": "eda05a2e324a1d8432c04bdc16b9a43c80b3731180cbd161e5ff2aa55ccd049b"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/ecommerce.md",
+      "bytes": 2534,
+      "sha256": "4646f6aead3ef69c9715e5cbe7ceedbfb6bbc369c6ef1c9d125e36827511e526"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/service-business.md",
+      "bytes": 2651,
+      "sha256": "c7151dd2993c0b545087afe3558b8db245d005a2e1d52f27573707dbdda25a11"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/04-DOMAIN-PACKS/immersive-web.md",
+      "bytes": 2545,
+      "sha256": "04c97832576cf02446d3375e6f9863690865f8c65f8696391d44922876abcced"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/06-QUALITY/quality-rubrics-evals.md",
+      "bytes": 23025,
+      "sha256": "bfe45c21ff403235a3f144a19bfc43d44085836479076f9b856598acba8d6ad2"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/11-INTEGRATIONS/integrations.md",
+      "bytes": 34563,
+      "sha256": "6cf4b91b1c31c6fd7234f0d25957f5f3b45f098d61cba4aab10bc736a33e287e"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/12-TOOLING/tooling.md",
+      "bytes": 2686,
+      "sha256": "4d5f7b8a7376101f7a49bdaaf6dd0099c6a80e855eae79a935da9eadaa140b54"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/10-DOCS/docs.md",
+      "bytes": 38851,
+      "sha256": "0b9d77ff07934c8325ee76b31f740ba7605068b537712a7cdcbc54db391820f1"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/05-PROMPTS/prompts.md",
+      "bytes": 34024,
+      "sha256": "2f62a0ffc0d8c64f058f3c5cd4afd981e9a520a984444ad57927ececf488e447"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/01-CORE/core.md",
+      "bytes": 55245,
+      "sha256": "88ffed0f021bfb29992e51056d9c1529ea6de6df335cc3a312c390645a8e0ab1"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/03-RESEARCH/research-core.md",
+      "bytes": 2723,
+      "sha256": "1f2cd5c72fbbea55671db8e05dd358460902dc4ad7f091977507f79fb3a46c3b"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/03-RESEARCH/templates.md",
+      "bytes": 5425,
+      "sha256": "6da7abbef596479cb2ee41ac4a5c88e7bd44f17d7c48ccd48d6245526b3ba051"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/ux-architecture.md",
+      "bytes": 7906,
+      "sha256": "ef6824893156b0d909e1bba64d5d56ce553f8cf3fe3b93744c078f07c0c320e6"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/localization-culturalization.md",
+      "bytes": 12409,
+      "sha256": "d4f844edcc693e4333a0efe1ccc33bda8429910680ecb4e084cebe16ccbbf837"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/design-to-code.md",
+      "bytes": 9124,
+      "sha256": "cc356fb4a6ba082e8099d3fd0c1f1452c4955db943158de771af9c5d420294e3"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/web-design-research.md",
+      "bytes": 24562,
+      "sha256": "84d4a5a96190562d784b1868c0921613cf8afab2a7297204d75c8c699156e5f4"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/brand-world-building.md",
+      "bytes": 11686,
+      "sha256": "fcc494e443a24e54af994faecc0eb028c7125a9f2a71821cd6e29d891e4aaa5b"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/competitive-experience-intelligence.md",
+      "bytes": 10478,
+      "sha256": "dac67b6a13a4ff29530dcb269a84d7e7a1922e5878bec72092f679c3e65957f9"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/data-visualization.md",
+      "bytes": 11928,
+      "sha256": "a36a8efe349ac8ee8543719254ddbf0d067e2f43a4c1938fb08aefc3c00a5c54"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/conversion-behavior-design.md",
+      "bytes": 11895,
+      "sha256": "02e000008548ab7bd2775b328c1de6c025d4670cbd2be066f097d872bdcd1f7a"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/inclusive-accessibility-design.md",
+      "bytes": 12816,
+      "sha256": "a1f94cd5fffed62f57fb6deb0059cf76de90a272d739044ddf90c61c92c8746c"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/visual-qa-refinement.md",
+      "bytes": 10068,
+      "sha256": "d0390afce6a182a9001a52d5ddc671cb74d523cd539540ef0588e862ac19af86"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/prototype-usability-testing.md",
+      "bytes": 11189,
+      "sha256": "74da4bc30241da62db4e2c5f69920937b0f298fe314faec85f4295a893883f4b"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/trend-cultural-intelligence.md",
+      "bytes": 12150,
+      "sha256": "9c6cc6e16fe866def4994b5121b72f7b8193fea9ffe6750960de779972f21891"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/advanced-experience.md",
+      "bytes": 8622,
+      "sha256": "bedbfc182c467986ccb9cff551280269e1a8911f7b97d4654a8a04bf21fc19fe"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/color-imagery.md",
+      "bytes": 8465,
+      "sha256": "0d4102e80e2b4471912e470b4fca5412f2c6ddf187bb3a77757c26323c5565a2"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/motion-interaction.md",
+      "bytes": 8397,
+      "sha256": "ac914a83d8ec4ec8dd6865dc0187bcf0a253a4728fdb239689d1649134d41f65"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/asset-production-direction.md",
+      "bytes": 12129,
+      "sha256": "9c5c7d178040e4fd1d73bee8bae117c560f9b1986433b0c749cb3d722f4c927e"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/inspiration-synthesis.md",
+      "bytes": 15470,
+      "sha256": "7803229327f9cb6126b5b3eb448a4cf5af076a165b658476d44238871ace4812"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/responsive-rtl.md",
+      "bytes": 10024,
+      "sha256": "7085af674b740570718119be4f961125ee3279c571313816b052fc34ce4beb29"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/seo-discoverability-information.md",
+      "bytes": 13030,
+      "sha256": "edea220181995f6f86daba3e30baf9f2e08f0cef5706d7c129e9c6ff7626ef49"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/user-research-synthesis.md",
+      "bytes": 12109,
+      "sha256": "8b43896fbf6118caa86e8828171343e2635729369748400776e5e70e7356b1a0"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/component-system.md",
+      "bytes": 8104,
+      "sha256": "badd13701e64f66028288fff451339039ed93948bca85dfb9841cc6335388640"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/spatial-3d-world-building.md",
+      "bytes": 12987,
+      "sha256": "8e47d2c91f0737fe9dee398978341b5eb926e2a746fd4fbc5411fafb1aebbb58"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/design-system-governance.md",
+      "bytes": 11919,
+      "sha256": "741b88bc74d3d667a6630f9ac27c7fc7900ba6e689f30278c8c72bf06da45fe9"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/typography-content.md",
+      "bytes": 9519,
+      "sha256": "46152249ffb287c0caf865df1bce4bf208d7808524ac1ff68ad6e107e2670e39"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/design-ops-handoff.md",
+      "bytes": 12634,
+      "sha256": "ac9860b1c49e1c38a66f490a1f91a967da4091ef212cc3bce93833cf9d7ebdde"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/design-director.md",
+      "bytes": 16916,
+      "sha256": "10e5b5b9693348801bcf70aeb811963aecbb3d7c1e2998b26363280b075cb285"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/performance-perceived-quality.md",
+      "bytes": 11869,
+      "sha256": "a97d4f786b63b5b68b05bcd4cbbb83683b846c2eaa5a327745b39707d9ce2b03"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/experiment-optimization.md",
+      "bytes": 11849,
+      "sha256": "87cd516c10b3ab1eb578f8fe93e43dc440ab9b51c41bdd92e32048788528755d"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/reference-intelligence.md",
+      "bytes": 11469,
+      "sha256": "6029a39a74660acb2374fe7be3981ddbf314ca9c7cb22b2ea652558cf781d337"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/trust-privacy-security-ux.md",
+      "bytes": 11997,
+      "sha256": "a606a77cd13568c18eb47740c5845c7fd4ffee622bc76ca3ca69201a8d8b432f"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/creative-coding-lab.md",
+      "bytes": 11591,
+      "sha256": "c4fcb23f7ce2b18d053d389f9a735f9378e6f25aa99290316045708f49af0ef7"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/content-information-design.md",
+      "bytes": 11557,
+      "sha256": "8edbd359d2fc57228d7019546abae04e7d8d375652b007766fff8691d8509e3c"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/product-metrics-instrumentation.md",
+      "bytes": 12854,
+      "sha256": "9dc361327170ece229ca34c67e8360169e4f8a7c80d57c5b352de8e3ec3a8e01"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/02-SKILLS/visual-composition.md",
+      "bytes": 8132,
+      "sha256": "a6281c716e27716c9e8c5c4373e93de7cb961cc1efefc1c47d93eda7a17113d1"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/07-PROJECT-TEMPLATES/project-templates.md",
+      "bytes": 41504,
+      "sha256": "417a6f7095cd9679df723b39051df84da5a40a56b780eba91e78d51d0b8fbcca"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/09-REFERENCE-LIBRARY/reference-library.md",
+      "bytes": 7298,
+      "sha256": "cf453ecf118ce6543b0f203d9d9e7db92d3369e7662b50c564deb17cbadaa9f7"
+    },
+    {
+      "path": "HDI-OS-v1.2.0-CLEAN-MULTI-MD/08-ORCHESTRATION/orchestration-agents.md",
+      "bytes": 7620,
+      "sha256": "f50db8936731929397bb3efebed3f4ec5aea75c7de67a256b1a58f1793648f1c"
+    }
+  ],
+  "visual_source_bytes": 122735,
+  "visual_source_sha256": "d75b16531afde7cc799f9d4bec3d3b9346dfec3c07247bc862778cebf779cadb",
+  "master_plan_bytes": 165279,
+  "master_plan_sha256": "900bfac3aa3c042e1dc770adcfdacc5b0805d61ce5e310063ee5cfbbd369196d",
+  "normalization": "HDI component extraction removes only the consolidation wrapper and boundary blank lines; visual and master plan preserve all original bytes."
+}

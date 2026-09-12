@@ -1,0 +1,11 @@
+{
+  "production_suite": {"command":"npx playwright test tests/site.spec.ts","passed":26,"failed":0},
+  "development_media_suite": {"command":"npx playwright test tests/motion.spec.ts","passed":2,"failed":0},
+  "after_final_touch_css": {"passed":7,"failed":0,"coverage":"ar/en 320/390, axe ar/en, mobile menu and target sizes"},
+  "build":"passed",
+  "typecheck":"passed",
+  "lint":"passed",
+  "real_webhook_receipt":"not_run",
+  "native_codex_skill_discovery":"not_verified",
+  "published":false
+}

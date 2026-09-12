@@ -1,0 +1,244 @@
+{
+  "assets": [
+    {
+      "path": "assets/brand/originals/character-concerned.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 130993,
+      "sha256": "7ca21c2bc44bb3a4113044fc75f797806b8021f2b4616d86065cd3c25b30a106"
+    },
+    {
+      "path": "assets/brand/originals/character-confident.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 126509,
+      "sha256": "2ca767e96cd507ab61b6441d08b21be105b1a83f18ca4c7ba998eca9d02cb0ed"
+    },
+    {
+      "path": "assets/brand/originals/character-phone-leaning.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 122517,
+      "sha256": "3770f6c7ca3415c6c3861821bc69d5c048a4786fc243a21e993edcbd36482a9f"
+    },
+    {
+      "path": "assets/brand/originals/character-phone-seated.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 146462,
+      "sha256": "1f68de19e586d4965d9b48c7834989096aa48c856bd5a74d66945ee51f4cc36a"
+    },
+    {
+      "path": "assets/brand/originals/character-phone-standing.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 128581,
+      "sha256": "13741a550a8b2a91aee34b934cebd6f714391bc421f34e25c09c7edfe7b5e3da"
+    },
+    {
+      "path": "assets/brand/originals/character-thinking.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 123281,
+      "sha256": "44fe0e1e60da2aef57d50a18a8966642487b062c055989892a52961edf191e0a"
+    },
+    {
+      "path": "assets/brand/originals/logo-official.jpg",
+      "role": "REAL",
+      "status": "user_supplied",
+      "bytes": 111006,
+      "sha256": "6d75e310627619873a1bb507a0c39bbd911cfeefb308b2ad335668dedc126c1f"
+    },
+    {
+      "path": "public/art/telephone.webp",
+      "role": "GENERATE",
+      "status": "agent_selected",
+      "source": "assets/brand/phone-calibration-v1.png",
+      "width": 800,
+      "height": 800,
+      "alpha": true,
+      "bytes": 50692
+    },
+    {
+      "key": "screen-overview",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "screen-bookings",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "screen-car-status",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "screen-finance",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "screen-team",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "screen-inventory",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "screen-loyalty",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "4:3"
+    },
+    {
+      "key": "booking-phone",
+      "role": "REAL",
+      "status": "missing",
+      "ratio": "9:22"
+    },
+    {
+      "path": "public/art/telephone-resolved-v1.webp",
+      "role": "GENERATE",
+      "status": "agent_selected",
+      "bytes": 89064,
+      "sha256": "6c8873c4024a1ca7e96157f91ff2d05be7aba62f75d129785bea9b8047b06f2c",
+      "purpose": "Final story resolution: the telephone rests calmly on its cradle. Decorative marketing prop, not product UI.",
+      "width": 800,
+      "height": 800,
+      "alpha": true
+    },
+    {
+      "path": "public/art/audience/01.webp",
+      "source": "assets/brand/audience-originals/01.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 1",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 83828,
+      "sourceSha256": "ae8ace76ab1b21fe9139266a8fe1514c17072368e3a7bc00d9760289cfbdb864"
+    },
+    {
+      "path": "public/art/audience/02.webp",
+      "source": "assets/brand/audience-originals/02.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 2",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 57322,
+      "sourceSha256": "5c8ccd5273aef396d5b55bc2d82b6f7c9a692c7bf7401a332ffe7af11e626ca2"
+    },
+    {
+      "path": "public/art/audience/03.webp",
+      "source": "assets/brand/audience-originals/03.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 3",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 63316,
+      "sourceSha256": "ff5ccb36dd7500ed082b83094c1d5d7c2d19fcf110ebfa0e20ef314b7c5cd2eb"
+    },
+    {
+      "path": "public/art/audience/04.webp",
+      "source": "assets/brand/audience-originals/04.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 4",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 72064,
+      "sourceSha256": "65061cc92fd00a7e1ad8e3d565caa1ce2a5f21df2c41b1cdec98808c87387570"
+    },
+    {
+      "path": "public/art/audience/05.webp",
+      "source": "assets/brand/audience-originals/05.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 5",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 68928,
+      "sourceSha256": "cc4dc7fd443ca2da151da29078a93d82b0a708faed08a61811fd03368f9d2ae4"
+    },
+    {
+      "path": "public/art/audience/06.webp",
+      "source": "assets/brand/audience-originals/06.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 6",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 56994,
+      "sourceSha256": "c0f8d4c39004ad7175bf6de7184d6c3cb454b6ceb728c4ba4b99ef4f667b6d54"
+    },
+    {
+      "path": "public/art/audience/07.webp",
+      "source": "assets/brand/audience-originals/07.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 7",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 77558,
+      "sourceSha256": "251466c7a2a68ff4880c8dc1a8dd1fafac35db32cc87c4dae0246ef3bfba416d"
+    },
+    {
+      "path": "public/art/audience/08.webp",
+      "source": "assets/brand/audience-originals/08.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 8",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 57858,
+      "sourceSha256": "ad85853b775dcfd667ab06ef003bce7d3b0eca7628a8cff4ace1ce449559cd4a"
+    },
+    {
+      "path": "public/art/audience/09.webp",
+      "source": "assets/brand/audience-originals/09.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 9",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 82506,
+      "sourceSha256": "331af431f8893df003b5db352e500532e8f382fd77d5ab40ca170909d5b91698"
+    },
+    {
+      "path": "public/art/audience/10.webp",
+      "source": "assets/brand/audience-originals/10.jpg",
+      "role": "REUSE",
+      "status": "user_supplied",
+      "purpose": "Audience story scene 10",
+      "productScreenshot": false,
+      "width": 960,
+      "height": 1200,
+      "bytes": 63704,
+      "sourceSha256": "63631e5236623eed17b2bc65f9990b18fafae39aaecbadb27c9c2092eec6bc0c"
+    }
+  ],
+  "videos": "12 missing keys; src/content/media.ts",
+  "production_ready": false
+}

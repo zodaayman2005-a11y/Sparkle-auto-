@@ -1,0 +1,81 @@
+/* Native desktop story. Compact, short and reduced-motion environments use document flow. */
+.audience-story { --story-surface:var(--white); margin-top:var(--space-xl); }
+.audience-stage { --case-progress:0; background:var(--story-surface); }
+.audience-toolbar { display:flex; align-items:center; justify-content:space-between; gap:20px; border-top:var(--border); padding-block:8px; }
+.audience-position { font:500 14px var(--font-latin); }
+.audience-position b { font-size:28px; margin-inline-end:8px; }
+.audience-skip { font-size:12px; }
+.audience-scenes { list-style:none; margin:0; padding:0; }
+.audience-scene { display:grid; grid-template-columns:1fr 1.2fr; gap:48px; align-items:center; margin:0; padding-block:32px; border-bottom:1px solid var(--soft); scroll-margin-top:var(--anchor-offset); }
+.audience-scene-copy { min-width:0; }
+.audience-scene-number { display:block; font:500 86px/1 var(--font-latin); color:var(--dark); margin-bottom:24px; }
+.audience-scene-copy p { font-size:clamp(24px,2.6vw,36px); line-height:1.65; font-weight:700; max-width:590px; }
+.audience-copy-rule { display:block; width:72px; height:6px; background:var(--blue); margin-top:28px; }
+.audience-art { width:100%; height:100%; min-width:0; min-height:0; margin:0; display:flex; align-items:center; justify-content:center; }
+.audience-art img { display:block; width:100%; height:100%; max-height:620px; object-fit:contain; }
+.audience-nav { display:grid; grid-template-columns:repeat(var(--story-count),minmax(0,1fr)); border-block:1px solid var(--navy); position:relative; }
+.audience-nav::after { content:""; height:3px; position:absolute; bottom:-2px; inset-inline:0; background:var(--blue); transform:scaleX(var(--case-progress)); transform-origin:right; }
+.site[dir="ltr"] .audience-nav::after { transform-origin:left; }
+.audience-nav a { display:flex; align-items:center; justify-content:center; min-height:48px; font:500 15px var(--font-latin); border-inline-end:1px solid var(--ice); }
+.audience-nav a:last-child { border-inline-end:0; }
+.audience-nav a:hover { background:var(--ice); color:var(--navy); }
+.audience-nav a[aria-current] { background:var(--navy); color:var(--white); }
+.audience-nav a:focus-visible { outline-offset:-4px; }
+.audience-story[data-pinned="true"] .audience-track { height:calc(var(--story-distance) + 100svh - 120px); }
+.audience-story[data-pinned="true"] .audience-stage { position:sticky; top:104px; height:calc(100svh - 120px); display:grid; grid-template-rows:60px minmax(0,1fr) 50px; }
+.audience-story[data-pinned="true"] .audience-scenes { position:relative; min-height:0; }
+.audience-story[data-pinned="true"] .audience-scene { position:absolute; inset:0; min-height:0; grid-template-rows:minmax(0,1fr); padding-block:16px; border:0; opacity:0; visibility:hidden; transform:translateY(20px); pointer-events:none; transition:opacity var(--motion-story) var(--ease-story),transform var(--motion-story) var(--ease-story),visibility 0s var(--motion-story); }
+.audience-story[data-pinned="true"] .audience-scene[data-current="true"] { opacity:1; visibility:visible; transform:none; pointer-events:auto; transition-delay:0s; }
+.audience-story[data-pinned="true"] .audience-art img { max-height:100%; }
+.audience-story[data-pinned="false"] .audience-position { visibility:hidden; }
+.fit .fit-notes { margin-top:40px; }
+#fit-after,#setup-after { scroll-margin-top:var(--anchor-offset); }
+.fit .audience-scene:last-child .audience-scene-copy p { font-size:clamp(20px,2vw,28px); }
+.setup .setup-layout { display:block; }
+.setup .setup-intro { max-width:780px; margin-bottom:48px; }
+.setup-story .audience-scene-copy h3,.strategy-art-story .audience-scene-copy h3 { font-size:clamp(26px,2.7vw,38px); line-height:1.45; margin-bottom:18px; }
+.setup-story .audience-scene-copy p,.strategy-art-story .audience-scene-copy p { font-size:18px; font-weight:400; line-height:1.8; }
+.strategy-art-proof { border-inline-start:3px solid var(--blue); padding-inline-start:18px; margin-top:22px; }
+.strategy-art-proof > span { display:block; font-size:12px; color:var(--dark); margin-bottom:8px; }
+.strategy-art-story .audience-copy-rule { display:none; }
+.strategy-art-story .audience-art img { border-radius:var(--radius-md); }
+.strategies.illustrated-strategies { background:var(--pale); color:var(--navy); }
+.strategies .strategy-heading p,.strategies .text-link { color:var(--navy); }
+.strategy-art-story { --story-surface:var(--pale); }
+.strategies .strategy-heading h2 > span { color:var(--navy); box-shadow:inset 0 -.12em var(--blue); }
+.strategies .strategy-video-cover { background:var(--white); border-color:var(--soft); }
+.strategies .strategy-video-cover:focus-visible { outline-color:var(--navy); }
+@media(max-width:1023px) {
+ .audience-scene { gap:28px; }
+ .audience-scene-number { font-size:52px; margin-bottom:16px; }
+ .audience-scene-copy p { font-size:24px; }
+ .audience-art img { max-height:420px; }
+}
+@media(max-width:767px) {
+ .audience-story { margin-top:28px; }
+ .audience-scene { display:flex; flex-direction:column; gap:20px; padding-block:28px; }
+ .audience-scene-copy { width:100%; }
+ .audience-scene-number { font-size:28px; margin-bottom:12px; }
+ .audience-scene-copy p,.fit .audience-scene:last-child .audience-scene-copy p { font-size:20px; line-height:1.65; }
+ .audience-art { height:260px; }
+ .audience-art img { width:auto; height:100%; max-width:100%; }
+ .audience-copy-rule { display:none; }
+ .audience-nav { grid-template-columns:repeat(5,minmax(0,1fr)); }
+ .audience-nav a { min-height:44px; border-bottom:1px solid var(--ice); }
+ .setup-story .audience-scene-copy h3,.strategy-art-story .audience-scene-copy h3 { font-size:25px; line-height:1.5; margin-bottom:12px; }
+ .setup-story .audience-scene-copy p,.strategy-art-story .audience-scene-copy p { font-size:16px; line-height:1.75; }
+ .strategy-art-proof { margin-top:18px; padding-inline-start:14px; }
+ .setup .setup-intro { margin-bottom:24px; }
+}
+@media(prefers-reduced-motion:reduce) { .audience-scene { transition:none; } }
+/* Compact recognition list: preserve all ten supplied scenes without ten full-screen stops. */
+@media(max-width:767px) {
+ .fit .audience-scene { display:grid; grid-template-columns:minmax(0,1fr) 116px; gap:18px; padding-block:24px; }
+ .fit .audience-scene-copy p,.fit .audience-scene:last-child .audience-scene-copy p { font-size:16px; font-weight:500; line-height:1.85; }
+ .fit .audience-scene-number { font-size:24px; margin-bottom:10px; }
+ .fit .audience-art { height:160px; }
+}
+@media(max-width:359px) {
+ .fit .audience-scene { grid-template-columns:minmax(0,1fr) 94px; gap:14px; }
+ .fit .audience-art { height:132px; }
+}

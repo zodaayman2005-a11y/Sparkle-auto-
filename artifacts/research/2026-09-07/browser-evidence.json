@@ -1,0 +1,5103 @@
+[
+  {
+    "id": "21st",
+    "url": "https://21st.dev/",
+    "status": 200,
+    "finalUrl": "https://21st.dev/",
+    "title": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st | 21st",
+    "links": [
+      {
+        "text": "Components",
+        "url": "https://21st.dev/community/components"
+      },
+      {
+        "text": "Templates",
+        "url": "https://21st.dev/community/templates"
+      },
+      {
+        "text": "Themes",
+        "url": "https://21st.dev/community/themes"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://21st.dev/pricing"
+      },
+      {
+        "text": "Animated heroes",
+        "url": "https://21st.dev/community/components/s/animated-hero"
+      },
+      {
+        "text": "Hero sections",
+        "url": "https://21st.dev/community/components/s/hero"
+      },
+      {
+        "text": "Shaders",
+        "url": "https://21st.dev/community/components/s/shader"
+      },
+      {
+        "text": "Liquid & metal",
+        "url": "https://21st.dev/community/components/s/shader"
+      },
+      {
+        "text": "Backgrounds",
+        "url": "https://21st.dev/community/components/s/background"
+      },
+      {
+        "text": "Gradients",
+        "url": "https://21st.dev/community/components/s/gradient"
+      },
+      {
+        "text": "Footers",
+        "url": "https://21st.dev/community/components/s/footer"
+      },
+      {
+        "text": "Buttons",
+        "url": "https://21st.dev/community/components/s/button"
+      },
+      {
+        "text": "AI chats",
+        "url": "https://21st.dev/community/components/s/ai-chat"
+      },
+      {
+        "text": "Cards & grids",
+        "url": "https://21st.dev/community/components/s/card"
+      },
+      {
+        "text": "Galleries & 3D",
+        "url": "https://21st.dev/community/components/s/carousel"
+      },
+      {
+        "text": "Navigation",
+        "url": "https://21st.dev/community/components/s/navigation-menu"
+      },
+      {
+        "text": "Sign ins & widgets",
+        "url": "https://21st.dev/community/components/s/sign-in"
+      },
+      {
+        "text": "Sections",
+        "url": "https://21st.dev/community/components/s/hero"
+      },
+      {
+        "text": "Aceternity UI87 components",
+        "url": "https://21st.dev/community/manuarora700/library/aceternity-ui"
+      },
+      {
+        "text": "Magic UI62 components",
+        "url": "https://21st.dev/community/dillionverma/library/magic-ui"
+      },
+      {
+        "text": "shadcn/ui87 components",
+        "url": "https://21st.dev/community/shadcn/library/shadcn-ui"
+      },
+      {
+        "text": "Origin UI44 components",
+        "url": "https://21st.dev/community/originui/library/origin-ui"
+      },
+      {
+        "text": "Geist87 components",
+        "url": "https://21st.dev/community/shugar/library/geist"
+      },
+      {
+        "text": "Base UI29 components",
+        "url": "https://base-ui.21st.dev/"
+      },
+      {
+        "text": "Kokonut UI49 components",
+        "url": "https://21st.dev/community/kokonutd/library/kokonut-ui"
+      },
+      {
+        "text": "8bitcn106 components",
+        "url": "https://21st.dev/community/theorcdev/library/8bitcn"
+      },
+      {
+        "text": "Kibo UI26 components",
+        "url": "https://21st.dev/community/haydenbleasel/library/kibo-ui"
+      },
+      {
+        "text": "visx36 components",
+        "url": "https://visx.21st.dev/"
+      },
+      {
+        "text": "ReUI95 components",
+        "url": "https://21st.dev/community/sean0205/library/reui"
+      },
+      {
+        "text": "HextaUI113 components",
+        "url": "https://21st.dev/community/preetsuthar17/library/hextaui"
+      },
+      {
+        "text": "Tailark42 components",
+        "url": "https://21st.dev/community/meschacirung/library/tailark"
+      },
+      {
+        "text": "Shadcnblocks.com39 components",
+        "url": "https://21st.dev/community/shadcnblockscom/library/shadcnblocks-com"
+      },
+      {
+        "text": "Ruixen UI390 components",
+        "url": "https://21st.dev/community/ruixenui/library/ruixen-ui"
+      },
+      {
+        "text": "Efferd100 components",
+        "url": "https://21st.dev/community/efferd/library/efferd"
+      },
+      {
+        "text": "UI TripleD89 components",
+        "url": "https://21st.dev/community/moumensoliman/library/ui-tripled"
+      },
+      {
+        "text": "UI Layouts72 components",
+        "url": "https://21st.dev/community/ui-layouts/library/ui-layouts"
+      },
+      {
+        "text": "Shailendra51 components",
+        "url": "https://21st.dev/community/shailendrakumar19999/library/shailendra"
+      },
+      {
+        "text": "Jolly UI51 components",
+        "url": "https://21st.dev/community/jolbol1/library/jolly-ui"
+      },
+      {
+        "text": "uimix49 components",
+        "url": "https://21st.dev/community/lyanchouss/library/uimix"
+      },
+      {
+        "text": "ShadcnSpace45 components",
+        "url": "https://21st.dev/community/shadcnspace/library/shadcnspace"
+      },
+      {
+        "text": "shadway45 components",
+        "url": "https://21st.dev/community/shadway/library/shadway"
+      },
+      {
+        "text": "REAVIZ41 components",
+        "url": "https://21st.dev/community/reaviz/library/reaviz"
+      },
+      {
+        "text": "reuno-ui37 components",
+        "url": "https://21st.dev/community/reuno-ui/library/reuno-ui"
+      },
+      {
+        "text": "Motion Primitives34 components",
+        "url": "https://21st.dev/community/ibelick/library/motion-primitives"
+      },
+      {
+        "text": "Systaliko UI33 components",
+        "url": "https://21st.dev/community/youcefbnm/library/systaliko-ui"
+      },
+      {
+        "text": "lndev-ui30 components",
+        "url": "https://21st.dev/community/ln-dev7/library/lndev-ui"
+      },
+      {
+        "text": "Fancy Components30 components",
+        "url": "https://21st.dev/community/danielpetho/library/fancy-components"
+      },
+      {
+        "text": "coss28 components",
+        "url": "https://21st.dev/community/coss.com/library/coss"
+      },
+      {
+        "text": "Cnippet26 components",
+        "url": "https://21st.dev/community/cnippet_dev/library/cnippet"
+      },
+      {
+        "text": "PrebuiltUI25 components",
+        "url": "https://21st.dev/community/prebuiltui/library/prebuiltui"
+      },
+      {
+        "text": "Circle25 components",
+        "url": "https://21st.dev/community/ln-dev7/library/circle"
+      },
+      {
+        "text": "Spell24 components",
+        "url": "https://21st.dev/community/tom_ui/library/spell"
+      },
+      {
+        "text": "Layouts24 components",
+        "url": "https://21st.dev/community/0xUrvish/library/layouts"
+      },
+      {
+        "text": "Interfaces DS23 components",
+        "url": "https://21st.dev/community/jshguo/library/interfaces-ds"
+      },
+      {
+        "text": "Browse components",
+        "url": "https://21st.dev/community/components"
+      },
+      {
+        "text": "Built with 21st",
+        "url": "https://21st.dev/"
+      },
+      {
+        "text": "Components",
+        "url": "https://21st.dev/community/components"
+      },
+      {
+        "text": "Templates",
+        "url": "https://21st.dev/community/templates"
+      },
+      {
+        "text": "Themes",
+        "url": "https://21st.dev/community/themes"
+      },
+      {
+        "text": "Icons",
+        "url": "https://21st.dev/community/icons"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://21st.dev/pricing"
+      },
+      {
+        "text": "Publish",
+        "url": "https://21st.dev/sign-in"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://21st.dev/sign-in"
+      },
+      {
+        "text": "Contact",
+        "url": "mailto:support@21st.dev"
+      },
+      {
+        "text": "Privacy",
+        "url": "https://21st.dev/privacy"
+      },
+      {
+        "text": "Terms",
+        "url": "https://21st.dev/terms"
+      },
+      {
+        "text": "X (Twitter)",
+        "url": "https://x.com/21st_dev"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/21st-dev"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Log in",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Sign up",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "code",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "preview",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Get started →",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Join for free",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "baseline",
+    "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app",
+    "status": 200,
+    "finalUrl": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/",
+    "title": "Sparkle Auto | نظام إدارة مغاسل السيارات في مصر — معاينة",
+    "links": [
+      {
+        "text": "انتقل للمحتوى",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#main"
+      },
+      {
+        "text": "sparkleAUTO",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/"
+      },
+      {
+        "text": "السيستم",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#system"
+      },
+      {
+        "text": "طريقة الشغل",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategies"
+      },
+      {
+        "text": "التجهيز",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#setup"
+      },
+      {
+        "text": "الأسعار",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#pricing"
+      },
+      {
+        "text": "الأسئلة الشائعة",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#faq"
+      },
+      {
+        "text": "EN",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/en"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "شوف السيستم وهو شغال↓",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#hero-proof"
+      },
+      {
+        "text": "الصورة تبدأ من هنا↓",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#system"
+      },
+      {
+        "text": "انتقل لشاشات السيستم ↓",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#showcase"
+      },
+      {
+        "text": "01كل عربية يكون ليها مسار واضح",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategy-journey"
+      },
+      {
+        "text": "02كل رقم يكون معروف جاي منين",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategy-money"
+      },
+      {
+        "text": "03كل شخص يكون عارف دوره",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategy-roles"
+      },
+      {
+        "text": "04العلاقة ما تخلصش بعد الغسلة",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategy-retention"
+      },
+      {
+        "text": "05الفرع الجديد يكرر النظام، مش الفوضى",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategy-branches"
+      },
+      {
+        "text": "01الصورة الكاملة↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-overview"
+      },
+      {
+        "text": "02الحجوزات والجدول↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-bookings"
+      },
+      {
+        "text": "03حالة العربيات↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-car-status"
+      },
+      {
+        "text": "04المالية والقفلة↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-finance"
+      },
+      {
+        "text": "05الفريق والصلاحيات↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-team"
+      },
+      {
+        "text": "06المخزون↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-inventory"
+      },
+      {
+        "text": "07العملاء والولاء↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#screen-loyalty"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "احجز مراجعة الأول↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "احجز مراجعة تشغيل↗",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#review"
+      },
+      {
+        "text": "السيستم",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#system"
+      },
+      {
+        "text": "طريقة الشغل",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#strategies"
+      },
+      {
+        "text": "التجهيز",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#setup"
+      },
+      {
+        "text": "الأسعار",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#pricing"
+      },
+      {
+        "text": "الأسئلة الشائعة",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/#faq"
+      },
+      {
+        "text": "English",
+        "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/en"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "☰",
+        "label": "افتح القائمة"
+      },
+      {
+        "role": null,
+        "text": "كبّر الشاشة ↗",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "شهري",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "سنوي",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "01هل Sparkle Auto برنامج حجوزات بس؟−",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "02لازم يكون عندي أكتر من فرع؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "03العمال هيعرفوا يستخدموه؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "04هل السيستم بديل لمدير الفرع؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "05أنا شغال بـWhatsApp ودفتر، ليه أغيّر؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "06هل Sparkle Auto برنامج حسابات؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "07تجهيز السيستم بياخد وقت قد إيه؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "08إيه اللي هيحصل خلال تجربة الـ14 يوم؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "09لو محتاج ميزة معينة مش موجودة؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "10هل أقدر أتابع المغسلة وأنا بعيد؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "11أعرف منين إنه مناسب لمغسلتي؟+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "نكمل عن التشغيل↗",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "landingfolio",
+    "url": "https://www.landingfolio.com/",
+    "status": 200,
+    "finalUrl": "https://www.landingfolio.com/",
+    "title": "The Best Landing Page Design Inspiration, Templates and More | Landingfolio",
+    "links": [
+      {
+        "text": "Webflow Components",
+        "url": "https://flowponent.com/"
+      },
+      {
+        "text": "Figma Components",
+        "url": "https://figcomponents.com/"
+      },
+      {
+        "text": "Tailwind Components",
+        "url": "https://tailbits.com/"
+      },
+      {
+        "text": "AI Professional headshots",
+        "url": "https://headshotpro.com/"
+      },
+      {
+        "text": "AI Profile Picture",
+        "url": "https://profilepicture.ai/"
+      },
+      {
+        "text": "AI-powered stock photos",
+        "url": "https://stockphotoai.com/"
+      },
+      {
+        "text": "Landingfolio",
+        "url": "https://www.landingfolio.com/"
+      },
+      {
+        "text": "Inspiration",
+        "url": "https://www.landingfolio.com/inspiration/landing-page"
+      },
+      {
+        "text": "Site & Landing Page InspirationGet inspired by the best landing page d",
+        "url": "https://www.landingfolio.com/inspiration/landing-page"
+      },
+      {
+        "text": "Section & Component ExamplesA growing list of landing page components ",
+        "url": "https://www.landingfolio.com/components"
+      },
+      {
+        "text": "Components",
+        "url": "https://www.landingfolio.com/library"
+      },
+      {
+        "text": "Component Library (791+) Discover instant copy+paste Tailwind componen",
+        "url": "https://www.landingfolio.com/library"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.landingfolio.com/templates/landing-page"
+      },
+      {
+        "text": "Landing Page TemplatesThird party templates from the best designers ar",
+        "url": "https://www.landingfolio.com/templates/landing-page"
+      },
+      {
+        "text": "Premium TemplatesPremium single-page templates for Tailwind & Webflow,",
+        "url": "https://www.landingfolio.com/store/templates"
+      },
+      {
+        "text": "Resources",
+        "url": "https://www.landingfolio.com/blog"
+      },
+      {
+        "text": "BlogGet expert advice on landing page design, copywriting, conversion ",
+        "url": "https://www.landingfolio.com/blog"
+      },
+      {
+        "text": "Optimization TipsActionable design tips to improve your landing page d",
+        "url": "https://www.landingfolio.com/learn/tips"
+      },
+      {
+        "text": "Danny's SEO CourseLearn the exact playbook behind 10+ #1 rankings — fr",
+        "url": "https://dannypostma.com/seo?ref=landingfolio"
+      },
+      {
+        "text": "Free LogosThe perfect logo for your project is just a click away.",
+        "url": "https://www.landingfolio.com/logos-by-larkef"
+      },
+      {
+        "text": "Mockup GeneratorEasily create beautiful device mockups for your app or",
+        "url": "https://www.landingfolio.com/tools/mockup-generator"
+      },
+      {
+        "text": "MCP",
+        "url": "https://www.landingfolio.com/mcp"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://www.landingfolio.com/pricing"
+      },
+      {
+        "text": "Submit",
+        "url": "https://www.landingfolio.com/submit"
+      },
+      {
+        "text": "Advertise",
+        "url": "https://www.landingfolio.com/advertise"
+      },
+      {
+        "text": "Login",
+        "url": "https://www.landingfolio.com/login"
+      },
+      {
+        "text": "All components",
+        "url": "https://www.landingfolio.com/library"
+      },
+      {
+        "text": "Tailwind",
+        "url": "https://www.landingfolio.com/library/all/tailwind"
+      },
+      {
+        "text": "Webflow",
+        "url": "https://www.landingfolio.com/library/all/webflow"
+      },
+      {
+        "text": "Figma",
+        "url": "https://www.landingfolio.com/library/all/figma"
+      },
+      {
+        "text": "Landing Page",
+        "url": "https://www.landingfolio.com/inspiration/landing-page"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://www.landingfolio.com/inspiration/pricing"
+      },
+      {
+        "text": "About",
+        "url": "https://www.landingfolio.com/inspiration/about"
+      },
+      {
+        "text": "Login",
+        "url": "https://www.landingfolio.com/inspiration/login"
+      },
+      {
+        "text": "Signup",
+        "url": "https://www.landingfolio.com/inspiration/signup"
+      },
+      {
+        "text": "404",
+        "url": "https://www.landingfolio.com/inspiration/404"
+      },
+      {
+        "text": "SaaS341",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/saas"
+      },
+      {
+        "text": "Product209",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/product"
+      },
+      {
+        "text": "Business140",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/business"
+      },
+      {
+        "text": "Marketing116",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/marketing"
+      },
+      {
+        "text": "Design Tools113",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/design-tools"
+      },
+      {
+        "text": "Software85",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/software"
+      },
+      {
+        "text": "Technology79",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/technology"
+      },
+      {
+        "text": "Mobile App71",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/mobile-app"
+      },
+      {
+        "text": "Freelance35",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/freelance"
+      },
+      {
+        "text": "Artificial Intelligence34",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/artificial-intelligence"
+      },
+      {
+        "text": "Users31",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/users"
+      },
+      {
+        "text": "Crypto21",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/crypto"
+      },
+      {
+        "text": "Corporate20",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/corporate"
+      },
+      {
+        "text": "CRM19",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/crm"
+      },
+      {
+        "text": "Course18",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/course"
+      },
+      {
+        "text": "Fintech18",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/fintech"
+      },
+      {
+        "text": "Accounting14",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/accounting"
+      },
+      {
+        "text": "Book13",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/book"
+      },
+      {
+        "text": "Mail12",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/mail"
+      },
+      {
+        "text": "NFT11",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/nft"
+      },
+      {
+        "text": "Search9",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/search"
+      },
+      {
+        "text": "Event9",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/event"
+      },
+      {
+        "text": "Wordpress8",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/wordpress"
+      },
+      {
+        "text": "Social Media8",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/social-media"
+      },
+      {
+        "text": "Squarespace8",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/squarespace"
+      },
+      {
+        "text": "Email7",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/email"
+      },
+      {
+        "text": "Health7",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/health"
+      },
+      {
+        "text": "Mailchimp5",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/mailchimp"
+      },
+      {
+        "text": "Real Estate5",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/real-estate"
+      },
+      {
+        "text": "Fashion3",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/fashion"
+      },
+      {
+        "text": "Kickstarter2",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/kickstarter"
+      },
+      {
+        "text": "Store2",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/store"
+      },
+      {
+        "text": "Red",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=FF0000"
+      },
+      {
+        "text": "Orange",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=FFA500"
+      },
+      {
+        "text": "Brown",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=964B00"
+      },
+      {
+        "text": "Yellow",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=FFFF00"
+      },
+      {
+        "text": "Green",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=00FF00"
+      },
+      {
+        "text": "Blue",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=0000FF"
+      },
+      {
+        "text": "Gray",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=808080"
+      },
+      {
+        "text": "Black",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=000000"
+      },
+      {
+        "text": "White",
+        "url": "https://www.landingfolio.com/inspiration/landing-page?color=FFFFFF"
+      },
+      {
+        "text": "Try out now",
+        "url": "https://www.landingfolio.com/library"
+      },
+      {
+        "text": "SaaS341",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/saas"
+      },
+      {
+        "text": "Product209",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/product"
+      },
+      {
+        "text": "Business140",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/business"
+      },
+      {
+        "text": "Marketing116",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/marketing"
+      },
+      {
+        "text": "Design Tools113",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/design-tools"
+      },
+      {
+        "text": "Software85",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/software"
+      },
+      {
+        "text": "Technology79",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/technology"
+      },
+      {
+        "text": "Mobile App71",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/mobile-app"
+      },
+      {
+        "text": "Freelance35",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/freelance"
+      },
+      {
+        "text": "Artificial Intelligence34",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/artificial-intelligence"
+      },
+      {
+        "text": "Users31",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/users"
+      },
+      {
+        "text": "Crypto21",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/crypto"
+      },
+      {
+        "text": "Fintech",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/fintech"
+      },
+      {
+        "text": "RulebaseSep 4, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/rulebase"
+      },
+      {
+        "text": "Design Tools",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/design-tools"
+      },
+      {
+        "text": "Free Profile Picture Maker — PFP & DP Maker | profilepicture.aiSep 4, ",
+        "url": "https://www.landingfolio.com/inspiration/post/free-profile-picture-maker-pfp-dp-maker-profilepicture-ai"
+      },
+      {
+        "text": "Business",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/business"
+      },
+      {
+        "text": "HumantoSep 3, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/humanto"
+      },
+      {
+        "text": "Optimize Webflow CMS Images with easeSponsored · trypixie.io",
+        "url": "https://landingfolio-2026.onrender.com/ads/click/6a9e6d1fedf122cc25b34d2c?slot=4&p=landing-page&s=dea0ce47-64f0-413b-812a-bf438b1f806d"
+      },
+      {
+        "text": "Artificial Intelligence",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/artificial-intelligence"
+      },
+      {
+        "text": "AtlasSep 2, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/atlas"
+      },
+      {
+        "text": "Artificial Intelligence",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/artificial-intelligence"
+      },
+      {
+        "text": "LexboostAug 31, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/lexboost"
+      },
+      {
+        "text": "Mobile App",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/mobile-app"
+      },
+      {
+        "text": "Pretty ProgressAug 31, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/pretty-progress"
+      },
+      {
+        "text": "Fintech",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/fintech"
+      },
+      {
+        "text": "Checkout PageAug 31, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/checkout-page"
+      },
+      {
+        "text": "Saas",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/saas"
+      },
+      {
+        "text": "SupercutAug 31, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/supercut"
+      },
+      {
+        "text": "Store",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/store"
+      },
+      {
+        "text": "ScotchAug 28, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/scotch"
+      },
+      {
+        "text": "Design Tools",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/design-tools"
+      },
+      {
+        "text": "wildAug 22, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/wild"
+      },
+      {
+        "text": "Design Tools",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/design-tools"
+      },
+      {
+        "text": "SquarespaceAug 17, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/squarespace"
+      },
+      {
+        "text": "Crm",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/crm"
+      },
+      {
+        "text": "LeedlimeAug 15, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/leedlime"
+      },
+      {
+        "text": "how to rank #1 on google#1 dannypostma.com How I rank every site I lau",
+        "url": "https://dannypostma.com/seo?ref=landingfolio"
+      },
+      {
+        "text": "Marketing",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/marketing"
+      },
+      {
+        "text": "OptimizelyAug 13, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/optimizely"
+      },
+      {
+        "text": "Artificial Intelligence",
+        "url": "https://www.landingfolio.com/inspiration/landing-page/artificial-intelligence"
+      },
+      {
+        "text": "Wispr FlowAug 11, 2026",
+        "url": "https://www.landingfolio.com/inspiration/post/wispr-flow"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "",
+        "label": "Toggle navigation"
+      },
+      {
+        "role": null,
+        "text": "Component Library",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Pages",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Industries",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Show less",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Colors",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Industry:All",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Device:Desktop",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Color:All",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Clear",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #f6f7f7"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #dcdcde"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #c3c4c7"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #a7aaad"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #8c8f94"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #787c82"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #646970"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #50575e"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #3c434a"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #2c3338"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #1d2327"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #101517"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #e9f0f5"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #bbe0fa"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #91caf2"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #68b3e8"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #399ce3"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #1689db"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #0675c4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #055d9c"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #044b7a"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #02395c"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #01283d"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #001621"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #f2e9ed"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #ebcee0"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #e3afd5"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #d48fc8"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #c475bd"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #b35eb1"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #984a9c"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #7c3982"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #662c6e"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #4d2054"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #35163b"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #1e0c21"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #f7ebec"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #facfd2"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #ffabaf"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Filter by #ff8085"
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "aura",
+    "url": "https://www.aura.build/",
+    "error": "page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.aura.build/\nCall log:\n\u001b[2m  - navigating to \"https://www.aura.build/\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  },
+  {
+    "id": "shadcnblocks",
+    "url": "https://www.shadcnblocks.com/",
+    "status": 200,
+    "finalUrl": "https://www.shadcnblocks.com/",
+    "title": "Shadcnblocks shadcn/ui blocks & components",
+    "links": [
+      {
+        "text": "Shadcnblocks.com",
+        "url": "https://www.shadcnblocks.com/"
+      },
+      {
+        "text": "New",
+        "url": "https://www.shadcnblocks.com/new"
+      },
+      {
+        "text": "Components",
+        "url": "https://www.shadcnblocks.com/components"
+      },
+      {
+        "text": "Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Pages",
+        "url": "https://www.shadcnblocks.com/pages"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.shadcnblocks.com/templates"
+      },
+      {
+        "text": "Themes",
+        "url": "https://www.shadcnblocks.com/themes"
+      },
+      {
+        "text": "Admin Kit",
+        "url": "https://www.shadcnblocks.com/admin-dashboard"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://www.shadcnblocks.com/auth/login"
+      },
+      {
+        "text": "ProGet All Access",
+        "url": "https://www.shadcnblocks.com/pricing"
+      },
+      {
+        "text": "Shadcnblocks.com",
+        "url": "https://www.shadcnblocks.com/"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://www.shadcnblocks.com/auth/login"
+      },
+      {
+        "text": "ProGet All Access",
+        "url": "https://www.shadcnblocks.com/pricing"
+      },
+      {
+        "text": "New Template & 193 BlocksAug 27, 2026Changelog",
+        "url": "https://www.shadcnblocks.com/changelog"
+      },
+      {
+        "text": "Browse Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Browse Templates",
+        "url": "https://www.shadcnblocks.com/templates"
+      },
+      {
+        "text": "Dashboard18 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/dashboard"
+      },
+      {
+        "text": "Application Shell14 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/application-shell"
+      },
+      {
+        "text": "Hero+38 New285 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/hero"
+      },
+      {
+        "text": "Feature313 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/feature"
+      },
+      {
+        "text": "Integration+20 New35 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/integration"
+      },
+      {
+        "text": "About+12 New40 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/about"
+      },
+      {
+        "text": "Pricing96 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/pricing"
+      },
+      {
+        "text": "Contact30 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/contact"
+      },
+      {
+        "text": "Product List10 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/product-list"
+      },
+      {
+        "text": "Product Detail10 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/product-detail"
+      },
+      {
+        "text": "Product Categories5 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/product-categories"
+      },
+      {
+        "text": "Ecommerce Hero6 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/ecommerce-hero"
+      },
+      {
+        "text": "Bento53 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/bento"
+      },
+      {
+        "text": "Testimonial39 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/testimonial"
+      },
+      {
+        "text": "Data Table32 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/data-table"
+      },
+      {
+        "text": "Chart Group15 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/chart-group"
+      },
+      {
+        "text": "Dashboard18 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/dashboard"
+      },
+      {
+        "text": "Application Shell14 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/application-shell"
+      },
+      {
+        "text": "Hero+38 New285 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/hero"
+      },
+      {
+        "text": "Feature313 blocks",
+        "url": "https://www.shadcnblocks.com/blocks/feature"
+      },
+      {
+        "text": "See All Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Munch$79Next.jsAstro",
+        "url": "https://www.shadcnblocks.com/template/munch"
+      },
+      {
+        "text": "Shadcn Admin Kit$129Next.js",
+        "url": "https://www.shadcnblocks.com/template/admin"
+      },
+      {
+        "text": "Apex$79Next.jsAstro",
+        "url": "https://www.shadcnblocks.com/template/apex"
+      },
+      {
+        "text": "Verdict$79Next.jsAstro",
+        "url": "https://www.shadcnblocks.com/template/verdict"
+      },
+      {
+        "text": "Meridian$79Next.jsAstro",
+        "url": "https://www.shadcnblocks.com/template/meridian"
+      },
+      {
+        "text": "Kinto$79Next.jsAstro",
+        "url": "https://www.shadcnblocks.com/template/kinto"
+      },
+      {
+        "text": "Hatch$79Next.jsAstro",
+        "url": "https://www.shadcnblocks.com/template/hatch"
+      },
+      {
+        "text": "Echo$79Next.jsAstroFigma",
+        "url": "https://www.shadcnblocks.com/template/echo"
+      },
+      {
+        "text": "See All Templates",
+        "url": "https://www.shadcnblocks.com/templates"
+      },
+      {
+        "text": "Accordion",
+        "url": "https://www.shadcnblocks.com/components/accordion"
+      },
+      {
+        "text": "Announcement",
+        "url": "https://www.shadcnblocks.com/components/announcement"
+      },
+      {
+        "text": "Alert Dialog",
+        "url": "https://www.shadcnblocks.com/components/alert-dialog"
+      },
+      {
+        "text": "Alert",
+        "url": "https://www.shadcnblocks.com/components/alert"
+      },
+      {
+        "text": "Aspect Ratio",
+        "url": "https://www.shadcnblocks.com/components/aspect-ratio"
+      },
+      {
+        "text": "Autocomplete",
+        "url": "https://www.shadcnblocks.com/components/autocomplete"
+      },
+      {
+        "text": "Avatar",
+        "url": "https://www.shadcnblocks.com/components/avatar"
+      },
+      {
+        "text": "Avatar Group",
+        "url": "https://www.shadcnblocks.com/components/avatar-group"
+      },
+      {
+        "text": "Avatar Stack",
+        "url": "https://www.shadcnblocks.com/components/avatar-stack"
+      },
+      {
+        "text": "Badge",
+        "url": "https://www.shadcnblocks.com/components/badge"
+      },
+      {
+        "text": "Border Button",
+        "url": "https://www.shadcnblocks.com/components/border-button"
+      },
+      {
+        "text": "Breadcrumb",
+        "url": "https://www.shadcnblocks.com/components/breadcrumb"
+      },
+      {
+        "text": "Button",
+        "url": "https://www.shadcnblocks.com/components/button"
+      },
+      {
+        "text": "Button Group",
+        "url": "https://www.shadcnblocks.com/components/button-group"
+      },
+      {
+        "text": "Calendar",
+        "url": "https://www.shadcnblocks.com/components/calendar"
+      },
+      {
+        "text": "Card",
+        "url": "https://www.shadcnblocks.com/components/card"
+      },
+      {
+        "text": "Carousel",
+        "url": "https://www.shadcnblocks.com/components/carousel"
+      },
+      {
+        "text": "Checkbox",
+        "url": "https://www.shadcnblocks.com/components/checkbox"
+      },
+      {
+        "text": "Choicebox",
+        "url": "https://www.shadcnblocks.com/components/choicebox"
+      },
+      {
+        "text": "Code Block",
+        "url": "https://www.shadcnblocks.com/components/code-block"
+      },
+      {
+        "text": "Collapsible",
+        "url": "https://www.shadcnblocks.com/components/collapsible"
+      },
+      {
+        "text": "Combobox",
+        "url": "https://www.shadcnblocks.com/components/combobox"
+      },
+      {
+        "text": "Command",
+        "url": "https://www.shadcnblocks.com/components/command"
+      },
+      {
+        "text": "Context Menu",
+        "url": "https://www.shadcnblocks.com/components/context-menu"
+      },
+      {
+        "text": "Copy Clipboard",
+        "url": "https://www.shadcnblocks.com/components/copy-clipboard"
+      },
+      {
+        "text": "Counter",
+        "url": "https://www.shadcnblocks.com/components/counter"
+      },
+      {
+        "text": "Credit Card",
+        "url": "https://www.shadcnblocks.com/components/credit-card"
+      },
+      {
+        "text": "Data Table",
+        "url": "https://www.shadcnblocks.com/components/data-table"
+      },
+      {
+        "text": "Date Picker",
+        "url": "https://www.shadcnblocks.com/components/date-picker"
+      },
+      {
+        "text": "Dialog",
+        "url": "https://www.shadcnblocks.com/components/dialog"
+      },
+      {
+        "text": "Drawer",
+        "url": "https://www.shadcnblocks.com/components/drawer"
+      },
+      {
+        "text": "Dropdown Menu",
+        "url": "https://www.shadcnblocks.com/components/dropdown-menu"
+      },
+      {
+        "text": "Dropzone",
+        "url": "https://www.shadcnblocks.com/components/dropzone"
+      },
+      {
+        "text": "Form",
+        "url": "https://www.shadcnblocks.com/components/form"
+      },
+      {
+        "text": "GitHub Stars",
+        "url": "https://www.shadcnblocks.com/components/github-stars"
+      },
+      {
+        "text": "Glimpse",
+        "url": "https://www.shadcnblocks.com/components/glimpse"
+      },
+      {
+        "text": "Hover Card",
+        "url": "https://www.shadcnblocks.com/components/hover-card"
+      },
+      {
+        "text": "Input OTP",
+        "url": "https://www.shadcnblocks.com/components/input-otp"
+      },
+      {
+        "text": "Input",
+        "url": "https://www.shadcnblocks.com/components/input"
+      },
+      {
+        "text": "Label",
+        "url": "https://www.shadcnblocks.com/components/label"
+      },
+      {
+        "text": "List Panel",
+        "url": "https://www.shadcnblocks.com/components/list-panel"
+      },
+      {
+        "text": "Login Button",
+        "url": "https://www.shadcnblocks.com/components/login-button"
+      },
+      {
+        "text": "Marquee",
+        "url": "https://www.shadcnblocks.com/components/marquee"
+      },
+      {
+        "text": "Menubar",
+        "url": "https://www.shadcnblocks.com/components/menubar"
+      },
+      {
+        "text": "Mini Calendar",
+        "url": "https://www.shadcnblocks.com/components/mini-calendar"
+      },
+      {
+        "text": "Navigation Menu",
+        "url": "https://www.shadcnblocks.com/components/navigation-menu"
+      },
+      {
+        "text": "Pagination",
+        "url": "https://www.shadcnblocks.com/components/pagination"
+      },
+      {
+        "text": "Pill",
+        "url": "https://www.shadcnblocks.com/components/pill"
+      },
+      {
+        "text": "Popover",
+        "url": "https://www.shadcnblocks.com/components/popover"
+      },
+      {
+        "text": "Progress",
+        "url": "https://www.shadcnblocks.com/components/progress"
+      },
+      {
+        "text": "Radio Group",
+        "url": "https://www.shadcnblocks.com/components/radio-group"
+      },
+      {
+        "text": "Rating",
+        "url": "https://www.shadcnblocks.com/components/rating"
+      },
+      {
+        "text": "Relative Time",
+        "url": "https://www.shadcnblocks.com/components/relative-time"
+      },
+      {
+        "text": "Resizable",
+        "url": "https://www.shadcnblocks.com/components/resizable"
+      },
+      {
+        "text": "Scroll Area",
+        "url": "https://www.shadcnblocks.com/components/scroll-area"
+      },
+      {
+        "text": "Select",
+        "url": "https://www.shadcnblocks.com/components/field"
+      },
+      {
+        "text": "Separator",
+        "url": "https://www.shadcnblocks.com/components/separator"
+      },
+      {
+        "text": "Sheet",
+        "url": "https://www.shadcnblocks.com/components/sheet"
+      },
+      {
+        "text": "Skeleton",
+        "url": "https://www.shadcnblocks.com/components/skeleton"
+      },
+      {
+        "text": "Slider",
+        "url": "https://www.shadcnblocks.com/components/slider"
+      },
+      {
+        "text": "Snippet",
+        "url": "https://www.shadcnblocks.com/components/snippet"
+      },
+      {
+        "text": "Social Button",
+        "url": "https://www.shadcnblocks.com/components/social-button"
+      },
+      {
+        "text": "Sonner",
+        "url": "https://www.shadcnblocks.com/components/sonner"
+      },
+      {
+        "text": "Spinner",
+        "url": "https://www.shadcnblocks.com/components/spinner"
+      },
+      {
+        "text": "Status",
+        "url": "https://www.shadcnblocks.com/components/status"
+      },
+      {
+        "text": "Switch",
+        "url": "https://www.shadcnblocks.com/components/switch"
+      },
+      {
+        "text": "Table",
+        "url": "https://www.shadcnblocks.com/components/table"
+      },
+      {
+        "text": "Tabs",
+        "url": "https://www.shadcnblocks.com/components/tabs"
+      },
+      {
+        "text": "Tags",
+        "url": "https://www.shadcnblocks.com/components/tags"
+      },
+      {
+        "text": "Textarea",
+        "url": "https://www.shadcnblocks.com/components/textarea"
+      },
+      {
+        "text": "Theme Switcher",
+        "url": "https://www.shadcnblocks.com/components/theme-switcher"
+      },
+      {
+        "text": "Theme Toggle",
+        "url": "https://www.shadcnblocks.com/components/theme-toggle"
+      },
+      {
+        "text": "Toggle",
+        "url": "https://www.shadcnblocks.com/components/toggle"
+      },
+      {
+        "text": "Tree",
+        "url": "https://www.shadcnblocks.com/components/tree"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Features",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Previous template"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Next template"
+      },
+      {
+        "role": "tab",
+        "text": "Standard",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Team",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Buy Now",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Buy Now",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Buy Now",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "framer",
+    "url": "https://www.framer.com/marketplace/templates/",
+    "status": 200,
+    "finalUrl": "https://www.framer.com/marketplace/templates/",
+    "title": "Free & Premium Website Templates — Framer Marketplace",
+    "links": [
+      {
+        "text": "Portfolio",
+        "url": "https://www.framer.com/marketplace/templates/categories/portfolio/"
+      },
+      {
+        "text": "Artists",
+        "url": "https://www.framer.com/marketplace/templates/categories/artists/"
+      },
+      {
+        "text": "Designers",
+        "url": "https://www.framer.com/marketplace/templates/categories/designers/"
+      },
+      {
+        "text": "Photography",
+        "url": "https://www.framer.com/marketplace/templates/categories/photography/"
+      },
+      {
+        "text": "Resume",
+        "url": "https://www.framer.com/marketplace/templates/categories/resume/"
+      },
+      {
+        "text": "Software",
+        "url": "https://www.framer.com/marketplace/templates/categories/software/"
+      },
+      {
+        "text": "AI",
+        "url": "https://www.framer.com/marketplace/templates/categories/ai/"
+      },
+      {
+        "text": "Apps",
+        "url": "https://www.framer.com/marketplace/templates/categories/apps/"
+      },
+      {
+        "text": "Fintech",
+        "url": "https://www.framer.com/marketplace/templates/categories/fintech/"
+      },
+      {
+        "text": "SaaS",
+        "url": "https://www.framer.com/marketplace/templates/categories/saas/"
+      },
+      {
+        "text": "Agency",
+        "url": "https://www.framer.com/marketplace/templates/categories/agency/"
+      },
+      {
+        "text": "Architecture",
+        "url": "https://www.framer.com/marketplace/templates/categories/architecture/"
+      },
+      {
+        "text": "Design",
+        "url": "https://www.framer.com/marketplace/templates/categories/design/"
+      },
+      {
+        "text": "Marketing",
+        "url": "https://www.framer.com/marketplace/templates/categories/marketing/"
+      },
+      {
+        "text": "Web",
+        "url": "https://www.framer.com/marketplace/templates/categories/web-design/"
+      },
+      {
+        "text": "Ecommerce",
+        "url": "https://www.framer.com/marketplace/templates/categories/ecommerce/"
+      },
+      {
+        "text": "Beauty",
+        "url": "https://www.framer.com/marketplace/templates/categories/beauty/"
+      },
+      {
+        "text": "Digital",
+        "url": "https://www.framer.com/marketplace/templates/categories/digital/"
+      },
+      {
+        "text": "Fashion",
+        "url": "https://www.framer.com/marketplace/templates/categories/fashion/"
+      },
+      {
+        "text": "Furniture",
+        "url": "https://www.framer.com/marketplace/templates/categories/furniture/"
+      },
+      {
+        "text": "Services",
+        "url": "https://www.framer.com/marketplace/templates/categories/professional-services/"
+      },
+      {
+        "text": "Consulting",
+        "url": "https://www.framer.com/marketplace/templates/categories/consulting/"
+      },
+      {
+        "text": "Education",
+        "url": "https://www.framer.com/marketplace/templates/categories/education/"
+      },
+      {
+        "text": "Home",
+        "url": "https://www.framer.com/marketplace/templates/categories/home-services/"
+      },
+      {
+        "text": "Legal",
+        "url": "https://www.framer.com/marketplace/templates/categories/legal/"
+      },
+      {
+        "text": "Health",
+        "url": "https://www.framer.com/marketplace/templates/categories/health/"
+      },
+      {
+        "text": "Fitness",
+        "url": "https://www.framer.com/marketplace/templates/categories/fitness/"
+      },
+      {
+        "text": "Medical",
+        "url": "https://www.framer.com/marketplace/templates/categories/medical/"
+      },
+      {
+        "text": "Therapy",
+        "url": "https://www.framer.com/marketplace/templates/categories/therapy/"
+      },
+      {
+        "text": "Wellness",
+        "url": "https://www.framer.com/marketplace/templates/categories/wellness/"
+      },
+      {
+        "text": "Publishing",
+        "url": "https://www.framer.com/marketplace/templates/categories/publishing/"
+      },
+      {
+        "text": "Blogs",
+        "url": "https://www.framer.com/marketplace/templates/categories/blogs/"
+      },
+      {
+        "text": "Entertainment",
+        "url": "https://www.framer.com/marketplace/templates/categories/entertainment/"
+      },
+      {
+        "text": "Magazines",
+        "url": "https://www.framer.com/marketplace/templates/categories/magazines/"
+      },
+      {
+        "text": "News",
+        "url": "https://www.framer.com/marketplace/templates/categories/news/"
+      },
+      {
+        "text": "Real Estate",
+        "url": "https://www.framer.com/marketplace/templates/categories/real-estate/"
+      },
+      {
+        "text": "Agents",
+        "url": "https://www.framer.com/marketplace/templates/categories/agents/"
+      },
+      {
+        "text": "Construction",
+        "url": "https://www.framer.com/marketplace/templates/categories/construction/"
+      },
+      {
+        "text": "Listings",
+        "url": "https://www.framer.com/marketplace/templates/categories/listings/"
+      },
+      {
+        "text": "Management",
+        "url": "https://www.framer.com/marketplace/templates/categories/management/"
+      },
+      {
+        "text": "Hospitality",
+        "url": "https://www.framer.com/marketplace/templates/categories/hospitality/"
+      },
+      {
+        "text": "Food",
+        "url": "https://www.framer.com/marketplace/templates/categories/food/"
+      },
+      {
+        "text": "Hotels",
+        "url": "https://www.framer.com/marketplace/templates/categories/hotels/"
+      },
+      {
+        "text": "Restaurants",
+        "url": "https://www.framer.com/marketplace/templates/categories/restaurants/"
+      },
+      {
+        "text": "Travel",
+        "url": "https://www.framer.com/marketplace/templates/categories/travel/"
+      },
+      {
+        "text": "Events",
+        "url": "https://www.framer.com/marketplace/templates/categories/events/"
+      },
+      {
+        "text": "Conferences",
+        "url": "https://www.framer.com/marketplace/templates/categories/conferences/"
+      },
+      {
+        "text": "Music",
+        "url": "https://www.framer.com/marketplace/templates/categories/music/"
+      },
+      {
+        "text": "Sports",
+        "url": "https://www.framer.com/marketplace/templates/categories/sports/"
+      },
+      {
+        "text": "Weddings",
+        "url": "https://www.framer.com/marketplace/templates/categories/weddings/"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.framer.com/marketplace/templates/"
+      },
+      {
+        "text": "Foreal",
+        "url": "https://www.framer.com/marketplace/templates/foreal/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/bOgEpwx?duplicateType=siteTemplate"
+      },
+      {
+        "text": "MaestroClass",
+        "url": "https://www.framer.com/marketplace/templates/maestroclass/"
+      },
+      {
+        "text": "$58",
+        "url": "https://contra.com/payment-link/lV9XOiCV-maestro-class-high-ticket-experience-sales-page-template-only"
+      },
+      {
+        "text": "Porto",
+        "url": "https://www.framer.com/marketplace/templates/porto/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.com/projects/new?duplicate=81PZL0Iks8BJ8lOc23no&via=westhill97&duplicateType=siteTemplate"
+      },
+      {
+        "text": "Fabrica",
+        "url": "https://www.framer.com/marketplace/templates/fabrica/"
+      },
+      {
+        "text": "$129",
+        "url": "https://templifica.com/checkout/fabrica"
+      },
+      {
+        "text": "Spector",
+        "url": "https://www.framer.com/marketplace/templates/spector/"
+      },
+      {
+        "text": "$129",
+        "url": "https://dub.sh/spector-all"
+      },
+      {
+        "text": "Neiden",
+        "url": "https://www.framer.com/marketplace/templates/neiden/"
+      },
+      {
+        "text": "$99",
+        "url": "https://buy.polar.sh/polar_cl_sN92Fjdyeof2fIplFYydo5HC8d5b73lTjQVtq4Z0EF1"
+      },
+      {
+        "text": "Verseo",
+        "url": "https://www.framer.com/marketplace/templates/verseo/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/W76dZzY?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Halo Studio",
+        "url": "https://www.framer.com/marketplace/templates/halo-studio/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/mxIZX94?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Aldena",
+        "url": "https://www.framer.com/marketplace/templates/aldena/"
+      },
+      {
+        "text": "$99",
+        "url": "https://contra.com/payment-link/4ZGymf3E-aldena-framer-agency-template-single-site"
+      },
+      {
+        "text": "SwissBrut",
+        "url": "https://www.framer.com/marketplace/templates/swissbrut/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/kTBpQqz?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Vertical",
+        "url": "https://www.framer.com/marketplace/templates/vertical/"
+      },
+      {
+        "text": "$129",
+        "url": "https://dub.sh/vertical-all"
+      },
+      {
+        "text": "Habitline",
+        "url": "https://www.framer.com/marketplace/templates/habitline/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/habitline?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Nudge",
+        "url": "https://www.framer.com/marketplace/templates/nudge/"
+      },
+      {
+        "text": "$49",
+        "url": "https://buy.polar.sh/polar_cl_9a5vgJf76xch9cThQ1yzFU4r218QMmvCzyUiR0YxC4R"
+      },
+      {
+        "text": "Create",
+        "url": "https://www.framer.com/marketplace/templates/create/"
+      },
+      {
+        "text": "$129",
+        "url": "https://dub.sh/create-allplans"
+      },
+      {
+        "text": "LumoraX",
+        "url": "https://www.framer.com/marketplace/templates/lumorax/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/zbwGqsl?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Oblica",
+        "url": "https://www.framer.com/marketplace/templates/oblica/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/Hn6ki5N?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Fox X",
+        "url": "https://www.framer.com/marketplace/templates/fox-x/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/gf7qS74?duplicateType=siteTemplate"
+      },
+      {
+        "text": "AUTON",
+        "url": "https://www.framer.com/marketplace/templates/auton/"
+      },
+      {
+        "text": "$39",
+        "url": "https://buy.polar.sh/polar_cl_KMwktr6nX2eJ8tRJDYasZODZqqnmC0gKbZ0EU0KKUIW"
+      },
+      {
+        "text": "ECOM",
+        "url": "https://www.framer.com/marketplace/templates/ecom/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/bIisnbD?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Mondragon",
+        "url": "https://www.framer.com/marketplace/templates/mondragon/"
+      },
+      {
+        "text": "$39",
+        "url": "https://buy.polar.sh/polar_cl_E6svtCeJtd6SAtAOAFRbKAgfPZnoB401VS0Mt05OM5o"
+      },
+      {
+        "text": "AIwork",
+        "url": "https://www.framer.com/marketplace/templates/aiwork/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/rspSWBF?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Stackgrid",
+        "url": "https://www.framer.com/marketplace/templates/stackgrid/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/IKTCmfF?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Auraform",
+        "url": "https://www.framer.com/marketplace/templates/auraform/"
+      },
+      {
+        "text": "Free",
+        "url": "https://framer.link/QiPffCB?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Zova",
+        "url": "https://www.framer.com/marketplace/templates/zova/"
+      },
+      {
+        "text": "$19",
+        "url": "https://contra.com/payment-link/oozcCbDL-zova-framer-business-template-single-site"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.framer.com/marketplace/templates/"
+      },
+      {
+        "text": "Assets",
+        "url": "https://www.framer.com/marketplace/assets/"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Trending",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Best",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "New",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Open filters"
+      },
+      {
+        "role": null,
+        "text": "Trending",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Best",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "New",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Style",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Price",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Marketplace",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "magicui",
+    "url": "https://magicui.design/",
+    "status": 200,
+    "finalUrl": "https://magicui.design/",
+    "title": "Magic UI",
+    "links": [
+      {
+        "text": "✨  Introducing Magic UI Pro - 50+ blocks and templates to build beauti",
+        "url": "https://pro.magicui.design/"
+      },
+      {
+        "text": "Magic UI",
+        "url": "https://magicui.design/"
+      },
+      {
+        "text": "Components",
+        "url": "https://magicui.design/components"
+      },
+      {
+        "text": "Templates",
+        "url": "https://pro.magicui.design/"
+      },
+      {
+        "text": "Showcase",
+        "url": "https://magicui.design/showcase"
+      },
+      {
+        "text": "22,21022.2k",
+        "url": "https://github.com/magicuidesign/magicui"
+      },
+      {
+        "text": "136",
+        "url": "https://discord.gg/87p2vpsat5"
+      },
+      {
+        "text": "🎉 Introducing Floating 3D Particles",
+        "url": "https://magicui.design/docs/components/floating-3d-particles"
+      },
+      {
+        "text": "Browse Components",
+        "url": "https://magicui.design/components"
+      },
+      {
+        "text": "Browse Templates",
+        "url": "https://pro.magicui.design/"
+      },
+      {
+        "text": "anara.comYC S24",
+        "url": "https://anara.com/"
+      },
+      {
+        "text": "aomni.comRaised seed round from notable investors.",
+        "url": "https://aomni.com/"
+      },
+      {
+        "text": "Aryan KarmaPersonal Portfolio",
+        "url": "https://aryankarma.com/"
+      },
+      {
+        "text": "cognosys.aiBacked by Google Ventures, raised $2M",
+        "url": "https://cognosys.ai/"
+      },
+      {
+        "text": "Darshan PacchaPersonal Portfolio",
+        "url": "https://d1rshan.me/"
+      },
+      {
+        "text": "elhussaryPersonal Portfolio",
+        "url": "https://elhussary.vercel.app/"
+      },
+      {
+        "text": "guarahooks.comOpen Source Project",
+        "url": "https://guarahooks.com/"
+      },
+      {
+        "text": "infisical.comYC W23, raised $2.8M",
+        "url": "https://infisical.com/"
+      },
+      {
+        "text": "langfuse.comYC W23, raised $4M",
+        "url": "https://langfuse.com/"
+      },
+      {
+        "text": "llm.reportVercel AI Accelerator 2023, won $120k",
+        "url": "https://llm.report/"
+      },
+      {
+        "text": "lyra.marqraft.comBootstrapped",
+        "url": "https://lyra.marqraft.com/?ref=magicui"
+      },
+      {
+        "text": "imiles.mePersonal Portfolio",
+        "url": "https://imiles.me/"
+      },
+      {
+        "text": "million.devYC W24",
+        "url": "https://million.dev/"
+      },
+      {
+        "text": "PulpSense.comn8n Expert Partner",
+        "url": "https://pulpsense.com/"
+      },
+      {
+        "text": "querylab.aiBootstrapped",
+        "url": "https://querylab.ai/"
+      },
+      {
+        "text": "robot-toastOpen-source library",
+        "url": "https://robot-toast.vercel.app/"
+      },
+      {
+        "text": "trysherpa.botBootstrapped",
+        "url": "https://trysherpa.bot/"
+      },
+      {
+        "text": "undrstnd.devStartUp Act Tunisia",
+        "url": "https://undrstnd.dev/"
+      },
+      {
+        "text": "writora.xyzOpen Source Project",
+        "url": "https://writora.xyz/"
+      },
+      {
+        "text": "shawnPortfolio site",
+        "url": "https://www.zzzzshawn.cloud/"
+      },
+      {
+        "text": "anara.comYC S24",
+        "url": "https://anara.com/"
+      },
+      {
+        "text": "aomni.comRaised seed round from notable investors.",
+        "url": "https://aomni.com/"
+      },
+      {
+        "text": "Aryan KarmaPersonal Portfolio",
+        "url": "https://aryankarma.com/"
+      },
+      {
+        "text": "cognosys.aiBacked by Google Ventures, raised $2M",
+        "url": "https://cognosys.ai/"
+      },
+      {
+        "text": "Darshan PacchaPersonal Portfolio",
+        "url": "https://d1rshan.me/"
+      },
+      {
+        "text": "elhussaryPersonal Portfolio",
+        "url": "https://elhussary.vercel.app/"
+      },
+      {
+        "text": "guarahooks.comOpen Source Project",
+        "url": "https://guarahooks.com/"
+      },
+      {
+        "text": "infisical.comYC W23, raised $2.8M",
+        "url": "https://infisical.com/"
+      },
+      {
+        "text": "langfuse.comYC W23, raised $4M",
+        "url": "https://langfuse.com/"
+      },
+      {
+        "text": "llm.reportVercel AI Accelerator 2023, won $120k",
+        "url": "https://llm.report/"
+      },
+      {
+        "text": "lyra.marqraft.comBootstrapped",
+        "url": "https://lyra.marqraft.com/?ref=magicui"
+      },
+      {
+        "text": "imiles.mePersonal Portfolio",
+        "url": "https://imiles.me/"
+      },
+      {
+        "text": "million.devYC W24",
+        "url": "https://million.dev/"
+      },
+      {
+        "text": "PulpSense.comn8n Expert Partner",
+        "url": "https://pulpsense.com/"
+      },
+      {
+        "text": "querylab.aiBootstrapped",
+        "url": "https://querylab.ai/"
+      },
+      {
+        "text": "robot-toastOpen-source library",
+        "url": "https://robot-toast.vercel.app/"
+      },
+      {
+        "text": "trysherpa.botBootstrapped",
+        "url": "https://trysherpa.bot/"
+      },
+      {
+        "text": "undrstnd.devStartUp Act Tunisia",
+        "url": "https://undrstnd.dev/"
+      },
+      {
+        "text": "writora.xyzOpen Source Project",
+        "url": "https://writora.xyz/"
+      },
+      {
+        "text": "shawnPortfolio site",
+        "url": "https://www.zzzzshawn.cloud/"
+      },
+      {
+        "text": "anara.comYC S24",
+        "url": "https://anara.com/"
+      },
+      {
+        "text": "aomni.comRaised seed round from notable investors.",
+        "url": "https://aomni.com/"
+      },
+      {
+        "text": "Aryan KarmaPersonal Portfolio",
+        "url": "https://aryankarma.com/"
+      },
+      {
+        "text": "cognosys.aiBacked by Google Ventures, raised $2M",
+        "url": "https://cognosys.ai/"
+      },
+      {
+        "text": "Darshan PacchaPersonal Portfolio",
+        "url": "https://d1rshan.me/"
+      },
+      {
+        "text": "elhussaryPersonal Portfolio",
+        "url": "https://elhussary.vercel.app/"
+      },
+      {
+        "text": "guarahooks.comOpen Source Project",
+        "url": "https://guarahooks.com/"
+      },
+      {
+        "text": "infisical.comYC W23, raised $2.8M",
+        "url": "https://infisical.com/"
+      },
+      {
+        "text": "langfuse.comYC W23, raised $4M",
+        "url": "https://langfuse.com/"
+      },
+      {
+        "text": "llm.reportVercel AI Accelerator 2023, won $120k",
+        "url": "https://llm.report/"
+      },
+      {
+        "text": "lyra.marqraft.comBootstrapped",
+        "url": "https://lyra.marqraft.com/?ref=magicui"
+      },
+      {
+        "text": "imiles.mePersonal Portfolio",
+        "url": "https://imiles.me/"
+      },
+      {
+        "text": "million.devYC W24",
+        "url": "https://million.dev/"
+      },
+      {
+        "text": "PulpSense.comn8n Expert Partner",
+        "url": "https://pulpsense.com/"
+      },
+      {
+        "text": "querylab.aiBootstrapped",
+        "url": "https://querylab.ai/"
+      },
+      {
+        "text": "robot-toastOpen-source library",
+        "url": "https://robot-toast.vercel.app/"
+      },
+      {
+        "text": "trysherpa.botBootstrapped",
+        "url": "https://trysherpa.bot/"
+      },
+      {
+        "text": "undrstnd.devStartUp Act Tunisia",
+        "url": "https://undrstnd.dev/"
+      },
+      {
+        "text": "writora.xyzOpen Source Project",
+        "url": "https://writora.xyz/"
+      },
+      {
+        "text": "shawnPortfolio site",
+        "url": "https://www.zzzzshawn.cloud/"
+      },
+      {
+        "text": "anara.comYC S24",
+        "url": "https://anara.com/"
+      },
+      {
+        "text": "aomni.comRaised seed round from notable investors.",
+        "url": "https://aomni.com/"
+      },
+      {
+        "text": "Aryan KarmaPersonal Portfolio",
+        "url": "https://aryankarma.com/"
+      },
+      {
+        "text": "cognosys.aiBacked by Google Ventures, raised $2M",
+        "url": "https://cognosys.ai/"
+      },
+      {
+        "text": "Darshan PacchaPersonal Portfolio",
+        "url": "https://d1rshan.me/"
+      },
+      {
+        "text": "elhussaryPersonal Portfolio",
+        "url": "https://elhussary.vercel.app/"
+      },
+      {
+        "text": "guarahooks.comOpen Source Project",
+        "url": "https://guarahooks.com/"
+      },
+      {
+        "text": "infisical.comYC W23, raised $2.8M",
+        "url": "https://infisical.com/"
+      },
+      {
+        "text": "langfuse.comYC W23, raised $4M",
+        "url": "https://langfuse.com/"
+      },
+      {
+        "text": "llm.reportVercel AI Accelerator 2023, won $120k",
+        "url": "https://llm.report/"
+      },
+      {
+        "text": "lyra.marqraft.comBootstrapped",
+        "url": "https://lyra.marqraft.com/?ref=magicui"
+      },
+      {
+        "text": "imiles.mePersonal Portfolio",
+        "url": "https://imiles.me/"
+      },
+      {
+        "text": "million.devYC W24",
+        "url": "https://million.dev/"
+      },
+      {
+        "text": "PulpSense.comn8n Expert Partner",
+        "url": "https://pulpsense.com/"
+      },
+      {
+        "text": "querylab.aiBootstrapped",
+        "url": "https://querylab.ai/"
+      },
+      {
+        "text": "robot-toastOpen-source library",
+        "url": "https://robot-toast.vercel.app/"
+      },
+      {
+        "text": "trysherpa.botBootstrapped",
+        "url": "https://trysherpa.bot/"
+      },
+      {
+        "text": "undrstnd.devStartUp Act Tunisia",
+        "url": "https://undrstnd.dev/"
+      },
+      {
+        "text": "writora.xyzOpen Source Project",
+        "url": "https://writora.xyz/"
+      },
+      {
+        "text": "shawnPortfolio site",
+        "url": "https://www.zzzzshawn.cloud/"
+      },
+      {
+        "text": "dillion",
+        "url": "https://twitter.com/dillionverma"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/magicuidesign/magicui"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Toggle Menu",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Search documentation...Search...⌘K",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Toggle theme",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "React",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Tailwind CSS",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Motion",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Show More",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Play",
+        "label": "Play testimonial 1"
+      },
+      {
+        "role": null,
+        "text": "Play",
+        "label": "Play testimonial 2"
+      },
+      {
+        "role": null,
+        "text": "Play",
+        "label": "Play testimonial 3"
+      },
+      {
+        "role": null,
+        "text": "Play",
+        "label": "Play testimonial 4"
+      },
+      {
+        "role": null,
+        "text": "Play",
+        "label": "Play testimonial 5"
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "linear",
+    "url": "https://linear.app/",
+    "status": 200,
+    "finalUrl": "https://linear.app/",
+    "title": "Linear – The system for product development",
+    "links": [
+      {
+        "text": "Skip to content →",
+        "url": "https://linear.app/#skip-nav"
+      },
+      {
+        "text": "Customers",
+        "url": "https://linear.app/customers"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://linear.app/pricing"
+      },
+      {
+        "text": "Now",
+        "url": "https://linear.app/now"
+      },
+      {
+        "text": "Contact",
+        "url": "https://linear.app/contact"
+      },
+      {
+        "text": "Docs",
+        "url": "https://linear.app/docs"
+      },
+      {
+        "text": "Open app",
+        "url": "https://linear.app/login"
+      },
+      {
+        "text": "Log in",
+        "url": "https://linear.app/login"
+      },
+      {
+        "text": "Sign up",
+        "url": "https://linear.app/signup"
+      },
+      {
+        "text": "NewLoops →",
+        "url": "https://linear.app/now/introducing-loops"
+      },
+      {
+        "text": "NewLoops →",
+        "url": "https://linear.app/now/introducing-loops"
+      },
+      {
+        "text": "Learn more→",
+        "url": "https://linear.app/intake"
+      },
+      {
+        "text": "Learn more→",
+        "url": "https://linear.app/plan"
+      },
+      {
+        "text": "Learn more→",
+        "url": "https://linear.app/ai"
+      },
+      {
+        "text": "Learn more→",
+        "url": "https://linear.app/build"
+      },
+      {
+        "text": "Priority inboxAn active workspace can create a significant amount of n",
+        "url": "https://linear.app/changelog/2026-09-03-priority-inbox"
+      },
+      {
+        "text": "Coding sessionsLinear Agent can now set up, run, and test your code be",
+        "url": "https://linear.app/changelog/2026-08-20-coding-environments"
+      },
+      {
+        "text": "Team initiativesInitiatives are Linear's way to manage product strateg",
+        "url": "https://linear.app/changelog/2026-08-13-team-initiatives"
+      },
+      {
+        "text": "Coding sessions on mobileYour coding session doesn’t have to stop when",
+        "url": "https://linear.app/changelog/2026-07-30-coding-sessions-on-mobile"
+      },
+      {
+        "text": "View all→",
+        "url": "https://linear.app/changelog"
+      },
+      {
+        "text": "You’ll probably build a better product, just because of the craft that",
+        "url": "https://linear.app/customers/openai"
+      },
+      {
+        "text": "Our speed is intense and Linear helps us be action biased.Nik KoblovRa",
+        "url": "https://linear.app/customers/ramp"
+      },
+      {
+        "text": "Linear is excellent, just excellent. It has the right opinions for fas",
+        "url": "https://linear.app/customers/opendoor"
+      },
+      {
+        "text": "You’ll probably build a better product, just because of the craft that",
+        "url": "https://linear.app/customers/openai"
+      },
+      {
+        "text": "Our speed is intense and Linear helps us be action biased.Nik KoblovHe",
+        "url": "https://linear.app/customers/ramp"
+      },
+      {
+        "text": "Customer stories→",
+        "url": "https://linear.app/customers"
+      },
+      {
+        "text": "Get started",
+        "url": "https://linear.app/signup"
+      },
+      {
+        "text": "Contact sales",
+        "url": "https://linear.app/contact/sales"
+      },
+      {
+        "text": "Open app",
+        "url": "https://linear.app/login"
+      },
+      {
+        "text": "Download",
+        "url": "https://linear.app/download"
+      },
+      {
+        "text": "Intake",
+        "url": "https://linear.app/intake"
+      },
+      {
+        "text": "Plan",
+        "url": "https://linear.app/plan"
+      },
+      {
+        "text": "AI",
+        "url": "https://linear.app/ai"
+      },
+      {
+        "text": "Build",
+        "url": "https://linear.app/build"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://linear.app/pricing"
+      },
+      {
+        "text": "Security",
+        "url": "https://linear.app/security"
+      },
+      {
+        "text": "Asks",
+        "url": "https://linear.app/asks"
+      },
+      {
+        "text": "Agents",
+        "url": "https://linear.app/agents"
+      },
+      {
+        "text": "Coding Sessions",
+        "url": "https://linear.app/coding-sessions"
+      },
+      {
+        "text": "Customer Requests",
+        "url": "https://linear.app/customer-requests"
+      },
+      {
+        "text": "Insights",
+        "url": "https://linear.app/insights"
+      },
+      {
+        "text": "Mobile",
+        "url": "https://linear.app/mobile"
+      },
+      {
+        "text": "Integrations",
+        "url": "https://linear.app/integrations"
+      },
+      {
+        "text": "Changelog",
+        "url": "https://linear.app/changelog"
+      },
+      {
+        "text": "About",
+        "url": "https://linear.app/about"
+      },
+      {
+        "text": "Customers",
+        "url": "https://linear.app/customers"
+      },
+      {
+        "text": "Careers",
+        "url": "https://linear.app/careers"
+      },
+      {
+        "text": "Now",
+        "url": "https://linear.app/now"
+      },
+      {
+        "text": "Method",
+        "url": "https://linear.app/method"
+      },
+      {
+        "text": "Quality",
+        "url": "https://linear.app/quality"
+      },
+      {
+        "text": "Brand",
+        "url": "https://linear.app/brand"
+      },
+      {
+        "text": "Switch",
+        "url": "https://linear.app/switch"
+      },
+      {
+        "text": "Download",
+        "url": "https://linear.app/download"
+      },
+      {
+        "text": "DocumentationDocs",
+        "url": "https://linear.app/docs"
+      },
+      {
+        "text": "Developers",
+        "url": "https://linear.app/developers"
+      },
+      {
+        "text": "Status",
+        "url": "https://linearstatus.com/"
+      },
+      {
+        "text": "Enterprise",
+        "url": "https://linear.app/enterprise"
+      },
+      {
+        "text": "Startups",
+        "url": "https://linear.app/startups"
+      },
+      {
+        "text": "Contact us",
+        "url": "https://linear.app/contact"
+      },
+      {
+        "text": "Community",
+        "url": "https://linear.app/join-slack"
+      },
+      {
+        "text": "X (Twitter)",
+        "url": "https://x.com/linear"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/linear"
+      },
+      {
+        "text": "YouTube",
+        "url": "https://www.youtube.com/@linear"
+      },
+      {
+        "text": "Privacy",
+        "url": "https://linear.app/privacy"
+      },
+      {
+        "text": "Terms",
+        "url": "https://linear.app/terms"
+      },
+      {
+        "text": "DPA",
+        "url": "https://linear.app/dpa"
+      },
+      {
+        "text": "AUP",
+        "url": "https://linear.app/legal/aup"
+      },
+      {
+        "text": "Privacy",
+        "url": "https://linear.app/privacy"
+      },
+      {
+        "text": "Terms",
+        "url": "https://linear.app/terms"
+      },
+      {
+        "text": "DPA",
+        "url": "https://linear.app/dpa"
+      },
+      {
+        "text": "AUP",
+        "url": "https://linear.app/legal/aup"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Product",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Resources",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Linear",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Search workspace"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "New issue"
+      },
+      {
+        "role": null,
+        "text": "Pulse",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Inbox",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "My issues",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Reviews",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Workspace",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Initiatives",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Projects",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "More",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Favorites",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Faster app launch",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Agent tasks",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Agent Insights",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "UI Refresh",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Remove from favorites"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Issue options"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Previous issue"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Next issue"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Copy issue URL"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Copy issue ID"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Copy git branch name"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Delegate to an agent"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "More delegation options"
+      },
+      {
+        "role": null,
+        "text": "Performance",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "iOS",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Add issue"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Open menu"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Add issue"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Open menu"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Add issue"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Open menu"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Add issue"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Open menu"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Attach file"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Hide formatting"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Emoji"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Mention someone"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Record video clip"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Record audio clip"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Run shortcut"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Send message"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Schedule for later"
+      },
+      {
+        "role": null,
+        "text": "Linear Agent +",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Customer Requests +",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Triage +",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "resend",
+    "url": "https://resend.com/",
+    "status": 200,
+    "finalUrl": "https://resend.com/",
+    "title": "Resend · Email for developers",
+    "links": [
+      {
+        "text": "Pricing",
+        "url": "https://resend.com/pricing"
+      },
+      {
+        "text": "Log in",
+        "url": "https://resend.com/login"
+      },
+      {
+        "text": "Get started",
+        "url": "https://resend.com/signup"
+      },
+      {
+        "text": "Join us at Resend Forward",
+        "url": "https://resend.com/forward"
+      },
+      {
+        "text": "Get started",
+        "url": "https://resend.com/signup"
+      },
+      {
+        "text": "Documentation",
+        "url": "https://resend.com/docs"
+      },
+      {
+        "text": "View on GitHub",
+        "url": "https://github.com/resend/resend-node-example"
+      },
+      {
+        "text": "Download ZIP",
+        "url": "https://github.com/resend/resend-node-example/archive/refs/heads/main.zip"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://resend.com/docs/dashboard/emails/send-test-emails"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://resend.com/docs/dashboard/webhooks/introduction"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://resend.com/features/audiences"
+      },
+      {
+        "text": "Learn more",
+        "url": "https://resend.com/features/broadcasts"
+      },
+      {
+        "text": "Get started",
+        "url": "https://resend.com/signup"
+      },
+      {
+        "text": "Check the docs",
+        "url": "https://react.email/docs"
+      },
+      {
+        "text": "Get Started",
+        "url": "https://resend.com/get-started"
+      },
+      {
+        "text": "Send with Next.js",
+        "url": "https://resend.com/docs/send-with-nextjs"
+      },
+      {
+        "text": "Get started",
+        "url": "https://resend.com/signup"
+      },
+      {
+        "text": "Status unknown",
+        "url": "https://resend.com/status"
+      },
+      {
+        "text": "Automations",
+        "url": "https://resend.com/features/automations"
+      },
+      {
+        "text": "Audiences",
+        "url": "https://resend.com/features/audiences"
+      },
+      {
+        "text": "Broadcasts",
+        "url": "https://resend.com/features/broadcasts"
+      },
+      {
+        "text": "Inbound",
+        "url": "https://resend.com/features/inbound"
+      },
+      {
+        "text": "Templates",
+        "url": "https://resend.com/features/templates"
+      },
+      {
+        "text": "Webhooks",
+        "url": "https://resend.com/features/webhooks"
+      },
+      {
+        "text": "Dedicated IPs",
+        "url": "https://resend.com/features/dedicated-ips"
+      },
+      {
+        "text": "Changelog",
+        "url": "https://resend.com/changelog"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://resend.com/pricing"
+      },
+      {
+        "text": "Enterprise",
+        "url": "https://resend.com/enterprise"
+      },
+      {
+        "text": "Security",
+        "url": "https://resend.com/security"
+      },
+      {
+        "text": "SOC 2",
+        "url": "https://resend.com/security/soc-2"
+      },
+      {
+        "text": "GDPR",
+        "url": "https://resend.com/security/gdpr"
+      },
+      {
+        "text": "Brand",
+        "url": "https://resend.com/brand"
+      },
+      {
+        "text": "About",
+        "url": "https://resend.com/about"
+      },
+      {
+        "text": "Blog",
+        "url": "https://resend.com/blog"
+      },
+      {
+        "text": "Careers",
+        "url": "https://resend.com/careers"
+      },
+      {
+        "text": "Clubs",
+        "url": "https://resend.com/clubs"
+      },
+      {
+        "text": "Customers",
+        "url": "https://resend.com/customers"
+      },
+      {
+        "text": "Humans",
+        "url": "https://resend.com/humans"
+      },
+      {
+        "text": "Philosophy",
+        "url": "https://resend.com/philosophy"
+      },
+      {
+        "text": "Support",
+        "url": "https://resend.com/support"
+      },
+      {
+        "text": "Status",
+        "url": "https://resend.com/status"
+      },
+      {
+        "text": "Migrate",
+        "url": "https://resend.com/migrate"
+      },
+      {
+        "text": "Knowledge base",
+        "url": "https://resend.com/docs/knowledge-base/introduction"
+      },
+      {
+        "text": "Legal policies",
+        "url": "https://resend.com/legal"
+      },
+      {
+        "text": "Events",
+        "url": "https://resend.com/events"
+      },
+      {
+        "text": "Insiders",
+        "url": "https://resend.com/insiders"
+      },
+      {
+        "text": "Open source",
+        "url": "https://resend.com/open-source"
+      },
+      {
+        "text": "Wallpapers",
+        "url": "https://resend.com/wallpapers"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Open main menu",
+        "label": "menu"
+      },
+      {
+        "role": null,
+        "text": "Features",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Company",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Enterprise",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Help",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Docs",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "AI",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Node.js",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Serverless",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Ruby",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Python",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "PHP",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "CLI",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Go",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Rust",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Java",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Elixir",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": ".NET",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "REST",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "SMTP",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Node.js",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Next.js",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Remix",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Nuxt",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Express",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Hono",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Redwood",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Bun",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Astro",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Copy to clipboard"
+      },
+      {
+        "role": "combobox",
+        "text": "delivereddelivered@resend.dev",
+        "label": "Select test mode"
+      },
+      {
+        "role": null,
+        "text": "Send",
+        "label": "Send test email"
+      },
+      {
+        "role": "tab",
+        "text": "user-welcome.tsx",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "reset-password.tsx",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "user-invite.tsx",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "weekly-digest.tsx",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "DNSBLs",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Spamhaus",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "BIMI",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "VMC",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "CAN-SPAM Act",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "DKIM",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "SPF",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "DMARC",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Intuitive analytics",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Full visibility",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Domain authentication",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "stripe",
+    "url": "https://stripe.com/",
+    "status": 200,
+    "finalUrl": "https://stripe.com/",
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "links": [
+      {
+        "text": "Pricing",
+        "url": "https://stripe.com/pricing"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://dashboard.stripe.com/login"
+      },
+      {
+        "text": "Start now",
+        "url": "https://dashboard.stripe.com/register"
+      },
+      {
+        "text": "Contact sales",
+        "url": "https://stripe.com/contact/sales"
+      },
+      {
+        "text": "Sign inSign in",
+        "url": "https://dashboard.stripe.com/login"
+      },
+      {
+        "text": "Contact sales",
+        "url": "https://stripe.com/contact/sales"
+      },
+      {
+        "text": "Get started",
+        "url": "https://dashboard.stripe.com/register"
+      },
+      {
+        "text": "Sign up with Google",
+        "url": "https://dashboard.stripe.com/login/oauth/google/init"
+      },
+      {
+        "text": "Watch now",
+        "url": "https://stripe.com/sessions/2026?utm_medium=owned-surfaces&utm_source=9cb9&utm_campaign=GLOBAL_4301&utm_content=8a70&utm_term=5a728d3d167c"
+      },
+      {
+        "text": "historical uptime",
+        "url": "https://status.stripe.com/"
+      },
+      {
+        "text": "Stripe for enterprises",
+        "url": "https://stripe.com/enterprise"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/hertz"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/hertz"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/urbn"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/urbn"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/instacart"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/instacart"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/le-monde"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/le-monde"
+      },
+      {
+        "text": "View services",
+        "url": "https://stripe.com/professional-services"
+      },
+      {
+        "text": "View partners",
+        "url": "https://stripe.com/partners"
+      },
+      {
+        "text": "View plans",
+        "url": "https://stripe.com/support-plans"
+      },
+      {
+        "text": "Stripe for startups",
+        "url": "https://stripe.com/startups"
+      },
+      {
+        "text": "Lovable grows into a vibe-coding juggernaut with Stripe.Read Lovable’s",
+        "url": "https://stripe.com/customers/lovable"
+      },
+      {
+        "text": "Gamma expands to $100M ARR and 70 million users with Stripe.Read Gamma",
+        "url": "https://stripe.com/customers/gamma"
+      },
+      {
+        "text": "Runway protects developer time with no-code solutions from Stripe.Read",
+        "url": "https://stripe.com/customers/runway"
+      },
+      {
+        "text": "Supabase delivers its backend-as-a-service to 150 countries with Strip",
+        "url": "https://stripe.com/customers/supabase"
+      },
+      {
+        "text": "Linear partners with Stripe to handle billing and payments.Read Linear",
+        "url": "https://stripe.com/customers/linear"
+      },
+      {
+        "text": "ElevenLabs grows into a $3B AI audio leader with Stripe.Watch the vide",
+        "url": "https://stripe.com/customers/elevenlabs"
+      },
+      {
+        "text": "Browserbase offers usage-based billing for an AI agent browser with St",
+        "url": "https://stripe.com/customers/browserbase"
+      },
+      {
+        "text": "Decagon decreases support costs by 65% with Stripe-integrated agents.R",
+        "url": "https://stripe.com/customers/decagon"
+      },
+      {
+        "text": "Stripe Startups program.Access financial benefits, a focused community",
+        "url": "https://stripe.com/startups#application"
+      },
+      {
+        "text": "Stripe Atlas.Incorporate and get everything you need to fundraise, ban",
+        "url": "https://stripe.com/atlas"
+      },
+      {
+        "text": "Stripe for platforms",
+        "url": "https://stripe.com/use-cases/platforms"
+      },
+      {
+        "text": "Read the guide",
+        "url": "https://stripe.com/guides/best-practices-for-launching-and-scaling-platform-payments"
+      },
+      {
+        "text": "Read the guide",
+        "url": "https://stripe.com/guides/introduction-to-monetizing-payments"
+      },
+      {
+        "text": "Read the guide",
+        "url": "https://stripe.com/guides/introduction-to-risk-management"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/mindbody"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/jobber"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/substack"
+      },
+      {
+        "text": "Read the story",
+        "url": "https://stripe.com/customers/lightspeed-terminal"
+      },
+      {
+        "text": "View developer docs",
+        "url": "https://docs.stripe.com/development"
+      },
+      {
+        "text": "View Stripe’s GitHub",
+        "url": "https://github.com/stripe"
+      },
+      {
+        "text": "Explore no-code",
+        "url": "https://docs.stripe.com/no-code"
+      },
+      {
+        "text": "See directory",
+        "url": "https://marketplace.stripe.com/"
+      },
+      {
+        "text": "Get started",
+        "url": "https://docs.stripe.com/development"
+      },
+      {
+        "text": "Read the letter",
+        "url": "https://stripe.com/annual-updates/2025"
+      },
+      {
+        "text": "See the numbers",
+        "url": "https://stripe.com/newsroom/news/bfcm2025"
+      },
+      {
+        "text": "Get the data",
+        "url": "https://stripe.com/lp/vertical-saas-benchmark-2025?utm_medium=owned-surfaces&utm_source=33d6&utm_campaign=GLOBAL_4250&utm_content=819a&utm_term=a6a6d7b23e01"
+      },
+      {
+        "text": "Watch video",
+        "url": "https://www.youtube.com/watch?v=eMSqlQMk480"
+      },
+      {
+        "text": "Learn how",
+        "url": "https://stripe.com/use-cases/in-app-payments"
+      },
+      {
+        "text": "View announcement",
+        "url": "https://stripe.com/customers/crypto-com-spotlight"
+      },
+      {
+        "text": "Read more",
+        "url": "https://stripe.com/blog/introducing-our-agentic-commerce-solutions"
+      },
+      {
+        "text": "Get the report",
+        "url": "https://stripe.com/lp/how-retailers-drive-growth"
+      },
+      {
+        "text": "Read the letter",
+        "url": "https://stripe.com/annual-updates/2025"
+      },
+      {
+        "text": "See the numbers",
+        "url": "https://stripe.com/newsroom/news/bfcm2025"
+      },
+      {
+        "text": "Get the data",
+        "url": "https://stripe.com/lp/vertical-saas-benchmark-2025?utm_medium=owned-surfaces&utm_source=33d6&utm_campaign=GLOBAL_4250&utm_content=819a&utm_term=a6a6d7b23e01"
+      },
+      {
+        "text": "Watch video",
+        "url": "https://www.youtube.com/watch?v=eMSqlQMk480"
+      },
+      {
+        "text": "Learn how",
+        "url": "https://stripe.com/use-cases/in-app-payments"
+      },
+      {
+        "text": "View announcement",
+        "url": "https://stripe.com/customers/crypto-com-spotlight"
+      },
+      {
+        "text": "Read more",
+        "url": "https://stripe.com/blog/introducing-our-agentic-commerce-solutions"
+      },
+      {
+        "text": "Get the report",
+        "url": "https://stripe.com/lp/how-retailers-drive-growth"
+      },
+      {
+        "text": "Stripe Press",
+        "url": "https://press.stripe.com/"
+      },
+      {
+        "text": "Works in Progress",
+        "url": "https://worksinprogress.co/"
+      },
+      {
+        "text": "Start now",
+        "url": "https://dashboard.stripe.com/register"
+      },
+      {
+        "text": "Contact sales",
+        "url": "https://stripe.com/contact/sales"
+      },
+      {
+        "text": "Pricing details",
+        "url": "https://stripe.com/pricing"
+      },
+      {
+        "text": "Integration options",
+        "url": "https://docs.stripe.com/get-started"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://stripe.com/pricing"
+      },
+      {
+        "text": "Atlas",
+        "url": "https://stripe.com/atlas"
+      },
+      {
+        "text": "Authorization Boost",
+        "url": "https://stripe.com/authorization-boost"
+      },
+      {
+        "text": "Billing",
+        "url": "https://stripe.com/billing"
+      },
+      {
+        "text": "Capital",
+        "url": "https://stripe.com/capital"
+      },
+      {
+        "text": "Capital for platforms",
+        "url": "https://stripe.com/capital/platforms"
+      },
+      {
+        "text": "Checkout",
+        "url": "https://stripe.com/payments/checkout"
+      },
+      {
+        "text": "Climate",
+        "url": "https://stripe.com/climate"
+      },
+      {
+        "text": "Connect",
+        "url": "https://stripe.com/connect"
+      },
+      {
+        "text": "Crypto",
+        "url": "https://stripe.com/use-cases/crypto"
+      },
+      {
+        "text": "Crypto Onramp",
+        "url": "https://stripe.com/crypto-onramp"
+      },
+      {
+        "text": "Data Pipeline",
+        "url": "https://stripe.com/data-pipeline"
+      },
+      {
+        "text": "Elements",
+        "url": "https://stripe.com/payments/elements"
+      },
+      {
+        "text": "Financial Connections",
+        "url": "https://stripe.com/financial-connections"
+      },
+      {
+        "text": "Global Payouts",
+        "url": "https://stripe.com/payouts"
+      },
+      {
+        "text": "Identity",
+        "url": "https://stripe.com/identity"
+      },
+      {
+        "text": "Invoicing",
+        "url": "https://stripe.com/invoicing"
+      },
+      {
+        "text": "Issuing",
+        "url": "https://stripe.com/issuing"
+      },
+      {
+        "text": "Link",
+        "url": "https://stripe.com/payments/link"
+      },
+      {
+        "text": "Managed Payments",
+        "url": "https://stripe.com/managed-payments"
+      },
+      {
+        "text": "Payment links",
+        "url": "https://stripe.com/payments/payment-links"
+      },
+      {
+        "text": "Payment methods",
+        "url": "https://stripe.com/payments/payment-methods"
+      },
+      {
+        "text": "Payments",
+        "url": "https://stripe.com/payments"
+      },
+      {
+        "text": "Radar",
+        "url": "https://stripe.com/radar"
+      },
+      {
+        "text": "Revenue Recognition",
+        "url": "https://stripe.com/revenue-recognition"
+      },
+      {
+        "text": "Stripe Sigma",
+        "url": "https://stripe.com/sigma"
+      },
+      {
+        "text": "Subscriptions",
+        "url": "https://stripe.com/billing/subscriptions"
+      },
+      {
+        "text": "Tax",
+        "url": "https://stripe.com/tax"
+      },
+      {
+        "text": "Terminal",
+        "url": "https://stripe.com/terminal"
+      },
+      {
+        "text": "Treasury",
+        "url": "https://stripe.com/treasury"
+      },
+      {
+        "text": "Treasury for platforms",
+        "url": "https://stripe.com/treasury/platforms"
+      },
+      {
+        "text": "Usage-based billing",
+        "url": "https://stripe.com/billing/usage-based-billing"
+      },
+      {
+        "text": "Enterprises",
+        "url": "https://stripe.com/enterprise"
+      },
+      {
+        "text": "Startups",
+        "url": "https://stripe.com/startups"
+      },
+      {
+        "text": "Agentic commerce",
+        "url": "https://stripe.com/use-cases/agentic-commerce"
+      },
+      {
+        "text": "Crypto",
+        "url": "https://stripe.com/use-cases/crypto"
+      },
+      {
+        "text": "Ecommerce",
+        "url": "https://stripe.com/use-cases/ecommerce"
+      },
+      {
+        "text": "Embedded finance",
+        "url": "https://stripe.com/use-cases/embedded-finance"
+      },
+      {
+        "text": "Finance automation",
+        "url": "https://stripe.com/use-cases/finance-automation"
+      },
+      {
+        "text": "Global businesses",
+        "url": "https://stripe.com/use-cases/global-businesses"
+      },
+      {
+        "text": "In-app payments",
+        "url": "https://stripe.com/use-cases/in-app-payments"
+      },
+      {
+        "text": "Marketplaces",
+        "url": "https://stripe.com/use-cases/marketplaces"
+      },
+      {
+        "text": "Money management",
+        "url": "https://stripe.com/money-management/availability"
+      },
+      {
+        "text": "Platforms",
+        "url": "https://stripe.com/use-cases/platforms"
+      },
+      {
+        "text": "SaaS",
+        "url": "https://stripe.com/use-cases/saas"
+      },
+      {
+        "text": "AI companies",
+        "url": "https://stripe.com/use-cases/ai"
+      },
+      {
+        "text": "Creator economy",
+        "url": "https://stripe.com/use-cases/creator-economy"
+      },
+      {
+        "text": "Fintech",
+        "url": "https://stripe.com/industries/fintech"
+      },
+      {
+        "text": "Gaming",
+        "url": "https://stripe.com/industries/gaming"
+      },
+      {
+        "text": "Hospitality, travel, and leisure",
+        "url": "https://stripe.com/industries/travel"
+      },
+      {
+        "text": "Insurance",
+        "url": "https://stripe.com/industries/insurance"
+      },
+      {
+        "text": "Media and entertainment",
+        "url": "https://stripe.com/industries/media-entertainment"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Products",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Solutions",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Developers",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Resources",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Back",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Toggle navigation menu"
+      },
+      {
+        "role": null,
+        "text": "Accept and optimize payments globally—online and in personPay RoasteryCartsy bez",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Enable any billing modelPro PlanBilled monthlyTokens$0.01 per 1,000 unitsUsage m",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Monetize through agentic commerceI’m refreshing my wardrobe. Can you recommend s",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Create a card issuing program",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Access borderless money movement with stablecoins and crypto",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Embed payments in your platform",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "135+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "$1.9T",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "99.999%",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "200M+",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Hertz unifies commerce with Stripe.",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "URBN consolidates $5 billion in online and in-store revenue onto Stripe.",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Instacart powers online grocery delivery with Stripe.",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Le Monde improves local and international payments with Stripe.",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Previous customer story"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Next customer story"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show testimonial from Mindbody"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show testimonial from Jobber"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show testimonial from Substack"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show testimonial from Lightspeed"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Previous slide"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Next slide"
+      },
+      {
+        "role": "combobox",
+        "text": "United States(English)",
+        "label": "United States. Choose your country"
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "posthog",
+    "url": "https://posthog.com/",
+    "status": 200,
+    "finalUrl": "https://posthog.com/",
+    "title": "PostHog – We make your product self-driving",
+    "links": [
+      {
+        "text": "Pricing",
+        "url": "https://posthog.com/pricing"
+      },
+      {
+        "text": "Get started – free",
+        "url": "https://app.posthog.com/signup"
+      },
+      {
+        "text": "Home",
+        "url": "https://posthog.com/"
+      },
+      {
+        "text": "Self-driving product",
+        "url": "https://posthog.com/self-driving"
+      },
+      {
+        "text": "Context warehouse",
+        "url": "https://posthog.com/context-warehouse"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://posthog.com/pricing"
+      },
+      {
+        "text": "Docs",
+        "url": "https://posthog.com/docs"
+      },
+      {
+        "text": "Demo",
+        "url": "https://posthog.com/demo"
+      },
+      {
+        "text": "Talk to a human",
+        "url": "https://posthog.com/talk-to-a-human"
+      },
+      {
+        "text": "About us",
+        "url": "https://posthog.com/about"
+      },
+      {
+        "text": "Changelog",
+        "url": "https://posthog.com/changelog"
+      },
+      {
+        "text": "Company handbook",
+        "url": "https://posthog.com/handbook"
+      },
+      {
+        "text": "Store",
+        "url": "https://posthog.com/merch"
+      },
+      {
+        "text": "Careers",
+        "url": "https://posthog.com/careers"
+      },
+      {
+        "text": "Trash",
+        "url": "https://posthog.com/trash"
+      },
+      {
+        "text": "Home",
+        "url": "https://posthog.com/"
+      },
+      {
+        "text": "Self-driving product",
+        "url": "https://posthog.com/self-driving"
+      },
+      {
+        "text": "Context warehouse",
+        "url": "https://posthog.com/context-warehouse"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://posthog.com/pricing"
+      },
+      {
+        "text": "Docs",
+        "url": "https://posthog.com/docs"
+      },
+      {
+        "text": "Demo",
+        "url": "https://posthog.com/demo"
+      },
+      {
+        "text": "Talk to a human",
+        "url": "https://posthog.com/talk-to-a-human"
+      },
+      {
+        "text": "About us",
+        "url": "https://posthog.com/about"
+      },
+      {
+        "text": "Changelog",
+        "url": "https://posthog.com/changelog"
+      },
+      {
+        "text": "Company handbook",
+        "url": "https://posthog.com/handbook"
+      },
+      {
+        "text": "Store",
+        "url": "https://posthog.com/merch"
+      },
+      {
+        "text": "Careers",
+        "url": "https://posthog.com/careers"
+      },
+      {
+        "text": "Trash",
+        "url": "https://posthog.com/trash"
+      },
+      {
+        "text": "Product Analytics",
+        "url": "https://posthog.com/product-analytics"
+      },
+      {
+        "text": "Web Analytics",
+        "url": "https://posthog.com/web-analytics"
+      },
+      {
+        "text": "Session Replay",
+        "url": "https://posthog.com/session-replay"
+      },
+      {
+        "text": "Feature Flags",
+        "url": "https://posthog.com/feature-flags"
+      },
+      {
+        "text": "Experiments",
+        "url": "https://posthog.com/experiments"
+      },
+      {
+        "text": "Surveys",
+        "url": "https://posthog.com/surveys"
+      },
+      {
+        "text": "Error Tracking",
+        "url": "https://posthog.com/error-tracking"
+      },
+      {
+        "text": "Managed warehouse",
+        "url": "https://posthog.com/context-warehouse/managed-warehouse"
+      },
+      {
+        "text": "CDP",
+        "url": "https://posthog.com/cdp"
+      },
+      {
+        "text": "Workflows",
+        "url": "https://posthog.com/workflows"
+      },
+      {
+        "text": "Logs",
+        "url": "https://posthog.com/logs"
+      },
+      {
+        "text": "AI Observability",
+        "url": "https://posthog.com/ai-observability"
+      },
+      {
+        "text": "Endpoints",
+        "url": "https://posthog.com/endpoints"
+      },
+      {
+        "text": "Inbox",
+        "url": "https://posthog.com/docs/self-driving/inbox"
+      },
+      {
+        "text": "Traces",
+        "url": "https://posthog.com/traces"
+      },
+      {
+        "text": "Heatmaps",
+        "url": "https://posthog.com/heatmaps"
+      },
+      {
+        "text": "Replay Vision",
+        "url": "https://posthog.com/replay-vision"
+      },
+      {
+        "text": "No-code A/B Testing",
+        "url": "https://posthog.com/docs/experiments/no-code-web-experiments"
+      },
+      {
+        "text": "Product Analytics",
+        "url": "https://posthog.com/product-analytics"
+      },
+      {
+        "text": "Web Analytics",
+        "url": "https://posthog.com/web-analytics"
+      },
+      {
+        "text": "Session Replay",
+        "url": "https://posthog.com/session-replay"
+      },
+      {
+        "text": "Feature Flags",
+        "url": "https://posthog.com/feature-flags"
+      },
+      {
+        "text": "Experiments",
+        "url": "https://posthog.com/experiments"
+      },
+      {
+        "text": "Surveys",
+        "url": "https://posthog.com/surveys"
+      },
+      {
+        "text": "Error Tracking",
+        "url": "https://posthog.com/error-tracking"
+      },
+      {
+        "text": "Managed warehouse",
+        "url": "https://posthog.com/context-warehouse/managed-warehouse"
+      },
+      {
+        "text": "CDP",
+        "url": "https://posthog.com/cdp"
+      },
+      {
+        "text": "Workflows",
+        "url": "https://posthog.com/workflows"
+      },
+      {
+        "text": "Logs",
+        "url": "https://posthog.com/logs"
+      },
+      {
+        "text": "AI Observability",
+        "url": "https://posthog.com/ai-observability"
+      },
+      {
+        "text": "Endpoints",
+        "url": "https://posthog.com/endpoints"
+      },
+      {
+        "text": "Inbox",
+        "url": "https://posthog.com/docs/self-driving/inbox"
+      },
+      {
+        "text": "Traces",
+        "url": "https://posthog.com/traces"
+      },
+      {
+        "text": "Heatmaps",
+        "url": "https://posthog.com/heatmaps"
+      },
+      {
+        "text": "Replay Vision",
+        "url": "https://posthog.com/replay-vision"
+      },
+      {
+        "text": "No-code A/B Testing",
+        "url": "https://posthog.com/docs/experiments/no-code-web-experiments"
+      },
+      {
+        "text": "Open Customers",
+        "url": "https://posthog.com/customers"
+      },
+      {
+        "text": "Connect your first data source",
+        "url": "https://posthog.com/context-warehouse/sources"
+      },
+      {
+        "text": "1.Product Analytics",
+        "url": "https://posthog.com/product-analytics"
+      },
+      {
+        "text": "2.Session Replay",
+        "url": "https://posthog.com/session-replay"
+      },
+      {
+        "text": "3.Feature Flags",
+        "url": "https://posthog.com/feature-flags"
+      },
+      {
+        "text": "4.Managed warehouse",
+        "url": "https://posthog.com/context-warehouse/managed-warehouse"
+      },
+      {
+        "text": "Product Analytics",
+        "url": "https://posthog.com/product-analytics"
+      },
+      {
+        "text": "Session Replay",
+        "url": "https://posthog.com/session-replay"
+      },
+      {
+        "text": "Feature Flags",
+        "url": "https://posthog.com/feature-flags"
+      },
+      {
+        "text": "Managed warehouse",
+        "url": "https://posthog.com/context-warehouse/managed-warehouse"
+      },
+      {
+        "text": "Explore pricing",
+        "url": "https://posthog.com/pricing"
+      },
+      {
+        "text": "company handbook",
+        "url": "https://posthog.com/handbook"
+      },
+      {
+        "text": "sales manual",
+        "url": "https://posthog.com/handbook/growth/sales/overview"
+      },
+      {
+        "text": "company strategy",
+        "url": "https://posthog.com/handbook/why-does-posthog-exist"
+      },
+      {
+        "text": "changelog",
+        "url": "https://posthog.com/changelog"
+      },
+      {
+        "text": "support folks",
+        "url": "https://posthog.com/teams/support"
+      },
+      {
+        "text": "Read more about us",
+        "url": "https://posthog.com/about"
+      },
+      {
+        "text": "demo.mov",
+        "url": "https://posthog.com/demo"
+      },
+      {
+        "text": "Technical docs",
+        "url": "https://posthog.com/docs"
+      },
+      {
+        "text": "API",
+        "url": "https://posthog.com/docs/api"
+      },
+      {
+        "text": "Ask a question",
+        "url": "https://posthog.com/questions"
+      },
+      {
+        "text": "Small teams at PostHog",
+        "url": "https://posthog.com/teams"
+      },
+      {
+        "text": "Get started",
+        "url": "https://app.posthog.com/signup"
+      }
+    ],
+    "controls": [
+      {
+        "role": "menuitem",
+        "text": "",
+        "label": null
+      },
+      {
+        "role": "menuitem",
+        "text": "Products",
+        "label": null
+      },
+      {
+        "role": "menuitem",
+        "text": "Docs",
+        "label": null
+      },
+      {
+        "role": "menuitem",
+        "text": "Community",
+        "label": null
+      },
+      {
+        "role": "menuitem",
+        "text": "Company",
+        "label": null
+      },
+      {
+        "role": "menuitem",
+        "text": "More",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": "menuitem",
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "The PostHog",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "The PostHog",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "US (Virginia)",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "EU (Frankfurt)",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "today",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "chronicle",
+    "url": "https://chroniclehq.com/",
+    "status": 200,
+    "finalUrl": "https://chroniclehq.com/",
+    "title": "Chronicle: AI Presentation Maker for Professional Slides & AI PPT",
+    "links": [
+      {
+        "text": "Product",
+        "url": "https://chroniclehq.com/"
+      },
+      {
+        "text": "Create Presentations with AI",
+        "url": "https://chroniclehq.com/ai-presentation-maker"
+      },
+      {
+        "text": "Chronicle API + MCP",
+        "url": "https://chroniclehq.com/api"
+      },
+      {
+        "text": "Integrations",
+        "url": "https://chroniclehq.com/integrations"
+      },
+      {
+        "text": "Resources",
+        "url": "https://chroniclehq.com/#"
+      },
+      {
+        "text": "Go deeper",
+        "url": "https://chroniclehq.com/#"
+      },
+      {
+        "text": "GallerySee what people create with Chronicle",
+        "url": "https://chroniclehq.com/gallery"
+      },
+      {
+        "text": "AcademyGet the most out of Chronicle",
+        "url": "https://chroniclehq.com/academy"
+      },
+      {
+        "text": "BlogRead the latest",
+        "url": "https://chroniclehq.com/blog"
+      },
+      {
+        "text": "Company",
+        "url": "https://chroniclehq.com/#"
+      },
+      {
+        "text": "Our storyRead about us",
+        "url": "https://app.chroniclehq.com/share/51cc6d69-94bb-40b1-9340-7f19eefcfdc8/ee625781-1635-4b24-b90a-5b71c9735af9/intro"
+      },
+      {
+        "text": "Chronicle 101Learn the basics",
+        "url": "https://www.youtube.com/watch?v=MT5_o4guuvI&list=PLC02ytnThZ0wmaVnVy1X7Xaxhg12NVZVK"
+      },
+      {
+        "text": "Solutions",
+        "url": "https://chroniclehq.com/solutions"
+      },
+      {
+        "text": "Sales",
+        "url": "https://chroniclehq.com/sales"
+      },
+      {
+        "text": "Product",
+        "url": "https://chroniclehq.com/product-use-case"
+      },
+      {
+        "text": "Marketing",
+        "url": "https://chroniclehq.com/marketing"
+      },
+      {
+        "text": "Agencies",
+        "url": "https://chroniclehq.com/solutions-agencies"
+      },
+      {
+        "text": "Startups",
+        "url": "https://chroniclehq.com/startups"
+      },
+      {
+        "text": "Templates",
+        "url": "https://chroniclehq.com/templates"
+      },
+      {
+        "text": "Enterprise",
+        "url": "https://chroniclehq.com/enterprise"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://chroniclehq.com/pricing"
+      },
+      {
+        "text": "Try for free",
+        "url": "https://app.chroniclehq.com/start"
+      },
+      {
+        "text": "Login",
+        "url": "https://app.chroniclehq.com/"
+      },
+      {
+        "text": "Try for freeTry for free",
+        "url": "https://app.chroniclehq.com/start"
+      },
+      {
+        "text": "Talk to salesTalk to sales",
+        "url": "https://chroniclehq.notion.site/337694506e90804abd30e15bc884b816"
+      },
+      {
+        "text": "Watch video",
+        "url": "https://www.youtube.com/watch?v=CqXsrZ2uQNY"
+      },
+      {
+        "text": "Try  ChronicleTry  Chronicle",
+        "url": "https://app.chroniclehq.com/start"
+      },
+      {
+        "text": "Getting Started",
+        "url": "https://app.chroniclehq.com/share/51cc6d69-94bb-40b1-9340-7f19eefcfdc8/400a2996-474f-4e45-b38f-940604252e4d/intro"
+      },
+      {
+        "text": "Chronicle API + MCP",
+        "url": "https://chroniclehq.com/api"
+      },
+      {
+        "text": "Templates",
+        "url": "https://chroniclehq.com/templates"
+      },
+      {
+        "text": "Integrations",
+        "url": "https://chroniclehq.com/integrations"
+      },
+      {
+        "text": "Solutions",
+        "url": "https://chroniclehq.com/solutions"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://chroniclehq.com/pricing"
+      },
+      {
+        "text": "PowerPoint Alternatives",
+        "url": "https://chroniclehq.com/alternative-presentation-tools-to-powerpoint"
+      },
+      {
+        "text": "Chronicle vs. Gamma",
+        "url": "https://chroniclehq.com/gamma-ai-alternative"
+      },
+      {
+        "text": "Chronicle vs. Prezi",
+        "url": "https://chroniclehq.com/prezi-alternative"
+      },
+      {
+        "text": "Enterprise",
+        "url": "https://chroniclehq.com/enterprise"
+      },
+      {
+        "text": "Academy",
+        "url": "https://chroniclehq.com/academy"
+      },
+      {
+        "text": "Chronicle 101",
+        "url": "https://chr.so/101"
+      },
+      {
+        "text": "Trust Center",
+        "url": "https://security.chroniclehq.com/"
+      },
+      {
+        "text": "Docs",
+        "url": "https://docs.chroniclehq.com/overview"
+      },
+      {
+        "text": "Privacy Policy",
+        "url": "https://chroniclehq.com/privacy-policy-2"
+      },
+      {
+        "text": "Terms of Service",
+        "url": "https://chroniclehq.com/terms-of-use"
+      },
+      {
+        "text": "Instagram",
+        "url": "https://www.instagram.com/madewithchronicle/"
+      },
+      {
+        "text": "Twitter",
+        "url": "https://x.com/Chronicle_HQ"
+      },
+      {
+        "text": "LinkedIn",
+        "url": "https://www.linkedin.com/company/chroniclehq/"
+      },
+      {
+        "text": "YouTube",
+        "url": "https://www.youtube.com/@ChroniclePresentations"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "",
+        "label": "Open menu"
+      },
+      {
+        "role": null,
+        "text": "Sales proposal",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Pitch deck",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Business update",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Product showcase",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Project plan",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Research report",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Start from anywhere",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Generate impressive slides",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Edit with AI",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Share in any format",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Previous slide"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Next slide"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Previous slide"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Next slide"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      }
+    ],
+    "captured": true
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "verifiedAt": "2026-09-08T12:10:30.826Z",
+  "base": "https://sparkle-auto-landing-2sq8r7it2-zodaayman2005-3362s-projects.vercel.app",
+  "target": "preview",
+  "authenticated": false,
+  "results": [
+    {
+      "locale": "ar",
+      "width": 1440,
+      "status": 200,
+      "direction": "rtl",
+      "heading": "مش لازم تفضل في المغسلة عشان تكون مسيطر عليها.",
+      "robots": "noindex, nofollow",
+      "canonical": null,
+      "overflow": false,
+      "broken": [],
+      "runtimeImageTransforms": false,
+      "embeddedFrames": 0,
+      "strategyBackground": "rgb(242, 250, 255)",
+      "proofBackground": "rgb(3, 19, 46)",
+      "formNotice": "استقبال الطلبات غير مفعّل في هذه المعاينة. تقدر تراجع النموذج، لكن بياناتك لن تصل لفريق Sparkle Auto.",
+      "videoTarget": "_blank",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "status": 200,
+      "direction": "rtl",
+      "heading": "مش لازم تفضل في المغسلة عشان تكون مسيطر عليها.",
+      "robots": "noindex, nofollow",
+      "canonical": null,
+      "overflow": false,
+      "broken": [],
+      "runtimeImageTransforms": false,
+      "embeddedFrames": 0,
+      "strategyBackground": "rgb(242, 250, 255)",
+      "proofBackground": "rgb(3, 19, 46)",
+      "formNotice": "استقبال الطلبات غير مفعّل في هذه المعاينة. تقدر تراجع النموذج، لكن بياناتك لن تصل لفريق Sparkle Auto.",
+      "videoTarget": "_blank",
+      "anchorTop": 120.328125,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "status": 200,
+      "direction": "ltr",
+      "heading": "You don’t have to stay at the car wash to stay in control.",
+      "robots": "noindex, nofollow",
+      "canonical": null,
+      "overflow": false,
+      "broken": [],
+      "runtimeImageTransforms": false,
+      "embeddedFrames": 0,
+      "strategyBackground": "rgb(242, 250, 255)",
+      "proofBackground": "rgb(3, 19, 46)",
+      "formNotice": "Live requests are not connected in this preview. You can review the form, but your details will not reach the Sparkle Auto team.",
+      "videoTarget": "_blank",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "status": 200,
+      "direction": "ltr",
+      "heading": "You don’t have to stay at the car wash to stay in control.",
+      "robots": "noindex, nofollow",
+      "canonical": null,
+      "overflow": false,
+      "broken": [],
+      "runtimeImageTransforms": false,
+      "embeddedFrames": 0,
+      "strategyBackground": "rgb(242, 250, 255)",
+      "proofBackground": "rgb(3, 19, 46)",
+      "formNotice": "Live requests are not connected in this preview. You can review the form, but your details will not reach the Sparkle Auto team.",
+      "videoTarget": "_blank",
+      "anchorTop": 120.359375,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "routes": {
+    "/design": 404,
+    "/design/motion": 404,
+    "/api/test-video": 404,
+    "/robots.txt": 200
+  },
+  "invalidEmptyRequestStatus": 400,
+  "originalHashes": [
+    {
+      "path": "/product/overview.jpg",
+      "sha256": "717356d253a97fa4b5967c16d7eb838400aac03308e3f820f08aba3c2337dba8",
+      "originalUnchanged": true
+    },
+    {
+      "path": "/product/bookings.jpg",
+      "sha256": "129cdcee894cb4c8982b00652002d04681240f2f30afec684b8870f27fb7bee9",
+      "originalUnchanged": true
+    },
+    {
+      "path": "/product/car-status.jpg",
+      "sha256": "bd0e6fd551234cbd45aad12b99752d6e9fdc0cfda6059ead4f837520e2fae0f6",
+      "originalUnchanged": true
+    },
+    {
+      "path": "/product/finance.jpg",
+      "sha256": "766ef6c63d6d4b8d9a9a282d50b9e603b18b3ac0a37fa6ad71ecfd4cd4d6e334",
+      "originalUnchanged": true
+    },
+    {
+      "path": "/product/team.jpg",
+      "sha256": "fbf1cab610dd4faa1d046c6f723dc07e44f44f5682256b5c11758d63858d7aa8",
+      "originalUnchanged": true
+    },
+    {
+      "path": "/product/inventory.jpg",
+      "sha256": "21ee9990585ef407990fcb0ce3d196a3924633164eec90b925e8ebcfbbd0a93b",
+      "originalUnchanged": true
+    },
+    {
+      "path": "/product/loyalty.jpg",
+      "sha256": "e59a3a37a098b1fa67aa116b447917f474e49c8cb911b0aa2b8082e28ac53850",
+      "originalUnchanged": true
+    }
+  ],
+  "actualLeadSent": false,
+  "productionPromoted": false
+}

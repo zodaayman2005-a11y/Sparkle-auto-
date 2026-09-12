@@ -1,0 +1,24 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/",
+    "title": "Sparkle Auto | نظام إدارة مغاسل السيارات في مصر — معاينة",
+    "lang": "ar",
+    "h1": [
+      "مش لازم تفضل في المغسلة عشان تكون مسيطر عليها."
+    ],
+    "errors": []
+  },
+  {
+    "path": "/en",
+    "status": 200,
+    "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/en",
+    "title": "Sparkle Auto | Car Wash Management System in Egypt — Preview",
+    "lang": "en",
+    "h1": [
+      "You don’t have to stay at the car wash to stay in control."
+    ],
+    "errors": []
+  }
+]

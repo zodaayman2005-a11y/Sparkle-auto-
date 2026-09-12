@@ -1,0 +1,339 @@
+[
+  {
+    "locale": "ar",
+    "events": [
+      {
+        "event": "DOMContentLoaded",
+        "time": 133,
+        "y": 0,
+        "body": 26429,
+        "target": 5536.671875
+      },
+      {
+        "event": "fonts-loadingdone",
+        "time": 801,
+        "y": 0,
+        "body": 26971,
+        "target": 5744.328125
+      },
+      {
+        "event": "load",
+        "time": 809,
+        "y": 0,
+        "body": 26971,
+        "target": 5744.328125
+      },
+      {
+        "event": "pageshow",
+        "time": 809,
+        "y": 0,
+        "body": 26971,
+        "target": 5744.328125
+      },
+      {
+        "event": "scroll",
+        "time": 810,
+        "y": 39,
+        "body": 26971,
+        "target": 5705.328125
+      },
+      {
+        "event": "scroll",
+        "time": 817,
+        "y": 64,
+        "body": 26971,
+        "target": 5680.328125
+      },
+      {
+        "event": "scroll",
+        "time": 829,
+        "y": 97,
+        "body": 26971,
+        "target": 5647.328125
+      },
+      {
+        "event": "scroll",
+        "time": 842,
+        "y": 140,
+        "body": 26971,
+        "target": 5604.328125
+      },
+      {
+        "event": "scroll",
+        "time": 859,
+        "y": 193,
+        "body": 26971,
+        "target": 5551.328125
+      },
+      {
+        "event": "scroll",
+        "time": 898,
+        "y": 260,
+        "body": 26971,
+        "target": 5484.328125
+      },
+      {
+        "event": "scroll",
+        "time": 904,
+        "y": 343,
+        "body": 26971,
+        "target": 5401.328125
+      },
+      {
+        "event": "scroll",
+        "time": 913,
+        "y": 446,
+        "body": 26971,
+        "target": 5298.328125
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 915,
+        "y": 446,
+        "body": 26971,
+        "target": 5298.328125
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 916,
+        "y": 446,
+        "body": 26971,
+        "target": 5298.328125
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 916,
+        "y": 446,
+        "body": 26971,
+        "target": 5298.328125
+      },
+      {
+        "event": "scroll",
+        "time": 925,
+        "y": 573,
+        "body": 26971,
+        "target": 5171.328125
+      },
+      {
+        "event": "scroll",
+        "time": 940,
+        "y": 731,
+        "body": 26971,
+        "target": 5013.328125
+      },
+      {
+        "event": "scroll",
+        "time": 957,
+        "y": 925,
+        "body": 26971,
+        "target": 4819.328125
+      },
+      {
+        "event": "scroll",
+        "time": 974,
+        "y": 1163,
+        "body": 26971,
+        "target": 4581.328125
+      },
+      {
+        "event": "scroll",
+        "time": 991,
+        "y": 1443,
+        "body": 26971,
+        "target": 4301.328125
+      },
+      {
+        "event": "scroll",
+        "time": 1007,
+        "y": 1753,
+        "body": 26971,
+        "target": 3991.328125
+      },
+      {
+        "event": "scrollIntoView:fit-case-8",
+        "time": 1021,
+        "y": 1753,
+        "body": 26971,
+        "target": 3991.328125
+      },
+      {
+        "event": "scroll",
+        "time": 1025,
+        "y": 5837,
+        "body": 26971,
+        "target": -92.671875
+      }
+    ],
+    "final": {
+      "x": 20,
+      "y": -92.671875,
+      "width": 350,
+      "height": 209
+    }
+  },
+  {
+    "locale": "en",
+    "events": [
+      {
+        "event": "DOMContentLoaded",
+        "time": 104,
+        "y": 0,
+        "body": 27634,
+        "target": 5658.359375
+      },
+      {
+        "event": "fonts-loadingdone",
+        "time": 458,
+        "y": 0,
+        "body": 27836,
+        "target": 5717.359375
+      },
+      {
+        "event": "load",
+        "time": 466,
+        "y": 0,
+        "body": 27836,
+        "target": 5717.359375
+      },
+      {
+        "event": "pageshow",
+        "time": 466,
+        "y": 0,
+        "body": 27836,
+        "target": 5717.359375
+      },
+      {
+        "event": "scroll",
+        "time": 467,
+        "y": 21,
+        "body": 27836,
+        "target": 5696.359375
+      },
+      {
+        "event": "scroll",
+        "time": 473,
+        "y": 39,
+        "body": 27836,
+        "target": 5678.359375
+      },
+      {
+        "event": "scroll",
+        "time": 486,
+        "y": 64,
+        "body": 27836,
+        "target": 5653.359375
+      },
+      {
+        "event": "scroll",
+        "time": 503,
+        "y": 98,
+        "body": 27836,
+        "target": 5619.359375
+      },
+      {
+        "event": "scroll",
+        "time": 539,
+        "y": 140,
+        "body": 27836,
+        "target": 5577.359375
+      },
+      {
+        "event": "scroll",
+        "time": 551,
+        "y": 194,
+        "body": 27836,
+        "target": 5523.359375
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 554,
+        "y": 194,
+        "body": 27836,
+        "target": 5523.359375
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 554,
+        "y": 194,
+        "body": 27836,
+        "target": 5523.359375
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 555,
+        "y": 194,
+        "body": 27836,
+        "target": 5523.359375
+      },
+      {
+        "event": "scroll",
+        "time": 557,
+        "y": 261,
+        "body": 27836,
+        "target": 5456.359375
+      },
+      {
+        "event": "scroll",
+        "time": 565,
+        "y": 344,
+        "body": 27836,
+        "target": 5373.359375
+      },
+      {
+        "event": "scroll",
+        "time": 581,
+        "y": 447,
+        "body": 27836,
+        "target": 5270.359375
+      },
+      {
+        "event": "scroll",
+        "time": 597,
+        "y": 574,
+        "body": 27836,
+        "target": 5143.359375
+      },
+      {
+        "event": "scroll",
+        "time": 615,
+        "y": 733,
+        "body": 27836,
+        "target": 4984.359375
+      },
+      {
+        "event": "scroll",
+        "time": 631,
+        "y": 928,
+        "body": 27836,
+        "target": 4789.359375
+      },
+      {
+        "event": "scroll",
+        "time": 649,
+        "y": 1167,
+        "body": 27836,
+        "target": 4550.359375
+      },
+      {
+        "event": "scrollIntoView:fit-case-8",
+        "time": 659,
+        "y": 1167,
+        "body": 27836,
+        "target": 4550.359375
+      },
+      {
+        "event": "scroll",
+        "time": 665,
+        "y": 5773,
+        "body": 27836,
+        "target": -55.640625
+      }
+    ],
+    "final": {
+      "x": 20,
+      "y": -55.640625,
+      "width": 350,
+      "height": 209
+    }
+  }
+]

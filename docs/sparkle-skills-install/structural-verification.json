@@ -1,0 +1,13 @@
+{
+  "skills": 41,
+  "source_map_entries_verified": 260,
+  "explicit_entrypoint_references_checked": 111,
+  "missing_references": [],
+  "agents_prior_bytes_preserved": true,
+  "agents_section_count": 1,
+  "backup": "docs\\sparkle-skills-install\\backups\\AGENTS.pre-skills.md",
+  "director_plan_link_verified": true,
+  "codex_discovery": "discovery_not_verified",
+  "workflow_execution": "not run",
+  "site_and_images": "not run"
+}

@@ -1,0 +1,81 @@
+"use client";
+import { useState } from "react";
+import { Brand, Modal, Arrow } from "./Primitives";
+import { cta, nav, pick, type Locale } from "@/content/site";
+export function Header({ locale }: { locale: Locale }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <a className="skip-link" href="#main">
+        {locale === "ar" ? "انتقل للمحتوى" : "Skip to content"}
+      </a>
+      <div className="header-wrap">
+        <header className="header shell">
+          <a href={locale === "ar" ? "/" : "/en"} aria-label="Sparkle Auto">
+            <Brand />
+          </a>
+          <nav
+            className="desktop-nav"
+            aria-label={
+              locale === "ar" ? "القائمة الرئيسية" : "Main navigation"
+            }
+          >
+            {nav.map((n) => (
+              <a key={n.id} href={`#${n.id}`}>
+                {pick(n.label, locale)}
+              </a>
+            ))}
+          </nav>
+          <div className="header-actions">
+            <a
+              className="language-link"
+              href={locale === "ar" ? "/en" : "/"}
+              lang={locale === "ar" ? "en" : "ar"}
+            >
+              {locale === "ar" ? "EN" : "عربي"}
+            </a>
+            <a className="button primary header-cta" href="#review">
+              {pick(cta, locale)}
+              <Arrow />
+            </a>
+            <button
+              className="icon-button menu-trigger"
+              onClick={() => setOpen(true)}
+              aria-label={locale === "ar" ? "افتح القائمة" : "Open menu"}
+              aria-expanded={open}
+            >
+              <span aria-hidden="true">☰</span>
+            </button>
+          </div>
+        </header>
+      </div>
+      {open && (
+        <Modal
+          kind="drawer"
+          label={locale === "ar" ? "القائمة" : "Menu"}
+          onClose={() => setOpen(false)}
+        >
+          <nav className="drawer-links">
+            {nav.map((n, i) => (
+              <a href={`#${n.id}`} key={n.id} onClick={() => setOpen(false)}>
+                <span dir="ltr">0{i + 1}</span>
+                {pick(n.label, locale)}
+                <Arrow />
+              </a>
+            ))}
+            <a
+              className="button primary"
+              href="#review"
+              onClick={() => setOpen(false)}
+            >
+              {pick(cta, locale)}
+            </a>
+            <a href={locale === "ar" ? "/en" : "/"}>
+              {locale === "ar" ? "English" : "العربية"}
+            </a>
+          </nav>
+        </Modal>
+      )}
+    </>
+  );
+}

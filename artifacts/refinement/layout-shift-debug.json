@@ -1,0 +1,165 @@
+{
+  "shifts": [
+    {
+      "time": 4213,
+      "value": 0.23011292085215546,
+      "sources": [
+        {
+          "tag": "DIV",
+          "class": "cta-row",
+          "previous": {
+            "x": 20,
+            "y": 509.65625,
+            "width": 355,
+            "height": 108,
+            "top": 509.65625,
+            "right": 375,
+            "bottom": 617.65625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 643.78125,
+            "width": 355,
+            "height": 108,
+            "top": 643.78125,
+            "right": 375,
+            "bottom": 751.78125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "class": "hero-body",
+          "previous": {
+            "x": 20,
+            "y": 333.375,
+            "width": 350,
+            "height": 88.78125,
+            "top": 333.375,
+            "right": 370,
+            "bottom": 422.15625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 439.75,
+            "width": 350.765625,
+            "height": 88.78125,
+            "top": 439.75,
+            "right": 370.765625,
+            "bottom": 528.53125,
+            "left": 20
+          }
+        },
+        {
+          "previous": {
+            "x": 20,
+            "y": 435.15625,
+            "width": 350,
+            "height": 74.5,
+            "top": 435.15625,
+            "right": 370,
+            "bottom": 509.65625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 542.53125,
+            "width": 350.875,
+            "height": 74.5,
+            "top": 542.53125,
+            "right": 370.875,
+            "bottom": 617.03125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "P",
+          "class": "hero-more",
+          "previous": {
+            "x": 20,
+            "y": 432.15625,
+            "width": 350,
+            "height": 55.5,
+            "top": 432.15625,
+            "right": 370,
+            "bottom": 487.65625,
+            "left": 20
+          },
+          "current": {
+            "x": 20,
+            "y": 538.53125,
+            "width": 350.875,
+            "height": 83.25,
+            "top": 538.53125,
+            "right": 370.875,
+            "bottom": 621.78125,
+            "left": 20
+          }
+        },
+        {
+          "tag": "DIV",
+          "class": "hero-stage",
+          "previous": {
+            "x": 25,
+            "y": 715.25,
+            "width": 340,
+            "height": 128.75,
+            "top": 715.25,
+            "right": 365,
+            "bottom": 844,
+            "left": 25
+          },
+          "current": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/alexandria-arabic-400-normal.1bj26n_pss66n.woff2",
+      "duration": 483.2000000476837,
+      "start": 764.7000000476837
+    },
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/space-grotesk-latin-700-normal.16tiaqjgzwdo4.woff2",
+      "duration": 501,
+      "start": 809.1000000238419
+    },
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/alexandria-arabic-700-normal.06orvyu7a4f_z.woff2",
+      "duration": 623.2000000476837,
+      "start": 809.7000000476837
+    },
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/alexandria-arabic-500-normal.36ol_gvv6adrv.woff2",
+      "duration": 684.5,
+      "start": 810.2000000476837
+    },
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/space-grotesk-latin-500-normal.33jdofnh71adk.woff2",
+      "duration": 868.2000000476837,
+      "start": 810.7000000476837
+    },
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/alexandria-arabic-800-normal.1l2ra3g_hhhtc.woff2",
+      "duration": 898.3999999761581,
+      "start": 810.8000000715256
+    },
+    {
+      "name": "http://127.0.0.1:3100/_next/static/media/space-grotesk-latin-400-normal.1c6pcavxma0qq.woff2",
+      "duration": 961.3999999761581,
+      "start": 811.1000000238419
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app",
+  "date": "2026-09-08T05:33:31.677Z",
+  "browser": "153.0.8010.12",
+  "matrix": [
+    {
+      "lang": "ar",
+      "width": 1440,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 19224,
+      "h1Height": 377.875,
+      "missingProof": 6,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 18738,
+      "h1Height": 335.875,
+      "missingProof": 6,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 1024,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 18416,
+      "h1Height": 275.1875,
+      "missingProof": 6,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 768,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 19412,
+      "h1Height": 322.375,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 27715,
+      "h1Height": 268.75,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 27897,
+      "h1Height": 268.75,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 27811,
+      "h1Height": 230.375,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "ar",
+      "width": 320,
+      "dir": "rtl",
+      "overflow": false,
+      "pageHeight": 28599,
+      "h1Height": 287.96875,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 18522,
+      "h1Height": 320.125,
+      "missingProof": 6,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 18477,
+      "h1Height": 286.3125,
+      "missingProof": 6,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 1024,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 18603,
+      "h1Height": 236,
+      "missingProof": 6,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 20102,
+      "h1Height": 181,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 28388,
+      "h1Height": 201.5625,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 28803,
+      "h1Height": 201.5625,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 29065,
+      "h1Height": 174.6875,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "dir": "ltr",
+      "overflow": false,
+      "pageHeight": 30339,
+      "h1Height": 218.359375,
+      "missingProof": 16,
+      "brokenImages": [],
+      "badAnchors": []
+    }
+  ],
+  "flows": [
+    {
+      "lang": "ar",
+      "flows": [
+        {
+          "name": "menu Escape focus",
+          "pass": true
+        },
+        {
+          "name": "FAQ keyboard",
+          "pass": true
+        },
+        {
+          "name": "pricing yearly/monthly",
+          "pass": true
+        },
+        {
+          "name": "enlarge + Escape",
+          "pass": false,
+          "error": "locator.click: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'كبر الشاشة' }).first()\u001b[22m\n"
+        },
+        {
+          "name": "form validation and intercepted failure",
+          "pass": true
+        },
+        {
+          "name": "fast scroll and reduced motion",
+          "pass": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "flows": [
+        {
+          "name": "menu Escape focus",
+          "pass": true
+        },
+        {
+          "name": "FAQ keyboard",
+          "pass": true
+        },
+        {
+          "name": "pricing yearly/monthly",
+          "pass": true
+        },
+        {
+          "name": "enlarge + Escape",
+          "pass": true
+        },
+        {
+          "name": "form validation and intercepted failure",
+          "pass": true
+        },
+        {
+          "name": "fast scroll and reduced motion",
+          "pass": true
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "axe": [
+    {
+      "lang": "ar",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "violations": []
+    }
+  ]
+}

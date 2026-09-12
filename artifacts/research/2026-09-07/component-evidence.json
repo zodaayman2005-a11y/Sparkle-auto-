@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "aceternity-sticky",
+    "url": "https://ui.aceternity.com/components/sticky-scroll-reveal",
+    "status": 200,
+    "finalUrl": "https://ui.aceternity.com/components/sticky-scroll-reveal",
+    "title": "Sticky Scroll Reveal | Aceternity UI",
+    "links": [
+      {
+        "text": "ceternity UI",
+        "url": "https://ui.aceternity.com/"
+      },
+      {
+        "text": "Components",
+        "url": "https://ui.aceternity.com/components"
+      },
+      {
+        "text": "Blocks",
+        "url": "https://ui.aceternity.com/blocks"
+      },
+      {
+        "text": "Templates",
+        "url": "https://ui.aceternity.com/templates"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://ui.aceternity.com/pricing"
+      },
+      {
+        "text": "Get All-Access",
+        "url": "https://ui.aceternity.com/pricing"
+      },
+      {
+        "text": "Twitter @mannupaaji",
+        "url": "https://twitter.com/mannupaaji"
+      },
+      {
+        "text": "Learn Tailwind and Motion",
+        "url": "https://youtube.com/@manuarora"
+      },
+      {
+        "text": "Install Next.js",
+        "url": "https://ui.aceternity.com/docs/install-nextjs"
+      },
+      {
+        "text": "Install Tailwind CSS",
+        "url": "https://ui.aceternity.com/docs/install-tailwindcss"
+      },
+      {
+        "text": "Add utilities",
+        "url": "https://ui.aceternity.com/docs/add-utilities"
+      },
+      {
+        "text": "CLI",
+        "url": "https://ui.aceternity.com/docs/cli"
+      },
+      {
+        "text": "Productized Agency TemplateNew",
+        "url": "https://ui.aceternity.com/templates/productized-agency-template"
+      },
+      {
+        "text": "Simplistic SaaS TemplateNew",
+        "url": "https://ui.aceternity.com/templates/simplistic-saas-template"
+      },
+      {
+        "text": "Nodus Marketing Template",
+        "url": "https://ui.aceternity.com/templates/nodus-agent-template"
+      },
+      {
+        "text": "Agenforce Marketing Template",
+        "url": "https://ui.aceternity.com/templates/agenforce-marketing-template"
+      },
+      {
+        "text": "AI SaaS Template",
+        "url": "https://ui.aceternity.com/templates/ai-saas-template"
+      },
+      {
+        "text": "Startup Landing Page Template",
+        "url": "https://ui.aceternity.com/templates/startup-landing-page-template"
+      },
+      {
+        "text": "Proactiv Marketing Template",
+        "url": "https://ui.aceternity.com/templates/proactiv-marketing-template"
+      },
+      {
+        "text": "Minimal Portfolio Template",
+        "url": "https://ui.aceternity.com/templates/minimal-portfolio-template"
+      },
+      {
+        "text": "Minimalist Portfolio Template",
+        "url": "https://ui.aceternity.com/templates/minimalist-portfolio-template"
+      },
+      {
+        "text": "Cryptgen Marketing",
+        "url": "https://ui.aceternity.com/templates/cryptgen-marketing-aceternity"
+      },
+      {
+        "text": "Playful Marketing Template",
+        "url": "https://ui.aceternity.com/templates/playful-marketing-aceternity"
+      },
+      {
+        "text": "Agenlabs Agency",
+        "url": "https://ui.aceternity.com/templates/agenlabs-agency-template"
+      },
+      {
+        "text": "Devpro Portfolio",
+        "url": "https://ui.aceternity.com/templates/devpro-portfolio-template"
+      },
+      {
+        "text": "Foxtrot Marketing",
+        "url": "https://ui.aceternity.com/templates/foxtrot-marketing-template"
+      },
+      {
+        "text": "Sidefolio Portfolio",
+        "url": "https://ui.aceternity.com/templates/sidefolio-portfolio-template"
+      },
+      {
+        "text": "Schedule Marketing",
+        "url": "https://ui.aceternity.com/templates/schedule-marketing-template"
+      },
+      {
+        "text": "Hero Sections",
+        "url": "https://ui.aceternity.com/blocks/hero-sections"
+      },
+      {
+        "text": "ShadersNew",
+        "url": "https://ui.aceternity.com/blocks/shaders"
+      },
+      {
+        "text": "IllustrationsNew",
+        "url": "https://ui.aceternity.com/blocks/illustrations"
+      },
+      {
+        "text": "Logo Clouds",
+        "url": "https://ui.aceternity.com/blocks/logo-clouds"
+      },
+      {
+        "text": "Bento Grids",
+        "url": "https://ui.aceternity.com/blocks/bento-grids"
+      },
+      {
+        "text": "CTA Sections",
+        "url": "https://ui.aceternity.com/blocks/cta-sections"
+      },
+      {
+        "text": "Testimonials",
+        "url": "https://ui.aceternity.com/blocks/testimonials"
+      },
+      {
+        "text": "Team SectionsNew",
+        "url": "https://ui.aceternity.com/blocks/team-sections"
+      },
+      {
+        "text": "Empty StatesNew",
+        "url": "https://ui.aceternity.com/blocks/empty-states"
+      },
+      {
+        "text": "Feature sections",
+        "url": "https://ui.aceternity.com/blocks/feature-sections"
+      },
+      {
+        "text": "Pricing sections",
+        "url": "https://ui.aceternity.com/blocks/pricing-sections"
+      },
+      {
+        "text": "Cards",
+        "url": "https://ui.aceternity.com/blocks/cards"
+      },
+      {
+        "text": "Navbars",
+        "url": "https://ui.aceternity.com/blocks/navbars"
+      },
+      {
+        "text": "Footers",
+        "url": "https://ui.aceternity.com/blocks/footers"
+      },
+      {
+        "text": "Login and Signup",
+        "url": "https://ui.aceternity.com/blocks/login-and-signup-sections"
+      },
+      {
+        "text": "Contact Sections",
+        "url": "https://ui.aceternity.com/blocks/contact-sections"
+      },
+      {
+        "text": "Blog Sections",
+        "url": "https://ui.aceternity.com/blocks/blog-sections"
+      },
+      {
+        "text": "Blog Content Sections",
+        "url": "https://ui.aceternity.com/blocks/blog-content-sections"
+      },
+      {
+        "text": "FAQs",
+        "url": "https://ui.aceternity.com/blocks/faqs"
+      },
+      {
+        "text": "Sidebars",
+        "url": "https://ui.aceternity.com/blocks/sidebars"
+      },
+      {
+        "text": "Stats Sections",
+        "url": "https://ui.aceternity.com/blocks/stats-sections"
+      },
+      {
+        "text": "BackgroundsNew",
+        "url": "https://ui.aceternity.com/blocks/backgrounds"
+      },
+      {
+        "text": "Text AnimationsNew",
+        "url": "https://ui.aceternity.com/blocks/text-animations"
+      },
+      {
+        "text": "Webcam Pixel GridNew",
+        "url": "https://ui.aceternity.com/components/webcam-pixel-grid"
+      },
+      {
+        "text": "Images BadgeNew",
+        "url": "https://ui.aceternity.com/components/images-badge"
+      },
+      {
+        "text": "Parallax Hero ImagesNew",
+        "url": "https://ui.aceternity.com/components/parallax-hero-images"
+      },
+      {
+        "text": "ScalesNew",
+        "url": "https://ui.aceternity.com/components/scales"
+      },
+      {
+        "text": "Dotted Glow BackgroundNew",
+        "url": "https://ui.aceternity.com/components/dotted-glow-background"
+      },
+      {
+        "text": "Background Ripple EffectNew",
+        "url": "https://ui.aceternity.com/components/background-ripple-effect"
+      },
+      {
+        "text": "Sparkles",
+        "url": "https://ui.aceternity.com/components/sparkles"
+      },
+      {
+        "text": "Background Gradient",
+        "url": "https://ui.aceternity.com/components/background-gradient"
+      },
+      {
+        "text": "Gradient Animation",
+        "url": "https://ui.aceternity.com/components/background-gradient-animation"
+      },
+      {
+        "text": "Wavy Background",
+        "url": "https://ui.aceternity.com/components/wavy-background"
+      },
+      {
+        "text": "Background Boxes",
+        "url": "https://ui.aceternity.com/components/background-boxes"
+      },
+      {
+        "text": "Background Beams",
+        "url": "https://ui.aceternity.com/components/background-beams"
+      },
+      {
+        "text": "Background Beams With Collision",
+        "url": "https://ui.aceternity.com/components/background-beams-with-collision"
+      },
+      {
+        "text": "Background Lines",
+        "url": "https://ui.aceternity.com/components/background-lines"
+      },
+      {
+        "text": "Aurora Background",
+        "url": "https://ui.aceternity.com/components/aurora-background"
+      },
+      {
+        "text": "Meteors",
+        "url": "https://ui.aceternity.com/components/meteors"
+      },
+      {
+        "text": "Glowing Stars",
+        "url": "https://ui.aceternity.com/components/glowing-stars-effect"
+      },
+      {
+        "text": "Shooting Stars",
+        "url": "https://ui.aceternity.com/components/shooting-stars-and-stars-background"
+      },
+      {
+        "text": "Vortex",
+        "url": "https://ui.aceternity.com/components/vortex"
+      },
+      {
+        "text": "Cloud ShaderNew",
+        "url": "https://ui.aceternity.com/components/cloud-shader"
+      },
+      {
+        "text": "Chromatic ImageNew",
+        "url": "https://ui.aceternity.com/components/chromatic-image"
+      },
+      {
+        "text": "Spotlight",
+        "url": "https://ui.aceternity.com/components/spotlight"
+      },
+      {
+        "text": "Spotlight New",
+        "url": "https://ui.aceternity.com/components/spotlight-new"
+      },
+      {
+        "text": "Canvas Reveal Effect",
+        "url": "https://ui.aceternity.com/components/canvas-reveal-effect"
+      },
+      {
+        "text": "SVG Mask Effect",
+        "url": "https://ui.aceternity.com/components/svg-mask-effect"
+      },
+      {
+        "text": "Tracing Beam",
+        "url": "https://ui.aceternity.com/components/tracing-beam"
+      },
+      {
+        "text": "Lamp effect",
+        "url": "https://ui.aceternity.com/components/lamp-effect"
+      },
+      {
+        "text": "Grid and Dot Backgrounds",
+        "url": "https://ui.aceternity.com/components/grid-and-dot-backgrounds"
+      },
+      {
+        "text": "Glowing Effect",
+        "url": "https://ui.aceternity.com/components/glowing-effect"
+      },
+      {
+        "text": "Google Gemini Effect",
+        "url": "https://ui.aceternity.com/components/google-gemini-effect"
+      },
+      {
+        "text": "Keyboard",
+        "url": "https://ui.aceternity.com/components/keyboard"
+      },
+      {
+        "text": "TerminalNew",
+        "url": "https://ui.aceternity.com/components/terminal"
+      },
+      {
+        "text": "Tooltip CardNew",
+        "url": "https://ui.aceternity.com/components/tooltip-card"
+      },
+      {
+        "text": "ASCII ArtNew",
+        "url": "https://ui.aceternity.com/components/ascii-art"
+      },
+      {
+        "text": "Pixelated CanvasNew",
+        "url": "https://ui.aceternity.com/components/pixelated-canvas"
+      },
+      {
+        "text": "3D Card Effect",
+        "url": "https://ui.aceternity.com/components/3d-card-effect"
+      },
+      {
+        "text": "Evervault Card",
+        "url": "https://ui.aceternity.com/components/evervault-card"
+      },
+      {
+        "text": "Card Stack",
+        "url": "https://ui.aceternity.com/components/card-stack"
+      },
+      {
+        "text": "Card Hover Effect",
+        "url": "https://ui.aceternity.com/components/card-hover-effect"
+      },
+      {
+        "text": "Wobble Card",
+        "url": "https://ui.aceternity.com/components/wobble-card"
+      },
+      {
+        "text": "Expandable Card",
+        "url": "https://ui.aceternity.com/components/expandable-card"
+      },
+      {
+        "text": "Card Spotlight",
+        "url": "https://ui.aceternity.com/components/card-spotlight"
+      },
+      {
+        "text": "Focus Cards",
+        "url": "https://ui.aceternity.com/components/focus-cards"
+      },
+      {
+        "text": "Infinite Moving Cards",
+        "url": "https://ui.aceternity.com/components/infinite-moving-cards"
+      },
+      {
+        "text": "Draggable Card",
+        "url": "https://ui.aceternity.com/components/draggable-card"
+      },
+      {
+        "text": "Comet CardNew",
+        "url": "https://ui.aceternity.com/components/comet-card"
+      },
+      {
+        "text": "Glare Card",
+        "url": "https://ui.aceternity.com/components/glare-card"
+      },
+      {
+        "text": "Direction Aware Hover",
+        "url": "https://ui.aceternity.com/components/direction-aware-hover"
+      },
+      {
+        "text": "Parallax Scroll",
+        "url": "https://ui.aceternity.com/components/parallax-scroll"
+      },
+      {
+        "text": "Sticky Scroll Reveal",
+        "url": "https://ui.aceternity.com/components/sticky-scroll-reveal"
+      },
+      {
+        "text": "Macbook Scroll",
+        "url": "https://ui.aceternity.com/components/macbook-scroll"
+      },
+      {
+        "text": "Container Scroll Animation",
+        "url": "https://ui.aceternity.com/components/container-scroll-animation"
+      },
+      {
+        "text": "Hero Parallax",
+        "url": "https://ui.aceternity.com/components/hero-parallax"
+      },
+      {
+        "text": "Canvas TextNew",
+        "url": "https://ui.aceternity.com/components/canvas-text"
+      },
+      {
+        "text": "Encrypted TextNew",
+        "url": "https://ui.aceternity.com/components/encrypted-text"
+      },
+      {
+        "text": "Layout Text FlipNew",
+        "url": "https://ui.aceternity.com/components/layout-text-flip"
+      },
+      {
+        "text": "Colourful Text",
+        "url": "https://ui.aceternity.com/components/colourful-text"
+      },
+      {
+        "text": "Squiggly TextNew",
+        "url": "https://ui.aceternity.com/components/squiggly-text"
+      },
+      {
+        "text": "Text Generate Effect",
+        "url": "https://ui.aceternity.com/components/text-generate-effect"
+      },
+      {
+        "text": "Typewriter Effect",
+        "url": "https://ui.aceternity.com/components/typewriter-effect"
+      },
+      {
+        "text": "Flip Words",
+        "url": "https://ui.aceternity.com/components/flip-words"
+      },
+      {
+        "text": "Text Hover Effect",
+        "url": "https://ui.aceternity.com/components/text-hover-effect"
+      },
+      {
+        "text": "Container Text Flip",
+        "url": "https://ui.aceternity.com/components/container-text-flip"
+      },
+      {
+        "text": "Hero Highlight",
+        "url": "https://ui.aceternity.com/components/hero-highlight"
+      },
+      {
+        "text": "Text Reveal Card",
+        "url": "https://ui.aceternity.com/components/text-reveal-card"
+      },
+      {
+        "text": "Text Flipping BoardNew",
+        "url": "https://ui.aceternity.com/components/text-flipping-board"
+      },
+      {
+        "text": "Magnetic ButtonNew",
+        "url": "https://ui.aceternity.com/components/magnetic-button"
+      },
+      {
+        "text": "Noise BackgroundNew",
+        "url": "https://ui.aceternity.com/components/noise-background"
+      },
+      {
+        "text": "Tailwind CSS buttons",
+        "url": "https://ui.aceternity.com/components/tailwindcss-buttons"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Search⌘K",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Toggle theme",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Toggle theme",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Toggle menu"
+      },
+      {
+        "role": null,
+        "text": "Follow for updates",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Installation",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Templates",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Sections and Blocks",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Backgrounds & Effects",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Card Components",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Scroll & Parallax",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Text Components",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Buttons",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Loaders",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Navigation",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Inputs & Forms",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Overlays & Popovers",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Carousels & Sliders",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Layout & Grid",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Data & Visualization",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Cursor & Pointer",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "3D",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Sections and Blocks Free",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Labs",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Preview",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Code",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "@aceternity/sticky-scroll-reveal-demoCopy",
+        "label": "Copy npm install command"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Select package manager"
+      },
+      {
+        "role": null,
+        "text": "PromptCopy prompt",
+        "label": "Copy implementation guide"
+      },
+      {
+        "role": "tab",
+        "text": "CLI",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Manual",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Talk to us",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "aceternity-tabs",
+    "url": "https://ui.aceternity.com/components/tabs",
+    "status": 200,
+    "finalUrl": "https://ui.aceternity.com/components/tabs",
+    "title": "Animated Tabs | Aceternity UI",
+    "links": [
+      {
+        "text": "ceternity UI",
+        "url": "https://ui.aceternity.com/"
+      },
+      {
+        "text": "Components",
+        "url": "https://ui.aceternity.com/components"
+      },
+      {
+        "text": "Blocks",
+        "url": "https://ui.aceternity.com/blocks"
+      },
+      {
+        "text": "Templates",
+        "url": "https://ui.aceternity.com/templates"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://ui.aceternity.com/pricing"
+      },
+      {
+        "text": "Get All-Access",
+        "url": "https://ui.aceternity.com/pricing"
+      },
+      {
+        "text": "Twitter @mannupaaji",
+        "url": "https://twitter.com/mannupaaji"
+      },
+      {
+        "text": "Learn Tailwind and Motion",
+        "url": "https://youtube.com/@manuarora"
+      },
+      {
+        "text": "Install Next.js",
+        "url": "https://ui.aceternity.com/docs/install-nextjs"
+      },
+      {
+        "text": "Install Tailwind CSS",
+        "url": "https://ui.aceternity.com/docs/install-tailwindcss"
+      },
+      {
+        "text": "Add utilities",
+        "url": "https://ui.aceternity.com/docs/add-utilities"
+      },
+      {
+        "text": "CLI",
+        "url": "https://ui.aceternity.com/docs/cli"
+      },
+      {
+        "text": "Productized Agency TemplateNew",
+        "url": "https://ui.aceternity.com/templates/productized-agency-template"
+      },
+      {
+        "text": "Simplistic SaaS TemplateNew",
+        "url": "https://ui.aceternity.com/templates/simplistic-saas-template"
+      },
+      {
+        "text": "Nodus Marketing Template",
+        "url": "https://ui.aceternity.com/templates/nodus-agent-template"
+      },
+      {
+        "text": "Agenforce Marketing Template",
+        "url": "https://ui.aceternity.com/templates/agenforce-marketing-template"
+      },
+      {
+        "text": "AI SaaS Template",
+        "url": "https://ui.aceternity.com/templates/ai-saas-template"
+      },
+      {
+        "text": "Startup Landing Page Template",
+        "url": "https://ui.aceternity.com/templates/startup-landing-page-template"
+      },
+      {
+        "text": "Proactiv Marketing Template",
+        "url": "https://ui.aceternity.com/templates/proactiv-marketing-template"
+      },
+      {
+        "text": "Minimal Portfolio Template",
+        "url": "https://ui.aceternity.com/templates/minimal-portfolio-template"
+      },
+      {
+        "text": "Minimalist Portfolio Template",
+        "url": "https://ui.aceternity.com/templates/minimalist-portfolio-template"
+      },
+      {
+        "text": "Cryptgen Marketing",
+        "url": "https://ui.aceternity.com/templates/cryptgen-marketing-aceternity"
+      },
+      {
+        "text": "Playful Marketing Template",
+        "url": "https://ui.aceternity.com/templates/playful-marketing-aceternity"
+      },
+      {
+        "text": "Agenlabs Agency",
+        "url": "https://ui.aceternity.com/templates/agenlabs-agency-template"
+      },
+      {
+        "text": "Devpro Portfolio",
+        "url": "https://ui.aceternity.com/templates/devpro-portfolio-template"
+      },
+      {
+        "text": "Foxtrot Marketing",
+        "url": "https://ui.aceternity.com/templates/foxtrot-marketing-template"
+      },
+      {
+        "text": "Sidefolio Portfolio",
+        "url": "https://ui.aceternity.com/templates/sidefolio-portfolio-template"
+      },
+      {
+        "text": "Schedule Marketing",
+        "url": "https://ui.aceternity.com/templates/schedule-marketing-template"
+      },
+      {
+        "text": "Hero Sections",
+        "url": "https://ui.aceternity.com/blocks/hero-sections"
+      },
+      {
+        "text": "ShadersNew",
+        "url": "https://ui.aceternity.com/blocks/shaders"
+      },
+      {
+        "text": "IllustrationsNew",
+        "url": "https://ui.aceternity.com/blocks/illustrations"
+      },
+      {
+        "text": "Logo Clouds",
+        "url": "https://ui.aceternity.com/blocks/logo-clouds"
+      },
+      {
+        "text": "Bento Grids",
+        "url": "https://ui.aceternity.com/blocks/bento-grids"
+      },
+      {
+        "text": "CTA Sections",
+        "url": "https://ui.aceternity.com/blocks/cta-sections"
+      },
+      {
+        "text": "Testimonials",
+        "url": "https://ui.aceternity.com/blocks/testimonials"
+      },
+      {
+        "text": "Team SectionsNew",
+        "url": "https://ui.aceternity.com/blocks/team-sections"
+      },
+      {
+        "text": "Empty StatesNew",
+        "url": "https://ui.aceternity.com/blocks/empty-states"
+      },
+      {
+        "text": "Feature sections",
+        "url": "https://ui.aceternity.com/blocks/feature-sections"
+      },
+      {
+        "text": "Pricing sections",
+        "url": "https://ui.aceternity.com/blocks/pricing-sections"
+      },
+      {
+        "text": "Cards",
+        "url": "https://ui.aceternity.com/blocks/cards"
+      },
+      {
+        "text": "Navbars",
+        "url": "https://ui.aceternity.com/blocks/navbars"
+      },
+      {
+        "text": "Footers",
+        "url": "https://ui.aceternity.com/blocks/footers"
+      },
+      {
+        "text": "Login and Signup",
+        "url": "https://ui.aceternity.com/blocks/login-and-signup-sections"
+      },
+      {
+        "text": "Contact Sections",
+        "url": "https://ui.aceternity.com/blocks/contact-sections"
+      },
+      {
+        "text": "Blog Sections",
+        "url": "https://ui.aceternity.com/blocks/blog-sections"
+      },
+      {
+        "text": "Blog Content Sections",
+        "url": "https://ui.aceternity.com/blocks/blog-content-sections"
+      },
+      {
+        "text": "FAQs",
+        "url": "https://ui.aceternity.com/blocks/faqs"
+      },
+      {
+        "text": "Sidebars",
+        "url": "https://ui.aceternity.com/blocks/sidebars"
+      },
+      {
+        "text": "Stats Sections",
+        "url": "https://ui.aceternity.com/blocks/stats-sections"
+      },
+      {
+        "text": "BackgroundsNew",
+        "url": "https://ui.aceternity.com/blocks/backgrounds"
+      },
+      {
+        "text": "Text AnimationsNew",
+        "url": "https://ui.aceternity.com/blocks/text-animations"
+      },
+      {
+        "text": "Webcam Pixel GridNew",
+        "url": "https://ui.aceternity.com/components/webcam-pixel-grid"
+      },
+      {
+        "text": "Images BadgeNew",
+        "url": "https://ui.aceternity.com/components/images-badge"
+      },
+      {
+        "text": "Parallax Hero ImagesNew",
+        "url": "https://ui.aceternity.com/components/parallax-hero-images"
+      },
+      {
+        "text": "ScalesNew",
+        "url": "https://ui.aceternity.com/components/scales"
+      },
+      {
+        "text": "Dotted Glow BackgroundNew",
+        "url": "https://ui.aceternity.com/components/dotted-glow-background"
+      },
+      {
+        "text": "Background Ripple EffectNew",
+        "url": "https://ui.aceternity.com/components/background-ripple-effect"
+      },
+      {
+        "text": "Sparkles",
+        "url": "https://ui.aceternity.com/components/sparkles"
+      },
+      {
+        "text": "Background Gradient",
+        "url": "https://ui.aceternity.com/components/background-gradient"
+      },
+      {
+        "text": "Gradient Animation",
+        "url": "https://ui.aceternity.com/components/background-gradient-animation"
+      },
+      {
+        "text": "Wavy Background",
+        "url": "https://ui.aceternity.com/components/wavy-background"
+      },
+      {
+        "text": "Background Boxes",
+        "url": "https://ui.aceternity.com/components/background-boxes"
+      },
+      {
+        "text": "Background Beams",
+        "url": "https://ui.aceternity.com/components/background-beams"
+      },
+      {
+        "text": "Background Beams With Collision",
+        "url": "https://ui.aceternity.com/components/background-beams-with-collision"
+      },
+      {
+        "text": "Background Lines",
+        "url": "https://ui.aceternity.com/components/background-lines"
+      },
+      {
+        "text": "Aurora Background",
+        "url": "https://ui.aceternity.com/components/aurora-background"
+      },
+      {
+        "text": "Meteors",
+        "url": "https://ui.aceternity.com/components/meteors"
+      },
+      {
+        "text": "Glowing Stars",
+        "url": "https://ui.aceternity.com/components/glowing-stars-effect"
+      },
+      {
+        "text": "Shooting Stars",
+        "url": "https://ui.aceternity.com/components/shooting-stars-and-stars-background"
+      },
+      {
+        "text": "Vortex",
+        "url": "https://ui.aceternity.com/components/vortex"
+      },
+      {
+        "text": "Cloud ShaderNew",
+        "url": "https://ui.aceternity.com/components/cloud-shader"
+      },
+      {
+        "text": "Chromatic ImageNew",
+        "url": "https://ui.aceternity.com/components/chromatic-image"
+      },
+      {
+        "text": "Spotlight",
+        "url": "https://ui.aceternity.com/components/spotlight"
+      },
+      {
+        "text": "Spotlight New",
+        "url": "https://ui.aceternity.com/components/spotlight-new"
+      },
+      {
+        "text": "Canvas Reveal Effect",
+        "url": "https://ui.aceternity.com/components/canvas-reveal-effect"
+      },
+      {
+        "text": "SVG Mask Effect",
+        "url": "https://ui.aceternity.com/components/svg-mask-effect"
+      },
+      {
+        "text": "Tracing Beam",
+        "url": "https://ui.aceternity.com/components/tracing-beam"
+      },
+      {
+        "text": "Lamp effect",
+        "url": "https://ui.aceternity.com/components/lamp-effect"
+      },
+      {
+        "text": "Grid and Dot Backgrounds",
+        "url": "https://ui.aceternity.com/components/grid-and-dot-backgrounds"
+      },
+      {
+        "text": "Glowing Effect",
+        "url": "https://ui.aceternity.com/components/glowing-effect"
+      },
+      {
+        "text": "Google Gemini Effect",
+        "url": "https://ui.aceternity.com/components/google-gemini-effect"
+      },
+      {
+        "text": "Keyboard",
+        "url": "https://ui.aceternity.com/components/keyboard"
+      },
+      {
+        "text": "TerminalNew",
+        "url": "https://ui.aceternity.com/components/terminal"
+      },
+      {
+        "text": "Tooltip CardNew",
+        "url": "https://ui.aceternity.com/components/tooltip-card"
+      },
+      {
+        "text": "ASCII ArtNew",
+        "url": "https://ui.aceternity.com/components/ascii-art"
+      },
+      {
+        "text": "Pixelated CanvasNew",
+        "url": "https://ui.aceternity.com/components/pixelated-canvas"
+      },
+      {
+        "text": "3D Card Effect",
+        "url": "https://ui.aceternity.com/components/3d-card-effect"
+      },
+      {
+        "text": "Evervault Card",
+        "url": "https://ui.aceternity.com/components/evervault-card"
+      },
+      {
+        "text": "Card Stack",
+        "url": "https://ui.aceternity.com/components/card-stack"
+      },
+      {
+        "text": "Card Hover Effect",
+        "url": "https://ui.aceternity.com/components/card-hover-effect"
+      },
+      {
+        "text": "Wobble Card",
+        "url": "https://ui.aceternity.com/components/wobble-card"
+      },
+      {
+        "text": "Expandable Card",
+        "url": "https://ui.aceternity.com/components/expandable-card"
+      },
+      {
+        "text": "Card Spotlight",
+        "url": "https://ui.aceternity.com/components/card-spotlight"
+      },
+      {
+        "text": "Focus Cards",
+        "url": "https://ui.aceternity.com/components/focus-cards"
+      },
+      {
+        "text": "Infinite Moving Cards",
+        "url": "https://ui.aceternity.com/components/infinite-moving-cards"
+      },
+      {
+        "text": "Draggable Card",
+        "url": "https://ui.aceternity.com/components/draggable-card"
+      },
+      {
+        "text": "Comet CardNew",
+        "url": "https://ui.aceternity.com/components/comet-card"
+      },
+      {
+        "text": "Glare Card",
+        "url": "https://ui.aceternity.com/components/glare-card"
+      },
+      {
+        "text": "Direction Aware Hover",
+        "url": "https://ui.aceternity.com/components/direction-aware-hover"
+      },
+      {
+        "text": "Parallax Scroll",
+        "url": "https://ui.aceternity.com/components/parallax-scroll"
+      },
+      {
+        "text": "Sticky Scroll Reveal",
+        "url": "https://ui.aceternity.com/components/sticky-scroll-reveal"
+      },
+      {
+        "text": "Macbook Scroll",
+        "url": "https://ui.aceternity.com/components/macbook-scroll"
+      },
+      {
+        "text": "Container Scroll Animation",
+        "url": "https://ui.aceternity.com/components/container-scroll-animation"
+      },
+      {
+        "text": "Hero Parallax",
+        "url": "https://ui.aceternity.com/components/hero-parallax"
+      },
+      {
+        "text": "Canvas TextNew",
+        "url": "https://ui.aceternity.com/components/canvas-text"
+      },
+      {
+        "text": "Encrypted TextNew",
+        "url": "https://ui.aceternity.com/components/encrypted-text"
+      },
+      {
+        "text": "Layout Text FlipNew",
+        "url": "https://ui.aceternity.com/components/layout-text-flip"
+      },
+      {
+        "text": "Colourful Text",
+        "url": "https://ui.aceternity.com/components/colourful-text"
+      },
+      {
+        "text": "Squiggly TextNew",
+        "url": "https://ui.aceternity.com/components/squiggly-text"
+      },
+      {
+        "text": "Text Generate Effect",
+        "url": "https://ui.aceternity.com/components/text-generate-effect"
+      },
+      {
+        "text": "Typewriter Effect",
+        "url": "https://ui.aceternity.com/components/typewriter-effect"
+      },
+      {
+        "text": "Flip Words",
+        "url": "https://ui.aceternity.com/components/flip-words"
+      },
+      {
+        "text": "Text Hover Effect",
+        "url": "https://ui.aceternity.com/components/text-hover-effect"
+      },
+      {
+        "text": "Container Text Flip",
+        "url": "https://ui.aceternity.com/components/container-text-flip"
+      },
+      {
+        "text": "Hero Highlight",
+        "url": "https://ui.aceternity.com/components/hero-highlight"
+      },
+      {
+        "text": "Text Reveal Card",
+        "url": "https://ui.aceternity.com/components/text-reveal-card"
+      },
+      {
+        "text": "Text Flipping BoardNew",
+        "url": "https://ui.aceternity.com/components/text-flipping-board"
+      },
+      {
+        "text": "Magnetic ButtonNew",
+        "url": "https://ui.aceternity.com/components/magnetic-button"
+      },
+      {
+        "text": "Noise BackgroundNew",
+        "url": "https://ui.aceternity.com/components/noise-background"
+      },
+      {
+        "text": "Tailwind CSS buttons",
+        "url": "https://ui.aceternity.com/components/tailwindcss-buttons"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Search⌘K",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Toggle theme",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Toggle theme",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Toggle menu"
+      },
+      {
+        "role": null,
+        "text": "Follow for updates",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Installation",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Templates",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Sections and Blocks",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Backgrounds & Effects",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Card Components",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Scroll & Parallax",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Text Components",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Buttons",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Loaders",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Navigation",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Inputs & Forms",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Overlays & Popovers",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Carousels & Sliders",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Layout & Grid",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Data & Visualization",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Cursor & Pointer",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "3D",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Sections and Blocks Free",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Labs",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Preview",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Code",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "@aceternity/tabs-demoCopy",
+        "label": "Copy npm install command"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Select package manager"
+      },
+      {
+        "role": null,
+        "text": "PromptCopy prompt",
+        "label": "Copy implementation guide"
+      },
+      {
+        "role": null,
+        "text": "Product",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Services",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Playground",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Content",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Random",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "CLI",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Manual",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Talk to us",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "magic-video",
+    "url": "https://magicui.design/docs/components/hero-video-dialog",
+    "status": 200,
+    "finalUrl": "https://magicui.design/docs/components/hero-video-dialog",
+    "title": "Hero Video Dialog | React Components & Templates",
+    "links": [
+      {
+        "text": "✨  Introducing Magic UI Pro - 50+ blocks and templates to build beauti",
+        "url": "https://pro.magicui.design/"
+      },
+      {
+        "text": "Magic UI",
+        "url": "https://magicui.design/"
+      },
+      {
+        "text": "Components",
+        "url": "https://magicui.design/components"
+      },
+      {
+        "text": "Templates",
+        "url": "https://pro.magicui.design/"
+      },
+      {
+        "text": "Showcase",
+        "url": "https://magicui.design/showcase"
+      },
+      {
+        "text": "22,21022.2k",
+        "url": "https://github.com/magicuidesign/magicui"
+      },
+      {
+        "text": "136",
+        "url": "https://discord.gg/87p2vpsat5"
+      },
+      {
+        "text": "Introduction",
+        "url": "https://magicui.design/docs"
+      },
+      {
+        "text": "Installation",
+        "url": "https://magicui.design/docs/installation"
+      },
+      {
+        "text": "MCP",
+        "url": "https://magicui.design/docs/mcp"
+      },
+      {
+        "text": "StoryNew",
+        "url": "https://magicui.design/docs/story"
+      },
+      {
+        "text": "Legacy",
+        "url": "https://magicui.design/docs/legacy"
+      },
+      {
+        "text": "CodeForgeNewPro",
+        "url": "https://magicui.design/docs/templates/codeforge"
+      },
+      {
+        "text": "AI AgentPro",
+        "url": "https://magicui.design/docs/templates/agent"
+      },
+      {
+        "text": "Dev ToolPro",
+        "url": "https://magicui.design/docs/templates/devtool"
+      },
+      {
+        "text": "MobilePro",
+        "url": "https://magicui.design/docs/templates/mobile"
+      },
+      {
+        "text": "SaaSPro",
+        "url": "https://magicui.design/docs/templates/saas"
+      },
+      {
+        "text": "StartupPro",
+        "url": "https://magicui.design/docs/templates/startup"
+      },
+      {
+        "text": "Portfolio",
+        "url": "https://magicui.design/docs/templates/portfolio"
+      },
+      {
+        "text": "ChangelogNew",
+        "url": "https://magicui.design/docs/templates/changelog"
+      },
+      {
+        "text": "BlogNew",
+        "url": "https://magicui.design/docs/templates/blog"
+      },
+      {
+        "text": "Marquee",
+        "url": "https://magicui.design/docs/components/marquee"
+      },
+      {
+        "text": "Terminal",
+        "url": "https://magicui.design/docs/components/terminal"
+      },
+      {
+        "text": "Hero Video Dialog",
+        "url": "https://magicui.design/docs/components/hero-video-dialog"
+      },
+      {
+        "text": "Bento Grid",
+        "url": "https://magicui.design/docs/components/bento-grid"
+      },
+      {
+        "text": "Animated List",
+        "url": "https://magicui.design/docs/components/animated-list"
+      },
+      {
+        "text": "Dock",
+        "url": "https://magicui.design/docs/components/dock"
+      },
+      {
+        "text": "Globe",
+        "url": "https://magicui.design/docs/components/globe"
+      },
+      {
+        "text": "Tweet Card",
+        "url": "https://magicui.design/docs/components/tweet-card"
+      },
+      {
+        "text": "Orbiting Circles",
+        "url": "https://magicui.design/docs/components/orbiting-circles"
+      },
+      {
+        "text": "Avatar Circles",
+        "url": "https://magicui.design/docs/components/avatar-circles"
+      },
+      {
+        "text": "Icon Cloud",
+        "url": "https://magicui.design/docs/components/icon-cloud"
+      },
+      {
+        "text": "Lens",
+        "url": "https://magicui.design/docs/components/lens"
+      },
+      {
+        "text": "Pointer",
+        "url": "https://magicui.design/docs/components/pointer"
+      },
+      {
+        "text": "Smooth Cursor",
+        "url": "https://magicui.design/docs/components/smooth-cursor"
+      },
+      {
+        "text": "Progressive Blur",
+        "url": "https://magicui.design/docs/components/progressive-blur"
+      },
+      {
+        "text": "Dotted MapNew",
+        "url": "https://magicui.design/docs/components/dotted-map"
+      },
+      {
+        "text": "Animated Beam",
+        "url": "https://magicui.design/docs/components/animated-beam"
+      },
+      {
+        "text": "Border Beam",
+        "url": "https://magicui.design/docs/components/border-beam"
+      },
+      {
+        "text": "Shine Border",
+        "url": "https://magicui.design/docs/components/shine-border"
+      },
+      {
+        "text": "Magic Card",
+        "url": "https://magicui.design/docs/components/magic-card"
+      },
+      {
+        "text": "Glare HoverNew",
+        "url": "https://magicui.design/docs/components/glare-hover"
+      },
+      {
+        "text": "Meteors",
+        "url": "https://magicui.design/docs/components/meteors"
+      },
+      {
+        "text": "Confetti",
+        "url": "https://magicui.design/docs/components/confetti"
+      },
+      {
+        "text": "Particles",
+        "url": "https://magicui.design/docs/components/particles"
+      },
+      {
+        "text": "Animated Theme TogglerNew",
+        "url": "https://magicui.design/docs/components/animated-theme-toggler"
+      },
+      {
+        "text": "Blur Fade",
+        "url": "https://magicui.design/docs/components/blur-fade"
+      },
+      {
+        "text": "Text Animate",
+        "url": "https://magicui.design/docs/components/text-animate"
+      },
+      {
+        "text": "Typing AnimationNew",
+        "url": "https://magicui.design/docs/components/typing-animation"
+      },
+      {
+        "text": "Line Shadow Text",
+        "url": "https://magicui.design/docs/components/line-shadow-text"
+      },
+      {
+        "text": "Aurora Text",
+        "url": "https://magicui.design/docs/components/aurora-text"
+      },
+      {
+        "text": "Video Text",
+        "url": "https://magicui.design/docs/components/video-text"
+      },
+      {
+        "text": "Number Ticker",
+        "url": "https://magicui.design/docs/components/number-ticker"
+      },
+      {
+        "text": "Animated Shiny Text",
+        "url": "https://magicui.design/docs/components/animated-shiny-text"
+      },
+      {
+        "text": "Animated Gradient Text",
+        "url": "https://magicui.design/docs/components/animated-gradient-text"
+      },
+      {
+        "text": "Text Reveal",
+        "url": "https://magicui.design/docs/components/text-reveal"
+      },
+      {
+        "text": "Dia Text RevealNew",
+        "url": "https://magicui.design/docs/components/dia-text-reveal"
+      },
+      {
+        "text": "Hyper Text",
+        "url": "https://magicui.design/docs/components/hyper-text"
+      },
+      {
+        "text": "Word Rotate",
+        "url": "https://magicui.design/docs/components/word-rotate"
+      },
+      {
+        "text": "Scroll Based Velocity",
+        "url": "https://magicui.design/docs/components/scroll-based-velocity"
+      },
+      {
+        "text": "Sparkles Text",
+        "url": "https://magicui.design/docs/components/sparkles-text"
+      },
+      {
+        "text": "Morphing Text",
+        "url": "https://magicui.design/docs/components/morphing-text"
+      },
+      {
+        "text": "Spinning Text",
+        "url": "https://magicui.design/docs/components/spinning-text"
+      },
+      {
+        "text": "Text HighlighterNew",
+        "url": "https://magicui.design/docs/components/highlighter"
+      },
+      {
+        "text": "Text 3D FlipNew",
+        "url": "https://magicui.design/docs/components/text-3d-flip"
+      },
+      {
+        "text": "Safari",
+        "url": "https://magicui.design/docs/components/safari"
+      },
+      {
+        "text": "iPhone",
+        "url": "https://magicui.design/docs/components/iphone"
+      },
+      {
+        "text": "Android",
+        "url": "https://magicui.design/docs/components/android"
+      },
+      {
+        "text": "Rainbow Button",
+        "url": "https://magicui.design/docs/components/rainbow-button"
+      },
+      {
+        "text": "Shimmer Button",
+        "url": "https://magicui.design/docs/components/shimmer-button"
+      },
+      {
+        "text": "Ripple Button",
+        "url": "https://magicui.design/docs/components/ripple-button"
+      },
+      {
+        "text": "Flickering Grid",
+        "url": "https://magicui.design/docs/components/flickering-grid"
+      },
+      {
+        "text": "Animated Grid Pattern",
+        "url": "https://magicui.design/docs/components/animated-grid-pattern"
+      },
+      {
+        "text": "Retro Grid",
+        "url": "https://magicui.design/docs/components/retro-grid"
+      },
+      {
+        "text": "Ripple",
+        "url": "https://magicui.design/docs/components/ripple"
+      },
+      {
+        "text": "Dot Pattern",
+        "url": "https://magicui.design/docs/components/dot-pattern"
+      },
+      {
+        "text": "Grid Pattern",
+        "url": "https://magicui.design/docs/components/grid-pattern"
+      },
+      {
+        "text": "Hexagon PatternNew",
+        "url": "https://magicui.design/docs/components/hexagon-pattern"
+      },
+      {
+        "text": "Striped PatternNew",
+        "url": "https://magicui.design/docs/components/striped-pattern"
+      },
+      {
+        "text": "Interactive Grid Pattern",
+        "url": "https://magicui.design/docs/components/interactive-grid-pattern"
+      },
+      {
+        "text": "Light RaysNew",
+        "url": "https://magicui.design/docs/components/light-rays"
+      },
+      {
+        "text": "Noise TextureNew",
+        "url": "https://magicui.design/docs/components/noise-texture"
+      },
+      {
+        "text": "Floating 3D ParticlesNew",
+        "url": "https://magicui.design/docs/components/floating-3d-particles"
+      },
+      {
+        "text": "Shiny Button",
+        "url": "https://magicui.design/docs/components/shiny-button"
+      },
+      {
+        "text": "File Tree",
+        "url": "https://magicui.design/docs/components/file-tree"
+      },
+      {
+        "text": "Code Comparison",
+        "url": "https://magicui.design/docs/components/code-comparison"
+      },
+      {
+        "text": "Scroll Progress",
+        "url": "https://magicui.design/docs/components/scroll-progress"
+      },
+      {
+        "text": "Neon Gradient Card",
+        "url": "https://magicui.design/docs/components/neon-gradient-card"
+      },
+      {
+        "text": "Comic Text",
+        "url": "https://magicui.design/docs/components/comic-text"
+      },
+      {
+        "text": "Kinetic TextNew",
+        "url": "https://magicui.design/docs/components/kinetic-text"
+      },
+      {
+        "text": "Cool Mode",
+        "url": "https://magicui.design/docs/components/cool-mode"
+      },
+      {
+        "text": "Pixel Image",
+        "url": "https://magicui.design/docs/components/pixel-image"
+      },
+      {
+        "text": "Pulsating Button",
+        "url": "https://magicui.design/docs/components/pulsating-button"
+      },
+      {
+        "text": "Warp Background",
+        "url": "https://magicui.design/docs/components/warp-background"
+      },
+      {
+        "text": "Interactive Hover Button",
+        "url": "https://magicui.design/docs/components/interactive-hover-button"
+      },
+      {
+        "text": "Animated Circular Progress Bar",
+        "url": "https://magicui.design/docs/components/animated-circular-progress-bar"
+      },
+      {
+        "text": "BacklightNew",
+        "url": "https://magicui.design/docs/components/backlight"
+      },
+      {
+        "text": "Glyph MatrixNew",
+        "url": "https://magicui.design/docs/components/glyph-matrix"
+      },
+      {
+        "text": "Docs",
+        "url": "https://magicui.design/docs"
+      },
+      {
+        "text": "Components",
+        "url": "https://magicui.design/docs/components"
+      },
+      {
+        "text": "Previous",
+        "url": "https://magicui.design/docs/components/terminal"
+      },
+      {
+        "text": "Next",
+        "url": "https://magicui.design/docs/components/bento-grid"
+      },
+      {
+        "text": "Open in",
+        "url": "https://v0.dev/chat/api/open?url=https://magicui.design/r/hero-video-dialog-demo.json"
+      },
+      {
+        "text": "Open in",
+        "url": "https://v0.dev/chat/api/open?url=https://magicui.design/r/hero-video-dialog-demo-top-in-bottom-out.json"
+      },
+      {
+        "text": "Terminal",
+        "url": "https://magicui.design/docs/components/terminal"
+      },
+      {
+        "text": "Bento Grid",
+        "url": "https://magicui.design/docs/components/bento-grid"
+      },
+      {
+        "text": "Installation",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#installation"
+      },
+      {
+        "text": "Examples",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#examples"
+      },
+      {
+        "text": "Top-in-bottom-out",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#top-in-bottom-out"
+      },
+      {
+        "text": "Usage",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#usage"
+      },
+      {
+        "text": "Props",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#props"
+      },
+      {
+        "text": "Animation Styles",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#animation-styles"
+      },
+      {
+        "text": "Note",
+        "url": "https://magicui.design/docs/components/hero-video-dialog#note"
+      },
+      {
+        "text": "Report an issue",
+        "url": "https://github.com/magicuidesign/magicui/issues/new?title=%5Bbug%5D%3A+%2Fdocs%2Fcomponents%2Fhero-video-dialog&labels=bug&labels=documentation&template=bug_report.yml"
+      },
+      {
+        "text": "Request a feature",
+        "url": "https://github.com/magicuidesign/magicui/issues/new?title=%5Bfeat%5D%3A+%2Fdocs%2Fcomponents%2Fhero-video-dialog&labels=enhancement&template=feature_request.yml"
+      },
+      {
+        "text": "Edit this page",
+        "url": "https://github.com/magicuidesign/magicui/edit/main/apps/www/content/docs/components/hero-video-dialog.mdx"
+      },
+      {
+        "text": "Get Lifetime Access",
+        "url": "https://pro.magicui.design/"
+      },
+      {
+        "text": "dillion",
+        "url": "https://twitter.com/dillionverma"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/magicuidesign/magicui"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Toggle Menu",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Search documentation...Search...⌘K",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Toggle theme",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy Page",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Preview",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Code",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Play video"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Play video"
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "CLI",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Manual",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "pnpm",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "npm",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "yarn",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "bun",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Preview",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Code",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Play video"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Play video"
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Copy",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "feature197",
+    "url": "https://www.shadcnblocks.com/block/feature197",
+    "status": 200,
+    "finalUrl": "https://www.shadcnblocks.com/block/feature197",
+    "title": "Feature 197 - Feature accordion with paired image panel - Shadcnblocks.com",
+    "links": [
+      {
+        "text": "Shadcnblocks.com",
+        "url": "https://www.shadcnblocks.com/"
+      },
+      {
+        "text": "New",
+        "url": "https://www.shadcnblocks.com/new"
+      },
+      {
+        "text": "Components",
+        "url": "https://www.shadcnblocks.com/components"
+      },
+      {
+        "text": "Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Pages",
+        "url": "https://www.shadcnblocks.com/pages"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.shadcnblocks.com/templates"
+      },
+      {
+        "text": "Themes",
+        "url": "https://www.shadcnblocks.com/themes"
+      },
+      {
+        "text": "Admin Kit",
+        "url": "https://www.shadcnblocks.com/admin-dashboard"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://www.shadcnblocks.com/auth/login"
+      },
+      {
+        "text": "ProGet All Access",
+        "url": "https://www.shadcnblocks.com/pricing"
+      },
+      {
+        "text": "Shadcnblocks.com",
+        "url": "https://www.shadcnblocks.com/"
+      },
+      {
+        "text": "Sign in",
+        "url": "https://www.shadcnblocks.com/auth/login"
+      },
+      {
+        "text": "ProGet All Access",
+        "url": "https://www.shadcnblocks.com/pricing"
+      },
+      {
+        "text": "Home",
+        "url": "https://www.shadcnblocks.com/"
+      },
+      {
+        "text": "Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Feature",
+        "url": "https://www.shadcnblocks.com/blocks/feature"
+      },
+      {
+        "text": "Feature Accordion",
+        "url": "https://www.shadcnblocks.com/blocks/feature/accordion"
+      },
+      {
+        "text": "Home",
+        "url": "https://www.shadcnblocks.com/"
+      },
+      {
+        "text": "Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Feature",
+        "url": "https://www.shadcnblocks.com/blocks/feature"
+      },
+      {
+        "text": "Feature Accordion",
+        "url": "https://www.shadcnblocks.com/blocks/feature/accordion"
+      },
+      {
+        "text": "shadcn",
+        "url": "https://ui.shadcn.com/"
+      },
+      {
+        "text": "Vue",
+        "url": "https://www.shadcnblocksvue.com/block/feature197"
+      },
+      {
+        "text": "shadcn/ui",
+        "url": "https://ui.shadcn.com/"
+      },
+      {
+        "text": "Tailwind",
+        "url": "https://tailwindcss.com/"
+      },
+      {
+        "text": "Sponsor shadcn/ui on GitHub",
+        "url": "https://github.com/sponsors/shadcn"
+      },
+      {
+        "text": "Shadcn Components",
+        "url": "https://www.shadcnblocks.com/components"
+      },
+      {
+        "text": "Shadcn Blocks",
+        "url": "https://www.shadcnblocks.com/blocks"
+      },
+      {
+        "text": "Shadcn Pages",
+        "url": "https://www.shadcnblocks.com/pages"
+      },
+      {
+        "text": "Shadcn Templates",
+        "url": "https://www.shadcnblocks.com/templates"
+      },
+      {
+        "text": "Shadcn Themes",
+        "url": "https://www.shadcnblocks.com/themes"
+      },
+      {
+        "text": "Vue Blocks",
+        "url": "https://www.shadcnblocksvue.com/"
+      },
+      {
+        "text": "Shadcn Figma Kit",
+        "url": "https://www.shadcnblocks.com/figma"
+      },
+      {
+        "text": "Shadcn Admin Kit",
+        "url": "https://www.shadcnblocks.com/admin-dashboard"
+      },
+      {
+        "text": "Shadcn CLI",
+        "url": "https://www.shadcnblocks.com/shadcn-cli"
+      },
+      {
+        "text": "Shadcn MCP",
+        "url": "https://www.shadcnblocks.com/shadcn-mcp"
+      },
+      {
+        "text": "Shadcn Page Builder",
+        "url": "https://www.shadcnblocks.com/explorer/builder"
+      },
+      {
+        "text": "Shadcn IDE Extension",
+        "url": "https://www.shadcnblocks.com/ide-extension"
+      },
+      {
+        "text": "Shadcnblocks Explorer",
+        "url": "https://www.shadcnblocks.com/explorer"
+      },
+      {
+        "text": "Payload CMS",
+        "url": "https://www.shadcnblocks.com/payload-cms"
+      },
+      {
+        "text": "Sanity CMS",
+        "url": "https://www.shadcnblocks.com/sanity-cms"
+      },
+      {
+        "text": "Pricing",
+        "url": "https://www.shadcnblocks.com/pricing"
+      },
+      {
+        "text": "Support",
+        "url": "https://www.shadcnblocks.com/support"
+      },
+      {
+        "text": "FAQ",
+        "url": "https://www.shadcnblocks.com/faq"
+      },
+      {
+        "text": "Changelog",
+        "url": "https://www.shadcnblocks.com/changelog"
+      },
+      {
+        "text": "Docs",
+        "url": "https://www.shadcnblocks.com/docs"
+      },
+      {
+        "text": "About Us",
+        "url": "https://www.shadcnblocks.com/about"
+      },
+      {
+        "text": "Blog",
+        "url": "https://www.shadcnblocks.com/blog"
+      },
+      {
+        "text": "Affiliates",
+        "url": "https://www.shadcnblocks.com/affiliates"
+      },
+      {
+        "text": "Press",
+        "url": "https://www.shadcnblocks.com/press"
+      },
+      {
+        "text": "Careers",
+        "url": "https://www.shadcnblocks.com/careers"
+      },
+      {
+        "text": "License",
+        "url": "https://www.shadcnblocks.com/license"
+      },
+      {
+        "text": "Privacy Policy",
+        "url": "https://www.shadcnblocks.com/privacy"
+      },
+      {
+        "text": "384",
+        "url": "https://github.com/shadcnblocks/shadcn-ui-blocks"
+      },
+      {
+        "text": "@ausrobdev",
+        "url": "https://x.com/ausrobdev"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "Features",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Save to collection"
+      },
+      {
+        "role": "tab",
+        "text": "Preview",
+        "label": null
+      },
+      {
+        "role": "tab",
+        "text": "Code",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "npx shadcn add @shadcnblocks/feature197",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Mobile view"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Tablet view"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Desktop view"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Shadcn Default",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "Customize",
+        "label": null
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "swissbrut",
+    "url": "https://www.framer.com/marketplace/templates/swissbrut/",
+    "status": 200,
+    "finalUrl": "https://www.framer.com/marketplace/templates/swissbrut/",
+    "title": "SwissBrut: Free Portfolio Website Template by Swiss Themes — Framer Marketplace",
+    "links": [
+      {
+        "text": "Swiss Themes",
+        "url": "https://www.framer.com/community/creator/@swiss-themes/"
+      },
+      {
+        "text": "Show Preview",
+        "url": "https://swissbrut.framer.website/"
+      },
+      {
+        "text": "Remix for Free",
+        "url": "https://framer.link/kTBpQqz?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Swiss Themes@swiss-themes",
+        "url": "https://www.framer.com/community/creator/@swiss-themes/"
+      },
+      {
+        "text": "Limited",
+        "url": "https://www.framer.com/legal/community-terms/"
+      },
+      {
+        "text": "Show Preview",
+        "url": "https://swissbrut.framer.website/"
+      },
+      {
+        "text": "Remix for Free",
+        "url": "https://framer.link/kTBpQqz?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Agency",
+        "url": "https://www.framer.com/marketplace/templates/categories/agency/"
+      },
+      {
+        "text": "SwissFolio",
+        "url": "https://www.framer.com/marketplace/templates/swissfolio/"
+      },
+      {
+        "text": "SwissReduce",
+        "url": "https://www.framer.com/marketplace/templates/swissreduce/"
+      },
+      {
+        "text": "SwissMono",
+        "url": "https://www.framer.com/marketplace/templates/swissmono/"
+      },
+      {
+        "text": "Strida",
+        "url": "https://www.framer.com/marketplace/templates/strida/"
+      },
+      {
+        "text": "VANILA",
+        "url": "https://www.framer.com/marketplace/templates/vanila/"
+      },
+      {
+        "text": "SwissFolio",
+        "url": "https://www.framer.com/marketplace/templates/swissfolio/"
+      },
+      {
+        "text": "Swiss Themes@swiss-themes",
+        "url": "https://www.framer.com/community/creator/@swiss-themes/"
+      },
+      {
+        "text": "Limited",
+        "url": "https://www.framer.com/legal/community-terms/"
+      },
+      {
+        "text": "Show Preview",
+        "url": "https://swissbrut.framer.website/"
+      },
+      {
+        "text": "Remix for Free",
+        "url": "https://framer.link/kTBpQqz?duplicateType=siteTemplate"
+      },
+      {
+        "text": "Agency",
+        "url": "https://www.framer.com/marketplace/templates/categories/agency/"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.framer.com/marketplace/templates/"
+      },
+      {
+        "text": "Assets",
+        "url": "https://www.framer.com/marketplace/assets/"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "",
+        "label": "Next"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 1"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 2"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 3"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 1 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 2 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 3 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 4 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "More options"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "More options"
+      },
+      {
+        "role": null,
+        "text": "Marketplace",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go back"
+      }
+    ],
+    "captured": true
+  },
+  {
+    "id": "cofounder",
+    "url": "https://www.framer.com/marketplace/templates/cofounder/",
+    "status": 200,
+    "finalUrl": "https://www.framer.com/marketplace/templates/cofounder/",
+    "title": "Cofounder: Free AI Website Template by Shah Rukh Qureshi — Framer Marketplace",
+    "links": [
+      {
+        "text": "Shah Rukh Qureshi",
+        "url": "https://www.framer.com/community/creator/@shahrukhqureshi/"
+      },
+      {
+        "text": "Show Preview",
+        "url": "https://cofounder.framer.ai/"
+      },
+      {
+        "text": "Remix for Free",
+        "url": "https://framer.link/MG6J2qH?duplicateType=siteTemplate"
+      },
+      {
+        "text": "imshahqureshi@gmail.com",
+        "url": "mailto:imshahqureshi@gmail.com"
+      },
+      {
+        "text": "Shah Rukh Qureshi@shahrukhqureshi",
+        "url": "https://www.framer.com/community/creator/@shahrukhqureshi/"
+      },
+      {
+        "text": "Limited",
+        "url": "https://www.framer.com/legal/community-terms/"
+      },
+      {
+        "text": "Show Preview",
+        "url": "https://cofounder.framer.ai/"
+      },
+      {
+        "text": "Remix for Free",
+        "url": "https://framer.link/MG6J2qH?duplicateType=siteTemplate"
+      },
+      {
+        "text": "SaaS",
+        "url": "https://www.framer.com/marketplace/templates/categories/saas/"
+      },
+      {
+        "text": "Najaf",
+        "url": "https://www.framer.com/marketplace/templates/najaf/"
+      },
+      {
+        "text": "Taif",
+        "url": "https://www.framer.com/marketplace/templates/taf/"
+      },
+      {
+        "text": "Giga",
+        "url": "https://www.framer.com/marketplace/templates/giga/"
+      },
+      {
+        "text": "Rev",
+        "url": "https://www.framer.com/marketplace/templates/rev/"
+      },
+      {
+        "text": "Binxel",
+        "url": "https://www.framer.com/marketplace/templates/binxel/"
+      },
+      {
+        "text": "Sting",
+        "url": "https://www.framer.com/marketplace/templates/sting/"
+      },
+      {
+        "text": "Shah Rukh Qureshi@shahrukhqureshi",
+        "url": "https://www.framer.com/community/creator/@shahrukhqureshi/"
+      },
+      {
+        "text": "Limited",
+        "url": "https://www.framer.com/legal/community-terms/"
+      },
+      {
+        "text": "Show Preview",
+        "url": "https://cofounder.framer.ai/"
+      },
+      {
+        "text": "Remix for Free",
+        "url": "https://framer.link/MG6J2qH?duplicateType=siteTemplate"
+      },
+      {
+        "text": "SaaS",
+        "url": "https://www.framer.com/marketplace/templates/categories/saas/"
+      },
+      {
+        "text": "Templates",
+        "url": "https://www.framer.com/marketplace/templates/"
+      },
+      {
+        "text": "Assets",
+        "url": "https://www.framer.com/marketplace/assets/"
+      }
+    ],
+    "controls": [
+      {
+        "role": null,
+        "text": "",
+        "label": "Next"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 1"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 2"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 3"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go to slide 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 1 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 2 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 3 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Show image 4 of 4"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "More options"
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "More options"
+      },
+      {
+        "role": null,
+        "text": "Marketplace",
+        "label": null
+      },
+      {
+        "role": null,
+        "text": "",
+        "label": "Go back"
+      }
+    ],
+    "captured": true
+  }
+]

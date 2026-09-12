@@ -1,0 +1,143 @@
+{
+  "base": "http://127.0.0.1:3100",
+  "engine": "Chromium",
+  "matrix": [
+    {
+      "locale": "ar",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 34950
+    },
+    {
+      "locale": "ar",
+      "width": 1024,
+      "height": 1000,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 34505
+    },
+    {
+      "locale": "ar",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 23876
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 26971
+    },
+    {
+      "locale": "ar",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 27761
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "height": 800,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 28952
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 34649
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "height": 1000,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 34540
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 24369
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 27836
+    },
+    {
+      "locale": "en",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 28576
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "height": 800,
+      "overflow": false,
+      "bounds": [],
+      "broken": [],
+      "consoleErrors": [],
+      "axeViolations": 0,
+      "pageHeight": 29772
+    }
+  ],
+  "productionRoutes": {
+    "/design": 404,
+    "/design/motion": 404,
+    "/api/test-video": 404
+  }
+}

@@ -1,0 +1,363 @@
+import Image from "next/image";
+import { AudienceStory, SetupStory } from "./AudienceStory";
+import { OperationGlyph } from "./VisualDetails";
+import { SectionLabel, Brand } from "./Primitives";
+import {
+  painQuestions,
+  pick,
+  journey,
+  cta,
+  nav,
+  type Locale,
+} from "@/content/site";
+export function OpeningNarrative({ locale }: { locale: Locale }) {
+  const ar = locale === "ar";
+  return (
+    <>
+      <section className="problem section" id="problem">
+        <div className="shell">
+          <SectionLabel number="02">
+            {ar ? "المشكلة مش فيك." : "IT’S NOT YOU. IT’S THE PROCESS."}
+          </SectionLabel>
+          <div className="problem-heading">
+            <h2>
+              {ar ? (
+                <>
+                  صاحب المغسلة
+                  <br />
+                  مش المفروض يبقى <span className="blue-slab">سنترال.</span>
+                </>
+              ) : (
+                <>
+                  You run a car wash.
+                  <br />
+                  Not a <span className="blue-slab">switchboard.</span>
+                </>
+              )}
+            </h2>
+            <p>
+              {ar
+                ? "لو كل سؤال لازم يرجعلك، وكل قرار مستنيك، وكل تقرير بيوصلك بطريقة مختلفة… يبقى المشكلة مش إن الشغل كتير. المشكلة إن التشغيل لسه معتمد عليك إنت، مش على نظام واضح."
+                : "When every question comes back to you, every decision waits for you and every report arrives in a different format, the problem is not simply that there is too much work. The operation still depends on you personally, rather than on a clear system."}
+            </p>
+          </div>
+          <div className="phone-scene">
+            <Image
+              src="/art/telephone.webp"
+              width={800}
+              height={800}
+              alt={
+                ar
+                  ? "سماعة هاتف ضخمة تعبّر عن ضغط الأسئلة والمكالمات على صاحب المغسلة"
+                  : "An oversized telephone receiver representing the pressure of constant questions and calls"
+              }
+              sizes="(max-width: 767px) 85vw, 500px"
+            />
+            <div className="phone-questions">
+              {painQuestions.slice(0, 3).map((q, i) => (
+                <div key={i}>
+                  <span dir="ltr">0{i + 1}</span>
+                  <p>{pick(q, locale)}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="pain-rail">
+            {painQuestions.slice(3).map((q, i) => (
+              <span key={i}>{pick(q, locale)}</span>
+            ))}
+          </div>
+          <p className="problem-close">
+            {ar
+              ? "Sparkle Auto مش بيزودلك شاشة جديدة… هو بيقلل عدد الأسئلة اللي محتاج تسألها."
+              : "Sparkle Auto is not another screen to watch. It reduces the number of questions you need to ask."}
+            
+          </p>
+        </div>
+      </section>
+      <section className="section definition" id="system">
+        <div className="shell">
+          <SectionLabel number="03">
+            {ar ? "الصورة الكاملة" : "THE BIG PICTURE"}
+          </SectionLabel>
+          <div className="section-intro">
+            <h2>
+              {ar ? (
+                <>
+                  خلّينا نقولها ببساطة…
+                  <br />
+                  إيه هو Sparkle Auto؟
+                </>
+              ) : (
+                <>
+                  Let’s keep it simple.
+                  <br />
+                  What is Sparkle Auto?
+                </>
+              )}
+            </h2>
+            <p>
+              {ar
+                ? "Sparkle Auto هو نظام تشغيل وإدارة متكامل معمول مخصوص لمغاسل السيارات. بينظم رحلة الشغل من أول ما العميل يحجز أو يدخل المغسلة، لحد ما العربية تخلص، الحساب يتقفل، والعميل يرجعلك مرة تانية."
+                : "Sparkle Auto is an integrated operations and management system built specifically for car washes. It organises the workflow from a booking or walk-in through service and payment, and keeps the customer’s visit connected to their history."}
+            </p>
+          </div>
+          <div className="two-surfaces">
+            <article className="owner-surface">
+              <div className="surface-label">
+                <b dir="ltr">01</b>
+                <h3>
+                  {ar
+                    ? "لوحة إدارة لصاحب المغسلة والفريق"
+                    : "A dashboard for the owner and team"}
+                </h3>
+              </div>
+              <p>
+                {ar
+                  ? "تتابع منها التشغيل، العربيات، الموظفين، الإيرادات، المصروفات، المخزون والعملاء، حسب صلاحية كل شخص."
+                  : "Follow operations, vehicles, employees, revenue, expenses, inventory and customers, according to each person’s permissions."}
+              </p>
+            </article>
+            <article className="customer-surface">
+              <div className="surface-label">
+                <b dir="ltr">02</b>
+                <h3>
+                  {ar
+                    ? "تجربة حجز للعميل"
+                    : "A booking experience for customers"}
+                </h3>
+              </div>
+              <p>
+                {ar
+                  ? "العميل يشوف الخدمات، يختار عربيته وفرعه وميعاده، يحجز، ويتابع عروضه ومكافآته."
+                  : "Customers browse services, select their vehicle, branch and appointment, book a visit, and access their offers and rewards."}
+              </p>
+              
+            </article>
+          </div>
+          <div className="definition-close">
+            {ar
+              ? "إدارة المغسلة وتجربة العميل. في نظام واحد."
+              : "Car-wash management and the customer experience. In one system."}
+          </div>
+        </div>
+      </section>
+      <section className="section fit">
+        <div className="shell">
+          <SectionLabel number="04">
+            {ar ? "معمول لمين؟" : "BUILT FOR WHOM?"}
+          </SectionLabel>
+          <h2>
+            {ar ? (
+              <>
+                لصاحب مغسلة عايز يدير مشروع.
+                <br />
+                <span className="quiet-text">مش يطارد تفاصيل.</span>
+              </>
+            ) : (
+              <>
+                For owners who want to manage a business.
+                <br />
+                <span className="quiet-text">Not chase every detail.</span>
+              </>
+            )}
+          </h2>
+          <AudienceStory locale={locale}>
+
+            <p>
+              {ar
+                ? "مش شرط تكون خبير تكنولوجيا، ومش شرط فريقك يكون متعود على أنظمة معقدة. كل شخص بيشوف الجزء اللي يخص دوره بس."
+                : "You do not need to be a technology expert, and your team does not need experience with complicated systems. Each person sees the part relevant to their role."}
+            </p>
+          </AudienceStory>
+          <div className="fit-notes" id="fit-after" tabIndex={-1}>
+            <p>
+              {ar
+                ? "لو لسه المغسلة مجرد فكرة، هتستفيد من طريقة التفكير والاستراتيجيات، لكن أقوى قيمة للسيستم بتظهر لما يكون عندك تشغيل حقيقي نقدر ننظمه ونقيسه."
+                : "When the car wash is still an idea, the operating principles can help you plan. The system’s strongest value comes when there is a real operation to organise and evaluate."}
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+export function JourneyAndSetup({ locale }: { locale: Locale }) {
+  const ar = locale === "ar";
+  return (
+    <>
+      <section className="section journey" id="journey">
+        <div className="shell">
+          <SectionLabel number="07">
+            {ar ? "من أول الحجز لحد قفلة اليوم" : "FROM BOOKING TO DAILY CLOSE"}
+          </SectionLabel>
+          <h2>
+            {ar ? (
+              <>
+                خطوات مترابطة.
+                <br />
+                مش برامج منفصلة.
+              </>
+            ) : (
+              <>
+                Connected steps.
+                <br />
+                Not disconnected programs.
+              </>
+            )}
+          </h2>
+          <ol className="journey-rail">
+            {journey.map((j, i) => (
+              <li key={i}>
+                <span dir="ltr">0{i + 1}</span>
+                <OperationGlyph index={i} />
+                <p>{pick(j, locale)}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="journey-close">
+            {ar
+              ? "بدل ما كل خطوة تعيش في دفتر أو رسالة أو ملف مختلف، رحلة الشغل كلها تبقى متصلة."
+              : "Instead of each step living in a separate notebook, message or file, the whole workflow stays connected."}
+          </p>
+        </div>
+      </section>
+      <section className="section setup" id="setup">
+        <div className="shell setup-layout">
+          <div className="setup-intro">
+            <SectionLabel number="08">
+              {ar ? "التجهيز على شغلك" : "CONFIGURED AROUND YOUR WORK"}
+            </SectionLabel>
+            <h2>
+              {ar ? (
+                <>
+                  السيستم مش لينك
+                  <br />
+                  بنبعتهولك ونسيبك
+                  <br />
+                  <span className="blue-slab">تتصرف.</span>
+                </>
+              ) : (
+                <>We don’t just send you a link and leave you to work it out.</>
+              )}
+            </h2>
+            <p>
+              {ar
+                ? "إحنا بنجهّز Sparkle Auto على طريقة شغل مغسلتك، ونتأكد إن الفريق فاهم دوره قبل ما نحكم على التجربة."
+                : "We configure Sparkle Auto around how your car wash operates and help each person understand their role before evaluating the trial."}
+            </p>
+            <a className="text-link" href="#review">
+              {pick(cta, locale)}
+              
+            </a>
+          </div>
+          <SetupStory locale={locale} />
+        </div>
+        <div className="shell setup-close" id="setup-after" tabIndex={-1}>
+          {ar
+            ? "هدفنا مش إنك تفتح حساب… هدفنا إن التشغيل يبقى أوضح فعلًا."
+            : "The goal is not just to create an account. It is to make the operation clearer."}
+        </div>
+      </section>
+    </>
+  );
+}
+export function FinalSection({ locale }: { locale: Locale }) {
+  const ar = locale === "ar";
+  return (
+    <>
+      <section className="final-section">
+        <div className="shell">
+          <SectionLabel number="12">
+            {ar
+              ? "الصورة أوضح. القرار أسهل."
+              : "CLEARER PICTURE. CLEARER DECISION."}
+          </SectionLabel>
+          <div className="final-grid">
+            <div>
+              <h2>
+                {ar ? (
+                  <>
+                    التحكم مش إنك
+                    <br />
+                    تفضل واقف في الفرع
+                    <br />
+                    <span>طول اليوم.</span>
+                  </>
+                ) : (
+                  <>
+                    Control isn’t standing at the branch.
+                    <br />
+                    <span>All day.</span>
+                  </>
+                )}
+              </h2>
+              <p>
+                {ar
+                  ? "التحكم إنك تعرف إيه اللي بيحصل، ومين مسؤول، والأرقام بتقول إيه… من غير ما تلف وتسأل كل مرة."
+                  : "It is knowing what is happening, who is responsible and what the numbers are saying—without walking around and asking every time."}
+              </p>
+              <p>
+                {ar
+                  ? "لو مغسلتك كبرت، لكن طريقة إدارتها لسه معتمدة عليك في كل تفصيلة، خلّينا نراجع التشغيل مع بعض."
+                  : "When your car wash has grown but its management still depends on you for every detail, let’s review the operation together."}
+              </p>
+              <a href="#review" className="button final-button">
+                {pick(cta, locale)}
+                
+              </a>
+            </div>
+            <div className="final-sign">
+              
+              <Image className="final-telephone" src="/art/telephone-resolved-v1.webp" width={800} height={800} alt="" sizes="(max-width: 767px) 280px, 360px" />
+              <p>
+                {ar ? (
+                  <>
+                    مغسلتك.
+                    <br />
+                    في جيبك.
+                  </>
+                ) : (
+                  <>
+                    Your car wash.
+                    <br />
+                    In your pocket.
+                  </>
+                )}
+              </p>
+              <span className="sign-caption" dir="ltr">
+                SPARKLE AUTO
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer className="footer shell">
+        <div>
+          <Brand />
+          <p>
+            {ar
+              ? "تشغيل أوضح لمغاسل السيارات."
+              : "Clearer operations for car washes."}
+          </p>
+        </div>
+        <nav aria-label={ar ? "روابط التذييل" : "Footer navigation"}>
+          {nav.map((n) => (
+            <a href={`#${n.id}`} key={n.id}>
+              {pick(n.label, locale)}
+            </a>
+          ))}
+        </nav>
+        <div className="footer-bottom">
+          <span>
+            {ar
+              ? "معاينة للمراجعة · البيانات التجارية لم تُعتمد بعد"
+              : "REVIEW PREVIEW · COMMERCIAL DETAILS AWAIT APPROVAL"}
+          </span>
+          <a href={ar ? "/en" : "/"}>{ar ? "English" : "العربية"}</a>
+        </div>
+      </footer>
+    </>
+  );
+}
+

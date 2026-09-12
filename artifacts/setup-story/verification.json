@@ -1,0 +1,26 @@
+[
+  {
+    "locale": "ar",
+    "width": 390,
+    "chapters": 5,
+    "passed": true
+  },
+  {
+    "locale": "ar",
+    "width": 1440,
+    "chapters": 5,
+    "passed": true
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "chapters": 5,
+    "passed": true
+  },
+  {
+    "locale": "en",
+    "width": 1440,
+    "chapters": 5,
+    "passed": true
+  }
+]

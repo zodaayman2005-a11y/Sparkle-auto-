@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-12",
+  "localUrl": "http://127.0.0.1:3102",
+  "previewUrl": "https://sparkle-auto-landing-ckkv7q0t6-zodaayman2005-3362s-projects.vercel.app",
+  "browser": "Codex in-app Chromium",
+  "locales": ["ar", "en"],
+  "domReviewedWidths": [1440, 1024, 768, 390, 360, 320],
+  "allLocalDomChecks": {
+    "decoded": true,
+    "naturalWidth": 6688,
+    "naturalHeight": 3764,
+    "srcset": null,
+    "documentOverflow": false,
+    "localeSpecificOriginalSource": true
+  },
+  "publishedLocaleChecks": {
+    "bothOriginalsCompletedLoading": true,
+    "naturalWidth": 6688,
+    "naturalHeight": 3764,
+    "srcset": null
+  },
+  "visuallyInspected": ["Arabic desktop", "English desktop at 1024", "Arabic mobile at 390", "English mobile at 390"],
+  "capturedWarningsOrErrors": [],
+  "viewportReset": true,
+  "fullAccessibilityAuditRerun": false,
+  "performanceMetricsRerun": false,
+  "originalHttpByteVerification": "live-verification.json"
+}

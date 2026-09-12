@@ -1,0 +1,21 @@
+{
+  "base": "http://127.0.0.1:3100",
+  "results": [
+    {
+      "locale": "ar",
+      "nativeNewTab": true,
+      "embeddedFrames": 0,
+      "focusRetained": true,
+      "keyboardContinues": true
+    },
+    {
+      "locale": "en",
+      "nativeNewTab": true,
+      "embeddedFrames": 0,
+      "focusRetained": true,
+      "keyboardContinues": true
+    }
+  ],
+  "sourcePlaybackEvidence": "baseline/provider-embed-check.json",
+  "captionStatus": "Provider offers automatic Arabic captions; no reviewed caption file or transcript is supplied."
+}

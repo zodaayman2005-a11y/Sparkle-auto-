@@ -1,0 +1,62 @@
+[
+  {
+    "id": "strategy-journey",
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 1,
+    "src": "/art/strategies/01.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 78640,
+    "originalSha256": "8a6a5c89da032e8138a19e1d5d1b13312e23cd46dd5186017e7c9227575c6399"
+  },
+  {
+    "id": "strategy-money",
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 2,
+    "src": "/art/strategies/02.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 97948,
+    "originalSha256": "a14e688aa61c8d4fa77b71eb08bdf0b778aadb22f020bf73d9f8e54774a913b2"
+  },
+  {
+    "id": "strategy-roles",
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 3,
+    "src": "/art/strategies/03.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 78330,
+    "originalSha256": "e882da8cf957a6db91c5ee623a2ed68fb647c1356953129f4517e5b8527ef884"
+  },
+  {
+    "id": "strategy-retention",
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 4,
+    "src": "/art/strategies/04.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 77368,
+    "originalSha256": "e5e92465716f551d732f7fa822316807a54b2ef201db26f6b4c31f163a9e5b65"
+  },
+  {
+    "id": "strategy-branches",
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 5,
+    "src": "/art/strategies/05.webp",
+    "width": 960,
+    "height": 1200,
+    "bytes": 68910,
+    "originalSha256": "eedcd253c7ee1001c13bcbb01e70c6f1a4da6e716fbb5d605aac57c830c59d5c"
+  }
+]

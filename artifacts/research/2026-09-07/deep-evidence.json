@@ -1,0 +1,35 @@
+[
+  {
+    "id": "swiss-live",
+    "url": "https://swissbrut.framer.website/",
+    "status": 200,
+    "mobileOverflow": false,
+    "title": "Swiss Brut – Free Portfolio & Studio Framer Template"
+  },
+  {
+    "id": "cofounder-live",
+    "url": "https://cofounder.framer.ai/",
+    "status": 200,
+    "mobileOverflow": false,
+    "title": "Cofounder - Free AI SaaS Framer Template for Startups"
+  },
+  {
+    "id": "aceternity-demo",
+    "url": "https://ui.aceternity.com/components/tabs",
+    "status": 200,
+    "action": "Click Services",
+    "result": 1,
+    "mobileOverflow": false,
+    "title": "Animated Tabs | Aceternity UI"
+  },
+  {
+    "id": "resend-demo",
+    "url": "https://resend.com/",
+    "status": 200,
+    "action": "Click Python language tab",
+    "selected": "false",
+    "pythonPanelVisible": 0,
+    "mobileOverflow": false,
+    "title": "Resend · Email for developers"
+  }
+]

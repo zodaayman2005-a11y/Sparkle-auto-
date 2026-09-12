@@ -1,0 +1,128 @@
+{
+  "environment": {
+    "browser": "153.0.8010.12",
+    "server": "Next.js production on localhost",
+    "physicalDevice": false
+  },
+  "routes": [
+    {
+      "lang": "ar",
+      "width": 1440,
+      "missingAnchorTargets": []
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "missingAnchorTargets": []
+    },
+    {
+      "lang": "en",
+      "width": 1440,
+      "missingAnchorTargets": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "missingAnchorTargets": []
+    }
+  ],
+  "performance": [
+    {
+      "conditions": "single cold-cache local sample, 390x844, CPU4x, RTT150ms, download1.6Mbps; not field CWV",
+      "lcp": 2200,
+      "shiftSum": 0.005062404557428675,
+      "resources": [
+        {
+          "name": "04psk9hfnwxu1.css",
+          "bytes": 8644,
+          "type": "link"
+        },
+        {
+          "name": "12aruqaur5huj.js",
+          "bytes": 7646,
+          "type": "link"
+        },
+        {
+          "name": "2gr5eh3tt0c3u.js",
+          "bytes": 47358,
+          "type": "script"
+        },
+        {
+          "name": "10nz_i4zu_48l.js",
+          "bytes": 71875,
+          "type": "script"
+        },
+        {
+          "name": "turbopack-3raj-6cdz9dc8.js",
+          "bytes": 4135,
+          "type": "script"
+        },
+        {
+          "name": "453cd1tlxz5wi.js",
+          "bytes": 3961,
+          "type": "script"
+        },
+        {
+          "name": "0hkid1kkudec2.js",
+          "bytes": 3926,
+          "type": "script"
+        },
+        {
+          "name": "09vs6lwnfi0z8.js",
+          "bytes": 11750,
+          "type": "script"
+        },
+        {
+          "name": "440sk48ef7wxb.js",
+          "bytes": 14976,
+          "type": "script"
+        },
+        {
+          "name": "alexandria-arabic-400-normal.1bj26n_pss66n.woff2",
+          "bytes": 12800,
+          "type": "css"
+        },
+        {
+          "name": "space-grotesk-latin-700-normal.16tiaqjgzwdo4.woff2",
+          "bytes": 13140,
+          "type": "css"
+        },
+        {
+          "name": "alexandria-arabic-700-normal.06orvyu7a4f_z.woff2",
+          "bytes": 13524,
+          "type": "css"
+        },
+        {
+          "name": "alexandria-arabic-500-normal.36ol_gvv6adrv.woff2",
+          "bytes": 13340,
+          "type": "css"
+        },
+        {
+          "name": "space-grotesk-latin-500-normal.33jdofnh71adk.woff2",
+          "bytes": 13612,
+          "type": "css"
+        },
+        {
+          "name": "alexandria-arabic-800-normal.1l2ra3g_hhhtc.woff2",
+          "bytes": 13392,
+          "type": "css"
+        },
+        {
+          "name": "space-grotesk-latin-400-normal.1c6pcavxma0qq.woff2",
+          "bytes": 13688,
+          "type": "css"
+        },
+        {
+          "name": "image?url=%2Fbrand%2Flogo.jpg&w=48&q=75",
+          "bytes": 1222,
+          "type": "img"
+        }
+      ],
+      "videoElements": 0
+    }
+  ],
+  "productionFixtureStatus": {
+    "motion": 404,
+    "video": 404
+  }
+}

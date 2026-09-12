@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "source": "master plan sections 6.4, 6.5, 7",
+  "status": "installation template; actual repository media has not been inspected",
+  "chapters": [
+    {
+      "id": "strategy-journey",
+      "group": "strategies",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "strategy-money",
+      "group": "strategies",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "strategy-roles",
+      "group": "strategies",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "strategy-retention",
+      "group": "strategies",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "strategy-branches",
+      "group": "strategies",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-overview",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-bookings",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-car-status",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-finance",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-team",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-inventory",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    },
+    {
+      "id": "screen-loyalty",
+      "group": "screens",
+      "source": null,
+      "poster": null,
+      "audio_locale": null,
+      "captions": [],
+      "inspection_status": "not_checked"
+    }
+  ]
+}

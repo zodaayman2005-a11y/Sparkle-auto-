@@ -1,0 +1,433 @@
+{
+  "source": "User-supplied Google Drive video",
+  "playback": [
+    {
+      "readyState": 4,
+      "currentTime": 1.932693,
+      "paused": false,
+      "duration": 549.3144671201815,
+      "error": null,
+      "networkState": 2,
+      "hasSource": true,
+      "tracks": []
+    }
+  ],
+  "captions": [
+    ""
+  ],
+  "issues": [
+    "Expected values to be strictly equal:\n\nfalse !== true\n"
+  ],
+  "captionUi": [
+    {
+      "pressed": "false",
+      "disabled": null,
+      "label": "الترجمة والشرح/مقاطع الترجمة والشرح (c)"
+    }
+  ],
+  "settingsUi": "تشغيل (k)\n0\nإيقاف مؤقت (k)\nترجيع بمقدار 10 ثوانٍ (j)\nتقديم سريع بمقدار 10 ثوانٍ (l)\n0:01\n/\n9:09\nكتم الصوت (m)\nالترجمة والشرح/مقاطع الترجمة والشرح (c)\n‫1 مرة\nسرعة التشغيل\nالإعدادات\nنافذة ضمن النافذة\nالترجمة والشرح\nالجودة\nسرعة التشغيل\nملء الشاشة (f)\nجارٍ عرض copy_E99C3A9B-98C8-4A7F-A298-0DB03C97CD4A.MOV.",
+  "captionMenu": "تشغيل (k)\n0\nإيقاف مؤقت (k)\nترجيع بمقدار 10 ثوانٍ (j)\nتقديم سريع بمقدار 10 ثوانٍ (l)\n0:01\n/\n9:09\nكتم الصوت (m)\nالترجمة والشرح/مقاطع الترجمة والشرح (c)\n‫1 مرة\nسرعة التشغيل\nالإعدادات\nالإعدادات\nقائمة خيارات العرض\nالعربية (ترجمة تلقائية)\nغير مفعَّلة\nترجمة تلقائية\nملء الشاشة (f)\nجارٍ عرض copy_E99C3A9B-98C8-4A7F-A298-0DB03C97CD4A.MOV.",
+  "tabTrace": [
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    },
+    {
+      "tag": "IFRAME",
+      "text": "",
+      "title": "فيديو الاستراتيجيات"
+    }
+  ],
+  "keyboardExitFromPlayer": false
+}

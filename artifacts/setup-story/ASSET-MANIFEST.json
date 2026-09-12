@@ -1,0 +1,67 @@
+[
+  {
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 5,
+    "step": 1,
+    "src": "/art/setup/01.webp",
+    "original": "assets/brand/setup-originals/5.jpg",
+    "width": 960,
+    "height": 1200,
+    "bytes": 72036,
+    "originalSha256": "a08e0a1c65d90e90c2216b4bccd50879554430bf05b8a2464465f5383634ce6c"
+  },
+  {
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 1,
+    "step": 2,
+    "src": "/art/setup/02.webp",
+    "original": "assets/brand/setup-originals/1.jpg",
+    "width": 960,
+    "height": 1200,
+    "bytes": 55904,
+    "originalSha256": "ee981febb324ea15b185afa67780ec91f8543f4a96d0b339b6efa54ef6b2609d"
+  },
+  {
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 2,
+    "step": 3,
+    "src": "/art/setup/03.webp",
+    "original": "assets/brand/setup-originals/2.jpg",
+    "width": 960,
+    "height": 1200,
+    "bytes": 78444,
+    "originalSha256": "57f411df18d0cd307da88f94f1f2c6164d5e244d28c59dfcc6fbd1e8d7f9c7f0"
+  },
+  {
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 3,
+    "step": 4,
+    "src": "/art/setup/04.webp",
+    "original": "assets/brand/setup-originals/3.jpg",
+    "width": 960,
+    "height": 1200,
+    "bytes": 73476,
+    "originalSha256": "b226f2bb4279b2d4af6a3882950dd76ac8377fa0c8c8a28f5fc642e70412827f"
+  },
+  {
+    "classification": "REUSE",
+    "kind": "user_supplied_illustration",
+    "productScreenshot": false,
+    "sourcePhoto": 4,
+    "step": 5,
+    "src": "/art/setup/05.webp",
+    "original": "assets/brand/setup-originals/4.jpg",
+    "width": 960,
+    "height": 1200,
+    "bytes": 64936,
+    "originalSha256": "81826dd016019856317e92295a9fa454598259e0df544964febc5c77e3b13fa4"
+  }
+]

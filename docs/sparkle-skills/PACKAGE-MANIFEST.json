@@ -1,0 +1,1986 @@
+{
+  "package_id": "sparkle-auto-site-skills",
+  "version": "1.0.0",
+  "created": "2026-09-06",
+  "skill_count": 41,
+  "original_hdi_skills": 34,
+  "visual_and_brand_skills": 2,
+  "authored_page_skills": 5,
+  "files": [
+    {
+      "path": ".agents/skills/advanced-experience/SKILL.md",
+      "bytes": 1888,
+      "sha256": "7c266b8fb6b48e05481dff911cd795ff1693cf32e012a55c3d8dccba4a8621b9",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/advanced-experience/references/ADVANCED-SCENE-CONTRACT.md",
+      "bytes": 1021,
+      "sha256": "60b77c12d2917e6145251b1b179387f331e2ad21855c6e2bbbc94f8edcf41ca8",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/advanced-experience.md :: skills/advanced-experience/references/ADVANCED-SCENE-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/advanced-experience/references/WORKFLOW-SOURCE.md",
+      "bytes": 7423,
+      "sha256": "93fe3951f4ca27717b308a2523e96bbac4db4467d59eb906c6764b0af45135c1",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/advanced-experience.md :: skills/advanced-experience/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/asset-production-direction/SKILL.md",
+      "bytes": 1898,
+      "sha256": "615785aaa85fe53de219237b73a17828c52aab4d261007218c929b2ea8ab9a7f",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/asset-production-direction/references/ASSET-QA-DELIVERY.md",
+      "bytes": 810,
+      "sha256": "1e692283b5501d8e69ce702ee039f7f48e445a3b771e0440d5b5427e0a9a327b",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/asset-production-direction.md :: skills/asset-production-direction/references/ASSET-QA-DELIVERY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/asset-production-direction/references/ASSET-REGISTER.md",
+      "bytes": 801,
+      "sha256": "b28bab762ea894f77ffa6fd635075cceab91efd1f80305dbee7b7346d0d6abd1",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/asset-production-direction.md :: skills/asset-production-direction/references/ASSET-REGISTER.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/asset-production-direction/references/PRODUCTION-BRIEF.md",
+      "bytes": 959,
+      "sha256": "7425992508af971c2b757d746988b9ee3289813ea535093558664712407a9f6f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/asset-production-direction.md :: skills/asset-production-direction/references/PRODUCTION-BRIEF.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/asset-production-direction/references/WORKFLOW-SOURCE.md",
+      "bytes": 9198,
+      "sha256": "f3fcfbfde643e25a68416e448064308894af6e2b84a0ad5872070ccc229d8b2a",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/asset-production-direction.md :: skills/asset-production-direction/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/brand-world-building/SKILL.md",
+      "bytes": 1875,
+      "sha256": "2f8316fc25e2e05c118f4618f4d8d601eac69d0879c07f005cf542ec270c1479",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/brand-world-building/references/BRAND-WORLD-THESIS.md",
+      "bytes": 679,
+      "sha256": "9e171537113f3892c1e114c90651a126272704033ca716c3ef78e49e695714ae",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/brand-world-building.md :: skills/brand-world-building/references/BRAND-WORLD-THESIS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/brand-world-building/references/CROSS-SURFACE-PROOF.md",
+      "bytes": 1028,
+      "sha256": "575bc0a76487936b450519d4b15d65fe0bc7c834d5f1d72ab619cdcc973b8533",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/brand-world-building.md :: skills/brand-world-building/references/CROSS-SURFACE-PROOF.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/brand-world-building/references/WORKFLOW-SOURCE.md",
+      "bytes": 8832,
+      "sha256": "06e951676e9b25a9c50ce9f249b8f104e44bea86ca96de16716da6081941449c",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/brand-world-building.md :: skills/brand-world-building/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/brand-world-building/references/WORLD-GRAMMAR.md",
+      "bytes": 813,
+      "sha256": "0269fb84d289b28e131fa2b6997a204c782a90fd9956c8252dfcf8c8e4b5ce35",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/brand-world-building.md :: skills/brand-world-building/references/WORLD-GRAMMAR.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/color-imagery/SKILL.md",
+      "bytes": 1859,
+      "sha256": "055d97999f1ea2425a68ec1ff61f6b81ec93dbcff8817ec1583631c9bb352b5d",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/color-imagery/references/COLOR-IMAGE-CONTRACT.md",
+      "bytes": 1051,
+      "sha256": "d6f4b8a078ed8836d31530a388895bde1a19efdbbbf95e2d87ca3e79c035ecc4",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/color-imagery.md :: skills/color-imagery/references/COLOR-IMAGE-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/color-imagery/references/WORKFLOW-SOURCE.md",
+      "bytes": 7257,
+      "sha256": "a3ba287326c3254eff24d2bb9b62789872c2f4c9b9adb070c47566948858ef81",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/color-imagery.md :: skills/color-imagery/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/competitive-experience-intelligence/SKILL.md",
+      "bytes": 1913,
+      "sha256": "542536f629c0d534435bfd1fe7b5829ab2e930444f8b6c9865549973726e8146",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/competitive-experience-intelligence/references/CATEGORY-CONVENTIONS.md",
+      "bytes": 384,
+      "sha256": "abb93323a2b67e3c2675b0fcd3372375de30d6ccbf8181f21d1a1297dfa6c595",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/competitive-experience-intelligence.md :: skills/competitive-experience-intelligence/references/CATEGORY-CONVENTIONS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/competitive-experience-intelligence/references/COMPETITOR-MATRIX.md",
+      "bytes": 426,
+      "sha256": "68ede7a04aed3f2390b28d6a42802fe0d5a52ef490cfdcd5d437e3eee0d66d28",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/competitive-experience-intelligence.md :: skills/competitive-experience-intelligence/references/COMPETITOR-MATRIX.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/competitive-experience-intelligence/references/JOURNEY-BENCHMARK.md",
+      "bytes": 517,
+      "sha256": "0f777e436f6dd3fd931b8f771bc2a7ad5dc890fbfc8a52975dc206b1552e9c5b",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/competitive-experience-intelligence.md :: skills/competitive-experience-intelligence/references/JOURNEY-BENCHMARK.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/competitive-experience-intelligence/references/OPPORTUNITY-MAP.md",
+      "bytes": 394,
+      "sha256": "7e216f1c5969102394a246ef196c80cd77eed554f01315475531fa01533a3963",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/competitive-experience-intelligence.md :: skills/competitive-experience-intelligence/references/OPPORTUNITY-MAP.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/competitive-experience-intelligence/references/WORKFLOW-SOURCE.md",
+      "bytes": 8251,
+      "sha256": "5481441c2f37e440ce83fefc8077415b17762033e1a31a28088f1bc252436de3",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/competitive-experience-intelligence.md :: skills/competitive-experience-intelligence/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/component-system/SKILL.md",
+      "bytes": 1874,
+      "sha256": "d6669b2826fe0869b3bd23cb80254e9b225f5790114b238b3c3dcd6fd57dac21",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/component-system/references/COMPONENT-CONTRACT.md",
+      "bytes": 1008,
+      "sha256": "7050c6ca606444e523fd07e841040adc3d7294ce91b8807c5cf25af5bb48a18f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/component-system.md :: skills/component-system/references/COMPONENT-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/component-system/references/WORKFLOW-SOURCE.md",
+      "bytes": 6932,
+      "sha256": "09a2c6c518ba7288a6771a348c3883c5602bec3f9b7af708f4805c52f1a24505",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/component-system.md :: skills/component-system/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/content-information-design/SKILL.md",
+      "bytes": 1894,
+      "sha256": "8830306490084a747e42af287d0aafd689ba218670e19a82c35d82b20c7be940",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/content-information-design/references/CONTENT-INVENTORY.md",
+      "bytes": 707,
+      "sha256": "f168219bf900f1540c137fdeda5d51ec127e78f593df7297eb4c25f6ba103e08",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/content-information-design.md :: skills/content-information-design/references/CONTENT-INVENTORY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/content-information-design/references/CONTENT-MODEL-AND-STRESS.md",
+      "bytes": 828,
+      "sha256": "ef5bd145f1054c06bf6576d87ad8ceeafc0742b2394042cf6fc2e3ed2caf0d0c",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/content-information-design.md :: skills/content-information-design/references/CONTENT-MODEL-AND-STRESS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/content-information-design/references/MESSAGE-ARCHITECTURE.md",
+      "bytes": 814,
+      "sha256": "99cf9a9cf4437b23cdb107c8ca63bbcb611abe6344c6bc8d969903e1ddc8e6af",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/content-information-design.md :: skills/content-information-design/references/MESSAGE-ARCHITECTURE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/content-information-design/references/WORKFLOW-SOURCE.md",
+      "bytes": 8833,
+      "sha256": "82bf30098dc36c5ec183d5dbeb17f199b0eceacc4f62ce847836e65bc5579bd7",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/content-information-design.md :: skills/content-information-design/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/conversion-behavior-design/SKILL.md",
+      "bytes": 1888,
+      "sha256": "7b611ba0b10d6ea03ce94457d37b2fb674066c06208969a7d437478e94ddad24",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/conversion-behavior-design/references/DECISION-JOURNEY.md",
+      "bytes": 826,
+      "sha256": "18911b8da9b19147730cedbe9d41dafe8c0b009f20a76631da1132ebd69e0f15",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/conversion-behavior-design.md :: skills/conversion-behavior-design/references/DECISION-JOURNEY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/conversion-behavior-design/references/ETHICAL-EXPERIMENTS.md",
+      "bytes": 910,
+      "sha256": "d4450f4396c18ef5c5bcc2fed5b2ffbf9f7ea6c26aef2ed4a0196324ed4ee77f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/conversion-behavior-design.md :: skills/conversion-behavior-design/references/ETHICAL-EXPERIMENTS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/conversion-behavior-design/references/FORM-AND-CTA-CONTRACT.md",
+      "bytes": 840,
+      "sha256": "eb5c2fd19f727656495d202c78c2017a73c5df9e51467447b2ae794c1de386cb",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/conversion-behavior-design.md :: skills/conversion-behavior-design/references/FORM-AND-CTA-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/conversion-behavior-design/references/WORKFLOW-SOURCE.md",
+      "bytes": 8949,
+      "sha256": "d06e219e73996451632dc4f5996a4bba8d2d222c7c83ce7a4edf92494787a878",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/conversion-behavior-design.md :: skills/conversion-behavior-design/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/creative-coding-lab/SKILL.md",
+      "bytes": 1874,
+      "sha256": "43bffd5e7bf6294476887535b9875122272fe6112d704a5a241cc7cbd8652815",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/creative-coding-lab/references/BENCHMARK-DECISION.md",
+      "bytes": 943,
+      "sha256": "d302302c4c28629ce8145b79155015a9fe4ed758c2a13399cfed804ddd2eb78e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/creative-coding-lab.md :: skills/creative-coding-lab/references/BENCHMARK-DECISION.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/creative-coding-lab/references/LAB-BRIEF.md",
+      "bytes": 802,
+      "sha256": "84b805530f71bb498fbb8437b833199e3d047ca8e0ee89d2f7fb7c6a457f4d35",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/creative-coding-lab.md :: skills/creative-coding-lab/references/LAB-BRIEF.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/creative-coding-lab/references/PARAMETERS-AND-PRESETS.md",
+      "bytes": 783,
+      "sha256": "e60ac70ba2105fec557b7a78e861946b85e4cb8b8ed5508098718c00149cd90e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/creative-coding-lab.md :: skills/creative-coding-lab/references/PARAMETERS-AND-PRESETS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/creative-coding-lab/references/WORKFLOW-SOURCE.md",
+      "bytes": 8735,
+      "sha256": "fa383a751005d48bebf7b2757c299148ec46917d0781ead6ec242e4a60ccdff4",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/creative-coding-lab.md :: skills/creative-coding-lab/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/data-visualization/SKILL.md",
+      "bytes": 1875,
+      "sha256": "ef1f36a7841233ce0f779282f94743d482be67957b51121cba5e6271ef7e6dd6",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/data-visualization/references/EDGE-DATA-TESTS.md",
+      "bytes": 924,
+      "sha256": "f3eeb1803aa703551d9aaa225a19c9be6e1adb20676b0bf569f0fe0db0335bb0",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/data-visualization.md :: skills/data-visualization/references/EDGE-DATA-TESTS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/data-visualization/references/QUESTION-TO-ENCODING.md",
+      "bytes": 817,
+      "sha256": "bdaa663813a7b1ca3053e2a74aa9f3e1764c7f4e1b405f12036eb7a4219b6dd5",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/data-visualization.md :: skills/data-visualization/references/QUESTION-TO-ENCODING.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/data-visualization/references/VISUALIZATION-CONTRACT.md",
+      "bytes": 820,
+      "sha256": "e17db12db95a0f91a158436a19b0b749245ac50423a5252ee5fc7809cecae486",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/data-visualization.md :: skills/data-visualization/references/VISUALIZATION-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/data-visualization/references/WORKFLOW-SOURCE.md",
+      "bytes": 9036,
+      "sha256": "648b7aaba7fd308459e3991f24192b633afcd424f8a6e9d074b9222fc79e5353",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/data-visualization.md :: skills/data-visualization/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-director/SKILL.md",
+      "bytes": 1875,
+      "sha256": "a02fe2445529a6a6953a8da70801341eeb374fe455200d8b2f429524cc932a0c",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/design-director/references/ANTI-GENERIC.md",
+      "bytes": 1866,
+      "sha256": "6b0f7acf0569d7849fd9d216c3bed3a4c6c66cc084dfbb3cacc88f91957eee49",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-director.md :: skills/design-director/references/ANTI-GENERIC.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-director/references/DIRECTION-CARD.md",
+      "bytes": 1150,
+      "sha256": "d9ae0d99943f02515fb5961bbfb4039c5e0ab18a1ec8fce4964eec7eb6970545",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-director.md :: skills/design-director/references/DIRECTION-CARD.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-director/references/WORKFLOW-SOURCE.md",
+      "bytes": 13673,
+      "sha256": "b2feccce61d63e8d614c58c30e74a85a7144a79d588cb1f7d6697c8539e9f6d3",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-director.md :: skills/design-director/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-ops-handoff/SKILL.md",
+      "bytes": 1873,
+      "sha256": "841ad423b70dd86709b1f397e707f8cf009148ba7d3b4f832a0bb40a807c19bd",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/design-ops-handoff/references/ACCEPTANCE-RELEASE.md",
+      "bytes": 819,
+      "sha256": "f45fe473c4d9a70f8c5e05703506e5fa07b9afad1123caafa6fb9d8641b6d8f1",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-ops-handoff.md :: skills/design-ops-handoff/references/ACCEPTANCE-RELEASE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-ops-handoff/references/HANDOFF-SOURCE-MAP.md",
+      "bytes": 917,
+      "sha256": "d892d9745e77490de29c838b4e04a2dc46f6f354aedd4be6d627f08ea56de0c7",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-ops-handoff.md :: skills/design-ops-handoff/references/HANDOFF-SOURCE-MAP.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-ops-handoff/references/IMPLEMENTATION-CONTRACT.md",
+      "bytes": 916,
+      "sha256": "3d9255237bbe68682fee44336507f95d7bd93a1baa3dbe7fc1867e58b3e57195",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-ops-handoff.md :: skills/design-ops-handoff/references/IMPLEMENTATION-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-ops-handoff/references/WORKFLOW-SOURCE.md",
+      "bytes": 9649,
+      "sha256": "359df6ca35dcda80d0484772cb5e0269bf90abf489dc1f8620315940adbafef3",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-ops-handoff.md :: skills/design-ops-handoff/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-system-governance/SKILL.md",
+      "bytes": 1888,
+      "sha256": "b75572820e1805c6c7e899aaeed75adf03eeb53d738df49c30065c57ff3787d8",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/design-system-governance/references/CONTRIBUTION-AND-CHANGE.md",
+      "bytes": 908,
+      "sha256": "4e0a7652cacc103480f77d2356c802755edc475d6d098bbf7124709d3f93db64",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-system-governance.md :: skills/design-system-governance/references/CONTRIBUTION-AND-CHANGE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-system-governance/references/SYSTEM-INVENTORY.md",
+      "bytes": 791,
+      "sha256": "bbc8ea9f0ca2f395dd13cc9a864c8290029a4e484fb53036d5a896f78dfd729a",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-system-governance.md :: skills/design-system-governance/references/SYSTEM-INVENTORY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-system-governance/references/SYSTEM-QUALITY-MATRIX.md",
+      "bytes": 822,
+      "sha256": "6d161cbccdbc3767cf7effe99df76857a05f082bce22f983f25795bf0e9b0dbc",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-system-governance.md :: skills/design-system-governance/references/SYSTEM-QUALITY-MATRIX.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-system-governance/references/WORKFLOW-SOURCE.md",
+      "bytes": 9034,
+      "sha256": "bff9b72205545a821f63aca2372d1c12779a38d6973b6aa8a4eea48cce2322cc",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-system-governance.md :: skills/design-system-governance/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-to-code/SKILL.md",
+      "bytes": 1867,
+      "sha256": "6aaf3965d0e72c9255a682e10d9561923ca3582062aa8729fad5aec0d64f9577",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/design-to-code/references/IMPLEMENTATION-MAP.md",
+      "bytes": 949,
+      "sha256": "6d3cee9fde6e08fda3b67154132f35d3e5fe251b2a1b53034d20c1f0b7295f50",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-to-code.md :: skills/design-to-code/references/IMPLEMENTATION-MAP.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/design-to-code/references/WORKFLOW-SOURCE.md",
+      "bytes": 8017,
+      "sha256": "d8afa15904f91673de29506cc49d44967ca21707794bcdde78b6a5e2204335dc",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/design-to-code.md :: skills/design-to-code/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/experiment-optimization/SKILL.md",
+      "bytes": 1892,
+      "sha256": "8f0382381a6e908a98ac4fe7c1d5107d31c786eb2cf950a50cdfa68acd1b1f72",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/experiment-optimization/references/EXPERIMENT-BRIEF.md",
+      "bytes": 818,
+      "sha256": "ce8f1f6f57fc4343d6eeb29d2000a12767f5365b97ed3dd39471c70c85b8e33a",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/experiment-optimization.md :: skills/experiment-optimization/references/EXPERIMENT-BRIEF.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/experiment-optimization/references/EXPERIMENT-DECISION.md",
+      "bytes": 815,
+      "sha256": "f980f598bb32eca206cd851654223d39bb5532c9532ee6fbcd65615e7a7330ba",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/experiment-optimization.md :: skills/experiment-optimization/references/EXPERIMENT-DECISION.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/experiment-optimization/references/METRICS-AND-ANALYSIS.md",
+      "bytes": 914,
+      "sha256": "15cbfa024d229db1ccae51e3ff4458052ca39503b5588a8c9d171a4a50e62aad",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/experiment-optimization.md :: skills/experiment-optimization/references/METRICS-AND-ANALYSIS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/experiment-optimization/references/WORKFLOW-SOURCE.md",
+      "bytes": 8948,
+      "sha256": "a35abf2f2eaee1302760cc212ac726b7acdc9b7cef6572613dff9fc8909098f9",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/experiment-optimization.md :: skills/experiment-optimization/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/SKILL.md",
+      "bytes": 2092,
+      "sha256": "e843cab9e2817247b27cd8a2433e6a9eff6b913166812aa836cb0e7a0a1dfe38",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/00-core.md",
+      "bytes": 10886,
+      "sha256": "1a823aa38b95cbf4c4772a7ea1be0f5f6695b03b978ff74bddadc936defb3c91",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/01-capabilities.md",
+      "bytes": 7934,
+      "sha256": "d9cad51cfaa0611c7a864b93292502da16a591cf8ee75032b7b02069f0a5505b",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/02-art-direction.md",
+      "bytes": 7475,
+      "sha256": "a717bf24194771a8b42182f84139f71be2d58235fff230c6a6099f5fa2740fdc",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/03-asset-planning.md",
+      "bytes": 5516,
+      "sha256": "468a089499d7f9bcd4064fb5a107f9ffe7af9d093c766335399be14ba8df2895",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/04-generation.md",
+      "bytes": 7791,
+      "sha256": "53f3fa2d5f76636ed019b60c4c5dc63843ff0b08b1660e10a9df25fb4f334534",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/05-web-integration.md",
+      "bytes": 7491,
+      "sha256": "353b8dc7d4e4bef4e61cc1367d11f15a8c1a459ea6963a19e8a36ce96378d785",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/06-quality.md",
+      "bytes": 7170,
+      "sha256": "e177dfefcb43b2d150cd13bdc1a723fbec1c019d152888817219f5b495ff1b4f",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/07-templates.md",
+      "bytes": 5319,
+      "sha256": "9ee5c58ae3d213601c34e4cba6173d50bb05b51bc5e9fe6912c2ed9de317a0cc",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/08-evals.md",
+      "bytes": 6061,
+      "sha256": "cf8c5102173876743f690cf2c7e425c2829bc38c2bcbf33801cd955ce1fe9373",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/hdi-web-visual-art-director/references/09-sources.md",
+      "bytes": 3350,
+      "sha256": "033b1c6e56e408c3be87b5ae7c6582e84bd8165016deea40bce4e4fe02c93c24",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/inclusive-accessibility-design/SKILL.md",
+      "bytes": 1893,
+      "sha256": "429ff88d10612288a99c0fb26616303dfd178b7d5cbbf9dea8e1189299a42f2f",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/inclusive-accessibility-design/references/ACCESSIBILITY-TEST-EVIDENCE.md",
+      "bytes": 1029,
+      "sha256": "1826ecb7d79b5c52cbebefe80e45db740f8c02b904ffc9ad186737b2767594bb",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inclusive-accessibility-design.md :: skills/inclusive-accessibility-design/references/ACCESSIBILITY-TEST-EVIDENCE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inclusive-accessibility-design/references/CUSTOM-COMPONENT-ACCESS.md",
+      "bytes": 913,
+      "sha256": "41a1b5814e96326cd7df8ce8482f23d0bfca45c43f829b09efbcf9d8c709c45d",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inclusive-accessibility-design.md :: skills/inclusive-accessibility-design/references/CUSTOM-COMPONENT-ACCESS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inclusive-accessibility-design/references/INCLUSIVE-REQUIREMENTS.md",
+      "bytes": 949,
+      "sha256": "07ac8e7fd863dc2bf6ea84962269ffba7393dc82245c81091805aab319293755",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inclusive-accessibility-design.md :: skills/inclusive-accessibility-design/references/INCLUSIVE-REQUIREMENTS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inclusive-accessibility-design/references/WORKFLOW-SOURCE.md",
+      "bytes": 9519,
+      "sha256": "6c376e9c0a395dc4fb4072909948c6e90ab12566a844849f0b071d0e247d505e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inclusive-accessibility-design.md :: skills/inclusive-accessibility-design/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/SKILL.md",
+      "bytes": 1882,
+      "sha256": "401517c615f124d0d67ab32f1e4daacf8c2166bbe1e23fc626fbca2aca7e8200",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/references/ANALOGY-LADDER.md",
+      "bytes": 690,
+      "sha256": "6b3cae213c083814a613eb97ed72fecf5c7ce0c97f384ac7e891b49a8a87e9ba",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inspiration-synthesis.md :: skills/inspiration-synthesis/references/ANALOGY-LADDER.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/references/DEFIXATION-PROTOCOL.md",
+      "bytes": 956,
+      "sha256": "8b76f6573c42658dd6924d39673d36d24138357c643812ca13d79666ded4dccd",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inspiration-synthesis.md :: skills/inspiration-synthesis/references/DEFIXATION-PROTOCOL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/references/DESIGN-GRAMMAR.md",
+      "bytes": 879,
+      "sha256": "ffe0803667b1c0cb790106e232139ad98ba41ec1c9babb390f5d3ff446f0d229",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inspiration-synthesis.md :: skills/inspiration-synthesis/references/DESIGN-GRAMMAR.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/references/ORIGINALITY-AUDIT.md",
+      "bytes": 1078,
+      "sha256": "c1071251abd5d7ea61b8ea503cc57cca4ae8eaa1deb7ce3dc0d2395b95adb99f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inspiration-synthesis.md :: skills/inspiration-synthesis/references/ORIGINALITY-AUDIT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/references/SYNTHESIS-MATRIX.md",
+      "bytes": 512,
+      "sha256": "07036d9fbe7ef7b1bb85d94b3b36058448d281f3cef1991891e52a59b9333251",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inspiration-synthesis.md :: skills/inspiration-synthesis/references/SYNTHESIS-MATRIX.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/inspiration-synthesis/references/WORKFLOW-SOURCE.md",
+      "bytes": 10858,
+      "sha256": "a3efb33ca96ddb976271d6792d7ef3fa9e69a26055aedd884dfb7672c51ad2b2",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/inspiration-synthesis.md :: skills/inspiration-synthesis/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/localization-culturalization/SKILL.md",
+      "bytes": 1893,
+      "sha256": "23bbe08ec55cad5a6c3c260b82a8f414a2a02092f4b6ef0a2b25499cca67ee28",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/localization-culturalization/references/CULTURALIZATION-QA.md",
+      "bytes": 813,
+      "sha256": "21b2198a45ad12b91dab29bba94b3ebcd6428ee9331e1d72d9d155072051fd46",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/localization-culturalization.md :: skills/localization-culturalization/references/CULTURALIZATION-QA.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/localization-culturalization/references/LOCALE-MARKET-MATRIX.md",
+      "bytes": 798,
+      "sha256": "fb716a37d96272d0cb552923c25a8f3876108015a9c64ceb09aa5e34305b1182",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/localization-culturalization.md :: skills/localization-culturalization/references/LOCALE-MARKET-MATRIX.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/localization-culturalization/references/TERMINOLOGY-AND-DATA.md",
+      "bytes": 817,
+      "sha256": "3367816cbeb1dae2b157c9f05eb0bc3bdc4e62f891df5d7214320e5b28abb6c3",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/localization-culturalization.md :: skills/localization-culturalization/references/TERMINOLOGY-AND-DATA.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/localization-culturalization/references/WORKFLOW-SOURCE.md",
+      "bytes": 9599,
+      "sha256": "204d0a66c03b1835a81675c582687e4c1783160ea9cbac7150a67b8e9db24c1a",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/localization-culturalization.md :: skills/localization-culturalization/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/motion-interaction/SKILL.md",
+      "bytes": 1871,
+      "sha256": "68687704ec7083a7373eef07480eaa5393fa3c593caa9b405dcdc6cdb1473cd1",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/motion-interaction/references/SCENE-BOARD.md",
+      "bytes": 903,
+      "sha256": "e66a6cb3a23575ba298eb5b8c37c769d7e9833d16ae2e3ffc150c9a9df77d49e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/motion-interaction.md :: skills/motion-interaction/references/SCENE-BOARD.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/motion-interaction/references/WORKFLOW-SOURCE.md",
+      "bytes": 7331,
+      "sha256": "3b384d5b32ba8ecff52d022c84624299541354430084cff4c997a1d7d956ad81",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/motion-interaction.md :: skills/motion-interaction/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/performance-perceived-quality/SKILL.md",
+      "bytes": 1888,
+      "sha256": "e13d1789f86a931ef719058ca6cff641f5ebb5b13d68148b92c7bbe4f690cfb2",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/performance-perceived-quality/references/LOADING-AND-FALLBACK.md",
+      "bytes": 825,
+      "sha256": "a7ad40e015db59c063bc156ace1f887df92d436ab2fdd1830c6e4413c6623a57",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/performance-perceived-quality.md :: skills/performance-perceived-quality/references/LOADING-AND-FALLBACK.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/performance-perceived-quality/references/PERFORMANCE-BUDGET.md",
+      "bytes": 728,
+      "sha256": "20b6954f35861afa9c7225a99eb9359095098306c1474ad4700b05c2445545bd",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/performance-perceived-quality.md :: skills/performance-perceived-quality/references/PERFORMANCE-BUDGET.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/performance-perceived-quality/references/PERFORMANCE-EVIDENCE.md",
+      "bytes": 819,
+      "sha256": "d361c0497e4d73a541b027772e91bf1b0b27f4d2fda719b8852d078e94501f81",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/performance-perceived-quality.md :: skills/performance-perceived-quality/references/PERFORMANCE-EVIDENCE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/performance-perceived-quality/references/WORKFLOW-SOURCE.md",
+      "bytes": 9110,
+      "sha256": "2f9a664a2475726eb4ac58bacfcc352e3d34070f9f01cda2026717b98495e85d",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/performance-perceived-quality.md :: skills/performance-perceived-quality/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/product-metrics-instrumentation/SKILL.md",
+      "bytes": 1903,
+      "sha256": "0769e66122d7278afdef0f713ee8c1cc51b14f6d6c75543f550eee2b35ed0659",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/product-metrics-instrumentation/references/EVENT-CONTRACT.md",
+      "bytes": 916,
+      "sha256": "355c53594b4d853b97a5366a7c2d078076174167a80679f1e5adbf8c45c1e252",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/product-metrics-instrumentation.md :: skills/product-metrics-instrumentation/references/EVENT-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/product-metrics-instrumentation/references/METRIC-CATALOG.md",
+      "bytes": 800,
+      "sha256": "309dfbf6042e54845fb5890f5e1690b927cf62e5b5a91748f657989e7a534fa7",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/product-metrics-instrumentation.md :: skills/product-metrics-instrumentation/references/METRIC-CATALOG.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/product-metrics-instrumentation/references/TELEMETRY-VALIDATION.md",
+      "bytes": 930,
+      "sha256": "77942da1f7537c4c229838f391d7b01758a6a539f1941af0fa3d451e3a25ed86",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/product-metrics-instrumentation.md :: skills/product-metrics-instrumentation/references/TELEMETRY-VALIDATION.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/product-metrics-instrumentation/references/WORKFLOW-SOURCE.md",
+      "bytes": 9821,
+      "sha256": "fcb723e55a30755d77f5eebbc9a5fab18e63e8c34c4ac5918e791dce723ec91c",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/product-metrics-instrumentation.md :: skills/product-metrics-instrumentation/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/prototype-usability-testing/SKILL.md",
+      "bytes": 1887,
+      "sha256": "ea16936d5dbfd75afa91b51daa9beca7503009ae24d4ed54b652985d4360bdcd",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/prototype-usability-testing/references/FINDINGS-AND-RETEST.md",
+      "bytes": 796,
+      "sha256": "2a9cba43475be161e4452c8d9e5310a796284f4a22d8341ce1670fc7e3d115c1",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/prototype-usability-testing.md :: skills/prototype-usability-testing/references/FINDINGS-AND-RETEST.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/prototype-usability-testing/references/SESSION-OBSERVATION.md",
+      "bytes": 826,
+      "sha256": "eb2f6685ff73a25dccddf57b286b700781259af3da9f22e9ff2cb497702671aa",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/prototype-usability-testing.md :: skills/prototype-usability-testing/references/SESSION-OBSERVATION.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/prototype-usability-testing/references/TEST-PLAN.md",
+      "bytes": 796,
+      "sha256": "71bfd03e89a56836ba114861be27840a2d3b4777899132e1a825536f8d67b78d",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/prototype-usability-testing.md :: skills/prototype-usability-testing/references/TEST-PLAN.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/prototype-usability-testing/references/WORKFLOW-SOURCE.md",
+      "bytes": 8405,
+      "sha256": "1f5810c0e50f2860f270634355462f77bcb0579a3e25f4eabdb9b3ccfb801601",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/prototype-usability-testing.md :: skills/prototype-usability-testing/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/reference-intelligence/SKILL.md",
+      "bytes": 1885,
+      "sha256": "b3f08134277ed54cd53173315c4c752d56c8034c96521c997b10d7c7d0f10a58",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/reference-intelligence/references/REFERENCE-CARD.md",
+      "bytes": 1032,
+      "sha256": "768bba8947f0f861be5be30aa79ed70552bf5b031a6ccbbe7cf093abacb97d4e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/reference-intelligence.md :: skills/reference-intelligence/references/REFERENCE-CARD.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/reference-intelligence/references/SOURCE-MAP.md",
+      "bytes": 1398,
+      "sha256": "ce7c0de0332ae21ccb7282277054b6121ac674c9b156624b792f49ff4abb0547",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/reference-intelligence.md :: skills/reference-intelligence/references/SOURCE-MAP.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/reference-intelligence/references/WORKFLOW-SOURCE.md",
+      "bytes": 8786,
+      "sha256": "c1843309fd903802a6be71b99fd8a2af9ab52f4f0596350093f1e464050d15a7",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/reference-intelligence.md :: skills/reference-intelligence/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/responsive-rtl/SKILL.md",
+      "bytes": 1869,
+      "sha256": "fdcf8964b85a00d3ced64e7ac5bd51e0ccb60d6910d2d8e21f0fd2d9308029c5",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/responsive-rtl/references/RESPONSIVE-MATRIX.md",
+      "bytes": 1199,
+      "sha256": "16748ac1f2b9941f703e57a699ba6d61ea01f8c4caa7b52a858ae419f6858d28",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/responsive-rtl.md :: skills/responsive-rtl/references/RESPONSIVE-MATRIX.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/responsive-rtl/references/WORKFLOW-SOURCE.md",
+      "bytes": 8668,
+      "sha256": "4deea21d73603a8167b2398615e5e39d6ef8add5ef2344db1c9a7bca7f494a56",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/responsive-rtl.md :: skills/responsive-rtl/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/seo-discoverability-information/SKILL.md",
+      "bytes": 1904,
+      "sha256": "fe52e585ca4f1191ab9ae51f27d7d85cfdf808f236d68d64c36c8618366a9320",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/seo-discoverability-information/references/DISCOVERABILITY-IA.md",
+      "bytes": 937,
+      "sha256": "e979ab742a84b3958b06973224501a5385015477c0fa21f906ea1e573ac3a9dd",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/seo-discoverability-information.md :: skills/seo-discoverability-information/references/DISCOVERABILITY-IA.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/seo-discoverability-information/references/SEO-VALIDATION.md",
+      "bytes": 925,
+      "sha256": "56991db01c8ce19f480f361c0c1a22652ba53a907ab62adb8dbff0eb2ed94a59",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/seo-discoverability-information.md :: skills/seo-discoverability-information/references/SEO-VALIDATION.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/seo-discoverability-information/references/TECHNICAL-DISCOVERY.md",
+      "bytes": 922,
+      "sha256": "ee900fe8e984736dce80c10c1cee23cbe99320b5be8ba025ffffeec36008940e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/seo-discoverability-information.md :: skills/seo-discoverability-information/references/TECHNICAL-DISCOVERY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/seo-discoverability-information/references/WORKFLOW-SOURCE.md",
+      "bytes": 9856,
+      "sha256": "da114663afec723ed86bca75193f748afc8b415f14f2a033d7d5ad4325f14fcc",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/seo-discoverability-information.md :: skills/seo-discoverability-information/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-bilingual-conversion/SKILL.md",
+      "bytes": 3778,
+      "sha256": "207644fa0026fd1265c8c70c6c898e429fad68db2377a266de3c97011f80ca77",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-brand-overlay/SKILL.md",
+      "bytes": 1726,
+      "sha256": "60dec0fb9ba0adb0591c9098644ea2d48e03e9c7adb867b1cd8626dc1b19b920",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-brand-overlay/references/00-overlay.md",
+      "bytes": 6811,
+      "sha256": "f5ede02bd5e92279fa23b0363e2b6d62a88790c198dfd0ecae51fcac91db8c43",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-brand-overlay/references/01-brand-contract.md",
+      "bytes": 15381,
+      "sha256": "3328b6f07efdd05ce808b212524be12e8b0a96bcf909bc97f915cd50465fe197",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-brand-overlay/references/02-section-assets.md",
+      "bytes": 10669,
+      "sha256": "baa39000691b2eccb9a01235785ea4f35148e1e5f4ed2585085926686284263a",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-brand-overlay/references/03-production-briefs.md",
+      "bytes": 10580,
+      "sha256": "6929009db136a24516b10ebbebe29708b600c302dc20704e29131876658e2521",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-brand-overlay/references/04-decisions-source-coverage.md",
+      "bytes": 9478,
+      "sha256": "25909a94dbd9223268fcbde6bf32a5d081dadce01b085fa98c3091835d5ca20e",
+      "origin": "chat gpt image.txt v1.0.1 — exact sequential source segment"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-landing-director/SKILL.md",
+      "bytes": 2952,
+      "sha256": "3363f7145aae36371e41ef241f5ab5acf2b94e93031a37f0a89708d3a6703cfc",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-landing-director/references/PHASE-ROUTING.md",
+      "bytes": 2358,
+      "sha256": "94478ac59999bd41be6dd8038d4fa71918b94692144351c3492386c7b258f8f4",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-neo-brutalism/SKILL.md",
+      "bytes": 3796,
+      "sha256": "8dc596a738e26c01d14f213de95dd01ba092e9b56a6af5f7a672576d1a6b1822",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-quality-gates/SKILL.md",
+      "bytes": 3439,
+      "sha256": "3ad716bbd15dfcddf5800a573ac7c12bd13dca11929679cfbd3e57a8afad0aae",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-quality-gates/references/INSTALL-SMOKE-TESTS.md",
+      "bytes": 1762,
+      "sha256": "022184de3eb9c111d4b1537373ff2f25253284ab0b0493151b143f60969635cc",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-scroll-video/SKILL.md",
+      "bytes": 4222,
+      "sha256": "22bb4f70a1f1644ec638fda03313d6ce20a2c287854dd2b39e868d158de12b20",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/sparkle-auto-scroll-video/references/MEDIA-KEYS.json",
+      "bytes": 2661,
+      "sha256": "6598fa10d4741a9979bdc05cbd806048d7dcd81c8a05353558d76974aed2f47e",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/spatial-3d-world-building/SKILL.md",
+      "bytes": 1886,
+      "sha256": "88edd43831f4a22673320086af0b6a341c532d454aa9dbd56e4d15e9acfa47a5",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/spatial-3d-world-building/references/SPATIAL-PERFORMANCE-ACCESS.md",
+      "bytes": 929,
+      "sha256": "65e2271428f08c3ed46395cd2f19137aa0befacea8d585f15901ac8ff554b758",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/spatial-3d-world-building.md :: skills/spatial-3d-world-building/references/SPATIAL-PERFORMANCE-ACCESS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/spatial-3d-world-building/references/SPATIAL-THESIS-STORYBOARD.md",
+      "bytes": 822,
+      "sha256": "caf6a2b813c9981e90b463cfeb9134ff128c0ed4611bf094e1c20bcafc7c8f75",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/spatial-3d-world-building.md :: skills/spatial-3d-world-building/references/SPATIAL-THESIS-STORYBOARD.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/spatial-3d-world-building/references/WORKFLOW-SOURCE.md",
+      "bytes": 9966,
+      "sha256": "a9c14c1a4ec306e32efa93ad664c03a55c7a644ec36a329696a56aed5d1917aa",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/spatial-3d-world-building.md :: skills/spatial-3d-world-building/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/spatial-3d-world-building/references/WORLD-ASSET-BIBLE.md",
+      "bytes": 893,
+      "sha256": "e5876efc78eead27cc70fb2fb5b349a06352116da3a06a67ec428fcb82f7aee8",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/spatial-3d-world-building.md :: skills/spatial-3d-world-building/references/WORLD-ASSET-BIBLE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trend-cultural-intelligence/SKILL.md",
+      "bytes": 1898,
+      "sha256": "403b33201082258fe2fb7889e523f55c875b3bb02f92facf947bcbf2193a5bd7",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/trend-cultural-intelligence/references/ADOPT-ADAPT-REJECT.md",
+      "bytes": 538,
+      "sha256": "3bfdc9dfc08e76618bc55bd31c5176639156f4eeaa0b832268c8fa0d473dad81",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trend-cultural-intelligence.md :: skills/trend-cultural-intelligence/references/ADOPT-ADAPT-REJECT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trend-cultural-intelligence/references/CULTURAL-RESEARCH.md",
+      "bytes": 1042,
+      "sha256": "514ea82512061557b67f89e8859dc29410ae405f478144a6e3e183298f85649f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trend-cultural-intelligence.md :: skills/trend-cultural-intelligence/references/CULTURAL-RESEARCH.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trend-cultural-intelligence/references/TREND-RADAR.md",
+      "bytes": 374,
+      "sha256": "147be21865a6d083b025e096a7e93f1ad77938eee1b53d6caf166a17d9cc8778",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trend-cultural-intelligence.md :: skills/trend-cultural-intelligence/references/TREND-RADAR.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trend-cultural-intelligence/references/TREND-SCORECARD.md",
+      "bytes": 558,
+      "sha256": "f841743c24964cecba2a3472dacefa9681b2b40c51d26c97ec5756b9975f6efa",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trend-cultural-intelligence.md :: skills/trend-cultural-intelligence/references/TREND-SCORECARD.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trend-cultural-intelligence/references/WORKFLOW-SOURCE.md",
+      "bytes": 9188,
+      "sha256": "d35a469a557834685168213db5b7ab62fc5822f57a8f188183d08ad41f631305",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trend-cultural-intelligence.md :: skills/trend-cultural-intelligence/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trust-privacy-security-ux/SKILL.md",
+      "bytes": 1884,
+      "sha256": "a98c05b4da4c8864f6cb892c2a2540db842d95dfa879d6e46d423efc99278f84",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/trust-privacy-security-ux/references/SENSITIVE-FLOW-CONTRACT.md",
+      "bytes": 800,
+      "sha256": "4cb73e655451b282359df72d0840b992230dd2d0ad18c73a86739433bce36323",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trust-privacy-security-ux.md :: skills/trust-privacy-security-ux/references/SENSITIVE-FLOW-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trust-privacy-security-ux/references/TRUST-CONTENT-AND-TESTS.md",
+      "bytes": 830,
+      "sha256": "7c2b61ff0cd535a5cb8b6d048c0e65a27a7838155cee8e761fdfb4e03465c518",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trust-privacy-security-ux.md :: skills/trust-privacy-security-ux/references/TRUST-CONTENT-AND-TESTS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trust-privacy-security-ux/references/TRUST-RISK-MODEL.md",
+      "bytes": 806,
+      "sha256": "6e1f8f390151f2239488549665f92248406416b7c183bbc29d1fb79aa61064fc",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trust-privacy-security-ux.md :: skills/trust-privacy-security-ux/references/TRUST-RISK-MODEL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/trust-privacy-security-ux/references/WORKFLOW-SOURCE.md",
+      "bytes": 9190,
+      "sha256": "bbd3ad1874a34d0d1047adfd401ba6e10125d7dfbc7de213e49c87055cba163f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/trust-privacy-security-ux.md :: skills/trust-privacy-security-ux/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/typography-content/SKILL.md",
+      "bytes": 1872,
+      "sha256": "1ef6c10257c6021e5531ba9ecad28d00c304d7af6ece747025fca5b8419acad7",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/typography-content/references/TYPE-CONTRACT.md",
+      "bytes": 1281,
+      "sha256": "bbd81390af91fdc0aba2cffb332ddd0db1fda1b3077c3652291263919736a645",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/typography-content.md :: skills/typography-content/references/TYPE-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/typography-content/references/WORKFLOW-SOURCE.md",
+      "bytes": 8073,
+      "sha256": "65e05ac8879c21e233e0cb9fd03c97cb7f377d157d32ae548d845228bfceae0b",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/typography-content.md :: skills/typography-content/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/user-research-synthesis/SKILL.md",
+      "bytes": 1880,
+      "sha256": "dac629ed89f91eecc181bb90777a4c1ec6fbf30bccf67eb135335d59f36fe5b5",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/user-research-synthesis/references/DESIGN-REQUIREMENTS.md",
+      "bytes": 829,
+      "sha256": "a445f49f4593514c14ce23b5572b87b0d5c6578274dfdc65e81b03d6d16afa07",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/user-research-synthesis.md :: skills/user-research-synthesis/references/DESIGN-REQUIREMENTS.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/user-research-synthesis/references/EVIDENCE-LEDGER.md",
+      "bytes": 687,
+      "sha256": "d072e0b76147756d51283ca4d07a4d5cb7dd3422a8d525eebcbbbf5b350fda0f",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/user-research-synthesis.md :: skills/user-research-synthesis/references/EVIDENCE-LEDGER.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/user-research-synthesis/references/SYNTHESIS-MAP.md",
+      "bytes": 810,
+      "sha256": "b87c2789df964da7fc8629ce0c1f0063d5fbd8bc538271df81f0893823f52638",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/user-research-synthesis.md :: skills/user-research-synthesis/references/SYNTHESIS-MAP.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/user-research-synthesis/references/WORKFLOW-SOURCE.md",
+      "bytes": 9437,
+      "sha256": "ad4958529391abcfa3992b2b046fd2175c02988167e16262db6709ccd2ca485d",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/user-research-synthesis.md :: skills/user-research-synthesis/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/ux-architecture/SKILL.md",
+      "bytes": 1859,
+      "sha256": "773fae871523a9793c097d750895643770c338a84886606588174e43bdfefc6e",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/ux-architecture/references/JOURNEY-TEMPLATE.md",
+      "bytes": 540,
+      "sha256": "767af0b3e614597e1062e80bae635c23310285b5c726aa0624027a1b93960ea0",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/ux-architecture.md :: skills/ux-architecture/references/JOURNEY-TEMPLATE.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/ux-architecture/references/STATE-MATRIX.md",
+      "bytes": 446,
+      "sha256": "e29381ef50e94bf7294c45b5599744cbf9fafc6fdcf6656a213740a76cb00745",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/ux-architecture.md :: skills/ux-architecture/references/STATE-MATRIX.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/ux-architecture/references/WORKFLOW-SOURCE.md",
+      "bytes": 6691,
+      "sha256": "d391289433811a3f74e315943bdf730f90527a7a79b3b7fa79c9cd2c6498fc0e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/ux-architecture.md :: skills/ux-architecture/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/visual-composition/SKILL.md",
+      "bytes": 1870,
+      "sha256": "0d8114e56963aea07a2f320972dd5a0be967f33f80d8cacd5fa8f9c83f478149",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/visual-composition/references/COMPOSITION-CONTRACT.md",
+      "bytes": 1200,
+      "sha256": "2cdcec04f13904d61dd347a5c702fd16ad480274241269d8efcdf33bc30d6406",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/visual-composition.md :: skills/visual-composition/references/COMPOSITION-CONTRACT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/visual-composition/references/WORKFLOW-SOURCE.md",
+      "bytes": 6760,
+      "sha256": "e514ba4935be1965f0137bfe2d3b419bc6dce00015b5b1b4bc0f44e51129d24e",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/visual-composition.md :: skills/visual-composition/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/visual-qa-refinement/SKILL.md",
+      "bytes": 1880,
+      "sha256": "5990ba34f9f592ce7196a378ff4ac49f2f8e818aa5cd3e369ed7117f611e538c",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/visual-qa-refinement/references/REVIEW-REPORT.md",
+      "bytes": 1328,
+      "sha256": "0d93ba210e3b30f016657d651feaf02e66b0b781ce3d3d9e096250f6840def6d",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/visual-qa-refinement.md :: skills/visual-qa-refinement/references/REVIEW-REPORT.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/visual-qa-refinement/references/WORKFLOW-SOURCE.md",
+      "bytes": 8569,
+      "sha256": "1b2777f158c9532fa2c912d1a39fe9735a4f39607bf29e942a563dde175aba7b",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/visual-qa-refinement.md :: skills/visual-qa-refinement/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/web-design-research/SKILL.md",
+      "bytes": 1875,
+      "sha256": "69338efedb047cf798c05e4b42492471d2e197e6a97c5aefc3377a2c62fe34df",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": ".agents/skills/web-design-research/references/QUERY-PLAYBOOK.md",
+      "bytes": 2242,
+      "sha256": "413a8a06c4442a7a7fabd63cb554c361917524b9a847ab39ce753bbe2f6dab41",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/web-design-research.md :: skills/web-design-research/references/QUERY-PLAYBOOK.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/web-design-research/references/RESEARCH-DELIVERABLES.md",
+      "bytes": 1112,
+      "sha256": "c70e3292ce2f9574cc46c1a5caa9044246bd068cb358638d6fbd7785debd70fd",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/web-design-research.md :: skills/web-design-research/references/RESEARCH-DELIVERABLES.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/web-design-research/references/SEARCH-LANES.md",
+      "bytes": 1919,
+      "sha256": "599f1e127adf96811e0a191ae1164a46458e05840b17ddfb101f9708ff78135c",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/web-design-research.md :: skills/web-design-research/references/SEARCH-LANES.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/web-design-research/references/SOURCE-QUALITY.md",
+      "bytes": 2032,
+      "sha256": "20d1b3a937eaaa86fb1f3831fe66e3e4bd773d23096f3b0b99eb5d0eba03ce0a",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/web-design-research.md :: skills/web-design-research/references/SOURCE-QUALITY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/web-design-research/references/WEB-SAFETY.md",
+      "bytes": 1667,
+      "sha256": "9a63c8566d29fff8afe07ad34ee24a0639b6d8775a07ebf49d38560b284931ab",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/web-design-research.md :: skills/web-design-research/references/WEB-SAFETY.md; framing separators removed only"
+    },
+    {
+      "path": ".agents/skills/web-design-research/references/WORKFLOW-SOURCE.md",
+      "bytes": 15116,
+      "sha256": "dbf3cb04a4e5bc9bd59fa29088fbc980570303b95e97d1bff0ea8329dfcc0bd6",
+      "origin": "HDI-OS v1.2.0: 02-SKILLS/web-design-research.md :: skills/web-design-research/SKILL.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/00-CODEX-SETUP.md",
+      "bytes": 799,
+      "sha256": "5fcaa1cccee336a45dc49cab78e487f3c6b0aa3047db79cad988065f26ab9baa",
+      "origin": "HDI-OS original archive entry, byte-preserved"
+    },
+    {
+      "path": "docs/hdi-library/00-START-HERE.md",
+      "bytes": 2535,
+      "sha256": "112064d7c6b98f6f20c0109edd7c79db91d252a041e276889ebb17179c6932fa",
+      "origin": "HDI-OS original archive entry, byte-preserved"
+    },
+    {
+      "path": "docs/hdi-library/AGENTS.source.md",
+      "bytes": 10971,
+      "sha256": "2cde533ea1ddf747e9a2dfddd5909be0c330568435ee063d5240b7125e07a5c7",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: AGENTS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/CHANGELOG.md",
+      "bytes": 1966,
+      "sha256": "854e14e42af4e72c0dc546b150872b2ac690196e8fffb3391f42b5f3746fe952",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: CHANGELOG.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/INSTALL-QUICK-AR.md",
+      "bytes": 2478,
+      "sha256": "d3a5c088f6d5e4622133b95316ba9a35eab8438891a39bf0db36db4d3eef7c76",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: INSTALL-QUICK-AR.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/README.en.md",
+      "bytes": 1892,
+      "sha256": "fa8ea8b5cc24eba00baffc5e360697e317b97883586875c3a3e18be9a5bf10ba",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: README.en.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/README.md",
+      "bytes": 5248,
+      "sha256": "414a76ee5face626591d81fb70f54acbcc450fc663b6328e5600a919cea3aafe",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/SOURCES.md",
+      "bytes": 4967,
+      "sha256": "3c900da6edd30ba67576ed10275410c4bef0b736ba501ca8ad88d2fafabc2ed5",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: SOURCES.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/ARCHITECTURE.md",
+      "bytes": 2152,
+      "sha256": "06808df11cf44926216f5db1231bf4f53caa5e3254e0267830a5560940a70ec0",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/ARCHITECTURE.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/CUSTOMIZATION.md",
+      "bytes": 2071,
+      "sha256": "2c094fa87aea4a1ba46d5cf31c227edf48f6e84ffc561137075bff2f1a93a82e",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/CUSTOMIZATION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/NEXT-SKILLS-ROADMAP.md",
+      "bytes": 1637,
+      "sha256": "0fc7f8dca2885d3d2be5faf6e2bb42148e2ff4ff111ab003e82c090634804a42",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/NEXT-SKILLS-ROADMAP.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/PROMPT-RECIPES.md",
+      "bytes": 2824,
+      "sha256": "a94771e1b88c3a24ff9f5b80462ad1b40c9d2c2f0053a0e61417f67ab38c6913",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/PROMPT-RECIPES.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/RESEARCH-AND-INSPIRATION.md",
+      "bytes": 5593,
+      "sha256": "8e416292e8896c06e53b61a040e8b2987e7b2c77aabdcd35592aaf365ebd419c",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/RESEARCH-AND-INSPIRATION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/SKILLS-CATALOG.md",
+      "bytes": 13352,
+      "sha256": "b18e84635f3cb91e33c7445d33488e8f3ad8bc69947db66c4ec0645ee2faf974",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/SKILLS-CATALOG.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/START-HERE.md",
+      "bytes": 4136,
+      "sha256": "47e68b70e467149bd74506f1dec25e956fa14baee667cb9dc42dfb60f016ca82",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/START-HERE.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/V1.2-SPECIALIST-SKILLS.md",
+      "bytes": 4029,
+      "sha256": "da346c8a9eb81db8f29a54c59e72706251f4cb5f2b0864f5266f05b60192569b",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/V1.2-SPECIALIST-SKILLS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/docs/WORKFLOW.md",
+      "bytes": 2644,
+      "sha256": "4c8219ace67094dbdde990cc172d2e235960597d05930d596a9608d679a2a9d3",
+      "origin": "HDI-OS v1.2.0: 10-DOCS/docs.md :: docs/WORKFLOW.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/README.md",
+      "bytes": 400,
+      "sha256": "26dd5ab4bc29d1020d090ebff45cf6f40a63073c1b32fbe339d7176dc070571e",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/README.md.md :: domain-packs/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/data-enterprise/PACK.md",
+      "bytes": 2431,
+      "sha256": "21cb4b10599fc8569cd7b7090a85efd9ed704e78ffb26c75e054c1352679aa0e",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/data-enterprise.md :: domain-packs/data-enterprise/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/ecommerce/PACK.md",
+      "bytes": 2450,
+      "sha256": "f41b71a7b90b34f23874af4799adf49ad347a462e15132d52463ec6be2393eca",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/ecommerce.md :: domain-packs/ecommerce/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/editorial-portfolio/PACK.md",
+      "bytes": 2376,
+      "sha256": "f16326a054ea071ea885b95423265c26222abf337261f5af8bebc8ccb66ec4cc",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/editorial-portfolio.md :: domain-packs/editorial-portfolio/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/immersive-web/PACK.md",
+      "bytes": 2453,
+      "sha256": "e02c51ca73252a0b3f0622df71034f660fa034a2f384ee8cde6464cd12aad0bc",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/immersive-web.md :: domain-packs/immersive-web/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/landing-pages/PACK.md",
+      "bytes": 3403,
+      "sha256": "e22cb5c12e6a4adb20c7a5087bc8632fdf612a932b3ca2075ecf9e05a5dcc5fe",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/landing-pages.md :: domain-packs/landing-pages/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/mobile-app/PACK.md",
+      "bytes": 2497,
+      "sha256": "1c7922f7267e3028aad0b223f40e953caa3caa4a02b9d9e0b1158e12a2101d2a",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/mobile-app.md :: domain-packs/mobile-app/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/saas-product/PACK.md",
+      "bytes": 3115,
+      "sha256": "268179584b913255c01e611655c4a0607e38df51cde61aefbd3eb62e03e32db0",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/saas-product.md :: domain-packs/saas-product/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/domain-packs/service-business/PACK.md",
+      "bytes": 2553,
+      "sha256": "677ef9432f219703d750edd848e5d88327b9e010cae305a6b9173982eb441bd2",
+      "origin": "HDI-OS v1.2.0: 04-DOMAIN-PACKS/service-business.md :: domain-packs/service-business/PACK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/evals/COMPARISON.template.md",
+      "bytes": 657,
+      "sha256": "7c94391c558593e6d8ed17c651dbad397e0de909716257aaa350c7056e8e5516",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: evals/COMPARISON.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/evals/RUNBOOK.md",
+      "bytes": 2258,
+      "sha256": "7f8654f12335330a2ad0fe72ecc6a248b922f4c41f2ee4fb36443e3236d8388b",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: evals/RUNBOOK.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/BRAND.md",
+      "bytes": 2366,
+      "sha256": "4a6607bfe239370812f8c64ac4cb7603aab4441377dc598bf6c17c8c454fcf88",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/BRAND.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/CONTENT.md",
+      "bytes": 1831,
+      "sha256": "a3ee01a8d344c2be115963afc17d365b1f3c7d05d74ebffeac3186e79716e1ca",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/CONTENT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/DECISIONS.md",
+      "bytes": 1606,
+      "sha256": "ae000ac061bfb3d91f94368cf0d6aa0fa50a8ca8e28ac62f2033e768038cc89d",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/DECISIONS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/DESIGN-REVIEW.md",
+      "bytes": 1615,
+      "sha256": "79aacb27499d0bab10f8fa098ed88cb42f4420b7658badab9fec435c2659ae9a",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/DESIGN-REVIEW.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/DESIGN.md",
+      "bytes": 7962,
+      "sha256": "fe1716f759a6eb46190a099186db7e08200c19eaf6fb6fc5de7cdee47e9e7fd0",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/DESIGN.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/MOTION.md",
+      "bytes": 1966,
+      "sha256": "1910f0747a33c9d80e1c7a07fb2770b08349dcdf2323e073e03255e40351c1d8",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/MOTION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/PRODUCT.md",
+      "bytes": 2808,
+      "sha256": "87154a7223b112b84d89d9e973d17d50df82d1b015df0849b2733f1fcd6b028d",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/PRODUCT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/QUALITY-GATES.md",
+      "bytes": 2223,
+      "sha256": "4e2ab1f91351f16fdb05949146efbf105d7a8cd0561df93674164e50cd21fce5",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: examples/sparkle-auto-mini/QUALITY-GATES.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/README.md",
+      "bytes": 1093,
+      "sha256": "72063e3a6a275656614c29618b8dd67b3979e937627be7238738bb74794562b7",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/examples/sparkle-auto-mini/REFERENCE-BRIEF.md",
+      "bytes": 1966,
+      "sha256": "d1ba8b1bc910f5e8b1764d9c12443df676151583c51e03cf66b8377e51a1882e",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: examples/sparkle-auto-mini/REFERENCE-BRIEF.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/README.md",
+      "bytes": 2465,
+      "sha256": "1b7b261d09cffafd014645707f0435a150250c4609205b33e7d6e86fb9d85753",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-brand-world-director.md",
+      "bytes": 1051,
+      "sha256": "bac9fbb3908b36b94fe1741d1ddc8294da0c4ef33df2d6d73a10dd307e5725d1",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-brand-world-director.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-content-conversion-strategist.md",
+      "bytes": 1073,
+      "sha256": "d16361ee7c985691c45e6b1a2ad1056501cfe1998edbc05db03d58f82456f427",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-content-conversion-strategist.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-creative-technologist.md",
+      "bytes": 1092,
+      "sha256": "3bf7fefc0a8ee6396d6961fc8d52a078d6ce96b65fa3f611b25d9ad1362d4016",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-creative-technologist.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-data-experience-designer.md",
+      "bytes": 1034,
+      "sha256": "828aab6a01da499e3bfca7a1a2bdb133c18e14330b3c9b61a9ad8e355b59714e",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-data-experience-designer.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-critic.md",
+      "bytes": 1389,
+      "sha256": "be84a7a4347048f11c45a17c0705ee9bdab2a252458393434221b1bad67ea630",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-design-critic.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-director.md",
+      "bytes": 2187,
+      "sha256": "0b179d02aea93739ee5683c8a0e3fc6a17fbc7342fc191786659b1bd6b8f9362",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-design-director.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-engineer.md",
+      "bytes": 1274,
+      "sha256": "5c0f982cdec27a075c20e58bc0ac5fc6f2b318af43a159d0a16f136ca33047cf",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-design-engineer.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-system-governor.md",
+      "bytes": 1018,
+      "sha256": "12f10dbd91894d3b1e6e02814617ce3309b6c77a448b7513794223577f13c0b2",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-design-system-governor.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-experiment-measurement-lead.md",
+      "bytes": 1027,
+      "sha256": "100f504b37dc81775940ce137446ee8e5fcf8af21a4c49cc6e3368de004cf5de",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-experiment-measurement-lead.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-inspiration-strategist.md",
+      "bytes": 1950,
+      "sha256": "955f846a55b32d434f582023e9b5f0901b4b6a4c462b9fb95ade4e2a484a992a",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-inspiration-strategist.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-motion-director.md",
+      "bytes": 1134,
+      "sha256": "897fc8bbbe170734322b29ed1dfe50cb2687fb2765efcd3bdfb4646544959c46",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-motion-director.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-performance-experience-engineer.md",
+      "bytes": 1057,
+      "sha256": "d29222b048513426b031de7b06137c8d7be074400a89fa1bbebdb78385e75bc9",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-performance-experience-engineer.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-trust-localization-specialist.md",
+      "bytes": 1088,
+      "sha256": "37a692104cf66e5c19d4511f0afcd87b1c5bc6fca9960e708494a51094773ef4",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-trust-localization-specialist.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-usability-evaluator.md",
+      "bytes": 1053,
+      "sha256": "e1d76d43e65447a20513cc27cf6b2f8dc978ae13cb483cd6817d3b224e9947d6",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-usability-evaluator.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-user-insights-researcher.md",
+      "bytes": 1057,
+      "sha256": "f4ceb7ba133cc8bb8a99d9447e5fab7fa33ec71aa11ee43e2e7a6a2d6823e934",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-user-insights-researcher.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-ux-architect.md",
+      "bytes": 1248,
+      "sha256": "c148c0d14dc0d695e84b4dd19532e054f68d774ca580a827f40687ce055690a4",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-ux-architect.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-visual-designer.md",
+      "bytes": 1336,
+      "sha256": "c703858e4a4166b27b0d631a69236f1ac28de16f1eab8d6fc38471572c4e3382",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-visual-designer.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/agents/hdi-web-researcher.md",
+      "bytes": 1907,
+      "sha256": "932bb7e66650dcf0d814c66cfcc62ece052d5e8b9c8bfbe81efca74e38c810d1",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/agents/hdi-web-researcher.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/antigravity/rules/hdi-os.md",
+      "bytes": 3402,
+      "sha256": "b42c3531a2182b600bae40ac219d5b245240a8b22bc1083db06be99ecb1b718f",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/antigravity/rules/hdi-os.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/codex/AGENTS.snippet.md",
+      "bytes": 1748,
+      "sha256": "f73e5ab60c911d5d8a39301749e3cb43278f71764afe7c2b1c1fbe7b867ce59b",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/codex/AGENTS.snippet.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/integrations/codex/README.md",
+      "bytes": 2280,
+      "sha256": "92c9d065b6c875c05be7b162f72ff1626a0442ea1de71c177523855cf6431d25",
+      "origin": "HDI-OS v1.2.0: 11-INTEGRATIONS/integrations.md :: integrations/codex/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/memory/README.md",
+      "bytes": 539,
+      "sha256": "a2ff0826793d681f2b4ed2d7d936e925617a95b5896a31490153b54169cbbc58",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: memory/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/orchestration/ROUTER.md",
+      "bytes": 7544,
+      "sha256": "f6d5381784270981aa4fbef9b4dc4e563ecb0352750f222976655e4d48ce4bca",
+      "origin": "HDI-OS v1.2.0: 08-ORCHESTRATION/orchestration-agents.md :: orchestration/ROUTER.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/ACCESSIBILITY.template.md",
+      "bytes": 1223,
+      "sha256": "b36679b0b918e2068f4abdde90421d2be4cb1cdd9ee89111432f1568bfc2290f",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/ACCESSIBILITY.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/ASSET-PRODUCTION.template.md",
+      "bytes": 1208,
+      "sha256": "e9207e8a26e565baf6f98b6a44f8e2248739a875edcc6dda4b3d84e39711b72d",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/ASSET-PRODUCTION.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/BRAND-WORLD.template.md",
+      "bytes": 1354,
+      "sha256": "bc4afaef7c66be5a559f4d50047805db2adc7eb64d6132699895d93aad407501",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/BRAND-WORLD.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/BRAND.template.md",
+      "bytes": 2165,
+      "sha256": "f40259902c4533656a36a5026af8875f908a710ea43c548b14a3a583a9b5f6eb",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/BRAND.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/CONTENT-ARCHITECTURE.template.md",
+      "bytes": 1200,
+      "sha256": "becde508322ba95fd59d267f8902d5cc35cd67ca5da9da588c841f6099c158d3",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/CONTENT-ARCHITECTURE.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/CONTENT.template.md",
+      "bytes": 1650,
+      "sha256": "22ceb99f6b29794ecee4ca5c6b3a9303bf55e31005a8a0c274be81227ed3e35e",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/CONTENT.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/CONVERSION-JOURNEY.template.md",
+      "bytes": 1322,
+      "sha256": "44ecdcb2973b47420e5775dec6911e6e469b444da78d338e87efa1ef8f8210d6",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/CONVERSION-JOURNEY.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/CREATIVE-LAB.template.md",
+      "bytes": 1189,
+      "sha256": "5b83e6371ed383b0d24e4803847084d5b71749c2c98776b538372215b4c0730b",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/CREATIVE-LAB.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/DATA-VISUALIZATION.template.md",
+      "bytes": 1220,
+      "sha256": "b2ce923992b338a16af160e5b41cbaefec952451903a233ec9ad6a0c2a5aa82d",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/DATA-VISUALIZATION.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/DECISIONS.template.md",
+      "bytes": 897,
+      "sha256": "5b2579e329cc4036c52e7966b43358cabf2a679ebc465214f22d747dadc1aa49",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/DECISIONS.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/DESIGN-REVIEW.template.md",
+      "bytes": 1044,
+      "sha256": "f032b82eff3aee7927f7868ac08c92a791b5afd99d3b99c59be383d02beb2755",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/DESIGN-REVIEW.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/DESIGN-SYSTEM-GOVERNANCE.template.md",
+      "bytes": 1207,
+      "sha256": "ba8660b7ca05145f9f7db8aa79a3060d0ced64a44163efe373524864107e9782",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/DESIGN-SYSTEM-GOVERNANCE.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/DESIGN.template.md",
+      "bytes": 5773,
+      "sha256": "22fc2f8bfdb5d6848895f021da8d46d9ec2f97109aab60cac17d8231cfcce33d",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/DESIGN.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/DISCOVERABILITY.template.md",
+      "bytes": 1203,
+      "sha256": "138cc4e74bc680e45ecbf6f7411446e9195404f61d52829b8c2d1bfcc84a2de9",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/DISCOVERABILITY.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/EXPERIMENT.template.md",
+      "bytes": 1203,
+      "sha256": "e21a3673b3cb444b377717de42937e9adf22c07c2fd26e345705210238c13a3e",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/EXPERIMENT.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/HANDOFF.template.md",
+      "bytes": 1210,
+      "sha256": "6444a6c9e8a2962160b0cc73fbfcf7364068b5f33f07ddfae8b25591be88da35",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/HANDOFF.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/LOCALIZATION.template.md",
+      "bytes": 1187,
+      "sha256": "88bb5d44ece33a702e92cf0632b669e4b9042798eba368d5c6003b13ad0d113c",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/LOCALIZATION.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/MEASUREMENT.template.md",
+      "bytes": 1189,
+      "sha256": "aaaadabd2ab9d1eb3936b4bcfc9142cc4da48426811806e958563fa55acb0732",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/MEASUREMENT.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/MOTION.template.md",
+      "bytes": 2342,
+      "sha256": "85c81970ce94dd8aed9f25feb09e8f64c195ea4495991f880d3938e4710402e1",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/MOTION.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/PERFORMANCE.template.md",
+      "bytes": 1187,
+      "sha256": "bc0406717614dad9338d880e615b52aa3e5b101c3bc5fd7fc09105884bcb5a89",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/PERFORMANCE.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/PRODUCT.template.md",
+      "bytes": 2496,
+      "sha256": "04aea6d95c36929a2fd259671472ebbfc5ef329e7e23354cdd265f5da274531f",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/PRODUCT.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/QUALITY-GATES.template.md",
+      "bytes": 4609,
+      "sha256": "b4ed1a466ff89253d2cfd44930f51feae00191edf3bd50f1c503df0c80e50817",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: project-templates/QUALITY-GATES.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/REFERENCE-BRIEF.template.md",
+      "bytes": 1537,
+      "sha256": "34655e36dee05798ded81028cf53e353461ebe075d72eeaadab824d414396787",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/REFERENCE-BRIEF.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/SPATIAL-3D.template.md",
+      "bytes": 1194,
+      "sha256": "cfecf9b1ea0d41e0169a7bee7e1cb152b8fbd2949a84d249c05430f0baec3a40",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/SPATIAL-3D.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/TRUST-SECURITY.template.md",
+      "bytes": 1207,
+      "sha256": "7676be565af36d267e64c2ac662cb4457892322943375013007b63c3518a78d1",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/TRUST-SECURITY.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/USABILITY-TEST.template.md",
+      "bytes": 1182,
+      "sha256": "0ffaeff5a169e3d4d3eaae62211f3e1493b96d1c0de98bd93e4907e5293598a2",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/USABILITY-TEST.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/project-templates/USER-RESEARCH-SYNTHESIS.template.md",
+      "bytes": 1233,
+      "sha256": "5572fe34e14721d30e491a07c6de318dd988ee6d7631f6762a12119926a8f8d3",
+      "origin": "HDI-OS v1.2.0: 07-PROJECT-TEMPLATES/project-templates.md :: project-templates/USER-RESEARCH-SYNTHESIS.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/00-NEW-PROJECT.md",
+      "bytes": 1307,
+      "sha256": "f671f6fd8e2e3a285ce3276a785e75ec1b5b17f5637da88cec67b35c0cf7f6c4",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/00-NEW-PROJECT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/01-REDESIGN.md",
+      "bytes": 1253,
+      "sha256": "e8e4c23f181c53e8af3285814f09c15177731826d2f75a3764dc285908e8b51e",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/01-REDESIGN.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/02-LANDING-PAGE.md",
+      "bytes": 1735,
+      "sha256": "bd952bdb8a867090fe4e1e349cc9254a28298eeff83852e55b3705b925f29433",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/02-LANDING-PAGE.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/03-PRODUCT-UI.md",
+      "bytes": 1346,
+      "sha256": "2607792e02f4fd7d11e4b7343d2686efdc3507730047bf1cc236ddace433dd0e",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/03-PRODUCT-UI.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/04-REFERENCE-ANALYSIS.md",
+      "bytes": 1189,
+      "sha256": "60b36b2ecb90ba88037579d5f1435d319f99d3af798851246ef3af9998230e77",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/04-REFERENCE-ANALYSIS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/05-MOTION-3D.md",
+      "bytes": 1304,
+      "sha256": "09f3a05e3e9637f262cefd7598be6bea33b93bf7f3a913aff09303af105cff33",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/05-MOTION-3D.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/06-FINAL-REVIEW.md",
+      "bytes": 1420,
+      "sha256": "cae5e39d5888e883fca4c1df5cceb20f360c3177d41295161913f771bdf55088",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/06-FINAL-REVIEW.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/07-LEARN-TASTE.md",
+      "bytes": 1211,
+      "sha256": "eebcdefc44012ace8c0c226d6e22d9edb5c1e407aba8473ca6ca5ef63540d5a4",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/07-LEARN-TASTE.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/08-WEB-RESEARCH-SPRINT.md",
+      "bytes": 1612,
+      "sha256": "a8ad3627994a6115ba39571c2a7bfe6952880c97d4cd42ee211276e3bca28e8e",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/08-WEB-RESEARCH-SPRINT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/09-COMPETITOR-EXPERIENCE-AUDIT.md",
+      "bytes": 1272,
+      "sha256": "b9a83521ef03560c6dc492d671cdc6f253ddbe5dddc3e9c8bce4b98db1c20523",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/09-COMPETITOR-EXPERIENCE-AUDIT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/10-INSPIRATION-SYNTHESIS.md",
+      "bytes": 1577,
+      "sha256": "bcf3cf2cfcfa4fa199ba16509e7fe38d3c36f9b1b80d7b448916878797f4bad6",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/10-INSPIRATION-SYNTHESIS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/11-TREND-CULTURE-SCAN.md",
+      "bytes": 1518,
+      "sha256": "a6d69fdea7b8b4050cd0a21b0147b65b692dc1e74f1197cc8531608f54370ae0",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/11-TREND-CULTURE-SCAN.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/12-USER-RESEARCH-SYNTHESIS.md",
+      "bytes": 825,
+      "sha256": "3b43befb6b07a96435c4130dbe88f804c641bf47866cd0baad08dcd211f16c86",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/12-USER-RESEARCH-SYNTHESIS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/13-PROTOTYPE-USABILITY-TEST.md",
+      "bytes": 776,
+      "sha256": "c38bff23bc97d3829b695a8055fd843da8039fba35088ff2eee72de28685c760",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/13-PROTOTYPE-USABILITY-TEST.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/14-BRAND-WORLD.md",
+      "bytes": 766,
+      "sha256": "e4525263ad653f4c097240f92f7ef9303c6d986291cb4c5520bcd6aee8ae36c1",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/14-BRAND-WORLD.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/15-CONTENT-INFORMATION-DESIGN.md",
+      "bytes": 744,
+      "sha256": "915cadc5d20898b5268b01f505679922d89ca4d6b47fbcd951ace17bd2010472",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/15-CONTENT-INFORMATION-DESIGN.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/16-CONVERSION-BEHAVIOR.md",
+      "bytes": 725,
+      "sha256": "7307239696efa6dd5055ad606d235dcb496372341cdf5f074e8adb1638ba752f",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/16-CONVERSION-BEHAVIOR.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/17-DATA-VISUALIZATION.md",
+      "bytes": 757,
+      "sha256": "46db89bbbea03fb6cebd3b5d644c5e50f77c206b24b597055598ed8e4a818955",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/17-DATA-VISUALIZATION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/18-DESIGN-SYSTEM-GOVERNANCE.md",
+      "bytes": 769,
+      "sha256": "4f4bcfd56ec60f6e37fd3c6da683f8a4ee4cf7013c44c3e776a30899bbd06b2e",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/18-DESIGN-SYSTEM-GOVERNANCE.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/19-ASSET-PRODUCTION.md",
+      "bytes": 786,
+      "sha256": "45e06ca1e52f308b9c1d9da9f07b5c34350851c37e64149fc9e433d34764732f",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/19-ASSET-PRODUCTION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/20-PERFORMANCE-PERCEIVED-QUALITY.md",
+      "bytes": 751,
+      "sha256": "db57354e60a810e97e49e745c435092dc71aae883dc55a74d1504bb8b000e0d2",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/20-PERFORMANCE-PERCEIVED-QUALITY.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/21-EXPERIMENT-OPTIMIZATION.md",
+      "bytes": 758,
+      "sha256": "0ad96ae70719f75582e9217d633182245d94fff15cc4182e0614dafc099e8b01",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/21-EXPERIMENT-OPTIMIZATION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/22-TRUST-PRIVACY-SECURITY-UX.md",
+      "bytes": 761,
+      "sha256": "7f9fb0b781d0214d64e8aa18587e4e8ded4b24e93f72291876ec1fe97d3c657e",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/22-TRUST-PRIVACY-SECURITY-UX.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/23-LOCALIZATION-CULTURALIZATION.md",
+      "bytes": 774,
+      "sha256": "c346807e6c2ad3f7cf0d560db9e4346b5840179fc02ade31b1a3f54b10bfbbb0",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/23-LOCALIZATION-CULTURALIZATION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/24-CREATIVE-CODING-LAB.md",
+      "bytes": 773,
+      "sha256": "a3f606c1f0b3d991c3b803f0e49ded14117acfab4a5419879b7d3eac2c1a75dc",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/24-CREATIVE-CODING-LAB.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/25-SPATIAL-3D-WORLD.md",
+      "bytes": 751,
+      "sha256": "779725dc854279abb8eb00163a4ee5c666fa0aadc3aad5321396088db5f96b76",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/25-SPATIAL-3D-WORLD.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/26-INCLUSIVE-ACCESSIBILITY.md",
+      "bytes": 786,
+      "sha256": "d2e9c1738a248e04607468e281a0807dbbadc46e300bc5a292c2e17c716416b6",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/26-INCLUSIVE-ACCESSIBILITY.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/27-SEO-DISCOVERABILITY.md",
+      "bytes": 796,
+      "sha256": "f317a40cb83556e625a3bca1d58d0181e542669b043a16b850a059a1b581b42f",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/27-SEO-DISCOVERABILITY.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/28-DESIGN-OPS-HANDOFF.md",
+      "bytes": 747,
+      "sha256": "509daf4863ab12a2cabee23b103e249722f55281d4a2231d0310616f35167d71",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/28-DESIGN-OPS-HANDOFF.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/29-PRODUCT-METRICS-INSTRUMENTATION.md",
+      "bytes": 763,
+      "sha256": "6a99e89fb66f55ed267b2868c6b894a1584ba46b863658a1c5ad3e8962ef6e0d",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/29-PRODUCT-METRICS-INSTRUMENTATION.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/prompts/README.md",
+      "bytes": 1797,
+      "sha256": "33da25e7aed8d924fd9c7b9c45e099cb95837a3b95f5548b0bad2d947a9fe191",
+      "origin": "HDI-OS v1.2.0: 05-PROMPTS/prompts.md :: prompts/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/reference-library/README.md",
+      "bytes": 1533,
+      "sha256": "e0d21e89a456b72eec13c26eb3b818c25cfd74938800d801d51f5917d802f0bf",
+      "origin": "HDI-OS v1.2.0: 09-REFERENCE-LIBRARY/reference-library.md :: reference-library/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/reference-library/RESEARCH-QUESTIONS.md",
+      "bytes": 1407,
+      "sha256": "a85f14be1cf39696ec50be1c57f929cba91ef45889eaa3cbb5a62f28cf15fb7f",
+      "origin": "HDI-OS v1.2.0: 09-REFERENCE-LIBRARY/reference-library.md :: reference-library/RESEARCH-QUESTIONS.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/reference-library/SOURCE-CATALOG.md",
+      "bytes": 4165,
+      "sha256": "a44ea16bda508ce0da1315904698f0533cd43a2b56ea007fd1626f17602eb23b",
+      "origin": "HDI-OS v1.2.0: 09-REFERENCE-LIBRARY/reference-library.md :: reference-library/SOURCE-CATALOG.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/README.md",
+      "bytes": 2652,
+      "sha256": "acc5549c282a49fb06fcd5800645ce0ffa4864f5d7f1fac9f5fdb42ecc08bf4c",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/research-core.md :: research-system/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/COMPETITIVE-MATRIX.template.md",
+      "bytes": 492,
+      "sha256": "18a04a6867bfaa14a232b0c91b13c002941856986f035deb3bdd911c26bb9996",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/COMPETITIVE-MATRIX.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/EVIDENCE-MATRIX.template.md",
+      "bytes": 397,
+      "sha256": "7bf5eb8624473b65895c3d4baf3888417efba394cd91e6b5dab539fd103d43ee",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/EVIDENCE-MATRIX.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/INSPIRATION-SYNTHESIS.template.md",
+      "bytes": 880,
+      "sha256": "59db0ef2b84333567888c77817549056e4d703e4ca4420497a5f95d518a0c580",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/INSPIRATION-SYNTHESIS.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/ORIGINALITY-AUDIT.template.md",
+      "bytes": 521,
+      "sha256": "34dc94fe6386f1cb273a14242d257b333d46202467d54b8bb4067cb98dcdd9ed",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/ORIGINALITY-AUDIT.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/RESEARCH-PLAN.template.md",
+      "bytes": 1208,
+      "sha256": "193b91f88c88b16cae61263596a9e41fb567592eba1864c9a8428c6b3a979726",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/RESEARCH-PLAN.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/RESEARCH-REPORT.template.md",
+      "bytes": 854,
+      "sha256": "c51f2a3cb776dc2f5dbb4a0cfdb55758e2218bfe924a56624bb91df94661eb43",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/RESEARCH-REPORT.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/research-system/templates/TREND-CULTURE-MAP.template.md",
+      "bytes": 523,
+      "sha256": "f58ba55cbb232e8d138aed20643bf58d084efa4558fcc7ff0a0c7a05a7dd9c5b",
+      "origin": "HDI-OS v1.2.0: 03-RESEARCH/templates.md :: research-system/templates/TREND-CULTURE-MAP.template.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/ANTI-GENERIC-AUDIT.md",
+      "bytes": 1201,
+      "sha256": "a67c65f7b4e6280e2d370717e75a6296ebe51c806b92c3bb450c4a3429162b88",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/ANTI-GENERIC-AUDIT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/HARD-GATES.md",
+      "bytes": 2638,
+      "sha256": "ca874faecb64cf693b2ca007b8e12bb48a91c6b6cc3b5f37acca089184318a70",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/HARD-GATES.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/MASTER-SCORECARD.md",
+      "bytes": 4987,
+      "sha256": "2175c61310a07f825359d6533ab43a461bf7b6a8bc2949178bd174336f3e59fb",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/MASTER-SCORECARD.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/MOTION-AUDIT.md",
+      "bytes": 788,
+      "sha256": "240231f6275287e67883217d1158fc5a8694fbdc3dfbcf8e93703f8bbcecba94",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/MOTION-AUDIT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/PAIRWISE-COMPARISON.md",
+      "bytes": 786,
+      "sha256": "dad393d7aeb29e9a28f5c6d47d39c56bcba982b1ad872e65dfde83e68cc655c5",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/PAIRWISE-COMPARISON.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/README.md",
+      "bytes": 352,
+      "sha256": "d7060fd6a4bc2e9fd5bd95a22a59d57d7a21ea4aad05f2bdef866817970bdcc8",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/RTL-AUDIT.md",
+      "bytes": 1284,
+      "sha256": "36c511f0fbb3611e0327502aeed6cf5ecdd1bb960cc80f980e5b66b790f36869",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/RTL-AUDIT.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/rubrics/STATE-COVERAGE.md",
+      "bytes": 635,
+      "sha256": "2afc91a0c9c6041b9cba7168224536dc4a9d0038d7168831ab587b12cc907dbe",
+      "origin": "HDI-OS v1.2.0: 06-QUALITY/quality-rubrics-evals.md :: rubrics/STATE-COVERAGE.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/scripts/README.md",
+      "bytes": 3150,
+      "sha256": "40e332de11ed88297ae98cabaa870f4d8edc685b10e3421ff06d0bc4fb5981a8",
+      "origin": "HDI-OS v1.2.0: 01-CORE/core.md :: scripts/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/hdi-library/tooling/visual-qa/README.md",
+      "bytes": 2619,
+      "sha256": "09dc5a148a34c26b15d907d690f5974b0610c436377317b97b3a66fa680da8d9",
+      "origin": "HDI-OS v1.2.0: 12-TOOLING/tooling.md :: tooling/visual-qa/README.md; framing separators removed only"
+    },
+    {
+      "path": "docs/sparkle-skills/AGENTS.snippet.md",
+      "bytes": 1002,
+      "sha256": "28395d0cab689b5da73a4f849d6192151e59145c394ba43b16b721d4b50221e1",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": "docs/sparkle-skills/INSTALLATION-AND-SOURCES.md",
+      "bytes": 3300,
+      "sha256": "c95f71cdc980e1a6731e5bccb20da0a49c30e1854d5928b071a2d14c2cf2e498",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": "docs/sparkle-skills/PROJECT-CONTRACT.md",
+      "bytes": 4866,
+      "sha256": "037902bf0c6f50034331fc8ff411d678110f2be4c669de1b9f9dab3a769c3213",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": "docs/sparkle-skills/SKILLS-INDEX.md",
+      "bytes": 9549,
+      "sha256": "0f5c9277aaf7385ee1d2c0d4b7d488be9c783ffdf6ef7d5c129b896f23e84010",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": "docs/sparkle-skills/SOURCE-INTEGRITY.json",
+      "bytes": 11581,
+      "sha256": "5f6dfd8d477f92c108bccaa7713832a0ae4a019f7bff7f278e543bbe01abf3e8",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": "docs/sparkle-skills/SOURCE-MAP.json",
+      "bytes": 84301,
+      "sha256": "7fa1b9d2de82e2eac161baf812b4678caceae47e837c30f0a9c542c853111a2f",
+      "origin": "Authored installation adapter for this package"
+    },
+    {
+      "path": "docs/sparkle-skills/sources/SPARKLE-AUTO-NEO-BRUTALISM-CODEX-MASTER-PLAN.md",
+      "bytes": 165279,
+      "sha256": "900bfac3aa3c042e1dc770adcfdacc5b0805d61ce5e310063ee5cfbbd369196d",
+      "origin": "Previously delivered master plan v1.0.0; exact bytes, not new research"
+    },
+    {
+      "path": "docs/sparkle-skills/sources/VISUAL-SOURCE-PREAMBLE.md",
+      "bytes": 823,
+      "sha256": "cc47287084d9c4569282d81c6ab957a3d101a9ec63f0e68a8f2120c93474488d",
+      "origin": "chat gpt image.txt v1.0.1 — original preamble"
+    }
+  ],
+  "validation_scope": "package structure only; real Codex discovery, image tools and website execution require separate evidence"
+}

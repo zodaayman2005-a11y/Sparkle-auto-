@@ -1,0 +1,66 @@
+{
+  "base": "http://127.0.0.1:3100",
+  "conditions": "Chromium lab, 390x844 at DPR 1; fresh browser context/cache disabled each run; 150ms latency, 1.6Mbit/s download, 4x CPU slowdown. Event Timing samples are interaction proxies, not field INP. Transfer total includes scripted FAQ navigation lazy loads.",
+  "results": [
+    {
+      "locale": "ar",
+      "run": 1,
+      "lcpMs": 2212,
+      "cls": 0.00001,
+      "sampledInteractionMaxMs": 168,
+      "ttfbMs": 47,
+      "transferredBytes": 526757,
+      "resourceCount": 18
+    },
+    {
+      "locale": "ar",
+      "run": 2,
+      "lcpMs": 2224,
+      "cls": 0.00001,
+      "sampledInteractionMaxMs": 144,
+      "ttfbMs": 32,
+      "transferredBytes": 526757,
+      "resourceCount": 18
+    },
+    {
+      "locale": "ar",
+      "run": 3,
+      "lcpMs": 2136,
+      "cls": 0.00001,
+      "sampledInteractionMaxMs": 144,
+      "ttfbMs": 28,
+      "transferredBytes": 526757,
+      "resourceCount": 18
+    },
+    {
+      "locale": "en",
+      "run": 1,
+      "lcpMs": 1460,
+      "cls": 0,
+      "sampledInteractionMaxMs": 184,
+      "ttfbMs": 26,
+      "transferredBytes": 472443,
+      "resourceCount": 14
+    },
+    {
+      "locale": "en",
+      "run": 2,
+      "lcpMs": 1480,
+      "cls": 0,
+      "sampledInteractionMaxMs": 200,
+      "ttfbMs": 26,
+      "transferredBytes": 472443,
+      "resourceCount": 14
+    },
+    {
+      "locale": "en",
+      "run": 3,
+      "lcpMs": 1576,
+      "cls": 0,
+      "sampledInteractionMaxMs": 184,
+      "ttfbMs": 31,
+      "transferredBytes": 472443,
+      "resourceCount": 14
+    }
+  ]
+}

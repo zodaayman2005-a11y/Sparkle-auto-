@@ -1,0 +1,19 @@
+{
+  "url": "https://sparkle-auto-landing-esfeksep2-zodaayman2005-3362s-projects.vercel.app",
+  "checks": [
+    {
+      "lang": "ar",
+      "status": 200,
+      "active": "10",
+      "loaded": true,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "status": 200,
+      "active": "10",
+      "loaded": true,
+      "errors": []
+    }
+  ]
+}

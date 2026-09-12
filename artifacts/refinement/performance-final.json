@@ -1,0 +1,8 @@
+{
+  "conditions": "Production Chromium, 390x844, cold cache, CPU 4x, latency 150ms, download 1.6Mbps. Single lab sample, not field CWV; shiftSum is not session-window CLS.",
+  "url": "local",
+  "lcp": 3052,
+  "shiftSum": 0.000012685780953845462,
+  "finalArtInitiallyDownloaded": false,
+  "subresourcesBytes": 301542
+}

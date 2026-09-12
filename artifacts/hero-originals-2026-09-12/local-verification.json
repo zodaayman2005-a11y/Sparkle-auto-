@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-09-12T10:31:14.651Z",
+  "base": "http://127.0.0.1:3102",
+  "userRequestedOriginalDelivery": true,
+  "assets": [
+    {
+      "locale": "en",
+      "file": "hero-en-original.png",
+      "source": "IMG_4180.PNG",
+      "driveId": "1Pw5KwZLzf-V4n3Bm65d88z2F9vxyrYg4",
+      "bytes": 29647936,
+      "publicPath": "public/hero/hero-en-original.png",
+      "width": 6688,
+      "height": 3764,
+      "sha256": "3e8e552e11b066b4e999339183bc7269f78bf2efee87fcec0de9d2174b759457",
+      "sourceIdentical": true,
+      "format": "png",
+      "reencoded": false,
+      "resized": false,
+      "served": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 29647936,
+        "sourceIdentical": true
+      }
+    },
+    {
+      "locale": "ar",
+      "file": "hero-ar-original.png",
+      "source": "IMG_4181.PNG",
+      "driveId": "1b2qcHexCeIOAkmw17M2yXF3Bn_f1CC26",
+      "bytes": 29518984,
+      "publicPath": "public/hero/hero-ar-original.png",
+      "width": 6688,
+      "height": 3764,
+      "sha256": "1056f6e85b9829562b8923f791a7dc94872dd15730d00a8e368a6bda31f5d59c",
+      "sourceIdentical": true,
+      "format": "png",
+      "reencoded": false,
+      "resized": false,
+      "served": {
+        "status": 200,
+        "contentType": "image/png",
+        "bytes": 29518984,
+        "sourceIdentical": true
+      }
+    }
+  ]
+}

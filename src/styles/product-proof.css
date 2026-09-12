@@ -1,0 +1,39 @@
+/* Real product proof, with explicit full-image access and independent dark treatment. */
+.intro-proof { padding-block:64px; background:var(--white); }
+.intro-proof-heading { display:flex; justify-content:space-between; align-items:center; gap:24px; margin-bottom:24px; }
+.intro-proof h2 { font-size:clamp(25px,2.6vw,36px); margin:0; }
+.intro-proof .proof-window { max-width:1100px; margin-inline:auto; }
+.proof-provenance,.screenshot-hint { font-size:12px; line-height:1.8; margin-top:20px; color:var(--dark); }
+.proof-provenance { text-align:center; }
+.intro-proof + .problem { margin-top:0; }
+.two-surfaces { grid-template-columns:1fr 1fr; }
+.two-surfaces > article:last-child { display:block; }
+.showcase { background:var(--navy); color:var(--white); }
+.showcase .section-intro p,.showcase .screen-chapter > p { color:var(--ice); }
+.showcase .small-number { background:var(--blue); color:var(--navy); border-color:var(--blue); }
+.showcase .showcase-sticky { background:var(--dark); border-color:var(--soft); }
+.showcase .screen-counter,.showcase .screen-counter strong,.showcase .screen-counter small { color:var(--white); }
+.showcase .screen-chapter { border-color:var(--soft); }
+.showcase .screen-chapter > a,.showcase .screen-chapter h4,.showcase .text-link { color:var(--white); }
+.showcase .screen-chapter > a[aria-current] { color:var(--navy); background:var(--ice); }
+.showcase .proof-window,.showcase .modal,.showcase .modal .text-link { color:var(--navy); }
+.showcase a:focus-visible,.showcase button:focus-visible { outline-color:var(--blue); }
+.modal.screenshot-modal { width:min(96vw,1360px); max-width:1360px; }
+.screenshot-tools { display:flex; gap:24px; flex-wrap:wrap; margin-bottom:8px; }
+.screenshot-hint { margin:0; padding-bottom:16px; }
+.screenshot-pan { overflow:auto; max-height:60dvh; direction:ltr; overscroll-behavior:contain; }
+.screenshot-pan:focus-visible { outline:3px solid var(--dark); outline-offset:3px; }
+.screenshot-pan .proof-window { width:100%; min-width:0; max-width:none; box-shadow:none; }
+.screenshot-pan[data-full-size="true"] .proof-window { width:1280px; min-width:1280px; }
+@media(max-width:767px) {
+ .intro-proof { padding-block:40px; }
+ .intro-proof-heading { display:block; }
+ .intro-proof-heading .text-link { margin-top:10px; }
+ .two-surfaces > article:last-child { display:block; }
+ .proof-provenance { text-align:start; }
+ /* Honest detail view using the untouched original. The dialog always opens the full capture. */
+ .intro-proof .proof-image,.screen-chapter .proof-image { height:255px; aspect-ratio:auto !important; overflow:hidden; direction:ltr; }
+ .intro-proof .proof-image img,.screen-chapter .proof-image img { width:780px; max-width:none; height:auto; transform:translate(-45px,-36px); }
+ .screenshot-tools { gap:10px 20px; }
+ .screenshot-tools .text-link { font-size:12px; }
+}

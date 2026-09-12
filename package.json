@@ -1,0 +1,33 @@
+{
+  "name": "sparkle-auto-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3100",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3100",
+    "lint": "eslint src tests",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "assets:build": "node scripts/build-assets.mjs",
+    "assets:check": "node scripts/build-assets.mjs --check"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "@fontsource/alexandria": "latest",
+    "@fontsource/space-grotesk": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "@playwright/test": "latest",
+    "@axe-core/playwright": "latest",
+    "sharp": "latest"
+  }
+}

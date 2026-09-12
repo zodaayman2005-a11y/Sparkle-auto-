@@ -1,0 +1,93 @@
+import { hero, pick, cta, type Locale } from "@/content/site";
+import { Arrow, ProofWindow } from "./Primitives";
+export function Hero({
+  locale,
+  variant = "a",
+  onReview,
+}: {
+  locale: Locale;
+  variant?: "a" | "b";
+  onReview?: () => void;
+}) {
+  return (
+    <section className={`hero hero-${variant}`} aria-labelledby="hero-title">
+      <div className="hero-topline">
+        <span>
+          {locale === "ar"
+            ? "تشغيل أوضح. وقت أكتر."
+            : "CLEARER OPERATIONS. MORE TIME."}
+        </span>
+        <span dir="ltr">SPARKLE AUTO — 01</span>
+      </div>
+      <div className="hero-grid">
+        <div className="hero-copy">
+          <div className="eyebrow">
+            <span className="eyebrow-square" />
+            {pick(hero.eyebrow, locale)}
+          </div>
+          <h1 id="hero-title">
+            <span>{pick(hero.first, locale)}</span>{" "}
+            <span>{pick(hero.mid, locale)}</span>{" "}
+            <span>
+              {pick(hero.last, locale)} <mark>{pick(hero.accent, locale)}</mark>
+            </span>
+          </h1>
+          <p className="hero-body">{pick(hero.body, locale)}</p>
+          <p className="hero-more">{pick(hero.more, locale)}</p>
+          <div className="cta-row">
+            {onReview ? (
+              <button className="button primary" onClick={onReview}>
+                {pick(cta, locale)}
+                <Arrow />
+              </button>
+            ) : (
+              <a className="button primary" href="#review">
+                {pick(cta, locale)}
+                <Arrow />
+              </a>
+            )}
+            <a className="hero-secondary" href="#hero-proof">
+              {locale === "ar"
+                ? "شوف السيستم وهو شغال"
+                : "See the System in Action"}
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+          <p className="reassurance">{pick(hero.reassurance, locale)}</p>
+        </div>
+        <div className="hero-stage" id="hero-proof">
+          <div className="stage-rail" aria-hidden="true" />
+          <div className="stage-tab">
+            {locale === "ar"
+              ? "تشغيلك في صورة واحدة"
+              : "YOUR OPERATION, IN ONE VIEW"}
+          </div>
+          <ProofWindow locale={locale} />
+          <div className="hero-phone">
+            <ProofWindow locale={locale} id="booking-phone" phone />
+          </div>
+          <div className="stage-caption">
+            <span className="caption-line" />
+            {locale === "ar"
+              ? "مغسلتك في جيبك."
+              : "Your car wash, in your pocket."}
+            <span aria-hidden="true">↖</span>
+          </div>
+        </div>
+      </div>
+      <div className="hero-bottom">
+        <span>
+          {locale === "ar"
+            ? "من أول حجز. لحد قفلة اليوم."
+            : "FROM THE FIRST BOOKING. TO THE DAILY CLOSE."}
+        </span>
+        <a href="#system">
+          {locale === "ar"
+            ? "الصورة تبدأ من هنا"
+            : "THE BIG PICTURE STARTS HERE"}
+          <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
+  );
+}

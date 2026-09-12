@@ -1,0 +1,10 @@
+:root {
+ --white:#fff; --blue:#01a2ff; --pale:#f2faff; --ice:#ddf3ff; --soft:#91b1d8; --muted:#54769f; --dark:#0c264b; --navy:#03132e;
+ --text:var(--navy); --surface:var(--white); --focus:var(--dark); --error:#a31d30; --error-surface:#fff3f4;
+ --border:2px solid var(--navy); --shadow-sm:3px 3px 0 var(--navy); --shadow-md:5px 5px 0 var(--navy); --shadow-lg:7px 7px 0 var(--navy);
+ --radius-sm:8px; --radius-md:12px; --radius-lg:18px; --radius-xl:24px; --radius-panel:16px;
+ --space-xs:8px; --space-sm:16px; --space-md:24px; --space-lg:32px; --space-xl:48px; --section-space:88px;
+ --font-arabic:Alexandria,sans-serif; --font-latin:"Space Grotesk",sans-serif; --type-body:1rem; --type-section:clamp(30px,3.5vw,52px);
+ --anchor-offset:120px; --motion-press:160ms; --motion-story:640ms; --ease-story:cubic-bezier(.22,.7,.2,1); --layer-header:30;
+}
+

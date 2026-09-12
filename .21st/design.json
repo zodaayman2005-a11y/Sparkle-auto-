@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Sparkle-auto-",
+    "productType": "Bilingual car-wash operations marketing landing page",
+    "stack": [
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "CSS"
+    ]
+  },
+  "sources": {
+    "tokens": [
+      "src/styles/tokens.css"
+    ],
+    "components": [
+      "src/components"
+    ],
+    "assets": [
+      "assets"
+    ],
+    "instructions": [
+      "AGENTS.md"
+    ]
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": {},
+    "typography": {},
+    "spacing": {},
+    "radius": {},
+    "shadows": {},
+    "motion": {},
+    "density": "editorial rhythm: poster, proof, story, quiet, commercial"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [
+      "Arabic RTL first",
+      "Independent English composition",
+      "Real product proof only",
+      "Neutral approved placeholders until supplied",
+      "Native scroll and reduced-motion normal flow"
+    ],
+    "avoid": [
+      "Fake UI",
+      "Unverified commercial claims",
+      "Repeated feature cards",
+      "Infinite motion",
+      "Publication without authorization"
+    ]
+  },
+  "decisions": [
+    "Blue Operations Board",
+    "Hero A: agent_selected",
+    "Alexandria Arabic + Space Grotesk English",
+    "White, blue and navy; natural brand assets retained"
+  ],
+  "evidence": [
+    {
+      "fact": "project.instructions",
+      "source": "AGENTS.md"
+    }
+  ],
+  "generatedAt": "2026-09-06T04:04:44.522Z"
+}

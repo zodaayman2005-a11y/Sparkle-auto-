@@ -1,0 +1,150 @@
+[
+  {
+    "locale": "ar",
+    "events": [
+      {
+        "event": "DOMContentLoaded",
+        "time": 902,
+        "y": 0,
+        "body": 26972,
+        "target": 5744.328125
+      },
+      {
+        "event": "scroll",
+        "time": 1496,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "fonts-loadingdone",
+        "time": 1503,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "load",
+        "time": 1511,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "pageshow",
+        "time": 1512,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 1639,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 1642,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 1643,
+        "y": 5519,
+        "body": 26971,
+        "target": 225.328125
+      },
+      {
+        "event": "scroll",
+        "time": 1760,
+        "y": 5624,
+        "body": 26971,
+        "target": 120.328125
+      }
+    ],
+    "final": {
+      "x": 20,
+      "y": 120.328125,
+      "width": 350,
+      "height": 209
+    }
+  },
+  {
+    "locale": "en",
+    "events": [
+      {
+        "event": "DOMContentLoaded",
+        "time": 213,
+        "y": 0,
+        "body": 27836,
+        "target": 5717.359375
+      },
+      {
+        "event": "scroll",
+        "time": 423,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "fonts-loadingdone",
+        "time": 570,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "load",
+        "time": 578,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "pageshow",
+        "time": 578,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 701,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 702,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "sparkle:layout",
+        "time": 703,
+        "y": 5492,
+        "body": 27836,
+        "target": 225.359375
+      },
+      {
+        "event": "scroll",
+        "time": 820,
+        "y": 5597,
+        "body": 27836,
+        "target": 120.359375
+      }
+    ],
+    "final": {
+      "x": 20,
+      "y": 120.359375,
+      "width": 350,
+      "height": 209
+    }
+  }
+]

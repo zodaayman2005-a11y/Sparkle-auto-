@@ -1,0 +1,199 @@
+{
+  "lcp": 2868,
+  "shiftSum": 0.005062404557428675,
+  "resources": [
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/2ts8wl017ejdg.css",
+      "bytes": 9757,
+      "type": "link"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/0bmaq4y_u0fym.js",
+      "bytes": 7969,
+      "type": "link"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/1mkvyp3c18iyv.js",
+      "bytes": 47933,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/0og7p64g19p5i.js",
+      "bytes": 73369,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/turbopack-2l_nx9bh5pbq4.js",
+      "bytes": 4326,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/0vt0h1vu0bf7u.js",
+      "bytes": 4103,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/1lquxfq2jwlbe.js",
+      "bytes": 4138,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/41pv-v2pq1a0o.js",
+      "bytes": 12574,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/chunks/1mlb_dt7hb0rj.js",
+      "bytes": 15866,
+      "type": "script"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/alexandria-arabic-400-normal.235bnkko7dnth.woff2",
+      "bytes": 12800,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/space-grotesk-latin-700-normal.2lryt7vlpdgap.woff2",
+      "bytes": 13140,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/alexandria-arabic-700-normal.44htvp1tv40bh.woff2",
+      "bytes": 13524,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/alexandria-arabic-500-normal.02m73-o-7qrxu.woff2",
+      "bytes": 13340,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/space-grotesk-latin-500-normal.31yp0bkv7z4ku.woff2",
+      "bytes": 13612,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/alexandria-arabic-800-normal.1se5ias-2vpw3.woff2",
+      "bytes": 13392,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/static/immutable/media/space-grotesk-latin-400-normal.0nlbkvxqdexvu.woff2",
+      "bytes": 13688,
+      "type": "css"
+    },
+    {
+      "url": "https://sparkle-auto-landing-1bzl026dy-zodaayman2005-3362s-projects.vercel.app/_next/image?url=%2Fbrand%2Flogo.jpg&w=48&q=75",
+      "bytes": 1222,
+      "type": "img"
+    },
+    {
+      "url": "https://vercel.live/_next-live/feedback/feedback.js",
+      "bytes": 0,
+      "type": "script"
+    }
+  ],
+  "heroCTA": 671.5625,
+  "proofTop": 868.5625,
+  "metadata": [
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "name": "description",
+      "content": "نظّم حجوزات وتشغيل وفريق ومالية ومخزون وعملاء مغسلتك من مكان واحد. تابع فروعك واعرف اللي بيحصل من غير مكالمات وتقارير متفرقة."
+    },
+    {
+      "name": "robots",
+      "content": "noindex, nofollow"
+    }
+  ],
+  "sections": [
+    {
+      "id": "",
+      "class": "hero hero-a",
+      "height": 1689
+    },
+    {
+      "id": "problem",
+      "class": "problem section",
+      "height": 1379,
+      "h": "صاحب المغسلةمش المفروض يبقى سنترال."
+    },
+    {
+      "id": "system",
+      "class": "section definition",
+      "height": 1874,
+      "h": "خلّينا نقولها ببساطة…إيه هو Sparkle Auto؟"
+    },
+    {
+      "id": "",
+      "class": "section fit",
+      "height": 1341,
+      "h": "لصاحب مغسلة عايز يدير مشروع.مش يطارد تفاصيل."
+    },
+    {
+      "id": "strategies",
+      "class": "section strategies linear-story",
+      "height": 4656,
+      "h": "المغسلة القوية.وراها نظام."
+    },
+    {
+      "id": "showcase",
+      "class": "section showcase linear-showcase",
+      "height": 5121,
+      "h": "كل شاشة.إجابة على سؤال."
+    },
+    {
+      "id": "journey",
+      "class": "section journey",
+      "height": 1347,
+      "h": "خطوات مترابطة.مش برامج منفصلة."
+    },
+    {
+      "id": "setup",
+      "class": "section setup",
+      "height": 1668,
+      "h": "السيستم مش لينكبنبعتهولك ونسيبكتتصرف."
+    },
+    {
+      "id": "subscription",
+      "class": "section comparison",
+      "height": 1365,
+      "h": "ليه اشتراك؟عشان الشغل مبيوقفش."
+    },
+    {
+      "id": "pricing",
+      "class": "section pricing",
+      "height": 3231,
+      "h": "اختار الباقة على قد تشغيل مغسلتك."
+    },
+    {
+      "id": "faq",
+      "class": "section faq-section",
+      "height": 1276,
+      "h": "سؤال في بالك؟خلّينا نوضّحه."
+    },
+    {
+      "id": "review",
+      "class": "section review-section",
+      "height": 1371,
+      "h": "قولنا مغسلتكماشية إزايدلوقتي."
+    },
+    {
+      "id": "",
+      "class": "final-section",
+      "height": 1044,
+      "h": "التحكم مش إنكتفضل واقف في الفرعطول اليوم."
+    }
+  ],
+  "smallTargets": [
+    {
+      "text": "انتقل للمحتوى",
+      "height": 34,
+      "width": 34
+    }
+  ],
+  "conditions": "One cold-cache Chromium lab sample:390x844,CPU4x,RTT150ms,1.6Mbps download; not field CWV. shiftSum is sum of layout shifts, not windowed CLS."
+}

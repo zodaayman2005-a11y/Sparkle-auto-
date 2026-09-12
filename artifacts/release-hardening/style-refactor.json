@@ -1,0 +1,17 @@
+[
+  {
+    "file": "src/app/globals.css",
+    "before": 17371,
+    "after": 8081
+  },
+  {
+    "file": "src/styles/sections.css",
+    "before": 31638,
+    "after": 24751
+  },
+  {
+    "file": "src/styles/refinement.css",
+    "before": 28175,
+    "after": 16343
+  }
+]

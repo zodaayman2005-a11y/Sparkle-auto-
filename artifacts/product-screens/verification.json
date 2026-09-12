@@ -1,0 +1,282 @@
+[
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 0,
+    "src": "/product/overview.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 1,
+    "src": "/product/bookings.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 2,
+    "src": "/product/car-status.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 3,
+    "src": "/product/finance.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 4,
+    "src": "/product/team.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 5,
+    "src": "/product/inventory.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "ar",
+    "i": 6,
+    "src": "/product/loyalty.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 0,
+    "src": "/product/overview.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 1,
+    "src": "/product/bookings.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 2,
+    "src": "/product/car-status.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 3,
+    "src": "/product/finance.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 4,
+    "src": "/product/team.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 5,
+    "src": "/product/inventory.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "i": 6,
+    "src": "/product/loyalty.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 0,
+    "src": "/product/overview.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 1,
+    "src": "/product/bookings.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 2,
+    "src": "/product/car-status.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 3,
+    "src": "/product/finance.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 4,
+    "src": "/product/team.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 5,
+    "src": "/product/inventory.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "ar",
+    "i": 6,
+    "src": "/product/loyalty.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 0,
+    "src": "/product/overview.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 1,
+    "src": "/product/bookings.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 2,
+    "src": "/product/car-status.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 3,
+    "src": "/product/finance.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 4,
+    "src": "/product/team.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 5,
+    "src": "/product/inventory.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "i": 6,
+    "src": "/product/loyalty.jpg",
+    "dims": [
+      1280,
+      837
+    ]
+  }
+]

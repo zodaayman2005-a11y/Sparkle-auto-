@@ -1,0 +1,21 @@
+{
+  "id": "dpl_JC2ufL346c9DmDzDgUF6L4rawz22",
+  "url": "https://sparkle-auto-landing-2sq8r7it2-zodaayman2005-3362s-projects.vercel.app",
+  "target": "preview",
+  "status": "Ready",
+  "createdLocal": "2026-09-08T05:08:07-07:00",
+  "commands": ["vercel deploy --yes", "vercel inspect <deployment-url>"],
+  "observedCloudBuild": {
+    "framework": "Next.js 16.3.4",
+    "compiled": true,
+    "typecheck": true,
+    "generatedRoutes": 9,
+    "reportedBuildSeconds": 10,
+    "reportedDeploySeconds": 32,
+    "warnings": ["npm allow-scripts: unrs-resolver@1.12.2 postinstall not yet covered by allowScripts; build still completed. No additional script permission granted."]
+  },
+  "evidence": "live/results.json",
+  "publicReleaseApproved": false,
+  "productionPromoted": false,
+  "actualLeadSent": false
+}

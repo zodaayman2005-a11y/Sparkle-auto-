@@ -1,0 +1,10 @@
+{
+  "during": {
+    "opacity": "0.78567",
+    "transform": "matrix(0.995818, 0, 0, 0.995818, 0, 6.69077)"
+  },
+  "after": {
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://sparkle-auto-landing-3mlwxz9rn-zodaayman2005-3362s-projects.vercel.app",
+  "checks": [
+    {
+      "lang": "ar",
+      "status": 200,
+      "exactTextUnchanged": true,
+      "errors": [],
+      "imageLoaded": true
+    },
+    {
+      "lang": "en",
+      "status": 200,
+      "exactTextUnchanged": true,
+      "errors": [],
+      "imageLoaded": true
+    }
+  ]
+}

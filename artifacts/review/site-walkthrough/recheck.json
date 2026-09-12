@@ -1,0 +1,5 @@
+{
+  "arabicEnlarge": true,
+  "reasonForOriginalFailure": "Test selector omitted Arabic shadda; exact deployed label used on recheck.",
+  "localeSwitch": true
+}

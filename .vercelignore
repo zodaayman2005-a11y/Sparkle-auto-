@@ -1,0 +1,16 @@
+.git
+.agents
+.21st
+node_modules
+.next
+artifacts
+assets
+docs
+tests
+playwright-report
+test-results
+*.tsbuildinfo
+.env*
+AGENTS.md
+README.md
+playwright.config.ts

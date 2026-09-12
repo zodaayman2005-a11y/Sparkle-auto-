@@ -1,0 +1,1589 @@
+{
+  "schema_version": "1.0.0",
+  "path_resolution": "Historical HDI paths map here. references/* in a workflow resolve from its actual skill root. Project PRODUCT/BRAND/CONTENT names refer to maintained current project files, not examples.",
+  "hdi_components": [
+    {
+      "original_path": "AGENTS.md",
+      "installed_path": "docs/hdi-library/AGENTS.source.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "2cde533ea1ddf747e9a2dfddd5909be0c330568435ee063d5240b7125e07a5c7"
+    },
+    {
+      "original_path": "CHANGELOG.md",
+      "installed_path": "docs/hdi-library/CHANGELOG.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "854e14e42af4e72c0dc546b150872b2ac690196e8fffb3391f42b5f3746fe952"
+    },
+    {
+      "original_path": "INSTALL-QUICK-AR.md",
+      "installed_path": "docs/hdi-library/INSTALL-QUICK-AR.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "d3a5c088f6d5e4622133b95316ba9a35eab8438891a39bf0db36db4d3eef7c76"
+    },
+    {
+      "original_path": "README.en.md",
+      "installed_path": "docs/hdi-library/README.en.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "fa8ea8b5cc24eba00baffc5e360697e317b97883586875c3a3e18be9a5bf10ba"
+    },
+    {
+      "original_path": "README.md",
+      "installed_path": "docs/hdi-library/README.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "414a76ee5face626591d81fb70f54acbcc450fc663b6328e5600a919cea3aafe"
+    },
+    {
+      "original_path": "SOURCES.md",
+      "installed_path": "docs/hdi-library/SOURCES.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "3c900da6edd30ba67576ed10275410c4bef0b736ba501ca8ad88d2fafabc2ed5"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/BRAND.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/BRAND.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "4a6607bfe239370812f8c64ac4cb7603aab4441377dc598bf6c17c8c454fcf88"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/CONTENT.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/CONTENT.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "a3ee01a8d344c2be115963afc17d365b1f3c7d05d74ebffeac3186e79716e1ca"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/DECISIONS.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/DECISIONS.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "ae000ac061bfb3d91f94368cf0d6aa0fa50a8ca8e28ac62f2033e768038cc89d"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/DESIGN-REVIEW.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/DESIGN-REVIEW.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "79aacb27499d0bab10f8fa098ed88cb42f4420b7658badab9fec435c2659ae9a"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/DESIGN.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/DESIGN.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "fe1716f759a6eb46190a099186db7e08200c19eaf6fb6fc5de7cdee47e9e7fd0"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/MOTION.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/MOTION.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "1910f0747a33c9d80e1c7a07fb2770b08349dcdf2323e073e03255e40351c1d8"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/PRODUCT.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/PRODUCT.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "87154a7223b112b84d89d9e973d17d50df82d1b015df0849b2733f1fcd6b028d"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/README.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/README.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "72063e3a6a275656614c29618b8dd67b3979e937627be7238738bb74794562b7"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/REFERENCE-BRIEF.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/REFERENCE-BRIEF.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "d1ba8b1bc910f5e8b1764d9c12443df676151583c51e03cf66b8377e51a1882e"
+    },
+    {
+      "original_path": "memory/README.md",
+      "installed_path": "docs/hdi-library/memory/README.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "a2ff0826793d681f2b4ed2d7d936e925617a95b5896a31490153b54169cbbc58"
+    },
+    {
+      "original_path": "scripts/README.md",
+      "installed_path": "docs/hdi-library/scripts/README.md",
+      "source_bundle": "01-CORE/core.md",
+      "sha256": "40e332de11ed88297ae98cabaa870f4d8edc685b10e3421ff06d0bc4fb5981a8"
+    },
+    {
+      "original_path": "skills/advanced-experience/SKILL.md",
+      "installed_path": ".agents/skills/advanced-experience/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/advanced-experience.md",
+      "sha256": "93fe3951f4ca27717b308a2523e96bbac4db4467d59eb906c6764b0af45135c1"
+    },
+    {
+      "original_path": "skills/advanced-experience/references/ADVANCED-SCENE-CONTRACT.md",
+      "installed_path": ".agents/skills/advanced-experience/references/ADVANCED-SCENE-CONTRACT.md",
+      "source_bundle": "02-SKILLS/advanced-experience.md",
+      "sha256": "60b77c12d2917e6145251b1b179387f331e2ad21855c6e2bbbc94f8edcf41ca8"
+    },
+    {
+      "original_path": "skills/asset-production-direction/SKILL.md",
+      "installed_path": ".agents/skills/asset-production-direction/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/asset-production-direction.md",
+      "sha256": "f3fcfbfde643e25a68416e448064308894af6e2b84a0ad5872070ccc229d8b2a"
+    },
+    {
+      "original_path": "skills/asset-production-direction/references/ASSET-QA-DELIVERY.md",
+      "installed_path": ".agents/skills/asset-production-direction/references/ASSET-QA-DELIVERY.md",
+      "source_bundle": "02-SKILLS/asset-production-direction.md",
+      "sha256": "1e692283b5501d8e69ce702ee039f7f48e445a3b771e0440d5b5427e0a9a327b"
+    },
+    {
+      "original_path": "skills/asset-production-direction/references/ASSET-REGISTER.md",
+      "installed_path": ".agents/skills/asset-production-direction/references/ASSET-REGISTER.md",
+      "source_bundle": "02-SKILLS/asset-production-direction.md",
+      "sha256": "b28bab762ea894f77ffa6fd635075cceab91efd1f80305dbee7b7346d0d6abd1"
+    },
+    {
+      "original_path": "skills/asset-production-direction/references/PRODUCTION-BRIEF.md",
+      "installed_path": ".agents/skills/asset-production-direction/references/PRODUCTION-BRIEF.md",
+      "source_bundle": "02-SKILLS/asset-production-direction.md",
+      "sha256": "7425992508af971c2b757d746988b9ee3289813ea535093558664712407a9f6f"
+    },
+    {
+      "original_path": "skills/brand-world-building/SKILL.md",
+      "installed_path": ".agents/skills/brand-world-building/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/brand-world-building.md",
+      "sha256": "06e951676e9b25a9c50ce9f249b8f104e44bea86ca96de16716da6081941449c"
+    },
+    {
+      "original_path": "skills/brand-world-building/references/BRAND-WORLD-THESIS.md",
+      "installed_path": ".agents/skills/brand-world-building/references/BRAND-WORLD-THESIS.md",
+      "source_bundle": "02-SKILLS/brand-world-building.md",
+      "sha256": "9e171537113f3892c1e114c90651a126272704033ca716c3ef78e49e695714ae"
+    },
+    {
+      "original_path": "skills/brand-world-building/references/CROSS-SURFACE-PROOF.md",
+      "installed_path": ".agents/skills/brand-world-building/references/CROSS-SURFACE-PROOF.md",
+      "source_bundle": "02-SKILLS/brand-world-building.md",
+      "sha256": "575bc0a76487936b450519d4b15d65fe0bc7c834d5f1d72ab619cdcc973b8533"
+    },
+    {
+      "original_path": "skills/brand-world-building/references/WORLD-GRAMMAR.md",
+      "installed_path": ".agents/skills/brand-world-building/references/WORLD-GRAMMAR.md",
+      "source_bundle": "02-SKILLS/brand-world-building.md",
+      "sha256": "0269fb84d289b28e131fa2b6997a204c782a90fd9956c8252dfcf8c8e4b5ce35"
+    },
+    {
+      "original_path": "skills/color-imagery/SKILL.md",
+      "installed_path": ".agents/skills/color-imagery/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/color-imagery.md",
+      "sha256": "a3ba287326c3254eff24d2bb9b62789872c2f4c9b9adb070c47566948858ef81"
+    },
+    {
+      "original_path": "skills/color-imagery/references/COLOR-IMAGE-CONTRACT.md",
+      "installed_path": ".agents/skills/color-imagery/references/COLOR-IMAGE-CONTRACT.md",
+      "source_bundle": "02-SKILLS/color-imagery.md",
+      "sha256": "d6f4b8a078ed8836d31530a388895bde1a19efdbbbf95e2d87ca3e79c035ecc4"
+    },
+    {
+      "original_path": "skills/competitive-experience-intelligence/SKILL.md",
+      "installed_path": ".agents/skills/competitive-experience-intelligence/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/competitive-experience-intelligence.md",
+      "sha256": "5481441c2f37e440ce83fefc8077415b17762033e1a31a28088f1bc252436de3"
+    },
+    {
+      "original_path": "skills/competitive-experience-intelligence/references/CATEGORY-CONVENTIONS.md",
+      "installed_path": ".agents/skills/competitive-experience-intelligence/references/CATEGORY-CONVENTIONS.md",
+      "source_bundle": "02-SKILLS/competitive-experience-intelligence.md",
+      "sha256": "abb93323a2b67e3c2675b0fcd3372375de30d6ccbf8181f21d1a1297dfa6c595"
+    },
+    {
+      "original_path": "skills/competitive-experience-intelligence/references/COMPETITOR-MATRIX.md",
+      "installed_path": ".agents/skills/competitive-experience-intelligence/references/COMPETITOR-MATRIX.md",
+      "source_bundle": "02-SKILLS/competitive-experience-intelligence.md",
+      "sha256": "68ede7a04aed3f2390b28d6a42802fe0d5a52ef490cfdcd5d437e3eee0d66d28"
+    },
+    {
+      "original_path": "skills/competitive-experience-intelligence/references/JOURNEY-BENCHMARK.md",
+      "installed_path": ".agents/skills/competitive-experience-intelligence/references/JOURNEY-BENCHMARK.md",
+      "source_bundle": "02-SKILLS/competitive-experience-intelligence.md",
+      "sha256": "0f777e436f6dd3fd931b8f771bc2a7ad5dc890fbfc8a52975dc206b1552e9c5b"
+    },
+    {
+      "original_path": "skills/competitive-experience-intelligence/references/OPPORTUNITY-MAP.md",
+      "installed_path": ".agents/skills/competitive-experience-intelligence/references/OPPORTUNITY-MAP.md",
+      "source_bundle": "02-SKILLS/competitive-experience-intelligence.md",
+      "sha256": "7e216f1c5969102394a246ef196c80cd77eed554f01315475531fa01533a3963"
+    },
+    {
+      "original_path": "skills/component-system/SKILL.md",
+      "installed_path": ".agents/skills/component-system/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/component-system.md",
+      "sha256": "09a2c6c518ba7288a6771a348c3883c5602bec3f9b7af708f4805c52f1a24505"
+    },
+    {
+      "original_path": "skills/component-system/references/COMPONENT-CONTRACT.md",
+      "installed_path": ".agents/skills/component-system/references/COMPONENT-CONTRACT.md",
+      "source_bundle": "02-SKILLS/component-system.md",
+      "sha256": "7050c6ca606444e523fd07e841040adc3d7294ce91b8807c5cf25af5bb48a18f"
+    },
+    {
+      "original_path": "skills/content-information-design/SKILL.md",
+      "installed_path": ".agents/skills/content-information-design/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/content-information-design.md",
+      "sha256": "82bf30098dc36c5ec183d5dbeb17f199b0eceacc4f62ce847836e65bc5579bd7"
+    },
+    {
+      "original_path": "skills/content-information-design/references/CONTENT-INVENTORY.md",
+      "installed_path": ".agents/skills/content-information-design/references/CONTENT-INVENTORY.md",
+      "source_bundle": "02-SKILLS/content-information-design.md",
+      "sha256": "f168219bf900f1540c137fdeda5d51ec127e78f593df7297eb4c25f6ba103e08"
+    },
+    {
+      "original_path": "skills/content-information-design/references/CONTENT-MODEL-AND-STRESS.md",
+      "installed_path": ".agents/skills/content-information-design/references/CONTENT-MODEL-AND-STRESS.md",
+      "source_bundle": "02-SKILLS/content-information-design.md",
+      "sha256": "ef5bd145f1054c06bf6576d87ad8ceeafc0742b2394042cf6fc2e3ed2caf0d0c"
+    },
+    {
+      "original_path": "skills/content-information-design/references/MESSAGE-ARCHITECTURE.md",
+      "installed_path": ".agents/skills/content-information-design/references/MESSAGE-ARCHITECTURE.md",
+      "source_bundle": "02-SKILLS/content-information-design.md",
+      "sha256": "99cf9a9cf4437b23cdb107c8ca63bbcb611abe6344c6bc8d969903e1ddc8e6af"
+    },
+    {
+      "original_path": "skills/conversion-behavior-design/SKILL.md",
+      "installed_path": ".agents/skills/conversion-behavior-design/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/conversion-behavior-design.md",
+      "sha256": "d06e219e73996451632dc4f5996a4bba8d2d222c7c83ce7a4edf92494787a878"
+    },
+    {
+      "original_path": "skills/conversion-behavior-design/references/DECISION-JOURNEY.md",
+      "installed_path": ".agents/skills/conversion-behavior-design/references/DECISION-JOURNEY.md",
+      "source_bundle": "02-SKILLS/conversion-behavior-design.md",
+      "sha256": "18911b8da9b19147730cedbe9d41dafe8c0b009f20a76631da1132ebd69e0f15"
+    },
+    {
+      "original_path": "skills/conversion-behavior-design/references/ETHICAL-EXPERIMENTS.md",
+      "installed_path": ".agents/skills/conversion-behavior-design/references/ETHICAL-EXPERIMENTS.md",
+      "source_bundle": "02-SKILLS/conversion-behavior-design.md",
+      "sha256": "d4450f4396c18ef5c5bcc2fed5b2ffbf9f7ea6c26aef2ed4a0196324ed4ee77f"
+    },
+    {
+      "original_path": "skills/conversion-behavior-design/references/FORM-AND-CTA-CONTRACT.md",
+      "installed_path": ".agents/skills/conversion-behavior-design/references/FORM-AND-CTA-CONTRACT.md",
+      "source_bundle": "02-SKILLS/conversion-behavior-design.md",
+      "sha256": "eb5c2fd19f727656495d202c78c2017a73c5df9e51467447b2ae794c1de386cb"
+    },
+    {
+      "original_path": "skills/creative-coding-lab/SKILL.md",
+      "installed_path": ".agents/skills/creative-coding-lab/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/creative-coding-lab.md",
+      "sha256": "fa383a751005d48bebf7b2757c299148ec46917d0781ead6ec242e4a60ccdff4"
+    },
+    {
+      "original_path": "skills/creative-coding-lab/references/BENCHMARK-DECISION.md",
+      "installed_path": ".agents/skills/creative-coding-lab/references/BENCHMARK-DECISION.md",
+      "source_bundle": "02-SKILLS/creative-coding-lab.md",
+      "sha256": "d302302c4c28629ce8145b79155015a9fe4ed758c2a13399cfed804ddd2eb78e"
+    },
+    {
+      "original_path": "skills/creative-coding-lab/references/LAB-BRIEF.md",
+      "installed_path": ".agents/skills/creative-coding-lab/references/LAB-BRIEF.md",
+      "source_bundle": "02-SKILLS/creative-coding-lab.md",
+      "sha256": "84b805530f71bb498fbb8437b833199e3d047ca8e0ee89d2f7fb7c6a457f4d35"
+    },
+    {
+      "original_path": "skills/creative-coding-lab/references/PARAMETERS-AND-PRESETS.md",
+      "installed_path": ".agents/skills/creative-coding-lab/references/PARAMETERS-AND-PRESETS.md",
+      "source_bundle": "02-SKILLS/creative-coding-lab.md",
+      "sha256": "e60ac70ba2105fec557b7a78e861946b85e4cb8b8ed5508098718c00149cd90e"
+    },
+    {
+      "original_path": "skills/data-visualization/SKILL.md",
+      "installed_path": ".agents/skills/data-visualization/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/data-visualization.md",
+      "sha256": "648b7aaba7fd308459e3991f24192b633afcd424f8a6e9d074b9222fc79e5353"
+    },
+    {
+      "original_path": "skills/data-visualization/references/EDGE-DATA-TESTS.md",
+      "installed_path": ".agents/skills/data-visualization/references/EDGE-DATA-TESTS.md",
+      "source_bundle": "02-SKILLS/data-visualization.md",
+      "sha256": "f3eeb1803aa703551d9aaa225a19c9be6e1adb20676b0bf569f0fe0db0335bb0"
+    },
+    {
+      "original_path": "skills/data-visualization/references/QUESTION-TO-ENCODING.md",
+      "installed_path": ".agents/skills/data-visualization/references/QUESTION-TO-ENCODING.md",
+      "source_bundle": "02-SKILLS/data-visualization.md",
+      "sha256": "bdaa663813a7b1ca3053e2a74aa9f3e1764c7f4e1b405f12036eb7a4219b6dd5"
+    },
+    {
+      "original_path": "skills/data-visualization/references/VISUALIZATION-CONTRACT.md",
+      "installed_path": ".agents/skills/data-visualization/references/VISUALIZATION-CONTRACT.md",
+      "source_bundle": "02-SKILLS/data-visualization.md",
+      "sha256": "e17db12db95a0f91a158436a19b0b749245ac50423a5252ee5fc7809cecae486"
+    },
+    {
+      "original_path": "skills/design-director/SKILL.md",
+      "installed_path": ".agents/skills/design-director/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/design-director.md",
+      "sha256": "b2feccce61d63e8d614c58c30e74a85a7144a79d588cb1f7d6697c8539e9f6d3"
+    },
+    {
+      "original_path": "skills/design-director/references/ANTI-GENERIC.md",
+      "installed_path": ".agents/skills/design-director/references/ANTI-GENERIC.md",
+      "source_bundle": "02-SKILLS/design-director.md",
+      "sha256": "6b0f7acf0569d7849fd9d216c3bed3a4c6c66cc084dfbb3cacc88f91957eee49"
+    },
+    {
+      "original_path": "skills/design-director/references/DIRECTION-CARD.md",
+      "installed_path": ".agents/skills/design-director/references/DIRECTION-CARD.md",
+      "source_bundle": "02-SKILLS/design-director.md",
+      "sha256": "d9ae0d99943f02515fb5961bbfb4039c5e0ab18a1ec8fce4964eec7eb6970545"
+    },
+    {
+      "original_path": "skills/design-ops-handoff/SKILL.md",
+      "installed_path": ".agents/skills/design-ops-handoff/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/design-ops-handoff.md",
+      "sha256": "359df6ca35dcda80d0484772cb5e0269bf90abf489dc1f8620315940adbafef3"
+    },
+    {
+      "original_path": "skills/design-ops-handoff/references/ACCEPTANCE-RELEASE.md",
+      "installed_path": ".agents/skills/design-ops-handoff/references/ACCEPTANCE-RELEASE.md",
+      "source_bundle": "02-SKILLS/design-ops-handoff.md",
+      "sha256": "f45fe473c4d9a70f8c5e05703506e5fa07b9afad1123caafa6fb9d8641b6d8f1"
+    },
+    {
+      "original_path": "skills/design-ops-handoff/references/HANDOFF-SOURCE-MAP.md",
+      "installed_path": ".agents/skills/design-ops-handoff/references/HANDOFF-SOURCE-MAP.md",
+      "source_bundle": "02-SKILLS/design-ops-handoff.md",
+      "sha256": "d892d9745e77490de29c838b4e04a2dc46f6f354aedd4be6d627f08ea56de0c7"
+    },
+    {
+      "original_path": "skills/design-ops-handoff/references/IMPLEMENTATION-CONTRACT.md",
+      "installed_path": ".agents/skills/design-ops-handoff/references/IMPLEMENTATION-CONTRACT.md",
+      "source_bundle": "02-SKILLS/design-ops-handoff.md",
+      "sha256": "3d9255237bbe68682fee44336507f95d7bd93a1baa3dbe7fc1867e58b3e57195"
+    },
+    {
+      "original_path": "skills/design-system-governance/SKILL.md",
+      "installed_path": ".agents/skills/design-system-governance/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/design-system-governance.md",
+      "sha256": "bff9b72205545a821f63aca2372d1c12779a38d6973b6aa8a4eea48cce2322cc"
+    },
+    {
+      "original_path": "skills/design-system-governance/references/CONTRIBUTION-AND-CHANGE.md",
+      "installed_path": ".agents/skills/design-system-governance/references/CONTRIBUTION-AND-CHANGE.md",
+      "source_bundle": "02-SKILLS/design-system-governance.md",
+      "sha256": "4e0a7652cacc103480f77d2356c802755edc475d6d098bbf7124709d3f93db64"
+    },
+    {
+      "original_path": "skills/design-system-governance/references/SYSTEM-INVENTORY.md",
+      "installed_path": ".agents/skills/design-system-governance/references/SYSTEM-INVENTORY.md",
+      "source_bundle": "02-SKILLS/design-system-governance.md",
+      "sha256": "bbc8ea9f0ca2f395dd13cc9a864c8290029a4e484fb53036d5a896f78dfd729a"
+    },
+    {
+      "original_path": "skills/design-system-governance/references/SYSTEM-QUALITY-MATRIX.md",
+      "installed_path": ".agents/skills/design-system-governance/references/SYSTEM-QUALITY-MATRIX.md",
+      "source_bundle": "02-SKILLS/design-system-governance.md",
+      "sha256": "6d161cbccdbc3767cf7effe99df76857a05f082bce22f983f25795bf0e9b0dbc"
+    },
+    {
+      "original_path": "skills/design-to-code/SKILL.md",
+      "installed_path": ".agents/skills/design-to-code/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/design-to-code.md",
+      "sha256": "d8afa15904f91673de29506cc49d44967ca21707794bcdde78b6a5e2204335dc"
+    },
+    {
+      "original_path": "skills/design-to-code/references/IMPLEMENTATION-MAP.md",
+      "installed_path": ".agents/skills/design-to-code/references/IMPLEMENTATION-MAP.md",
+      "source_bundle": "02-SKILLS/design-to-code.md",
+      "sha256": "6d3cee9fde6e08fda3b67154132f35d3e5fe251b2a1b53034d20c1f0b7295f50"
+    },
+    {
+      "original_path": "skills/experiment-optimization/SKILL.md",
+      "installed_path": ".agents/skills/experiment-optimization/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/experiment-optimization.md",
+      "sha256": "a35abf2f2eaee1302760cc212ac726b7acdc9b7cef6572613dff9fc8909098f9"
+    },
+    {
+      "original_path": "skills/experiment-optimization/references/EXPERIMENT-BRIEF.md",
+      "installed_path": ".agents/skills/experiment-optimization/references/EXPERIMENT-BRIEF.md",
+      "source_bundle": "02-SKILLS/experiment-optimization.md",
+      "sha256": "ce8f1f6f57fc4343d6eeb29d2000a12767f5365b97ed3dd39471c70c85b8e33a"
+    },
+    {
+      "original_path": "skills/experiment-optimization/references/EXPERIMENT-DECISION.md",
+      "installed_path": ".agents/skills/experiment-optimization/references/EXPERIMENT-DECISION.md",
+      "source_bundle": "02-SKILLS/experiment-optimization.md",
+      "sha256": "f980f598bb32eca206cd851654223d39bb5532c9532ee6fbcd65615e7a7330ba"
+    },
+    {
+      "original_path": "skills/experiment-optimization/references/METRICS-AND-ANALYSIS.md",
+      "installed_path": ".agents/skills/experiment-optimization/references/METRICS-AND-ANALYSIS.md",
+      "source_bundle": "02-SKILLS/experiment-optimization.md",
+      "sha256": "15cbfa024d229db1ccae51e3ff4458052ca39503b5588a8c9d171a4a50e62aad"
+    },
+    {
+      "original_path": "skills/inclusive-accessibility-design/SKILL.md",
+      "installed_path": ".agents/skills/inclusive-accessibility-design/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/inclusive-accessibility-design.md",
+      "sha256": "6c376e9c0a395dc4fb4072909948c6e90ab12566a844849f0b071d0e247d505e"
+    },
+    {
+      "original_path": "skills/inclusive-accessibility-design/references/ACCESSIBILITY-TEST-EVIDENCE.md",
+      "installed_path": ".agents/skills/inclusive-accessibility-design/references/ACCESSIBILITY-TEST-EVIDENCE.md",
+      "source_bundle": "02-SKILLS/inclusive-accessibility-design.md",
+      "sha256": "1826ecb7d79b5c52cbebefe80e45db740f8c02b904ffc9ad186737b2767594bb"
+    },
+    {
+      "original_path": "skills/inclusive-accessibility-design/references/CUSTOM-COMPONENT-ACCESS.md",
+      "installed_path": ".agents/skills/inclusive-accessibility-design/references/CUSTOM-COMPONENT-ACCESS.md",
+      "source_bundle": "02-SKILLS/inclusive-accessibility-design.md",
+      "sha256": "41a1b5814e96326cd7df8ce8482f23d0bfca45c43f829b09efbcf9d8c709c45d"
+    },
+    {
+      "original_path": "skills/inclusive-accessibility-design/references/INCLUSIVE-REQUIREMENTS.md",
+      "installed_path": ".agents/skills/inclusive-accessibility-design/references/INCLUSIVE-REQUIREMENTS.md",
+      "source_bundle": "02-SKILLS/inclusive-accessibility-design.md",
+      "sha256": "07ac8e7fd863dc2bf6ea84962269ffba7393dc82245c81091805aab319293755"
+    },
+    {
+      "original_path": "skills/inspiration-synthesis/SKILL.md",
+      "installed_path": ".agents/skills/inspiration-synthesis/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/inspiration-synthesis.md",
+      "sha256": "a3efb33ca96ddb976271d6792d7ef3fa9e69a26055aedd884dfb7672c51ad2b2"
+    },
+    {
+      "original_path": "skills/inspiration-synthesis/references/ANALOGY-LADDER.md",
+      "installed_path": ".agents/skills/inspiration-synthesis/references/ANALOGY-LADDER.md",
+      "source_bundle": "02-SKILLS/inspiration-synthesis.md",
+      "sha256": "6b3cae213c083814a613eb97ed72fecf5c7ce0c97f384ac7e891b49a8a87e9ba"
+    },
+    {
+      "original_path": "skills/inspiration-synthesis/references/DEFIXATION-PROTOCOL.md",
+      "installed_path": ".agents/skills/inspiration-synthesis/references/DEFIXATION-PROTOCOL.md",
+      "source_bundle": "02-SKILLS/inspiration-synthesis.md",
+      "sha256": "8b76f6573c42658dd6924d39673d36d24138357c643812ca13d79666ded4dccd"
+    },
+    {
+      "original_path": "skills/inspiration-synthesis/references/DESIGN-GRAMMAR.md",
+      "installed_path": ".agents/skills/inspiration-synthesis/references/DESIGN-GRAMMAR.md",
+      "source_bundle": "02-SKILLS/inspiration-synthesis.md",
+      "sha256": "ffe0803667b1c0cb790106e232139ad98ba41ec1c9babb390f5d3ff446f0d229"
+    },
+    {
+      "original_path": "skills/inspiration-synthesis/references/ORIGINALITY-AUDIT.md",
+      "installed_path": ".agents/skills/inspiration-synthesis/references/ORIGINALITY-AUDIT.md",
+      "source_bundle": "02-SKILLS/inspiration-synthesis.md",
+      "sha256": "c1071251abd5d7ea61b8ea503cc57cca4ae8eaa1deb7ce3dc0d2395b95adb99f"
+    },
+    {
+      "original_path": "skills/inspiration-synthesis/references/SYNTHESIS-MATRIX.md",
+      "installed_path": ".agents/skills/inspiration-synthesis/references/SYNTHESIS-MATRIX.md",
+      "source_bundle": "02-SKILLS/inspiration-synthesis.md",
+      "sha256": "07036d9fbe7ef7b1bb85d94b3b36058448d281f3cef1991891e52a59b9333251"
+    },
+    {
+      "original_path": "skills/localization-culturalization/SKILL.md",
+      "installed_path": ".agents/skills/localization-culturalization/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/localization-culturalization.md",
+      "sha256": "204d0a66c03b1835a81675c582687e4c1783160ea9cbac7150a67b8e9db24c1a"
+    },
+    {
+      "original_path": "skills/localization-culturalization/references/CULTURALIZATION-QA.md",
+      "installed_path": ".agents/skills/localization-culturalization/references/CULTURALIZATION-QA.md",
+      "source_bundle": "02-SKILLS/localization-culturalization.md",
+      "sha256": "21b2198a45ad12b91dab29bba94b3ebcd6428ee9331e1d72d9d155072051fd46"
+    },
+    {
+      "original_path": "skills/localization-culturalization/references/LOCALE-MARKET-MATRIX.md",
+      "installed_path": ".agents/skills/localization-culturalization/references/LOCALE-MARKET-MATRIX.md",
+      "source_bundle": "02-SKILLS/localization-culturalization.md",
+      "sha256": "fb716a37d96272d0cb552923c25a8f3876108015a9c64ceb09aa5e34305b1182"
+    },
+    {
+      "original_path": "skills/localization-culturalization/references/TERMINOLOGY-AND-DATA.md",
+      "installed_path": ".agents/skills/localization-culturalization/references/TERMINOLOGY-AND-DATA.md",
+      "source_bundle": "02-SKILLS/localization-culturalization.md",
+      "sha256": "3367816cbeb1dae2b157c9f05eb0bc3bdc4e62f891df5d7214320e5b28abb6c3"
+    },
+    {
+      "original_path": "skills/motion-interaction/SKILL.md",
+      "installed_path": ".agents/skills/motion-interaction/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/motion-interaction.md",
+      "sha256": "3b384d5b32ba8ecff52d022c84624299541354430084cff4c997a1d7d956ad81"
+    },
+    {
+      "original_path": "skills/motion-interaction/references/SCENE-BOARD.md",
+      "installed_path": ".agents/skills/motion-interaction/references/SCENE-BOARD.md",
+      "source_bundle": "02-SKILLS/motion-interaction.md",
+      "sha256": "e66a6cb3a23575ba298eb5b8c37c769d7e9833d16ae2e3ffc150c9a9df77d49e"
+    },
+    {
+      "original_path": "skills/performance-perceived-quality/SKILL.md",
+      "installed_path": ".agents/skills/performance-perceived-quality/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/performance-perceived-quality.md",
+      "sha256": "2f9a664a2475726eb4ac58bacfcc352e3d34070f9f01cda2026717b98495e85d"
+    },
+    {
+      "original_path": "skills/performance-perceived-quality/references/LOADING-AND-FALLBACK.md",
+      "installed_path": ".agents/skills/performance-perceived-quality/references/LOADING-AND-FALLBACK.md",
+      "source_bundle": "02-SKILLS/performance-perceived-quality.md",
+      "sha256": "a7ad40e015db59c063bc156ace1f887df92d436ab2fdd1830c6e4413c6623a57"
+    },
+    {
+      "original_path": "skills/performance-perceived-quality/references/PERFORMANCE-BUDGET.md",
+      "installed_path": ".agents/skills/performance-perceived-quality/references/PERFORMANCE-BUDGET.md",
+      "source_bundle": "02-SKILLS/performance-perceived-quality.md",
+      "sha256": "20b6954f35861afa9c7225a99eb9359095098306c1474ad4700b05c2445545bd"
+    },
+    {
+      "original_path": "skills/performance-perceived-quality/references/PERFORMANCE-EVIDENCE.md",
+      "installed_path": ".agents/skills/performance-perceived-quality/references/PERFORMANCE-EVIDENCE.md",
+      "source_bundle": "02-SKILLS/performance-perceived-quality.md",
+      "sha256": "d361c0497e4d73a541b027772e91bf1b0b27f4d2fda719b8852d078e94501f81"
+    },
+    {
+      "original_path": "skills/product-metrics-instrumentation/SKILL.md",
+      "installed_path": ".agents/skills/product-metrics-instrumentation/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/product-metrics-instrumentation.md",
+      "sha256": "fcb723e55a30755d77f5eebbc9a5fab18e63e8c34c4ac5918e791dce723ec91c"
+    },
+    {
+      "original_path": "skills/product-metrics-instrumentation/references/EVENT-CONTRACT.md",
+      "installed_path": ".agents/skills/product-metrics-instrumentation/references/EVENT-CONTRACT.md",
+      "source_bundle": "02-SKILLS/product-metrics-instrumentation.md",
+      "sha256": "355c53594b4d853b97a5366a7c2d078076174167a80679f1e5adbf8c45c1e252"
+    },
+    {
+      "original_path": "skills/product-metrics-instrumentation/references/METRIC-CATALOG.md",
+      "installed_path": ".agents/skills/product-metrics-instrumentation/references/METRIC-CATALOG.md",
+      "source_bundle": "02-SKILLS/product-metrics-instrumentation.md",
+      "sha256": "309dfbf6042e54845fb5890f5e1690b927cf62e5b5a91748f657989e7a534fa7"
+    },
+    {
+      "original_path": "skills/product-metrics-instrumentation/references/TELEMETRY-VALIDATION.md",
+      "installed_path": ".agents/skills/product-metrics-instrumentation/references/TELEMETRY-VALIDATION.md",
+      "source_bundle": "02-SKILLS/product-metrics-instrumentation.md",
+      "sha256": "77942da1f7537c4c229838f391d7b01758a6a539f1941af0fa3d451e3a25ed86"
+    },
+    {
+      "original_path": "skills/prototype-usability-testing/SKILL.md",
+      "installed_path": ".agents/skills/prototype-usability-testing/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/prototype-usability-testing.md",
+      "sha256": "1f5810c0e50f2860f270634355462f77bcb0579a3e25f4eabdb9b3ccfb801601"
+    },
+    {
+      "original_path": "skills/prototype-usability-testing/references/FINDINGS-AND-RETEST.md",
+      "installed_path": ".agents/skills/prototype-usability-testing/references/FINDINGS-AND-RETEST.md",
+      "source_bundle": "02-SKILLS/prototype-usability-testing.md",
+      "sha256": "2a9cba43475be161e4452c8d9e5310a796284f4a22d8341ce1670fc7e3d115c1"
+    },
+    {
+      "original_path": "skills/prototype-usability-testing/references/SESSION-OBSERVATION.md",
+      "installed_path": ".agents/skills/prototype-usability-testing/references/SESSION-OBSERVATION.md",
+      "source_bundle": "02-SKILLS/prototype-usability-testing.md",
+      "sha256": "eb2f6685ff73a25dccddf57b286b700781259af3da9f22e9ff2cb497702671aa"
+    },
+    {
+      "original_path": "skills/prototype-usability-testing/references/TEST-PLAN.md",
+      "installed_path": ".agents/skills/prototype-usability-testing/references/TEST-PLAN.md",
+      "source_bundle": "02-SKILLS/prototype-usability-testing.md",
+      "sha256": "71bfd03e89a56836ba114861be27840a2d3b4777899132e1a825536f8d67b78d"
+    },
+    {
+      "original_path": "skills/reference-intelligence/SKILL.md",
+      "installed_path": ".agents/skills/reference-intelligence/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/reference-intelligence.md",
+      "sha256": "c1843309fd903802a6be71b99fd8a2af9ab52f4f0596350093f1e464050d15a7"
+    },
+    {
+      "original_path": "skills/reference-intelligence/references/REFERENCE-CARD.md",
+      "installed_path": ".agents/skills/reference-intelligence/references/REFERENCE-CARD.md",
+      "source_bundle": "02-SKILLS/reference-intelligence.md",
+      "sha256": "768bba8947f0f861be5be30aa79ed70552bf5b031a6ccbbe7cf093abacb97d4e"
+    },
+    {
+      "original_path": "skills/reference-intelligence/references/SOURCE-MAP.md",
+      "installed_path": ".agents/skills/reference-intelligence/references/SOURCE-MAP.md",
+      "source_bundle": "02-SKILLS/reference-intelligence.md",
+      "sha256": "ce7c0de0332ae21ccb7282277054b6121ac674c9b156624b792f49ff4abb0547"
+    },
+    {
+      "original_path": "skills/responsive-rtl/SKILL.md",
+      "installed_path": ".agents/skills/responsive-rtl/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/responsive-rtl.md",
+      "sha256": "4deea21d73603a8167b2398615e5e39d6ef8add5ef2344db1c9a7bca7f494a56"
+    },
+    {
+      "original_path": "skills/responsive-rtl/references/RESPONSIVE-MATRIX.md",
+      "installed_path": ".agents/skills/responsive-rtl/references/RESPONSIVE-MATRIX.md",
+      "source_bundle": "02-SKILLS/responsive-rtl.md",
+      "sha256": "16748ac1f2b9941f703e57a699ba6d61ea01f8c4caa7b52a858ae419f6858d28"
+    },
+    {
+      "original_path": "skills/seo-discoverability-information/SKILL.md",
+      "installed_path": ".agents/skills/seo-discoverability-information/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/seo-discoverability-information.md",
+      "sha256": "da114663afec723ed86bca75193f748afc8b415f14f2a033d7d5ad4325f14fcc"
+    },
+    {
+      "original_path": "skills/seo-discoverability-information/references/DISCOVERABILITY-IA.md",
+      "installed_path": ".agents/skills/seo-discoverability-information/references/DISCOVERABILITY-IA.md",
+      "source_bundle": "02-SKILLS/seo-discoverability-information.md",
+      "sha256": "e979ab742a84b3958b06973224501a5385015477c0fa21f906ea1e573ac3a9dd"
+    },
+    {
+      "original_path": "skills/seo-discoverability-information/references/SEO-VALIDATION.md",
+      "installed_path": ".agents/skills/seo-discoverability-information/references/SEO-VALIDATION.md",
+      "source_bundle": "02-SKILLS/seo-discoverability-information.md",
+      "sha256": "56991db01c8ce19f480f361c0c1a22652ba53a907ab62adb8dbff0eb2ed94a59"
+    },
+    {
+      "original_path": "skills/seo-discoverability-information/references/TECHNICAL-DISCOVERY.md",
+      "installed_path": ".agents/skills/seo-discoverability-information/references/TECHNICAL-DISCOVERY.md",
+      "source_bundle": "02-SKILLS/seo-discoverability-information.md",
+      "sha256": "ee900fe8e984736dce80c10c1cee23cbe99320b5be8ba025ffffeec36008940e"
+    },
+    {
+      "original_path": "skills/spatial-3d-world-building/SKILL.md",
+      "installed_path": ".agents/skills/spatial-3d-world-building/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/spatial-3d-world-building.md",
+      "sha256": "a9c14c1a4ec306e32efa93ad664c03a55c7a644ec36a329696a56aed5d1917aa"
+    },
+    {
+      "original_path": "skills/spatial-3d-world-building/references/SPATIAL-PERFORMANCE-ACCESS.md",
+      "installed_path": ".agents/skills/spatial-3d-world-building/references/SPATIAL-PERFORMANCE-ACCESS.md",
+      "source_bundle": "02-SKILLS/spatial-3d-world-building.md",
+      "sha256": "65e2271428f08c3ed46395cd2f19137aa0befacea8d585f15901ac8ff554b758"
+    },
+    {
+      "original_path": "skills/spatial-3d-world-building/references/SPATIAL-THESIS-STORYBOARD.md",
+      "installed_path": ".agents/skills/spatial-3d-world-building/references/SPATIAL-THESIS-STORYBOARD.md",
+      "source_bundle": "02-SKILLS/spatial-3d-world-building.md",
+      "sha256": "caf6a2b813c9981e90b463cfeb9134ff128c0ed4611bf094e1c20bcafc7c8f75"
+    },
+    {
+      "original_path": "skills/spatial-3d-world-building/references/WORLD-ASSET-BIBLE.md",
+      "installed_path": ".agents/skills/spatial-3d-world-building/references/WORLD-ASSET-BIBLE.md",
+      "source_bundle": "02-SKILLS/spatial-3d-world-building.md",
+      "sha256": "e5876efc78eead27cc70fb2fb5b349a06352116da3a06a67ec428fcb82f7aee8"
+    },
+    {
+      "original_path": "skills/trend-cultural-intelligence/SKILL.md",
+      "installed_path": ".agents/skills/trend-cultural-intelligence/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/trend-cultural-intelligence.md",
+      "sha256": "d35a469a557834685168213db5b7ab62fc5822f57a8f188183d08ad41f631305"
+    },
+    {
+      "original_path": "skills/trend-cultural-intelligence/references/ADOPT-ADAPT-REJECT.md",
+      "installed_path": ".agents/skills/trend-cultural-intelligence/references/ADOPT-ADAPT-REJECT.md",
+      "source_bundle": "02-SKILLS/trend-cultural-intelligence.md",
+      "sha256": "3bfdc9dfc08e76618bc55bd31c5176639156f4eeaa0b832268c8fa0d473dad81"
+    },
+    {
+      "original_path": "skills/trend-cultural-intelligence/references/CULTURAL-RESEARCH.md",
+      "installed_path": ".agents/skills/trend-cultural-intelligence/references/CULTURAL-RESEARCH.md",
+      "source_bundle": "02-SKILLS/trend-cultural-intelligence.md",
+      "sha256": "514ea82512061557b67f89e8859dc29410ae405f478144a6e3e183298f85649f"
+    },
+    {
+      "original_path": "skills/trend-cultural-intelligence/references/TREND-RADAR.md",
+      "installed_path": ".agents/skills/trend-cultural-intelligence/references/TREND-RADAR.md",
+      "source_bundle": "02-SKILLS/trend-cultural-intelligence.md",
+      "sha256": "147be21865a6d083b025e096a7e93f1ad77938eee1b53d6caf166a17d9cc8778"
+    },
+    {
+      "original_path": "skills/trend-cultural-intelligence/references/TREND-SCORECARD.md",
+      "installed_path": ".agents/skills/trend-cultural-intelligence/references/TREND-SCORECARD.md",
+      "source_bundle": "02-SKILLS/trend-cultural-intelligence.md",
+      "sha256": "f841743c24964cecba2a3472dacefa9681b2b40c51d26c97ec5756b9975f6efa"
+    },
+    {
+      "original_path": "skills/trust-privacy-security-ux/SKILL.md",
+      "installed_path": ".agents/skills/trust-privacy-security-ux/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/trust-privacy-security-ux.md",
+      "sha256": "bbd3ad1874a34d0d1047adfd401ba6e10125d7dfbc7de213e49c87055cba163f"
+    },
+    {
+      "original_path": "skills/trust-privacy-security-ux/references/SENSITIVE-FLOW-CONTRACT.md",
+      "installed_path": ".agents/skills/trust-privacy-security-ux/references/SENSITIVE-FLOW-CONTRACT.md",
+      "source_bundle": "02-SKILLS/trust-privacy-security-ux.md",
+      "sha256": "4cb73e655451b282359df72d0840b992230dd2d0ad18c73a86739433bce36323"
+    },
+    {
+      "original_path": "skills/trust-privacy-security-ux/references/TRUST-CONTENT-AND-TESTS.md",
+      "installed_path": ".agents/skills/trust-privacy-security-ux/references/TRUST-CONTENT-AND-TESTS.md",
+      "source_bundle": "02-SKILLS/trust-privacy-security-ux.md",
+      "sha256": "7c2b61ff0cd535a5cb8b6d048c0e65a27a7838155cee8e761fdfb4e03465c518"
+    },
+    {
+      "original_path": "skills/trust-privacy-security-ux/references/TRUST-RISK-MODEL.md",
+      "installed_path": ".agents/skills/trust-privacy-security-ux/references/TRUST-RISK-MODEL.md",
+      "source_bundle": "02-SKILLS/trust-privacy-security-ux.md",
+      "sha256": "6e1f8f390151f2239488549665f92248406416b7c183bbc29d1fb79aa61064fc"
+    },
+    {
+      "original_path": "skills/typography-content/SKILL.md",
+      "installed_path": ".agents/skills/typography-content/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/typography-content.md",
+      "sha256": "65e05ac8879c21e233e0cb9fd03c97cb7f377d157d32ae548d845228bfceae0b"
+    },
+    {
+      "original_path": "skills/typography-content/references/TYPE-CONTRACT.md",
+      "installed_path": ".agents/skills/typography-content/references/TYPE-CONTRACT.md",
+      "source_bundle": "02-SKILLS/typography-content.md",
+      "sha256": "bbd81390af91fdc0aba2cffb332ddd0db1fda1b3077c3652291263919736a645"
+    },
+    {
+      "original_path": "skills/user-research-synthesis/SKILL.md",
+      "installed_path": ".agents/skills/user-research-synthesis/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/user-research-synthesis.md",
+      "sha256": "ad4958529391abcfa3992b2b046fd2175c02988167e16262db6709ccd2ca485d"
+    },
+    {
+      "original_path": "skills/user-research-synthesis/references/DESIGN-REQUIREMENTS.md",
+      "installed_path": ".agents/skills/user-research-synthesis/references/DESIGN-REQUIREMENTS.md",
+      "source_bundle": "02-SKILLS/user-research-synthesis.md",
+      "sha256": "a445f49f4593514c14ce23b5572b87b0d5c6578274dfdc65e81b03d6d16afa07"
+    },
+    {
+      "original_path": "skills/user-research-synthesis/references/EVIDENCE-LEDGER.md",
+      "installed_path": ".agents/skills/user-research-synthesis/references/EVIDENCE-LEDGER.md",
+      "source_bundle": "02-SKILLS/user-research-synthesis.md",
+      "sha256": "d072e0b76147756d51283ca4d07a4d5cb7dd3422a8d525eebcbbbf5b350fda0f"
+    },
+    {
+      "original_path": "skills/user-research-synthesis/references/SYNTHESIS-MAP.md",
+      "installed_path": ".agents/skills/user-research-synthesis/references/SYNTHESIS-MAP.md",
+      "source_bundle": "02-SKILLS/user-research-synthesis.md",
+      "sha256": "b87c2789df964da7fc8629ce0c1f0063d5fbd8bc538271df81f0893823f52638"
+    },
+    {
+      "original_path": "skills/ux-architecture/SKILL.md",
+      "installed_path": ".agents/skills/ux-architecture/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/ux-architecture.md",
+      "sha256": "d391289433811a3f74e315943bdf730f90527a7a79b3b7fa79c9cd2c6498fc0e"
+    },
+    {
+      "original_path": "skills/ux-architecture/references/JOURNEY-TEMPLATE.md",
+      "installed_path": ".agents/skills/ux-architecture/references/JOURNEY-TEMPLATE.md",
+      "source_bundle": "02-SKILLS/ux-architecture.md",
+      "sha256": "767af0b3e614597e1062e80bae635c23310285b5c726aa0624027a1b93960ea0"
+    },
+    {
+      "original_path": "skills/ux-architecture/references/STATE-MATRIX.md",
+      "installed_path": ".agents/skills/ux-architecture/references/STATE-MATRIX.md",
+      "source_bundle": "02-SKILLS/ux-architecture.md",
+      "sha256": "e29381ef50e94bf7294c45b5599744cbf9fafc6fdcf6656a213740a76cb00745"
+    },
+    {
+      "original_path": "skills/visual-composition/SKILL.md",
+      "installed_path": ".agents/skills/visual-composition/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/visual-composition.md",
+      "sha256": "e514ba4935be1965f0137bfe2d3b419bc6dce00015b5b1b4bc0f44e51129d24e"
+    },
+    {
+      "original_path": "skills/visual-composition/references/COMPOSITION-CONTRACT.md",
+      "installed_path": ".agents/skills/visual-composition/references/COMPOSITION-CONTRACT.md",
+      "source_bundle": "02-SKILLS/visual-composition.md",
+      "sha256": "2cdcec04f13904d61dd347a5c702fd16ad480274241269d8efcdf33bc30d6406"
+    },
+    {
+      "original_path": "skills/visual-qa-refinement/SKILL.md",
+      "installed_path": ".agents/skills/visual-qa-refinement/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/visual-qa-refinement.md",
+      "sha256": "1b2777f158c9532fa2c912d1a39fe9735a4f39607bf29e942a563dde175aba7b"
+    },
+    {
+      "original_path": "skills/visual-qa-refinement/references/REVIEW-REPORT.md",
+      "installed_path": ".agents/skills/visual-qa-refinement/references/REVIEW-REPORT.md",
+      "source_bundle": "02-SKILLS/visual-qa-refinement.md",
+      "sha256": "0d93ba210e3b30f016657d651feaf02e66b0b781ce3d3d9e096250f6840def6d"
+    },
+    {
+      "original_path": "skills/web-design-research/SKILL.md",
+      "installed_path": ".agents/skills/web-design-research/references/WORKFLOW-SOURCE.md",
+      "source_bundle": "02-SKILLS/web-design-research.md",
+      "sha256": "dbf3cb04a4e5bc9bd59fa29088fbc980570303b95e97d1bff0ea8329dfcc0bd6"
+    },
+    {
+      "original_path": "skills/web-design-research/references/QUERY-PLAYBOOK.md",
+      "installed_path": ".agents/skills/web-design-research/references/QUERY-PLAYBOOK.md",
+      "source_bundle": "02-SKILLS/web-design-research.md",
+      "sha256": "413a8a06c4442a7a7fabd63cb554c361917524b9a847ab39ce753bbe2f6dab41"
+    },
+    {
+      "original_path": "skills/web-design-research/references/RESEARCH-DELIVERABLES.md",
+      "installed_path": ".agents/skills/web-design-research/references/RESEARCH-DELIVERABLES.md",
+      "source_bundle": "02-SKILLS/web-design-research.md",
+      "sha256": "c70e3292ce2f9574cc46c1a5caa9044246bd068cb358638d6fbd7785debd70fd"
+    },
+    {
+      "original_path": "skills/web-design-research/references/SEARCH-LANES.md",
+      "installed_path": ".agents/skills/web-design-research/references/SEARCH-LANES.md",
+      "source_bundle": "02-SKILLS/web-design-research.md",
+      "sha256": "599f1e127adf96811e0a191ae1164a46458e05840b17ddfb101f9708ff78135c"
+    },
+    {
+      "original_path": "skills/web-design-research/references/SOURCE-QUALITY.md",
+      "installed_path": ".agents/skills/web-design-research/references/SOURCE-QUALITY.md",
+      "source_bundle": "02-SKILLS/web-design-research.md",
+      "sha256": "20d1b3a937eaaa86fb1f3831fe66e3e4bd773d23096f3b0b99eb5d0eba03ce0a"
+    },
+    {
+      "original_path": "skills/web-design-research/references/WEB-SAFETY.md",
+      "installed_path": ".agents/skills/web-design-research/references/WEB-SAFETY.md",
+      "source_bundle": "02-SKILLS/web-design-research.md",
+      "sha256": "9a63c8566d29fff8afe07ad34ee24a0639b6d8775a07ebf49d38560b284931ab"
+    },
+    {
+      "original_path": "research-system/README.md",
+      "installed_path": "docs/hdi-library/research-system/README.md",
+      "source_bundle": "03-RESEARCH/research-core.md",
+      "sha256": "acc5549c282a49fb06fcd5800645ce0ffa4864f5d7f1fac9f5fdb42ecc08bf4c"
+    },
+    {
+      "original_path": "research-system/templates/COMPETITIVE-MATRIX.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/COMPETITIVE-MATRIX.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "18a04a6867bfaa14a232b0c91b13c002941856986f035deb3bdd911c26bb9996"
+    },
+    {
+      "original_path": "research-system/templates/EVIDENCE-MATRIX.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/EVIDENCE-MATRIX.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "7bf5eb8624473b65895c3d4baf3888417efba394cd91e6b5dab539fd103d43ee"
+    },
+    {
+      "original_path": "research-system/templates/INSPIRATION-SYNTHESIS.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/INSPIRATION-SYNTHESIS.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "59db0ef2b84333567888c77817549056e4d703e4ca4420497a5f95d518a0c580"
+    },
+    {
+      "original_path": "research-system/templates/ORIGINALITY-AUDIT.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/ORIGINALITY-AUDIT.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "34dc94fe6386f1cb273a14242d257b333d46202467d54b8bb4067cb98dcdd9ed"
+    },
+    {
+      "original_path": "research-system/templates/RESEARCH-PLAN.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/RESEARCH-PLAN.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "193b91f88c88b16cae61263596a9e41fb567592eba1864c9a8428c6b3a979726"
+    },
+    {
+      "original_path": "research-system/templates/RESEARCH-REPORT.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/RESEARCH-REPORT.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "c51f2a3cb776dc2f5dbb4a0cfdb55758e2218bfe924a56624bb91df94661eb43"
+    },
+    {
+      "original_path": "research-system/templates/TREND-CULTURE-MAP.template.md",
+      "installed_path": "docs/hdi-library/research-system/templates/TREND-CULTURE-MAP.template.md",
+      "source_bundle": "03-RESEARCH/templates.md",
+      "sha256": "f58ba55cbb232e8d138aed20643bf58d084efa4558fcc7ff0a0c7a05a7dd9c5b"
+    },
+    {
+      "original_path": "domain-packs/README.md",
+      "installed_path": "docs/hdi-library/domain-packs/README.md",
+      "source_bundle": "04-DOMAIN-PACKS/README.md.md",
+      "sha256": "26dd5ab4bc29d1020d090ebff45cf6f40a63073c1b32fbe339d7176dc070571e"
+    },
+    {
+      "original_path": "domain-packs/data-enterprise/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/data-enterprise/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/data-enterprise.md",
+      "sha256": "21cb4b10599fc8569cd7b7090a85efd9ed704e78ffb26c75e054c1352679aa0e"
+    },
+    {
+      "original_path": "domain-packs/ecommerce/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/ecommerce/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/ecommerce.md",
+      "sha256": "f41b71a7b90b34f23874af4799adf49ad347a462e15132d52463ec6be2393eca"
+    },
+    {
+      "original_path": "domain-packs/editorial-portfolio/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/editorial-portfolio/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/editorial-portfolio.md",
+      "sha256": "f16326a054ea071ea885b95423265c26222abf337261f5af8bebc8ccb66ec4cc"
+    },
+    {
+      "original_path": "domain-packs/immersive-web/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/immersive-web/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/immersive-web.md",
+      "sha256": "e02c51ca73252a0b3f0622df71034f660fa034a2f384ee8cde6464cd12aad0bc"
+    },
+    {
+      "original_path": "domain-packs/landing-pages/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/landing-pages/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/landing-pages.md",
+      "sha256": "e22cb5c12e6a4adb20c7a5087bc8632fdf612a932b3ca2075ecf9e05a5dcc5fe"
+    },
+    {
+      "original_path": "domain-packs/mobile-app/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/mobile-app/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/mobile-app.md",
+      "sha256": "1c7922f7267e3028aad0b223f40e953caa3caa4a02b9d9e0b1158e12a2101d2a"
+    },
+    {
+      "original_path": "domain-packs/saas-product/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/saas-product/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/saas-product.md",
+      "sha256": "268179584b913255c01e611655c4a0607e38df51cde61aefbd3eb62e03e32db0"
+    },
+    {
+      "original_path": "domain-packs/service-business/PACK.md",
+      "installed_path": "docs/hdi-library/domain-packs/service-business/PACK.md",
+      "source_bundle": "04-DOMAIN-PACKS/service-business.md",
+      "sha256": "677ef9432f219703d750edd848e5d88327b9e010cae305a6b9173982eb441bd2"
+    },
+    {
+      "original_path": "prompts/00-NEW-PROJECT.md",
+      "installed_path": "docs/hdi-library/prompts/00-NEW-PROJECT.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "f671f6fd8e2e3a285ce3276a785e75ec1b5b17f5637da88cec67b35c0cf7f6c4"
+    },
+    {
+      "original_path": "prompts/01-REDESIGN.md",
+      "installed_path": "docs/hdi-library/prompts/01-REDESIGN.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "e8e4c23f181c53e8af3285814f09c15177731826d2f75a3764dc285908e8b51e"
+    },
+    {
+      "original_path": "prompts/02-LANDING-PAGE.md",
+      "installed_path": "docs/hdi-library/prompts/02-LANDING-PAGE.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "bd952bdb8a867090fe4e1e349cc9254a28298eeff83852e55b3705b925f29433"
+    },
+    {
+      "original_path": "prompts/03-PRODUCT-UI.md",
+      "installed_path": "docs/hdi-library/prompts/03-PRODUCT-UI.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "2607792e02f4fd7d11e4b7343d2686efdc3507730047bf1cc236ddace433dd0e"
+    },
+    {
+      "original_path": "prompts/04-REFERENCE-ANALYSIS.md",
+      "installed_path": "docs/hdi-library/prompts/04-REFERENCE-ANALYSIS.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "60b36b2ecb90ba88037579d5f1435d319f99d3af798851246ef3af9998230e77"
+    },
+    {
+      "original_path": "prompts/05-MOTION-3D.md",
+      "installed_path": "docs/hdi-library/prompts/05-MOTION-3D.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "09f3a05e3e9637f262cefd7598be6bea33b93bf7f3a913aff09303af105cff33"
+    },
+    {
+      "original_path": "prompts/06-FINAL-REVIEW.md",
+      "installed_path": "docs/hdi-library/prompts/06-FINAL-REVIEW.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "cae5e39d5888e883fca4c1df5cceb20f360c3177d41295161913f771bdf55088"
+    },
+    {
+      "original_path": "prompts/07-LEARN-TASTE.md",
+      "installed_path": "docs/hdi-library/prompts/07-LEARN-TASTE.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "eebcdefc44012ace8c0c226d6e22d9edb5c1e407aba8473ca6ca5ef63540d5a4"
+    },
+    {
+      "original_path": "prompts/08-WEB-RESEARCH-SPRINT.md",
+      "installed_path": "docs/hdi-library/prompts/08-WEB-RESEARCH-SPRINT.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "a8ad3627994a6115ba39571c2a7bfe6952880c97d4cd42ee211276e3bca28e8e"
+    },
+    {
+      "original_path": "prompts/09-COMPETITOR-EXPERIENCE-AUDIT.md",
+      "installed_path": "docs/hdi-library/prompts/09-COMPETITOR-EXPERIENCE-AUDIT.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "b9a83521ef03560c6dc492d671cdc6f253ddbe5dddc3e9c8bce4b98db1c20523"
+    },
+    {
+      "original_path": "prompts/10-INSPIRATION-SYNTHESIS.md",
+      "installed_path": "docs/hdi-library/prompts/10-INSPIRATION-SYNTHESIS.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "bcf3cf2cfcfa4fa199ba16509e7fe38d3c36f9b1b80d7b448916878797f4bad6"
+    },
+    {
+      "original_path": "prompts/11-TREND-CULTURE-SCAN.md",
+      "installed_path": "docs/hdi-library/prompts/11-TREND-CULTURE-SCAN.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "a6d69fdea7b8b4050cd0a21b0147b65b692dc1e74f1197cc8531608f54370ae0"
+    },
+    {
+      "original_path": "prompts/12-USER-RESEARCH-SYNTHESIS.md",
+      "installed_path": "docs/hdi-library/prompts/12-USER-RESEARCH-SYNTHESIS.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "3b43befb6b07a96435c4130dbe88f804c641bf47866cd0baad08dcd211f16c86"
+    },
+    {
+      "original_path": "prompts/13-PROTOTYPE-USABILITY-TEST.md",
+      "installed_path": "docs/hdi-library/prompts/13-PROTOTYPE-USABILITY-TEST.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "c38bff23bc97d3829b695a8055fd843da8039fba35088ff2eee72de28685c760"
+    },
+    {
+      "original_path": "prompts/14-BRAND-WORLD.md",
+      "installed_path": "docs/hdi-library/prompts/14-BRAND-WORLD.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "e4525263ad653f4c097240f92f7ef9303c6d986291cb4c5520bcd6aee8ae36c1"
+    },
+    {
+      "original_path": "prompts/15-CONTENT-INFORMATION-DESIGN.md",
+      "installed_path": "docs/hdi-library/prompts/15-CONTENT-INFORMATION-DESIGN.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "915cadc5d20898b5268b01f505679922d89ca4d6b47fbcd951ace17bd2010472"
+    },
+    {
+      "original_path": "prompts/16-CONVERSION-BEHAVIOR.md",
+      "installed_path": "docs/hdi-library/prompts/16-CONVERSION-BEHAVIOR.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "7307239696efa6dd5055ad606d235dcb496372341cdf5f074e8adb1638ba752f"
+    },
+    {
+      "original_path": "prompts/17-DATA-VISUALIZATION.md",
+      "installed_path": "docs/hdi-library/prompts/17-DATA-VISUALIZATION.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "46db89bbbea03fb6cebd3b5d644c5e50f77c206b24b597055598ed8e4a818955"
+    },
+    {
+      "original_path": "prompts/18-DESIGN-SYSTEM-GOVERNANCE.md",
+      "installed_path": "docs/hdi-library/prompts/18-DESIGN-SYSTEM-GOVERNANCE.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "4f4bcfd56ec60f6e37fd3c6da683f8a4ee4cf7013c44c3e776a30899bbd06b2e"
+    },
+    {
+      "original_path": "prompts/19-ASSET-PRODUCTION.md",
+      "installed_path": "docs/hdi-library/prompts/19-ASSET-PRODUCTION.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "45e06ca1e52f308b9c1d9da9f07b5c34350851c37e64149fc9e433d34764732f"
+    },
+    {
+      "original_path": "prompts/20-PERFORMANCE-PERCEIVED-QUALITY.md",
+      "installed_path": "docs/hdi-library/prompts/20-PERFORMANCE-PERCEIVED-QUALITY.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "db57354e60a810e97e49e745c435092dc71aae883dc55a74d1504bb8b000e0d2"
+    },
+    {
+      "original_path": "prompts/21-EXPERIMENT-OPTIMIZATION.md",
+      "installed_path": "docs/hdi-library/prompts/21-EXPERIMENT-OPTIMIZATION.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "0ad96ae70719f75582e9217d633182245d94fff15cc4182e0614dafc099e8b01"
+    },
+    {
+      "original_path": "prompts/22-TRUST-PRIVACY-SECURITY-UX.md",
+      "installed_path": "docs/hdi-library/prompts/22-TRUST-PRIVACY-SECURITY-UX.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "7f9fb0b781d0214d64e8aa18587e4e8ded4b24e93f72291876ec1fe97d3c657e"
+    },
+    {
+      "original_path": "prompts/23-LOCALIZATION-CULTURALIZATION.md",
+      "installed_path": "docs/hdi-library/prompts/23-LOCALIZATION-CULTURALIZATION.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "c346807e6c2ad3f7cf0d560db9e4346b5840179fc02ade31b1a3f54b10bfbbb0"
+    },
+    {
+      "original_path": "prompts/24-CREATIVE-CODING-LAB.md",
+      "installed_path": "docs/hdi-library/prompts/24-CREATIVE-CODING-LAB.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "a3f606c1f0b3d991c3b803f0e49ded14117acfab4a5419879b7d3eac2c1a75dc"
+    },
+    {
+      "original_path": "prompts/25-SPATIAL-3D-WORLD.md",
+      "installed_path": "docs/hdi-library/prompts/25-SPATIAL-3D-WORLD.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "779725dc854279abb8eb00163a4ee5c666fa0aadc3aad5321396088db5f96b76"
+    },
+    {
+      "original_path": "prompts/26-INCLUSIVE-ACCESSIBILITY.md",
+      "installed_path": "docs/hdi-library/prompts/26-INCLUSIVE-ACCESSIBILITY.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "d2e9c1738a248e04607468e281a0807dbbadc46e300bc5a292c2e17c716416b6"
+    },
+    {
+      "original_path": "prompts/27-SEO-DISCOVERABILITY.md",
+      "installed_path": "docs/hdi-library/prompts/27-SEO-DISCOVERABILITY.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "f317a40cb83556e625a3bca1d58d0181e542669b043a16b850a059a1b581b42f"
+    },
+    {
+      "original_path": "prompts/28-DESIGN-OPS-HANDOFF.md",
+      "installed_path": "docs/hdi-library/prompts/28-DESIGN-OPS-HANDOFF.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "509daf4863ab12a2cabee23b103e249722f55281d4a2231d0310616f35167d71"
+    },
+    {
+      "original_path": "prompts/29-PRODUCT-METRICS-INSTRUMENTATION.md",
+      "installed_path": "docs/hdi-library/prompts/29-PRODUCT-METRICS-INSTRUMENTATION.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "6a99e89fb66f55ed267b2868c6b894a1584ba46b863658a1c5ad3e8962ef6e0d"
+    },
+    {
+      "original_path": "prompts/README.md",
+      "installed_path": "docs/hdi-library/prompts/README.md",
+      "source_bundle": "05-PROMPTS/prompts.md",
+      "sha256": "33da25e7aed8d924fd9c7b9c45e099cb95837a3b95f5548b0bad2d947a9fe191"
+    },
+    {
+      "original_path": "evals/COMPARISON.template.md",
+      "installed_path": "docs/hdi-library/evals/COMPARISON.template.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "7c94391c558593e6d8ed17c651dbad397e0de909716257aaa350c7056e8e5516"
+    },
+    {
+      "original_path": "evals/RUNBOOK.md",
+      "installed_path": "docs/hdi-library/evals/RUNBOOK.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "7f8654f12335330a2ad0fe72ecc6a248b922f4c41f2ee4fb36443e3236d8388b"
+    },
+    {
+      "original_path": "examples/sparkle-auto-mini/QUALITY-GATES.md",
+      "installed_path": "docs/hdi-library/examples/sparkle-auto-mini/QUALITY-GATES.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "4e2ab1f91351f16fdb05949146efbf105d7a8cd0561df93674164e50cd21fce5"
+    },
+    {
+      "original_path": "project-templates/QUALITY-GATES.template.md",
+      "installed_path": "docs/hdi-library/project-templates/QUALITY-GATES.template.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "b4ed1a466ff89253d2cfd44930f51feae00191edf3bd50f1c503df0c80e50817"
+    },
+    {
+      "original_path": "rubrics/ANTI-GENERIC-AUDIT.md",
+      "installed_path": "docs/hdi-library/rubrics/ANTI-GENERIC-AUDIT.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "a67c65f7b4e6280e2d370717e75a6296ebe51c806b92c3bb450c4a3429162b88"
+    },
+    {
+      "original_path": "rubrics/HARD-GATES.md",
+      "installed_path": "docs/hdi-library/rubrics/HARD-GATES.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "ca874faecb64cf693b2ca007b8e12bb48a91c6b6cc3b5f37acca089184318a70"
+    },
+    {
+      "original_path": "rubrics/MASTER-SCORECARD.md",
+      "installed_path": "docs/hdi-library/rubrics/MASTER-SCORECARD.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "2175c61310a07f825359d6533ab43a461bf7b6a8bc2949178bd174336f3e59fb"
+    },
+    {
+      "original_path": "rubrics/MOTION-AUDIT.md",
+      "installed_path": "docs/hdi-library/rubrics/MOTION-AUDIT.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "240231f6275287e67883217d1158fc5a8694fbdc3dfbcf8e93703f8bbcecba94"
+    },
+    {
+      "original_path": "rubrics/PAIRWISE-COMPARISON.md",
+      "installed_path": "docs/hdi-library/rubrics/PAIRWISE-COMPARISON.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "dad393d7aeb29e9a28f5c6d47d39c56bcba982b1ad872e65dfde83e68cc655c5"
+    },
+    {
+      "original_path": "rubrics/README.md",
+      "installed_path": "docs/hdi-library/rubrics/README.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "d7060fd6a4bc2e9fd5bd95a22a59d57d7a21ea4aad05f2bdef866817970bdcc8"
+    },
+    {
+      "original_path": "rubrics/RTL-AUDIT.md",
+      "installed_path": "docs/hdi-library/rubrics/RTL-AUDIT.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "36c511f0fbb3611e0327502aeed6cf5ecdd1bb960cc80f980e5b66b790f36869"
+    },
+    {
+      "original_path": "rubrics/STATE-COVERAGE.md",
+      "installed_path": "docs/hdi-library/rubrics/STATE-COVERAGE.md",
+      "source_bundle": "06-QUALITY/quality-rubrics-evals.md",
+      "sha256": "2afc91a0c9c6041b9cba7168224536dc4a9d0038d7168831ab587b12cc907dbe"
+    },
+    {
+      "original_path": "project-templates/ACCESSIBILITY.template.md",
+      "installed_path": "docs/hdi-library/project-templates/ACCESSIBILITY.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "b36679b0b918e2068f4abdde90421d2be4cb1cdd9ee89111432f1568bfc2290f"
+    },
+    {
+      "original_path": "project-templates/ASSET-PRODUCTION.template.md",
+      "installed_path": "docs/hdi-library/project-templates/ASSET-PRODUCTION.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "e9207e8a26e565baf6f98b6a44f8e2248739a875edcc6dda4b3d84e39711b72d"
+    },
+    {
+      "original_path": "project-templates/BRAND-WORLD.template.md",
+      "installed_path": "docs/hdi-library/project-templates/BRAND-WORLD.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "bc4afaef7c66be5a559f4d50047805db2adc7eb64d6132699895d93aad407501"
+    },
+    {
+      "original_path": "project-templates/BRAND.template.md",
+      "installed_path": "docs/hdi-library/project-templates/BRAND.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "f40259902c4533656a36a5026af8875f908a710ea43c548b14a3a583a9b5f6eb"
+    },
+    {
+      "original_path": "project-templates/CONTENT-ARCHITECTURE.template.md",
+      "installed_path": "docs/hdi-library/project-templates/CONTENT-ARCHITECTURE.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "becde508322ba95fd59d267f8902d5cc35cd67ca5da9da588c841f6099c158d3"
+    },
+    {
+      "original_path": "project-templates/CONTENT.template.md",
+      "installed_path": "docs/hdi-library/project-templates/CONTENT.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "22ceb99f6b29794ecee4ca5c6b3a9303bf55e31005a8a0c274be81227ed3e35e"
+    },
+    {
+      "original_path": "project-templates/CONVERSION-JOURNEY.template.md",
+      "installed_path": "docs/hdi-library/project-templates/CONVERSION-JOURNEY.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "44ecdcb2973b47420e5775dec6911e6e469b444da78d338e87efa1ef8f8210d6"
+    },
+    {
+      "original_path": "project-templates/CREATIVE-LAB.template.md",
+      "installed_path": "docs/hdi-library/project-templates/CREATIVE-LAB.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "5b83e6371ed383b0d24e4803847084d5b71749c2c98776b538372215b4c0730b"
+    },
+    {
+      "original_path": "project-templates/DATA-VISUALIZATION.template.md",
+      "installed_path": "docs/hdi-library/project-templates/DATA-VISUALIZATION.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "b2ce923992b338a16af160e5b41cbaefec952451903a233ec9ad6a0c2a5aa82d"
+    },
+    {
+      "original_path": "project-templates/DECISIONS.template.md",
+      "installed_path": "docs/hdi-library/project-templates/DECISIONS.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "5b2579e329cc4036c52e7966b43358cabf2a679ebc465214f22d747dadc1aa49"
+    },
+    {
+      "original_path": "project-templates/DESIGN-REVIEW.template.md",
+      "installed_path": "docs/hdi-library/project-templates/DESIGN-REVIEW.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "f032b82eff3aee7927f7868ac08c92a791b5afd99d3b99c59be383d02beb2755"
+    },
+    {
+      "original_path": "project-templates/DESIGN-SYSTEM-GOVERNANCE.template.md",
+      "installed_path": "docs/hdi-library/project-templates/DESIGN-SYSTEM-GOVERNANCE.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "ba8660b7ca05145f9f7db8aa79a3060d0ced64a44163efe373524864107e9782"
+    },
+    {
+      "original_path": "project-templates/DESIGN.template.md",
+      "installed_path": "docs/hdi-library/project-templates/DESIGN.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "22fc2f8bfdb5d6848895f021da8d46d9ec2f97109aab60cac17d8231cfcce33d"
+    },
+    {
+      "original_path": "project-templates/DISCOVERABILITY.template.md",
+      "installed_path": "docs/hdi-library/project-templates/DISCOVERABILITY.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "138cc4e74bc680e45ecbf6f7411446e9195404f61d52829b8c2d1bfcc84a2de9"
+    },
+    {
+      "original_path": "project-templates/EXPERIMENT.template.md",
+      "installed_path": "docs/hdi-library/project-templates/EXPERIMENT.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "e21a3673b3cb444b377717de42937e9adf22c07c2fd26e345705210238c13a3e"
+    },
+    {
+      "original_path": "project-templates/HANDOFF.template.md",
+      "installed_path": "docs/hdi-library/project-templates/HANDOFF.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "6444a6c9e8a2962160b0cc73fbfcf7364068b5f33f07ddfae8b25591be88da35"
+    },
+    {
+      "original_path": "project-templates/LOCALIZATION.template.md",
+      "installed_path": "docs/hdi-library/project-templates/LOCALIZATION.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "88bb5d44ece33a702e92cf0632b669e4b9042798eba368d5c6003b13ad0d113c"
+    },
+    {
+      "original_path": "project-templates/MEASUREMENT.template.md",
+      "installed_path": "docs/hdi-library/project-templates/MEASUREMENT.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "aaaadabd2ab9d1eb3936b4bcfc9142cc4da48426811806e958563fa55acb0732"
+    },
+    {
+      "original_path": "project-templates/MOTION.template.md",
+      "installed_path": "docs/hdi-library/project-templates/MOTION.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "85c81970ce94dd8aed9f25feb09e8f64c195ea4495991f880d3938e4710402e1"
+    },
+    {
+      "original_path": "project-templates/PERFORMANCE.template.md",
+      "installed_path": "docs/hdi-library/project-templates/PERFORMANCE.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "bc0406717614dad9338d880e615b52aa3e5b101c3bc5fd7fc09105884bcb5a89"
+    },
+    {
+      "original_path": "project-templates/PRODUCT.template.md",
+      "installed_path": "docs/hdi-library/project-templates/PRODUCT.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "04aea6d95c36929a2fd259671472ebbfc5ef329e7e23354cdd265f5da274531f"
+    },
+    {
+      "original_path": "project-templates/REFERENCE-BRIEF.template.md",
+      "installed_path": "docs/hdi-library/project-templates/REFERENCE-BRIEF.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "34655e36dee05798ded81028cf53e353461ebe075d72eeaadab824d414396787"
+    },
+    {
+      "original_path": "project-templates/SPATIAL-3D.template.md",
+      "installed_path": "docs/hdi-library/project-templates/SPATIAL-3D.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "cfecf9b1ea0d41e0169a7bee7e1cb152b8fbd2949a84d249c05430f0baec3a40"
+    },
+    {
+      "original_path": "project-templates/TRUST-SECURITY.template.md",
+      "installed_path": "docs/hdi-library/project-templates/TRUST-SECURITY.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "7676be565af36d267e64c2ac662cb4457892322943375013007b63c3518a78d1"
+    },
+    {
+      "original_path": "project-templates/USABILITY-TEST.template.md",
+      "installed_path": "docs/hdi-library/project-templates/USABILITY-TEST.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "0ffaeff5a169e3d4d3eaae62211f3e1493b96d1c0de98bd93e4907e5293598a2"
+    },
+    {
+      "original_path": "project-templates/USER-RESEARCH-SYNTHESIS.template.md",
+      "installed_path": "docs/hdi-library/project-templates/USER-RESEARCH-SYNTHESIS.template.md",
+      "source_bundle": "07-PROJECT-TEMPLATES/project-templates.md",
+      "sha256": "5572fe34e14721d30e491a07c6de318dd988ee6d7631f6762a12119926a8f8d3"
+    },
+    {
+      "original_path": "orchestration/ROUTER.md",
+      "installed_path": "docs/hdi-library/orchestration/ROUTER.md",
+      "source_bundle": "08-ORCHESTRATION/orchestration-agents.md",
+      "sha256": "f6d5381784270981aa4fbef9b4dc4e563ecb0352750f222976655e4d48ce4bca"
+    },
+    {
+      "original_path": "reference-library/README.md",
+      "installed_path": "docs/hdi-library/reference-library/README.md",
+      "source_bundle": "09-REFERENCE-LIBRARY/reference-library.md",
+      "sha256": "e0d21e89a456b72eec13c26eb3b818c25cfd74938800d801d51f5917d802f0bf"
+    },
+    {
+      "original_path": "reference-library/RESEARCH-QUESTIONS.md",
+      "installed_path": "docs/hdi-library/reference-library/RESEARCH-QUESTIONS.md",
+      "source_bundle": "09-REFERENCE-LIBRARY/reference-library.md",
+      "sha256": "a85f14be1cf39696ec50be1c57f929cba91ef45889eaa3cbb5a62f28cf15fb7f"
+    },
+    {
+      "original_path": "reference-library/SOURCE-CATALOG.md",
+      "installed_path": "docs/hdi-library/reference-library/SOURCE-CATALOG.md",
+      "source_bundle": "09-REFERENCE-LIBRARY/reference-library.md",
+      "sha256": "a44ea16bda508ce0da1315904698f0533cd43a2b56ea007fd1626f17602eb23b"
+    },
+    {
+      "original_path": "docs/ARCHITECTURE.md",
+      "installed_path": "docs/hdi-library/docs/ARCHITECTURE.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "06808df11cf44926216f5db1231bf4f53caa5e3254e0267830a5560940a70ec0"
+    },
+    {
+      "original_path": "docs/CUSTOMIZATION.md",
+      "installed_path": "docs/hdi-library/docs/CUSTOMIZATION.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "2c094fa87aea4a1ba46d5cf31c227edf48f6e84ffc561137075bff2f1a93a82e"
+    },
+    {
+      "original_path": "docs/NEXT-SKILLS-ROADMAP.md",
+      "installed_path": "docs/hdi-library/docs/NEXT-SKILLS-ROADMAP.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "0fc7f8dca2885d3d2be5faf6e2bb42148e2ff4ff111ab003e82c090634804a42"
+    },
+    {
+      "original_path": "docs/PROMPT-RECIPES.md",
+      "installed_path": "docs/hdi-library/docs/PROMPT-RECIPES.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "a94771e1b88c3a24ff9f5b80462ad1b40c9d2c2f0053a0e61417f67ab38c6913"
+    },
+    {
+      "original_path": "docs/RESEARCH-AND-INSPIRATION.md",
+      "installed_path": "docs/hdi-library/docs/RESEARCH-AND-INSPIRATION.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "8e416292e8896c06e53b61a040e8b2987e7b2c77aabdcd35592aaf365ebd419c"
+    },
+    {
+      "original_path": "docs/SKILLS-CATALOG.md",
+      "installed_path": "docs/hdi-library/docs/SKILLS-CATALOG.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "b18e84635f3cb91e33c7445d33488e8f3ad8bc69947db66c4ec0645ee2faf974"
+    },
+    {
+      "original_path": "docs/START-HERE.md",
+      "installed_path": "docs/hdi-library/docs/START-HERE.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "47e68b70e467149bd74506f1dec25e956fa14baee667cb9dc42dfb60f016ca82"
+    },
+    {
+      "original_path": "docs/V1.2-SPECIALIST-SKILLS.md",
+      "installed_path": "docs/hdi-library/docs/V1.2-SPECIALIST-SKILLS.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "da346c8a9eb81db8f29a54c59e72706251f4cb5f2b0864f5266f05b60192569b"
+    },
+    {
+      "original_path": "docs/WORKFLOW.md",
+      "installed_path": "docs/hdi-library/docs/WORKFLOW.md",
+      "source_bundle": "10-DOCS/docs.md",
+      "sha256": "4c8219ace67094dbdde990cc172d2e235960597d05930d596a9608d679a2a9d3"
+    },
+    {
+      "original_path": "integrations/antigravity/README.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/README.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "1b7b261d09cffafd014645707f0435a150250c4609205b33e7d6e86fb9d85753"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-brand-world-director.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-brand-world-director.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "bac9fbb3908b36b94fe1741d1ddc8294da0c4ef33df2d6d73a10dd307e5725d1"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-content-conversion-strategist.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-content-conversion-strategist.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "d16361ee7c985691c45e6b1a2ad1056501cfe1998edbc05db03d58f82456f427"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-creative-technologist.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-creative-technologist.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "3bf7fefc0a8ee6396d6961fc8d52a078d6ce96b65fa3f611b25d9ad1362d4016"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-data-experience-designer.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-data-experience-designer.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "828aab6a01da499e3bfca7a1a2bdb133c18e14330b3c9b61a9ad8e355b59714e"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-design-critic.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-critic.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "be84a7a4347048f11c45a17c0705ee9bdab2a252458393434221b1bad67ea630"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-design-director.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-director.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "0b179d02aea93739ee5683c8a0e3fc6a17fbc7342fc191786659b1bd6b8f9362"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-design-engineer.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-engineer.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "5c0f982cdec27a075c20e58bc0ac5fc6f2b318af43a159d0a16f136ca33047cf"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-design-system-governor.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-design-system-governor.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "12f10dbd91894d3b1e6e02814617ce3309b6c77a448b7513794223577f13c0b2"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-experiment-measurement-lead.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-experiment-measurement-lead.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "100f504b37dc81775940ce137446ee8e5fcf8af21a4c49cc6e3368de004cf5de"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-inspiration-strategist.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-inspiration-strategist.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "955f846a55b32d434f582023e9b5f0901b4b6a4c462b9fb95ade4e2a484a992a"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-motion-director.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-motion-director.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "897fc8bbbe170734322b29ed1dfe50cb2687fb2765efcd3bdfb4646544959c46"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-performance-experience-engineer.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-performance-experience-engineer.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "d29222b048513426b031de7b06137c8d7be074400a89fa1bbebdb78385e75bc9"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-trust-localization-specialist.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-trust-localization-specialist.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "37a692104cf66e5c19d4511f0afcd87b1c5bc6fca9960e708494a51094773ef4"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-usability-evaluator.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-usability-evaluator.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "e1d76d43e65447a20513cc27cf6b2f8dc978ae13cb483cd6817d3b224e9947d6"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-user-insights-researcher.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-user-insights-researcher.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "f4ceb7ba133cc8bb8a99d9447e5fab7fa33ec71aa11ee43e2e7a6a2d6823e934"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-ux-architect.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-ux-architect.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "c148c0d14dc0d695e84b4dd19532e054f68d774ca580a827f40687ce055690a4"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-visual-designer.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-visual-designer.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "c703858e4a4166b27b0d631a69236f1ac28de16f1eab8d6fc38471572c4e3382"
+    },
+    {
+      "original_path": "integrations/antigravity/agents/hdi-web-researcher.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/agents/hdi-web-researcher.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "932bb7e66650dcf0d814c66cfcc62ece052d5e8b9c8bfbe81efca74e38c810d1"
+    },
+    {
+      "original_path": "integrations/antigravity/rules/hdi-os.md",
+      "installed_path": "docs/hdi-library/integrations/antigravity/rules/hdi-os.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "b42c3531a2182b600bae40ac219d5b245240a8b22bc1083db06be99ecb1b718f"
+    },
+    {
+      "original_path": "integrations/codex/AGENTS.snippet.md",
+      "installed_path": "docs/hdi-library/integrations/codex/AGENTS.snippet.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "f73e5ab60c911d5d8a39301749e3cb43278f71764afe7c2b1c1fbe7b867ce59b"
+    },
+    {
+      "original_path": "integrations/codex/README.md",
+      "installed_path": "docs/hdi-library/integrations/codex/README.md",
+      "source_bundle": "11-INTEGRATIONS/integrations.md",
+      "sha256": "92c9d065b6c875c05be7b162f72ff1626a0442ea1de71c177523855cf6431d25"
+    },
+    {
+      "original_path": "tooling/visual-qa/README.md",
+      "installed_path": "docs/hdi-library/tooling/visual-qa/README.md",
+      "source_bundle": "12-TOOLING/tooling.md",
+      "sha256": "09dc5a148a34c26b15d907d690f5974b0610c436377317b97b3a66fa680da8d9"
+    }
+  ],
+  "visual_source_segments_in_original_order": [
+    "docs/sparkle-skills/sources/VISUAL-SOURCE-PREAMBLE.md",
+    ".agents/skills/hdi-web-visual-art-director/references/00-core.md",
+    ".agents/skills/hdi-web-visual-art-director/references/01-capabilities.md",
+    ".agents/skills/hdi-web-visual-art-director/references/02-art-direction.md",
+    ".agents/skills/hdi-web-visual-art-director/references/03-asset-planning.md",
+    ".agents/skills/hdi-web-visual-art-director/references/04-generation.md",
+    ".agents/skills/hdi-web-visual-art-director/references/05-web-integration.md",
+    ".agents/skills/hdi-web-visual-art-director/references/06-quality.md",
+    ".agents/skills/hdi-web-visual-art-director/references/07-templates.md",
+    ".agents/skills/hdi-web-visual-art-director/references/08-evals.md",
+    ".agents/skills/hdi-web-visual-art-director/references/09-sources.md",
+    ".agents/skills/sparkle-auto-brand-overlay/references/00-overlay.md",
+    ".agents/skills/sparkle-auto-brand-overlay/references/01-brand-contract.md",
+    ".agents/skills/sparkle-auto-brand-overlay/references/02-section-assets.md",
+    ".agents/skills/sparkle-auto-brand-overlay/references/03-production-briefs.md",
+    ".agents/skills/sparkle-auto-brand-overlay/references/04-decisions-source-coverage.md"
+  ],
+  "visual_source_sha256": "d75b16531afde7cc799f9d4bec3d3b9346dfec3c07247bc862778cebf779cadb",
+  "master_plan": {
+    "path": "docs/sparkle-skills/sources/SPARKLE-AUTO-NEO-BRUTALISM-CODEX-MASTER-PLAN.md",
+    "sha256": "900bfac3aa3c042e1dc770adcfdacc5b0805d61ce5e310063ee5cfbbd369196d"
+  }
+}
