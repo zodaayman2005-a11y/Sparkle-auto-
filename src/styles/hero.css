@@ -23,7 +23,7 @@
  .hero-grid { display:flex; flex-direction:column; gap:28px; min-height:0; padding-block:48px 32px; }
  .hero-copy { width:100%; background:var(--white); padding:16px 0; }
  .hero h1 { max-width:740px; font-size:48px; }
- .hero-art-layer { height:420px; top:auto; bottom:50px; }
+ .hero-art-layer { height:350px; top:auto; bottom:32px; }
  .hero-backdrop { object-position:left bottom; }
  .site[lang="en"] .hero-backdrop { object-position:right bottom; }
  .hero-owner-stage { height:350px; display:flex; align-items:flex-end; justify-content:center; }
@@ -38,7 +38,7 @@
  .hero .cta-row { align-items:stretch; flex-direction:column; gap:12px; margin-top:24px; }
  .hero .button { width:100%; }
  .hero-secondary { justify-content:center; }
- .hero-art-layer { height:320px; bottom:70px; }
+ .hero-art-layer { height:270px; bottom:24px; }
  .hero-backdrop { object-position:20% bottom; }
  .site[lang="en"] .hero-backdrop { object-position:80% bottom; }
  .hero-owner-stage { height:270px; }

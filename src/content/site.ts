@@ -25,7 +25,7 @@ export const hero = {
     "Instead of calling around and piecing reports together, see what is happening at your car wash—even when you are away.",
   ),
   reassurance: pair(
-    "مراجعة قصيرة نفهم فيها طريقة شغلك، ونقولك بصراحة هل Sparkle Auto مناسب لمغسلتك ولا لأ.",
+    "مراجعة قصيرة نفهم فيها طريقة شغلك، ونقولك بصراحة هل Sparkle Auto مناسب لمغسلتك ولا لأ.",
     "A short review to understand how you work and tell you honestly whether Sparkle Auto fits your car wash.",
   ),
 };
