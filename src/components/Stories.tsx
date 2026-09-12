@@ -1,7 +1,7 @@
 "use client";
 import { Modal } from "./Modal";
 import { ScreenshotDialog } from "./ProductProof";
-import { useEffect, useState, useSyncExternalStore, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   strategies,
   screens,
@@ -11,54 +11,9 @@ import {
 } from "@/content/site";
 import { SectionLabel, ProofWindow, VideoButton } from "./Primitives";
 import { StrategyStory } from "./AudienceStory";
+import { SystemOverviewVideo } from "./SystemOverviewVideo";
 import { StrategyVideo } from "./StrategyVideo";
 import { type VideoAsset } from "@/content/media";
-const query =
-  "(min-width:1024px) and (min-height:740px) and (prefers-reduced-motion:no-preference)";
-const subscribe = (callback: () => void) => {
-  const m = matchMedia(query);
-  m.addEventListener("change", callback);
-  return () => m.removeEventListener("change", callback);
-};
-function useStoryLayout() {
-  return useSyncExternalStore(
-    subscribe,
-    () => matchMedia(query).matches,
-    () => false,
-  );
-}
-function useActiveChapter(ids: string[]) {
-  const [active, setActive] = useState(0);
-  const signature = ids.join("|");
-  useEffect(() => {
-    const list = signature.split("|");
-    let raf = 0;
-    const update = () => {
-      raf = 0;
-      let winner = 0;
-      const line = innerHeight * 0.4;
-      for (let i = 0; i < list.length; i++) {
-        const el = document.getElementById(list[i]);
-        if (el && el.getBoundingClientRect().top <= line) winner = i;
-      }
-      setActive((old) => (old === winner ? old : winner));
-    };
-    const schedule = () => {
-      if (!raf) raf = requestAnimationFrame(update);
-    };
-    update();
-    window.addEventListener("scroll", schedule, { passive: true });
-    window.addEventListener("resize", schedule);
-    window.addEventListener("hashchange", schedule);
-    return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener("scroll", schedule);
-      window.removeEventListener("resize", schedule);
-      window.removeEventListener("hashchange", schedule);
-    };
-  }, [signature]);
-  return active;
-}
 export function VideoPlayer({
   asset,
   locale,
@@ -168,14 +123,12 @@ export function ScrollStory({
   );
 }
 export function ProductShowcase({ locale }: { locale: Locale }) {
-  const desktop = useStoryLayout();
-  const active = useActiveChapter(screens.map((s) => s.id));
   const [zoom, setZoom] = useState<string | null>(null);
   const [video, setVideo] = useState<VideoAsset | null>(null);
   const ar = locale === "ar";
   return (
     <section
-      className={`section showcase ${desktop ? "enhanced-showcase" : "linear-showcase"}`}
+      className="section showcase paired-showcase"
       id="showcase"
     >
       <div className="shell">
@@ -204,60 +157,27 @@ export function ProductShowcase({ locale }: { locale: Locale }) {
               : "Don’t just take our word for it. See the questions the system answers. Each Sparkle Auto screen is designed around a question that comes up in the owner’s working day."}
           </p>
         </div>
-        <div className="showcase-layout">
-          {desktop && (
-            <div className="showcase-sticky">
-              <div className="screen-counter">
-                <span dir="ltr">SCREEN</span>
-                <strong dir="ltr">
-                  0{active + 1}
-                  <small>/07</small>
-                </strong>
+        <SystemOverviewVideo locale={locale} />
+        <nav className="proof-chapter-nav" aria-label={ar ? "شاشات السيستم" : "System screens"}>
+          {screens.map((screen, index) => (
+            <a key={screen.id} href={`#${screen.id}`}><span dir="ltr">0{index + 1}</span> {pick(screen.title, locale)}</a>
+          ))}
+          <a href="#journey">{ar ? "تابع رحلة التشغيل" : "Continue to the workflow"}</a>
+        </nav>
+        <div className="proof-chapters">
+          {screens.map((screen, index) => (
+            <article className="screen-chapter proof-chapter" id={screen.id} key={screen.id} aria-labelledby={`${screen.id}-title`}>
+              <div className="proof-chapter-copy">
+                <span className="proof-chapter-number" dir="ltr">0{index + 1} / 07</span>
+                <h3 id={`${screen.id}-title`}>{pick(screen.title, locale)}</h3>
+                <h4>{pick(screen.question, locale)}</h4>
+                <p>{pick(screen.body, locale)}</p>
+                <button className="text-link" onClick={() => setZoom(screen.id)}>{ar ? "كبّر الشاشة" : "Enlarge screenshot"}</button>
+                <VideoButton id={screen.id} locale={locale} onPlay={setVideo} />
               </div>
-              <div className="stage-swap" key={screens[active].id}>
-                <ProofWindow id={screens[active].id} locale={locale} large />
-              </div>
-              <button
-                className="text-link"
-                onClick={() => setZoom(screens[active].id)}
-              >
-                {ar ? "كبّر الشاشة" : "Enlarge screenshot"}{" "}
-                
-              </button>
-            </div>
-          )}
-          <div className="screen-index">
-            {screens.map((s, i) => (
-              <article
-                className="screen-chapter"
-                id={s.id}
-                key={s.id}
-                data-active={active === i}
-              >
-                <a
-                  href={`#${s.id}`}
-                  aria-current={active === i ? "step" : undefined}
-                >
-                  <span dir="ltr">0{i + 1}</span>
-                  <h3>{pick(s.title, locale)}</h3>
-                  
-                </a>
-                <h4>{pick(s.question, locale)}</h4>
-                <p>{pick(s.body, locale)}</p>
-                <VideoButton id={s.id} locale={locale} onPlay={setVideo} />
-                {!desktop && (
-                  <>
-                    <div className="inline-proof">
-                      <ProofWindow locale={locale} id={s.id} />
-                    </div>
-                    <button className="text-link" onClick={() => setZoom(s.id)}>
-                      {ar ? "كبّر الشاشة" : "Enlarge screenshot"} 
-                    </button>
-                  </>
-                )}
-              </article>
-            ))}
-          </div>
+              <div className="proof-chapter-image"><ProofWindow id={screen.id} locale={locale} large /></div>
+            </article>
+          ))}
         </div>
       </div>
       {zoom && (
