@@ -14,7 +14,7 @@ export const faqCategories: { id: "all" | FaqCategory; label: Pair }[] = [
 
 const item = (id: number, category: FaqCategory, question: Pair, answer: Pair) => ({ id, category, question, answer });
 
-export const faq = [
+const faqItems = [
   item(1, "system", pair("هل فيه فيديو يشرح سباركل أوتو والسيستم وهو شغال؟", "Is there a video showing Sparkle Auto in action?"), pair(
     "أيوه. تقدر تشوف فيديو يشرح السيستم بشكل عملي، وتشوف بنفسك إزاي بتتم إدارة التشغيل والحجوزات والعملاء والموظفين والمالية وباقي أجزاء المغسلة من مكان واحد.",
     "Yes. You can watch a practical walkthrough of the live system and see how bookings, customers, employees, finance and the rest of the car wash operation are managed from one place.",
@@ -111,9 +111,9 @@ export const faq = [
     "أيوه. مش لازم كل موظف يشوف كل حاجة. تقدر تحدد صلاحيات الموظفين حسب أدوارهم ومسؤولياتهم، وده مهم خصوصًا في المالية والإدارة والفروع.",
     "Yes. Each employee can have permissions that match their role and responsibilities, so people only see what they need—especially across finance, management and branches.",
   )),
-  item(25, "system", pair("هل سباركل أوتو بديل لبرنامج الحسابات والفواتير؟", "Does Sparkle Auto replace accounting and invoicing software?"), pair(
-    "سباركل أوتو فيه جزء مالي مربوط بتشغيل المغسلة لمتابعة الإيرادات والمصروفات والمدفوعات وغيرها.\n\nلكن لو عندك احتياجات محاسبية أو ضريبية متخصصة، ممكن تفضل محتاج برنامج محاسبي مخصص لها.",
-    "Sparkle Auto includes financial tools connected to car wash operations, including revenue, expenses and payments. If you have specialised accounting or tax requirements, you may still need dedicated accounting software for those needs.",
+  item(25, "system", pair("إيه اللي يميّز تصميم وتجربة استخدام سباركل أوتو؟", "What makes Sparkle Auto’s design and user experience different?"), pair(
+    "صممنا Sparkle Auto من البداية علشان يكون واضح وسريع وسهل الاستخدام، مش مجرد سيستم فيه خصائص كتير.\n\nكل شاشة مترتبة حسب المهمة اللي بتعملها، والمعلومات المهمة بتظهر في وقتها من غير تعقيد أو زحمة. واتصممت الواجهة وتجربة الاستخدام وفق معايير UI وUX الحديثة، علشان أنت وفريقك تتعلموه بسرعة وتستخدموه براحة كل يوم.\n\nالشكل الحلو هنا مش للزينة؛ هو جزء من إن الشغل يبقى أوضح وأسهل وأقل عرضة للأخطاء.",
+    "Sparkle Auto was designed from the start to feel clear, fast and easy to use—not merely to hold a long list of features.\n\nEach screen is organised around the task at hand, so the information you need appears without unnecessary clutter or complexity. The interface follows modern UI and UX principles to help you and your team learn it quickly and use it comfortably every day.\n\nThe visual quality is functional: it makes work easier to understand, easier to complete and less prone to mistakes.",
   )),
   item(26, "value", pair("ليه ما أكملش بالواتساب والدفتر طالما شغالين معايا؟", "Why not keep using WhatsApp and a notebook if they already work?"), pair(
     "لأن الفرق مش بين «دفتر» و«برنامج» بس… الفرق في طريقة إدارة المغسلة كلها.\n\nمع الواتساب والدفتر، جزء كبير من يومك بيضيع في تجميع المعلومات: تراجع الحجوزات، تسأل العربية وصلت لفين، تعرف مين شغال، تحسب دخل اليوم، تراجع المصروفات، تفتكر العميل رجع إمتى وتتابع المخزون.\n\nسباركل أوتو بيجمع كل ده في نظام واحد علشان يوفر وقت المتابعة ويخلي الشغل أوضح. والتنظيم ده يساعدك تحسن الربحية لما تعرف أنهي الخدمات بتدخل أكتر، تتابع مصروفاتك، تقلل الأخطاء والحجوزات الضايعة وتحافظ على بيانات عملائك.\n\nبدل ما وقتك يضيع في معرفة «إيه اللي حصل؟»، تستخدمه في السؤال الأهم: إزاي أطوّر المغسلة وأكسب منها أكتر؟",
@@ -136,3 +136,21 @@ export const faq = [
     "Absolutely. You can watch a real system walkthrough, then use a 14-day free trial with no card and no commitment to test Sparkle Auto with your operation and decide for yourself.",
   )),
 ];
+
+// Ordered by the buyer's decision journey: understand the product, see its value,
+// assess daily use and adoption, then review setup, commercial terms and edge cases.
+const faqPriority = [
+  6, 1, 2, 12, 30, 5, 22, 25, 10, 8,
+  9, 17, 26, 4, 3, 27, 24, 11, 18, 28,
+  7, 23, 29, 19, 20, 21, 16, 13, 14, 15,
+];
+
+const faqBySourceId = new Map(faqItems.map((entry) => [entry.id, entry]));
+
+export const faq = faqPriority.map((sourceId, index) => {
+  const entry = faqBySourceId.get(sourceId);
+  if (!entry) {
+    throw new Error(`Missing FAQ source item ${sourceId}`);
+  }
+  return { ...entry, id: index + 1 };
+});
