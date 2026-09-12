@@ -3,6 +3,7 @@
 .21st
 node_modules
 .next
+.next-locked-backup
 artifacts
 assets
 docs
