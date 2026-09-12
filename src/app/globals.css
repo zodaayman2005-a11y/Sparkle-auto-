@@ -99,40 +99,7 @@ summary:focus-visible {
   padding: 8px 16px;
   letter-spacing: 0.03em;
 }
-.header {
-  height: 98px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-.brand {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.brand > span {
-  font-size: 27px;
-  font-weight: 700;
-  letter-spacing: -1px;
-  font-family: "Space Grotesk", sans-serif;
-}
-.brand-auto {
-  display: block;
-  font-size: 9px;
-  letter-spacing: 5px;
-  line-height: 1;
-  text-align: center;
-}
-.brand img {
-  width: 43px;
-  height: 43px;
-  object-fit: contain;
-}
-.header a {
-  font-size: 14px;
-  font-weight: 500;
-}
+
 .lab-nav {
   display: flex;
   align-items: center;
@@ -374,17 +341,7 @@ summary:focus-visible {
   .shell {
     width: calc(100% - 40px);
   }
-  .header {
-    height: 80px;
-    gap: 16px;
-  }
-  .brand > span {
-    font-size: 23px;
-  }
-  .brand img {
-    width: 36px;
-    height: 36px;
-  }
+
   .cta-row {
     gap: 16px;
     margin-top: 24px;
@@ -447,9 +404,7 @@ summary:focus-visible {
     scroll-behavior: auto !important;
   }
 }
-.header .menu-trigger {
-  display: none;
-}
+
 .form-progress > span {
   direction: ltr;
 }
@@ -471,25 +426,11 @@ summary:focus-visible {
 .section-intro > p {
   font-size: 17px;
 }
-.header-wrap .header {
-  height: 84px;
-}
+
 .price-card li {
   font-size: 13px;
 }
-@media (max-width: 1180px) {
-  .header .menu-trigger {
-    display: grid;
-  }
-}
-@media (max-width: 1023px) {
-  .header .menu-trigger {
-    display: grid;
-  }
-  .header-wrap .header {
-    height: 76px;
-  }
-}
+
 @media (max-width: 767px) {
   .screen-chapter p {
     font-size: 14px;

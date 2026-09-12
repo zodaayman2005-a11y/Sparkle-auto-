@@ -138,7 +138,7 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
-      <section className="section fit">
+      <section className="section fit" id="fit">
         <div className="shell">
           <SectionLabel number="04">
             {ar ? "معمول لمين؟" : "BUILT FOR WHOM?"}

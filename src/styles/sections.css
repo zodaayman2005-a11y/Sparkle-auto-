@@ -1,83 +1,3 @@
-.header-wrap {
-  position: sticky;
-  top: 0;
-  background: var(--white);
-  z-index: 20;
-  border-bottom: 1px solid var(--navy);
-}
-.desktop-nav {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-}
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-.header .header-cta {
-  font-size: 11px;
-  min-height: 46px;
-  padding: 8px 14px;
-}
-.header .desktop-nav .nav-cta {
-  min-height: 42px;
-  padding: 8px 15px;
-  font-size: 12px;
-}
-.header .desktop-nav .nav-cta::after {
-  display: none;
-}
-.header .language-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 44px;
-  min-height: 44px;
-  font-size: 12px;
-  font-weight: 700;
-}
-.header > a {
-  display: flex;
-  align-items: center;
-  min-height: 44px;
-}
-.menu-trigger {
-  display: none;
-}
-.drawer {
-  margin: 0;
-  margin-inline-start: auto;
-  max-height: 100dvh;
-  height: 100dvh;
-  width: min(420px, 90vw);
-  max-width: 90vw;
-  border-radius: 0;
-  box-shadow: none;
-}
-.drawer-links {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-.drawer-links > a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 14px;
-  padding: 24px 4px;
-  border-bottom: 1px solid var(--navy);
-  font-size: 18px;
-  font-weight: 500;
-}
-.drawer-links > a > span:first-child {
-  font-size: 12px;
-  color: var(--muted);
-}
-.drawer-links > .button {
-  margin-top: 0;
-  padding: 18px;
-}
 .section {
   padding-block: var(--section-space);
 }
@@ -925,9 +845,7 @@
 .site[lang="en"] .final-sign p {
   line-height: 1.15;
 }
-.site[lang="en"] .header .header-cta {
-  font-size: 12px;
-}
+
 .site[lang="en"] .problem h2 {
   line-height: 1.15;
 }
@@ -956,19 +874,7 @@
   line-height: 1.65;
 }
 @media (max-width: 1150px) {
-  .desktop-nav {
-    gap: 16px;
-  }
-  .header .desktop-nav a {
-    font-size: 11px;
-  }
-  .header-actions {
-    gap: 15px;
-  }
-  .header .header-cta {
-    font-size: 9px;
-    padding-inline: 10px;
-  }
+
   .section-intro,
   .problem-heading,
   .strategy-heading,
@@ -991,22 +897,9 @@
     gap: 45px;
   }
 }
-@media (max-width: 1180px) {
-  .desktop-nav {
-    display: none !important;
-  }
-  .header .menu-trigger {
-    display: grid;
-  }
-}
+
 @media (max-width: 1023px) {
-  .desktop-nav,
-  .header-cta {
-    display: none !important;
-  }
-  .menu-trigger {
-    display: grid;
-  }
+
   .section {
     padding-block: 80px;
   }
@@ -1430,7 +1323,5 @@
   .phone-questions p {
     font-size: 21px;
   }
-  .brand > span {
-    font-size: 22px;
-  }
+
 }

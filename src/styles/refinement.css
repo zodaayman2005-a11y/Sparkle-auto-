@@ -2,11 +2,7 @@
 
 .site { overflow: clip; }
 .site[lang="ar"] h1, .site[lang="ar"] h2, .site[lang="ar"] h3 { letter-spacing: 0; }
-.header { height: 80px; }
-.header-wrap { border-bottom: 1px solid var(--navy); }
-.desktop-nav a { position: relative; padding-block: 15px; }
-.desktop-nav a::after { content: ""; position: absolute; inset-inline: 0; bottom: 6px; height: 2px; background: var(--blue); transform: scaleX(0); transition: transform 180ms; }
-.desktop-nav a:hover::after, .desktop-nav a:focus-visible::after { transform: scaleX(1); }
+
 .reading-rail { position: absolute; inset-inline: 0; bottom: -2px; height: 3px; pointer-events: none; }
 .reading-rail span { display: block; height: 100%; background: var(--blue); transform: scaleX(var(--progress,0)); transform-origin: right; }
 .site[dir="ltr"] .reading-rail span { transform-origin: left; }
@@ -138,7 +134,7 @@
 }
 @media (max-width:767px) {
   :root { --section-space: 58px; }
-  .header { height: 68px; }
+
   .preview-bar { font-size: 10px; }
   .reassurance { font-size: 10px; margin-top: 14px; }
   .proof-top { min-height: 36px; font-size: 10px; padding: 8px 12px; }
@@ -235,7 +231,7 @@
 }
 @media (prefers-reduced-motion:reduce) {
   .reading-rail { display: none; }
-  .desktop-nav a::after,.screen-chapter > a,.field input,.field select,.field textarea { transition: none; }
+.screen-chapter > a,.field input,.field select,.field textarea { transition: none; }
 }
 
 /* Text-only actions: no reserved icon space. */

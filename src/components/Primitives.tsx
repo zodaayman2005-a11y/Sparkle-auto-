@@ -8,8 +8,9 @@ export function Brand() {
   return (
     <span className="brand">
       <Image src="/delivery/brand/logo-144.webp" alt="" width={48} height={48} unoptimized />
-      <span dir="ltr">
-        sparkle<span className="brand-auto">AUTO</span>
+      <span className="brand-wordmark" dir="ltr">
+        <span className="brand-name">sparkle</span>
+        <span className="brand-auto" role="img" aria-label="Auto"><span aria-hidden="true">A</span><span aria-hidden="true">U</span><span aria-hidden="true">T</span><span aria-hidden="true">O</span></span>
       </span>
     </span>
   );

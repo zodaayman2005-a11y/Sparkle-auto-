@@ -1,13 +1,19 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useAnchorRestoration } from "./useAnchorRestoration";
 import { ReadingRail } from "./VisualDetails";
 import { Brand } from "./Primitives";
 import { Modal } from "./Modal";
-import { nav, pick, type Locale } from "@/content/site";
+import { cta, nav, pick, type Locale } from "@/content/site";
 export function Header({ locale }: { locale: Locale }) {
   useAnchorRestoration();
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    const wide = window.matchMedia("(min-width: 1280px)");
+    const closeOnWide = () => { if (wide.matches) setOpen(false); };
+    wide.addEventListener("change", closeOnWide);
+    return () => wide.removeEventListener("change", closeOnWide);
+  }, []);
   return (
     <>
       <a className="skip-link" href="#main">
@@ -24,11 +30,10 @@ export function Header({ locale }: { locale: Locale }) {
               locale === "ar" ? "القائمة الرئيسية" : "Main navigation"
             }
           >
-            {nav.map((n) => (
+            {nav.filter((n) => n.id !== "review").map((n) => (
               <a
                 key={n.id}
                 href={`#${n.id}`}
-                className={n.id === "review" ? "button primary nav-cta" : undefined}
               >
                 {pick(n.label, locale)}
               </a>
@@ -42,13 +47,17 @@ export function Header({ locale }: { locale: Locale }) {
             >
               {locale === "ar" ? "EN" : "عربي"}
             </a>
+            <a className="button primary header-cta" href="#review">
+              {locale === "ar" ? "احجز مراجعة" : "Book a Review"}
+            </a>
             <button
               className="icon-button menu-trigger"
               onClick={() => setOpen(true)}
               aria-label={locale === "ar" ? "افتح القائمة" : "Open menu"}
               aria-expanded={open}
+              aria-haspopup="dialog"
             >
-              <span aria-hidden="true">☰</span>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
             </button>
           </div>
         </header>
@@ -60,7 +69,7 @@ export function Header({ locale }: { locale: Locale }) {
           label={locale === "ar" ? "القائمة" : "Menu"}
           onClose={() => setOpen(false)}
         >
-          <nav className="drawer-links">
+          <nav className="drawer-links" aria-label={locale === "ar" ? "أقسام الموقع" : "Page sections"}>
             {nav.map((n, i) => (
               <a
                 href={`#${n.id}`}
@@ -69,13 +78,13 @@ export function Header({ locale }: { locale: Locale }) {
                 onClick={() => setOpen(false)}
               >
                 <span dir="ltr">0{i + 1}</span>
-                {pick(n.label, locale)}
+                <span>{n.id === "review" ? pick(cta, locale) : pick(n.label, locale)}</span>
               </a>
             ))}
-            <a href={locale === "ar" ? "/en" : "/"}>
+          </nav>
+            <a className="drawer-language" href={locale === "ar" ? "/en" : "/"} lang={locale === "ar" ? "en" : "ar"}>
               {locale === "ar" ? "English" : "العربية"}
             </a>
-          </nav>
         </Modal>
       )}
     </>
