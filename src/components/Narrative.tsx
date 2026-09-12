@@ -90,6 +90,19 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
                   ? "تتابع منها التشغيل، العربيات، الموظفين، الإيرادات، المصروفات، المخزون والعملاء، حسب صلاحية كل شخص."
                   : "Follow operations, vehicles, employees, revenue, expenses, inventory and customers, according to each person’s permissions."}
               </p>
+              <figure className="surface-mockup surface-mockup-laptop">
+                <Image
+                  src="/art/owner-dashboard-laptop.jpg"
+                  fill
+                  alt={
+                    ar
+                      ? "موكب توضيحي للوحة إدارة صاحب المغسلة على لابتوب"
+                      : "Illustrative laptop mockup for the car-wash owner dashboard"
+                  }
+                  sizes="(max-width: 767px) calc(100vw - 76px), (max-width: 1023px) 55vw, 680px"
+                  unoptimized
+                />
+              </figure>
             </article>
             <article className="customer-surface">
               <div className="surface-label">
@@ -105,7 +118,19 @@ export function OpeningNarrative({ locale }: { locale: Locale }) {
                   ? "العميل يشوف الخدمات، يختار عربيته وفرعه وميعاده، يحجز، ويتابع عروضه ومكافآته."
                   : "Customers browse services, select their vehicle, branch and appointment, book a visit, and access their offers and rewards."}
               </p>
-              
+              <figure className="surface-mockup surface-mockup-mobile">
+                <Image
+                  src="/art/customer-booking-mobile.jpg"
+                  fill
+                  alt={
+                    ar
+                      ? "موكب توضيحي لتجربة حجز العميل على الموبايل"
+                      : "Illustrative mobile mockup for the customer booking experience"
+                  }
+                  sizes="(max-width: 767px) 240px, (max-width: 1023px) 230px, 300px"
+                  unoptimized
+                />
+              </figure>
             </article>
           </div>
           <div className="definition-close">

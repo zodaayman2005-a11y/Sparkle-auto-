@@ -1,0 +1,58 @@
+/* User-supplied illustrative device mockups inside the two system surfaces. */
+.two-surfaces > article {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.surface-mockup {
+  position: relative;
+  overflow: hidden;
+  margin: auto 0 0;
+  background: var(--white);
+  border: 1px solid var(--soft);
+  border-radius: var(--radius-md);
+}
+
+.surface-mockup img {
+  display: block;
+  object-fit: cover;
+}
+
+.surface-mockup-laptop {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+}
+
+.surface-mockup-laptop img {
+  object-position: center 50%;
+}
+
+.surface-mockup-mobile {
+  width: min(100%, 300px);
+  aspect-ratio: 4 / 5;
+  margin-inline: auto;
+}
+
+@media (max-width: 767px) {
+  .two-surfaces > article:last-child {
+    display: flex;
+  }
+
+  .customer-surface .surface-label,
+  .customer-surface > p {
+    display: block;
+  }
+
+  .surface-mockup {
+    margin-top: var(--space-sm);
+  }
+
+  .surface-mockup-laptop {
+    aspect-ratio: 16 / 10;
+  }
+
+  .surface-mockup-mobile {
+    width: min(78%, 260px);
+  }
+}
