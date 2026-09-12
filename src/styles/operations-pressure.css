@@ -3,7 +3,7 @@
 .pressure-intro { display:grid; grid-template-columns:1.35fr 1fr; align-items:end; gap:var(--space-xl); padding-bottom:var(--space-xl); }
 .pressure-intro h2 { margin:0; font-size:clamp(36px,4.2vw,60px); line-height:1.45; }
 .pressure-intro h2 span { color:var(--dark); }
-.pressure-context { max-width:480px; font-size:16px; line-height:2; padding-bottom:var(--space-xs); }
+.pressure-context { align-self:center; width:100%; max-width:480px; font-size:16px; line-height:2; }
 .pressure-body { display:grid; grid-template-columns:1fr 1.35fr; gap:var(--space-xl); border-top:2px solid var(--navy); padding-top:var(--space-xl); }
 .pressure-summary { align-self:start; padding:var(--space-lg); background:var(--navy); color:var(--white); border-radius:var(--radius-lg); }
 .pressure-summary .pressure-kicker { font-size:clamp(24px,2.4vw,32px); font-weight:700; line-height:1.65; margin-bottom:var(--space-md); }
