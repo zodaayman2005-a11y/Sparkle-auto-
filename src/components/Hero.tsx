@@ -22,25 +22,13 @@ export function Hero({
           unoptimized
         />
       </div>
-      <div className="hero-topline">
-        <span>
-          {locale === "ar"
-            ? "تشغيل أوضح. وقت أكتر."
-            : "CLEARER OPERATIONS. MORE TIME."}
-        </span>
-        <span dir="ltr">SPARKLE AUTO — 01</span>
-      </div>
       <div className="hero-grid">
         <div className="hero-copy">
-          <div className="eyebrow">
-            <span className="eyebrow-square" />
-            {pick(hero.eyebrow, locale)}
-          </div>
           <h1 id="hero-title">
             <span>{pick(hero.first, locale)}</span>{" "}
             <span>{pick(hero.mid, locale)}</span>{" "}
             <span>
-              {pick(hero.last, locale)} <mark>{pick(hero.accent, locale)}</mark>
+              {pick(hero.last, locale)} <span>{pick(hero.accent, locale)}</span>
             </span>
           </h1>
           <p className="hero-body">{pick(hero.body, locale)}</p>
@@ -66,28 +54,7 @@ export function Hero({
           </div>
           <p className="reassurance">{pick(hero.reassurance, locale)}</p>
         </div>
-        <div className="hero-stage hero-owner-stage" id="hero-proof">
-          <div className="stage-caption">
-            <span className="caption-line" />
-            {locale === "ar"
-              ? "مغسلتك في جيبك."
-              : "Your car wash, in your pocket."}
-            
-          </div>
-        </div>
-      </div>
-      <div className="hero-bottom">
-        <span>
-          {locale === "ar"
-            ? "من أول حجز. لحد قفلة اليوم."
-            : "FROM THE FIRST BOOKING. TO THE DAILY CLOSE."}
-        </span>
-        <a href="#system">
-          {locale === "ar"
-            ? "الصورة تبدأ من هنا"
-            : "THE BIG PICTURE STARTS HERE"}
-          
-        </a>
+        <div className="hero-stage hero-owner-stage" id="hero-proof" aria-hidden="true" />
       </div>
     </section>
   );

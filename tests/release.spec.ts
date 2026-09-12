@@ -32,7 +32,7 @@ for (const locale of ["ar", "en"] as const) {
     await expect(page.locator(".strategies")).toHaveCSS("background-color", "rgb(242, 250, 255)");
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
     await expect(page.locator('link[rel="canonical"]')).toHaveCount(0);
-    expect(await page.locator(".preview-bar").innerText()).not.toMatch(/PLACEHOLDERS|صور مؤقتة/);
+    await expect(page.locator(".preview-bar")).toHaveCount(0);
     expect(await page.locator(".site").innerText()).not.toMatch(/[↗↖↘↙]/);
     const links = await page.locator('a[href^="#"]').evaluateAll(elements => elements.map(el => el.getAttribute("href")!.slice(1)));
     for (const id of new Set(links)) await expect(page.locator(`[id="${id}"]`)).toHaveCount(1);
