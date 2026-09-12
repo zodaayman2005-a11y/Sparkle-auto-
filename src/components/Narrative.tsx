@@ -258,76 +258,10 @@ export function JourneyAndSetup({ locale }: { locale: Locale }) {
     </>
   );
 }
-export function FinalSection({ locale }: { locale: Locale }) {
+export function Footer({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
     <>
-      <section className="final-section">
-        <div className="shell">
-          <SectionLabel number="12">
-            {ar
-              ? "الصورة أوضح. القرار أسهل."
-              : "CLEARER PICTURE. CLEARER DECISION."}
-          </SectionLabel>
-          <div className="final-grid">
-            <div>
-              <h2>
-                {ar ? (
-                  <>
-                    التحكم مش إنك
-                    <br />
-                    تفضل واقف في الفرع
-                    <br />
-                    <span>طول اليوم.</span>
-                  </>
-                ) : (
-                  <>
-                    Control isn’t standing at the branch.
-                    <br />
-                    <span>All day.</span>
-                  </>
-                )}
-              </h2>
-              <p>
-                {ar
-                  ? "التحكم إنك تعرف إيه اللي بيحصل، ومين مسؤول، والأرقام بتقول إيه… من غير ما تلف وتسأل كل مرة."
-                  : "It is knowing what is happening, who is responsible and what the numbers are saying—without walking around and asking every time."}
-              </p>
-              <p>
-                {ar
-                  ? "لو مغسلتك كبرت، لكن طريقة إدارتها لسه معتمدة عليك في كل تفصيلة، خلّينا نراجع التشغيل مع بعض."
-                  : "When your car wash has grown but its management still depends on you for every detail, let’s review the operation together."}
-              </p>
-              <a href="#review" className="button final-button">
-                {pick(cta, locale)}
-                
-              </a>
-            </div>
-            <div className="final-sign">
-              
-              <Image className="final-telephone" src="/art/telephone-resolved-v1.webp" width={800} height={800} alt="" sizes="(max-width: 767px) 280px, 360px" />
-              <p>
-                {ar ? (
-                  <>
-                    مغسلتك.
-                    <br />
-                    في جيبك.
-                  </>
-                ) : (
-                  <>
-                    Your car wash.
-                    <br />
-                    In your pocket.
-                  </>
-                )}
-              </p>
-              <span className="sign-caption" dir="ltr">
-                SPARKLE AUTO
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>
       <footer className="footer shell">
         <div>
           <Brand />

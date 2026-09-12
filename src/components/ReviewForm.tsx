@@ -82,26 +82,11 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
           <SectionLabel number="11">
             {ar ? "نبدأ من تشغيلك" : "LET’S START WITH YOUR OPERATION"}
           </SectionLabel>
-          <h2>
-            {ar ? (
-              <>
-                قولنا مغسلتك
-                <br />
-                ماشية إزاي
-                <br />
-                <span className="blue-slab">دلوقتي.</span>
-              </>
-            ) : (
-              <>
-                Tell us how your car wash runs{" "}
-                <span className="blue-slab">today.</span>
-              </>
-            )}
-          </h2>
+          <h2>{ar ? "خلّينا نرتّب الخطوة الجاية لمغسلتك." : "Let’s plan your car wash’s next step."}</h2>
           <p>
             {ar
-              ? "مش هنبدأ بشرح طويل ومميزات ملهاش علاقة بيك. جاوبنا على كام سؤال، وهنركز المراجعة على المشكلة اللي فعلًا بتعطلك."
-              : "We will not start with a long presentation of features unrelated to your needs. Answer a few questions so the review can focus on the problem that is actually getting in your way."}
+              ? "عرّفنا بيك وبطريقة شغلك، علشان نراجع احتياج مغسلتك مع بعض ونوضح إزاي Sparkle Auto ممكن يساعدك."
+              : "Tell us about your business so we can review your needs together and explore how Sparkle Auto could help."}
           </p>
           <div className="review-path">
             <div>
@@ -119,6 +104,12 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
           </div>
         </div>
         <div className="form-panel">
+          <div className="review-card-heading">
+            <span className="review-card-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 2v6M17 2v6M3 11h18m-13 5 3 3 5-5"/></svg>
+            </span>
+            <div><h3>{pick(cta, locale)}</h3><p>{ar ? "خطوتين بسيطتين نبدأ بيهم." : "Two simple steps to get started."}</p></div>
+          </div>
           {status === "success" ? (
             <div className="success-state" role="status" tabIndex={-1} ref={receipt}>
               <span aria-hidden="true">✓</span>

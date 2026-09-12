@@ -1,6 +1,6 @@
 import { Hero } from "./Hero";
 import { Header } from "./Header";
-import { OpeningNarrative, JourneyAndSetup, FinalSection } from "./Narrative";
+import { OpeningNarrative, JourneyAndSetup, Footer } from "./Narrative";
 import { ScrollStory, ProductShowcase } from "./Stories";
 import { FAQ } from "./FAQ";
 import { Commercial } from "./Commercial";
@@ -19,8 +19,8 @@ export function Landing({ locale }: { locale: Locale }) {
         <Commercial locale={locale} />
         <FAQ locale={locale} />
         <ReviewForm locale={locale} deliveryAvailable={Boolean(process.env.OPERATIONS_REVIEW_WEBHOOK_URL)} />
-        <FinalSection locale={locale} />
       </main>
+      <Footer locale={locale} />
     </div>
   );
 }
