@@ -14,19 +14,19 @@ export function Commercial({ locale }: { locale: Locale }) {
       <section className="section pricing" id="pricing">
         <div className="shell">
           <SectionLabel number="09">
-            {ar ? "على قد تشغيلك" : "BUILT AROUND YOUR OPERATION"}
+            {ar ? "الباقات والأسعار" : "PLANS AND PRICING"}
           </SectionLabel>
           <div className="pricing-heading">
             <div>
               <h2>
                 {ar
-                  ? "اختار الباقة على قد تشغيل مغسلتك."
-                  : "Choose a plan that fits your operation."}
+                  ? "خطط اشتراك Sparkle Auto."
+                  : "Sparkle Auto subscription plans."}
               </h2>
               <p>
                 {ar
-                  ? "مش محتاج تدفع في مميزات مش هتستخدمها. اختار حسب حجم التشغيل، وتجربة العملاء، وعدد الفروع."
-                  : "Choose according to your operation, customer experience and number of branches."}
+                  ? "مقارنة واضحة بين سعر كل باقة، حدود التشغيل، والمزايا المتاحة."
+                  : "A clear comparison of each plan’s price, operating limits and included features."}
               </p>
             </div>
             <div
