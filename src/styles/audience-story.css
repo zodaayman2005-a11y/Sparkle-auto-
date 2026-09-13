@@ -79,8 +79,3 @@
  .fit .audience-scene { grid-template-columns:minmax(0,1fr) 94px; gap:14px; }
  .fit .audience-art { height:132px; }
 }
-/* The legacy-system scene needs room for both the owner and the large console. */
-@media (max-width: 767px) {
-  .fit #fit-case-10 { grid-template-columns: minmax(0, 1fr); }
-  .fit #fit-case-10 .audience-art { height: clamp(260px, 78vw, 360px); }
-}
