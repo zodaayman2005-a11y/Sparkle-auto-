@@ -15,6 +15,22 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
   const lock = useRef(false);
   const form = useRef<HTMLFormElement>(null);
   const receipt = useRef<HTMLDivElement>(null);
+  const focusFrame = useRef(0);
+  useEffect(() => () => cancelAnimationFrame(focusFrame.current), []);
+  function focusField(name?: string) {
+    cancelAnimationFrame(focusFrame.current);
+    focusFrame.current = requestAnimationFrame(() => {
+      const input = form.current?.querySelector<HTMLElement>(name ? `[name="${name}"]` : "input");
+      if (!input) return;
+      input.focus({ preventScroll: true });
+      const field = input.closest<HTMLElement>(".field") ?? input;
+      const bounds = field.getBoundingClientRect();
+      const top = (document.querySelector(".header-wrap")?.getBoundingClientRect().bottom ?? 88) + 16;
+      if (bounds.top < top || bounds.bottom > innerHeight - 16) {
+        scrollBy({ top: bounds.top - top, behavior: "instant" });
+      }
+    });
+  }
   useEffect(() => { if (status === "success") receipt.current?.focus(); }, [status]);
   const fields = step === 0 ? formFields.slice(0, 4) : formFields.slice(4);
   function validate(names: string[]) {
@@ -35,11 +51,7 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
     }
     setErrors(e);
     if (Object.keys(e).length) {
-      requestAnimationFrame(() =>
-        form.current
-          ?.querySelector<HTMLElement>(`[name="${Object.keys(e)[0]}"]`)
-          ?.focus(),
-      );
+      focusField(Object.keys(e)[0]);
       return false;
     }
     return true;
@@ -52,9 +64,7 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
     if (!validate(names)) return;
     if (step === 0) {
       setStep(1);
-      requestAnimationFrame(() =>
-        form.current?.querySelector<HTMLInputElement>("input")?.focus(),
-      );
+      focusField();
       return;
     }
     lock.current = true;
@@ -106,7 +116,7 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
         <div className="form-panel">
           <div className="review-card-heading">
             <span className="review-card-icon" aria-hidden="true">
-              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 2v6M17 2v6M3 11h18m-13 5 3 3 5-5"/></svg>
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M7 18.5 3.5 21v-6A8.5 8.5 0 1 1 7 18.5Z"/><path d="M8 9h8M8 13h5"/></svg>
             </span>
             <div><h3>{pick(cta, locale)}</h3><p>{ar ? "خطوتين بسيطتين نبدأ بيهم." : "Two simple steps to get started."}</p></div>
           </div>
@@ -245,7 +255,7 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
                     onClick={() => {
                       setStep(0);
                       setErrors({});
-                      requestAnimationFrame(() => form.current?.querySelector<HTMLInputElement>("input")?.focus());
+                      focusField();
                     }}
                     disabled={status === "sending"}
                   >

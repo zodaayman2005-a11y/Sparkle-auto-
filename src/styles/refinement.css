@@ -116,9 +116,6 @@
 .final-grid .final-sign > span:first-child { position: absolute; top: 18px; inset-inline-end: 22px; font-size: 36px; }
 .final-sign p { font-size: 34px; margin-top: 26px; }
 .final-sign > span:first-child { font-size: 90px; }
-@media (min-width:1024px) {
-  .faq-layout > div:first-child { position: sticky; top: 112px; align-self: start; }
-}
 @media (max-width:1199px) {
   .showcase-layout { gap: 32px; }
 }

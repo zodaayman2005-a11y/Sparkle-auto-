@@ -27,13 +27,15 @@ export function ReadingRail() {
     const update = () => {
       frame = 0;
       const range = document.documentElement.scrollHeight - innerHeight;
-      ref.current?.style.setProperty("--progress", String(range > 0 ? Math.min(1, scrollY / range) : 0));
+      ref.current?.style.setProperty("--progress", String(range > 0 ? Math.max(0, Math.min(1, scrollY / range)) : 0));
     };
     const queue = () => { if (!frame) frame = requestAnimationFrame(update); };
+    const size = new ResizeObserver(queue);
+    size.observe(document.body);
     update();
     addEventListener("scroll", queue, { passive: true });
     addEventListener("resize", queue);
-    return () => { cancelAnimationFrame(frame); removeEventListener("scroll", queue); removeEventListener("resize", queue); };
+    return () => { cancelAnimationFrame(frame); size.disconnect(); removeEventListener("scroll", queue); removeEventListener("resize", queue); };
   }, []);
   return <div className="reading-rail" ref={ref} aria-hidden="true"><span /></div>;
 }

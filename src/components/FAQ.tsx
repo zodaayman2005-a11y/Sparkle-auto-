@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import { faq, faqCategories, type FaqCategory } from "@/content/faq";
 import { pick, type Locale } from "@/content/site";
 import { SectionLabel } from "./Primitives";
@@ -12,6 +12,32 @@ export function FAQ({ locale }: { locale: Locale }) {
   const [opened, setOpened] = useState<number | null>(1);
   const [category, setCategory] = useState<ActiveCategory>("all");
   const [query, setQuery] = useState("");
+  const results = useRef<HTMLDivElement>(null);
+  const pendingPosition = useRef<{ button: HTMLButtonElement; top: number } | "results" | null>(null);
+
+  // Preserve the clicked question when closing an earlier, taller answer.
+  // Apply the correction before paint so the reader never sees the intermediate jump.
+  useLayoutEffect(() => {
+    const position = pendingPosition.current;
+    pendingPosition.current = null;
+    if (!position) return;
+    if (position === "results") {
+      const top = results.current?.getBoundingClientRect().top;
+      const inset = (document.querySelector(".header-wrap")?.getBoundingClientRect().height ?? 88) + 24;
+      if (top !== undefined) scrollTo({ top: scrollY + top - inset, behavior: "instant" });
+    } else if (position.button.isConnected) {
+      const delta = position.button.getBoundingClientRect().top - position.top;
+      if (Math.abs(delta) > 1) scrollBy({ top: delta, behavior: "instant" });
+    }
+  }, [opened, category, query]);
+
+  const prepareFilter = () => {
+    const top = results.current?.getBoundingClientRect().top;
+    const header = document.querySelector(".header-wrap")?.getBoundingClientRect().height ?? 88;
+    // A sticky filter may be used far down a long result list. Bring its new
+    // results into view instead of letting the shortened section escape above us.
+    if (top !== undefined && top < header) pendingPosition.current = "results";
+  };
 
   const filteredFaq = useMemo(() => {
     const term = query.trim().toLocaleLowerCase(locale);
@@ -23,6 +49,8 @@ export function FAQ({ locale }: { locale: Locale }) {
   }, [category, locale, query]);
 
   const chooseCategory = (next: ActiveCategory) => {
+    if (next === category) return;
+    prepareFilter();
     setCategory(next);
     setOpened(null);
   };
@@ -52,7 +80,7 @@ export function FAQ({ locale }: { locale: Locale }) {
                 id="faq-search-input"
                 type="search"
                 value={query}
-                onChange={(event) => { setQuery(event.target.value); setOpened(null); }}
+                onChange={(event) => { prepareFilter(); setQuery(event.target.value); setOpened(null); }}
                 placeholder={ar ? "مثلاً: الحجوزات أو الفروع" : "Try: bookings or branches"}
               />
             </div>
@@ -72,7 +100,7 @@ export function FAQ({ locale }: { locale: Locale }) {
           </div>
         </div>
 
-        <div className="faq-results">
+        <div className="faq-results" ref={results}>
           <p className="faq-results-count" aria-live="polite">
             {ar ? `${filteredFaq.length} سؤال متاح` : `${filteredFaq.length} ${filteredFaq.length === 1 ? "answer" : "answers"}`}
           </p>
@@ -87,7 +115,10 @@ export function FAQ({ locale }: { locale: Locale }) {
                       type="button"
                       aria-expanded={isOpen}
                       aria-controls={answerId}
-                      onClick={() => setOpened(isOpen ? null : entry.id)}
+                      onClick={(event) => {
+                        pendingPosition.current = { button: event.currentTarget, top: event.currentTarget.getBoundingClientRect().top };
+                        setOpened(current => current === entry.id ? null : entry.id);
+                      }}
                     >
                       <span className="faq-number" dir="ltr">{String(entry.id).padStart(2, "0")}</span>
                       <span>{pick(entry.question, locale)}</span>

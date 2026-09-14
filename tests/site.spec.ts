@@ -143,6 +143,7 @@ test("form validates, preserves values and reports unconfigured receiver honestl
   page,
 }) => {
   await page.goto("/en");
+  await page.route("**/api/operations-review", route => route.fulfill({ status: 503, json: { code: "not_configured" } }));
   await page.locator(".form-actions button[type=submit]").click();
   await expect(page.locator("[name=name]")).toHaveAttribute(
     "aria-invalid",
@@ -151,7 +152,7 @@ test("form validates, preserves values and reports unconfigured receiver honestl
   await fillReview(page);
   await page.locator(".form-actions button[type=submit]").click();
   await expect(page.locator(".form-error[role=alert]")).toContainText(
-    "not connected",
+    "currently unavailable",
   );
   await expect(page.locator("[name=branches]")).toHaveValue("2");
   await expect(page.locator(".success-state")).toHaveCount(0);

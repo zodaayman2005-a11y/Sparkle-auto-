@@ -23,19 +23,23 @@ export function useAnchorRestoration() {
       } else {
         // Absolute coordinates cancel an in-flight native hash animation without adding its delta.
         const margin = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
-        scrollTo({ top:target.getBoundingClientRect().top + scrollY - margin, behavior:"instant" });
+        const padding = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
+        const header = document.querySelector(".header-wrap")?.getBoundingClientRect().height ?? 0;
+        const inset = Math.max(margin, padding, header + 16);
+        scrollTo({ top:target.getBoundingClientRect().top + scrollY - inset, behavior:"instant" });
       }
     };
     const schedule = () => { if (!disposed) { clearTimeout(timer); timer = setTimeout(restore, 100); } };
     const navigate = () => { interrupted = false; schedule(); };
     const interrupt = () => { interrupted = true; clearTimeout(timer); };
     const onKeyDown = (event: KeyboardEvent) => {
-      if (["ArrowDown", "ArrowUp", "PageDown", "PageUp", "Home", "End", " "].includes(event.key)) interrupt();
+      if (!["Shift", "Control", "Alt", "Meta"].includes(event.key)) interrupt();
     };
     addEventListener("sparkle:layout", schedule);
     addEventListener("hashchange", navigate);
     addEventListener("load", schedule);
     addEventListener("wheel", interrupt, { passive:true });
+    addEventListener("pointerdown", interrupt, { passive:true });
     addEventListener("touchstart", interrupt, { passive:true });
     addEventListener("keydown", onKeyDown);
     void document.fonts.ready.then(schedule);
@@ -46,6 +50,7 @@ export function useAnchorRestoration() {
       removeEventListener("hashchange", navigate);
       removeEventListener("load", schedule);
       removeEventListener("wheel", interrupt);
+      removeEventListener("pointerdown", interrupt);
       removeEventListener("touchstart", interrupt);
       removeEventListener("keydown", onKeyDown);
     };
