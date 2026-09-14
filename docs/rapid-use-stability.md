@@ -76,3 +76,18 @@ Final verification:
 
 This is browser-based testing, not physical device or real-user field data. No
 universal stability, instantaneous loading or frame-rate claim is made.
+
+## Released verification
+
+- Application commit: `559e3a3`, pushed to `origin/main`.
+- Vercel production: `dpl_ECeN1fWwoS93wJrJ21Mk5tnw5ehh`, inspected as **Ready**.
+- Public alias: https://sparkle-auto-landing.vercel.app
+- Immutable build: https://sparkle-auto-landing-63ibw5fr6-zodaayman2005-3362s-projects.vercel.app
+- Remote build completed in 10 seconds; full deploy reported 31 seconds. These
+  are build/deployment timings, not page-load measurements.
+- Live Chromium verification: 5/5 passed (Arabic and English at 390/1440, plus
+  interrupted-anchor regression), with the same interaction and overflow checks.
+- Live screenshots are under `artifacts/rapid-use/live/`.
+- Receiver configuration remains the only unresolved delivery dependency in this
+  task. No actual lead delivery is claimed. Browser tests do not establish
+  long-term field error rates, and no production log/drain audit was performed.
