@@ -426,13 +426,6 @@
   background: var(--navy);
   color: white;
 }
-.draft-notice {
-  font-size: 10px;
-  font-weight: 500;
-  border-inline-start: 3px solid var(--blue);
-  padding-inline-start: 13px;
-  margin-block: 30px;
-}
 .pricing-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1154,9 +1147,6 @@
   }
   .trial-strip .button {
     width: 100%;
-  }
-  .draft-notice {
-    font-size: 10px;
   }
   .fineprint {
     font-size: 10px;

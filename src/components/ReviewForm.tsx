@@ -124,7 +124,7 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
             </div>
           ) : (
             <form ref={form} onSubmit={submit} noValidate aria-busy={status === "sending"}>
-              {!deliveryAvailable && <p className="form-availability" role="note">{ar ? "استقبال الطلبات غير مفعّل في هذه المعاينة. تقدر تراجع النموذج، لكن بياناتك لن تصل لفريق Sparkle Auto." : "Live requests are not connected in this preview. You can review the form, but your details will not reach the Sparkle Auto team."}</p>}
+              {!deliveryAvailable && <p className="form-availability" role="note">{ar ? "إرسال النموذج غير متاح حاليًا. بياناتك لن تُرسل إلى فريق Sparkle Auto." : "Form submission is currently unavailable. Your details will not be sent to the Sparkle Auto team."}</p>}
               <div className="form-progress">
                 <strong>
                   {ar
@@ -273,8 +273,8 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
                 <p className="form-error" role="alert">
                   {status === "unconfigured"
                     ? ar
-                      ? "إرسال الطلبات لسه مش متاح في المعاينة. لم يتم إرسال بياناتك؛ المدخلات محفوظة هنا."
-                      : "Submission is not connected in this preview. Your details have not been sent and remain here."
+                      ? "إرسال الطلب غير متاح حاليًا. لم يتم إرسال بياناتك؛ المدخلات محفوظة هنا."
+                      : "Submission is currently unavailable. Your details have not been sent and remain here."
                     : ar
                       ? "لم نقدر نؤكد استلام الطلب. بياناتك لسه موجودة هنا؛ تقدر تحاول تاني."
                       : "We could not confirm receipt. Your details are still here; you can try again."}

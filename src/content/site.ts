@@ -2,7 +2,7 @@ export type Locale = "ar" | "en";
 export type Pair = { ar: string; en: string };
 export const pair = (ar: string, en: string): Pair => ({ ar, en });
 export const pick = (value: Pair, locale: Locale) => value[locale];
-export const sourceStatus = "source_draft" as const;
+export const sourceStatus = "user_approved" as const;
 export const hero = {
   eyebrow: pair(
     "نظام إدارة متكامل لمغاسل السيارات",

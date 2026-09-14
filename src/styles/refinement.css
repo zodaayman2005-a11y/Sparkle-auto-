@@ -88,7 +88,6 @@
 .price-card h3 { font-size: 26px; }
 .price-card li { font-size: 15px; margin-bottom: 12px; }
 .price-card ul { margin-top: 24px; padding-top: 24px; }
-.draft-notice { margin-block: 28px 38px; }
 .trial-strip { border: 1px solid var(--navy); border-radius: 14px; background: var(--blue); margin-top: 44px; gap: 28px; padding: 28px; }
 .trial-number { font-size: 86px; }
 .trial-strip h3 { font-size: 21px; }
@@ -134,7 +133,7 @@
 @media (max-width:767px) {
   :root { --section-space: 58px; }
 
-  .preview-bar { font-size: 10px; }
+  .lab-bar { font-size: 10px; }
   .reassurance { font-size: 10px; margin-top: 14px; }
   .proof-top { min-height: 36px; font-size: 10px; padding: 8px 12px; }
   .section-label { margin-bottom: 22px; }
@@ -192,7 +191,6 @@
   .plan-description { min-height: 0; }
   .price { min-height: 80px; }
   .price-card li { margin-bottom: 10px; }
-  .draft-notice { margin-block: 22px 28px; font-size: 10px; }
   .trial-strip { padding: 24px; gap: 18px; margin-top: 30px; }
   .trial-number { font-size: 72px; }
   .trial-strip h3 { font-size: 23px; }
@@ -223,7 +221,6 @@
 @media (max-width:767px) {
   .section-intro p,.problem-heading > p,.customer-surface > p,.strategy-heading p,.screen-chapter > p,.journey-rail li p,.journey-close,.faq-item h3 button,.faq-item p,.final-grid p { font-size: 16px; }
   .reassurance { font-size: 12px; }
-  .draft-notice { font-size: 12px; }
   .customer-surface > p { grid-column: 1/-1; }
   .journey-rail li > span { min-width: 0; }
 }
@@ -246,6 +243,6 @@
 @media(prefers-reduced-motion:reduce) { .strategy-video-play { transition:none; } }
 .form-availability { margin-bottom:24px; padding:16px; background:var(--pale); border-inline-start:3px solid var(--blue); font-size:14px; line-height:1.8; }
 .site[lang="en"] h1,.site[lang="en"] h2,.site[lang="en"] h3 { font-weight:700; }
-.site[lang="ar"] .preview-bar { letter-spacing:normal; }
+.site[lang="ar"] .lab-bar { letter-spacing:normal; }
 .fit-notes { display:block; max-width:780px; }
 

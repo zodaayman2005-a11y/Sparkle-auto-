@@ -23,15 +23,27 @@ test("Arabic, Persian and Latin number validation share the server rules", () =>
 });
 
 for (const locale of ["ar", "en"] as const) {
-  test(`${locale}: genuine proof, section contrast and safe preview metadata`, async ({ page }) => {
+  test(`${locale}: genuine proof, section contrast and approved public metadata`, async ({ page }) => {
     await page.goto(locale === "ar" ? "/" : "/en");
     await expect(page.locator('[data-proof-status="missing"]')).toHaveCount(0);
     await expect(page.locator(".proof-placeholder,.comparison")).toHaveCount(0);
     await expect(page.locator(".showcase")).toHaveCSS("background-color", "rgb(3, 19, 46)");
     await expect(page.locator(".strategies")).toHaveCSS("background-color", "rgb(242, 250, 255)");
-    await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
-    await expect(page.locator('link[rel="canonical"]')).toHaveCount(0);
-    await expect(page.locator(".preview-bar")).toHaveCount(0);
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /index/);
+    await expect(page.locator('meta[name="robots"]')).not.toHaveAttribute("content", /noindex/);
+    await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
+      "href",
+      locale === "ar"
+        ? "https://sparkle-auto-landing.vercel.app"
+        : "https://sparkle-auto-landing.vercel.app/en",
+    );
+    await expect(page.locator(".lab-bar")).toHaveCount(0);
+    await expect(page).toHaveTitle(locale === "ar" ? /نظام إدارة مغاسل السيارات في مصر$/ : /Car Wash Management System in Egypt$/);
+    expect(await page.locator(".site").innerText()).not.toMatch(
+      locale === "ar"
+        ? /معاينة|مسودة|لم تُعتمد|قيد الاعتماد/
+        : /preview|draft|await(?:ing)? approval|unapproved/i,
+    );
     expect(await page.locator(".site").innerText()).not.toMatch(/[↗↖↘↙]/);
     const links = await page.locator('a[href^="#"]').evaluateAll(elements => elements.map(el => el.getAttribute("href")!.slice(1)));
     for (const id of new Set(links)) await expect(page.locator(`[id="${id}"]`)).toHaveCount(1);

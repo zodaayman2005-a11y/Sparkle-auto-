@@ -31,7 +31,7 @@ export function Footer({ locale }: { locale: Locale }) {
         </div>
         <div className="footer-meta">
           <span dir="ltr">© 2026 Sparkle Auto</span>
-          <p>{ar ? "معاينة للمراجعة · البيانات التجارية لم تُعتمد بعد" : "Review preview · Commercial details await approval"}</p>
+          <p>{ar ? "نظام إدارة متكامل لمغاسل السيارات" : "Integrated car wash management system"}</p>
           <a href={ar ? "/en" : "/"} lang={ar ? "en" : "ar"} hrefLang={ar ? "en" : "ar"}>{ar ? "English" : "العربية"}</a>
         </div>
       </div>

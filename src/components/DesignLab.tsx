@@ -18,10 +18,10 @@ export function DesignLab({
   }, [locale]);
   return (
     <div className="site" dir={locale === "ar" ? "rtl" : "ltr"} lang={locale}>
-      <div className="preview-bar">
+      <div className="lab-bar">
         {locale === "ar"
-          ? "معمل التصميم — صور مؤقتة، مش شاشات المنتج"
-          : "DESIGN LAB — PLACEHOLDERS, NOT PRODUCT SCREENS"}
+          ? "معمل تصميم Sparkle Auto"
+          : "SPARKLE AUTO DESIGN LAB"}
       </div>
       <header className="header shell">
         <a href={locale === "ar" ? "/" : "/en"} aria-label="Sparkle Auto">
@@ -99,13 +99,13 @@ export function DesignLab({
       </main>
       {open && (
         <Modal
-          label={locale === "ar" ? "فحص التفاعل" : "Interaction preview"}
+          label={locale === "ar" ? "تفاصيل النموذج" : "Form details"}
           onClose={() => setOpen(false)}
         >
           <p>
             {locale === "ar"
-              ? "دي معاينة للتصميم. النموذج متاح في الصفحة الرئيسية؛ إرسال الطلب محتاج ربط وجهة الاستقبال."
-              : "This is a design preview. The main page contains the form; live submission requires a configured destination."}
+              ? "النموذج الكامل متاح في الصفحة الرئيسية."
+              : "The complete form is available on the main page."}
           </p>
         </Modal>
       )}

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
-  // Permit retrieval of the noindex directive on each review page.
+  // Keep public locale pages crawlable while excluding internal tooling and APIs.
   return { rules:{ userAgent:"*", allow:"/", disallow:["/design", "/api/"] } };
 }

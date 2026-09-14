@@ -16,9 +16,9 @@ import "../styles/review.css";
 import "../styles/header.css";
 import "../styles/footer.css";
 export const metadata: Metadata = {
-  title: "Sparkle Auto — معاينة التصميم",
+  title: "Sparkle Auto | نظام إدارة مغاسل السيارات",
   description: "Sparkle Auto · Your car wash, in your pocket.",
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 export default async function Layout({
   children,
