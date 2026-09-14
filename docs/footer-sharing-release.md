@@ -39,3 +39,10 @@ Browser chrome and older operating-system elastic scrolling cannot be universall
 ## Final build verification
 
 The final production build passed using SPARKLE_BUILD_DIR=.next-footer-verify after OneDrive locked the default generated icon directories. No locked cache was deleted; the optional output setting retains .next as the production default. Lint and typecheck passed. The final raw-head sharing-bot test passed for both locales and four bot user agents; Next normalizes the root og:url without a trailing slash.
+
+## Published verification
+
+Implementation commit: e3cc146. Production deployment dpl_BkFSfx2KbnEzntF3w2YaZfbJm6PP is Ready and aliased to https://sparkle-auto-landing.vercel.app.
+
+The complete footer-sharing suite against production passed 12/12 in 43.2 seconds. Actual inspected widths: 320, 390, 1024 and 1440 in Arabic and English. Live screenshots are in artifacts/footer-sharing/live. Raw sharing metadata and image/icon responses passed without JavaScript for the tested bot user agents. Visual review confirmed the Arabic mobile and English desktop footer. No full-site performance score is claimed by this scoped change.
+
