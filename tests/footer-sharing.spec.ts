@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import sharp from "sharp";
 
 for (const locale of ["ar", "en"]) {
   for (const width of [320, 390, 1024, 1440]) {
@@ -58,6 +59,12 @@ test("sharing bots receive the supplied image and icon metadata without JavaScri
     expect(response.status()).toBe(200);
     expect(response.headers()["content-type"]).toMatch(/^image\//);
     expect((await response.body()).length).toBeGreaterThan(100);
+  }
+  for (const path of ["/icon.png", "/apple-icon.png"]) {
+    const response = await request.get(path);
+    const metadata = await sharp(await response.body()).metadata();
+    expect(metadata.hasAlpha).toBe(true);
+    expect(metadata.channels).toBe(4);
   }
 });
 
