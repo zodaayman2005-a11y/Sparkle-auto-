@@ -4,7 +4,7 @@ import { SectionLabel } from "./Primitives";
 import { reviewFieldError, normalizeDigits } from "@/content/validation";
 import { formFields, problems } from "@/content/commercial";
 import { pick, cta, type Locale } from "@/content/site";
-export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Locale; deliveryAvailable?: boolean }) {
+export function ReviewForm({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   const [step, setStep] = useState(0);
   const [values, setValues] = useState<Record<string, string>>({});
@@ -134,7 +134,6 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
             </div>
           ) : (
             <form ref={form} onSubmit={submit} noValidate aria-busy={status === "sending"}>
-              {!deliveryAvailable && <p className="form-availability" role="note">{ar ? "إرسال النموذج غير متاح حاليًا. بياناتك لن تُرسل إلى فريق Sparkle Auto." : "Form submission is currently unavailable. Your details will not be sent to the Sparkle Auto team."}</p>}
               <div className="form-progress">
                 <strong>
                   {ar
@@ -281,20 +280,11 @@ export function ReviewForm({ locale, deliveryAvailable = false }: { locale: Loca
               </div>
               {(status === "error" || status === "unconfigured") && (
                 <p className="form-error" role="alert">
-                  {status === "unconfigured"
-                    ? ar
-                      ? "إرسال الطلب غير متاح حاليًا. لم يتم إرسال بياناتك؛ المدخلات محفوظة هنا."
-                      : "Submission is currently unavailable. Your details have not been sent and remain here."
-                    : ar
-                      ? "لم نقدر نؤكد استلام الطلب. بياناتك لسه موجودة هنا؛ تقدر تحاول تاني."
-                      : "We could not confirm receipt. Your details are still here; you can try again."}
+                  {ar
+                    ? "لم نقدر نؤكد استلام الطلب. بياناتك لسه موجودة هنا؛ تقدر تحاول تاني."
+                    : "We could not confirm receipt. Your details are still here; you can try again."}
                 </p>
               )}
-              <p className="form-privacy">
-                {ar
-                  ? "الهدف من البيانات هو فهم احتياج مغسلتك والتواصل بخصوص المراجعة فقط. المدخلات تبقى في هذه الصفحة حتى الإرسال، ولا تُحفظ على جهازك بعد إغلاقها."
-                  : "These details are intended for understanding your needs and contacting you about the review. Entries stay in this page until submission and are not saved on your device after it closes."}
-              </p>
             </form>
           )}
         </div>

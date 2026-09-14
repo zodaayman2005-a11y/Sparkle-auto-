@@ -139,10 +139,11 @@ async function fillReview(page: Page) {
     await page.locator(`[name=${name}]`).fill(value);
   await page.locator("[name=problem]").selectOption("0");
 }
-test("form validates, preserves values and reports unconfigured receiver honestly", async ({
+test("form validates, preserves values and reports receiver failures honestly", async ({
   page,
 }) => {
   await page.goto("/en");
+  await expect(page.locator(".form-availability, .form-privacy")).toHaveCount(0);
   await page.route("**/api/operations-review", route => route.fulfill({ status: 503, json: { code: "not_configured" } }));
   await page.locator(".form-actions button[type=submit]").click();
   await expect(page.locator("[name=name]")).toHaveAttribute(
@@ -152,7 +153,7 @@ test("form validates, preserves values and reports unconfigured receiver honestl
   await fillReview(page);
   await page.locator(".form-actions button[type=submit]").click();
   await expect(page.locator(".form-error[role=alert]")).toContainText(
-    "currently unavailable",
+    "could not confirm receipt",
   );
   await expect(page.locator("[name=branches]")).toHaveValue("2");
   await expect(page.locator(".success-state")).toHaveCount(0);

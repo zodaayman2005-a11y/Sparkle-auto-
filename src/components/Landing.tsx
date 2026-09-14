@@ -21,7 +21,7 @@ export function Landing({ locale }: { locale: Locale }) {
         <JourneyAndSetup locale={locale} />
         <Commercial locale={locale} />
         <FAQ locale={locale} />
-        <ReviewForm locale={locale} deliveryAvailable={Boolean(process.env.OPERATIONS_REVIEW_WEBHOOK_URL)} />
+        <ReviewForm locale={locale} />
       </main>
       <Footer locale={locale} />
     </div>

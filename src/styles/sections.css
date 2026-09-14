@@ -711,12 +711,6 @@
 .form-actions .primary {
   margin-inline-start: auto;
 }
-.form-privacy {
-  font-size: 10px;
-  line-height: 1.9;
-  margin-top: 24px;
-  color: var(--dark);
-}
 .form-error {
   border: 1px solid #a52525;
   padding: 14px;
