@@ -19,7 +19,7 @@ export function useAnchorRestoration() {
         const index = slides.indexOf(target);
         if (index < 0) return;
         const inset = parseFloat(getComputedStyle(stage).top) || 0;
-        scrollTo({ top:track.getBoundingClientRect().top + scrollY - inset + index * (track.offsetHeight-stage.offsetHeight)/slides.length + 4, behavior:"instant" });
+        scrollTo({ top:track.getBoundingClientRect().top + scrollY - inset + (index + .5) * (track.offsetHeight-stage.offsetHeight)/slides.length, behavior:"instant" });
       } else {
         // Absolute coordinates cancel an in-flight native hash animation without adding its delta.
         const margin = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;

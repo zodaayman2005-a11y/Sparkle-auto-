@@ -119,7 +119,7 @@
 .final-sign > span:first-child { font-size: 90px; }
 .footer { padding-block: 40px 20px; }
 @media (min-width:1024px) {
-  .setup-intro,.faq-layout > div:first-child { position: sticky; top: 112px; align-self: start; }
+  .faq-layout > div:first-child { position: sticky; top: 112px; align-self: start; }
 }
 @media (max-width:1199px) {
   .showcase-layout { gap: 32px; }

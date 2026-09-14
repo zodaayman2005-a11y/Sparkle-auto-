@@ -35,9 +35,18 @@ export type VideoAsset = {
 export const videoAssets: Record<string, VideoAsset> = Object.fromEntries(
   [...strategies, ...screens].map((s) => [s.id, { status: "missing" }]),
 );
-// Supplied by the project owner. Open the provider page without an embedded keyboard trap.
 export const strategyOverview = {
   status: "ready",
-  provider: "drive",
+  provider: "native",
+  src: "/media/strategy-overview.mp4",
+  poster: "/art/strategy-video-thumbnail.jpg",
   originalUrl: "https://drive.google.com/file/d/1fMEnIthjp5DJ_iot-cUua40-U6_ac1jR/view",
+} satisfies VideoAsset;
+
+export const systemOverview = {
+  status: "ready",
+  provider: "native",
+  src: "/media/system-overview.mp4",
+  poster: "/art/system-video-thumbnail.jpg",
+  originalUrl: "https://drive.google.com/file/d/1ywJ4_ug-PPe3wcLDJhO_D9tBZAptT_4r/view",
 } satisfies VideoAsset;

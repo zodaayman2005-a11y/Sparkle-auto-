@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-import { ScrollStory, VideoPlayer } from "./Stories";
+import { ScrollStory } from "./Stories";
+import { VideoPlayer } from "./VideoPlayer";
 import { strategies } from "@/content/site";
 export function MotionLab({ count = 2 }: { count?: number }) {
   const [open, setOpen] = useState(false);

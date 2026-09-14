@@ -21,7 +21,7 @@ export function Modal({
     return () => {
       el?.close();
       document.body.style.overflow = before;
-      previous?.focus();
+      previous?.focus({ preventScroll: true });
     };
   }, []);
   return (

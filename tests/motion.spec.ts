@@ -29,7 +29,7 @@ test("ready test video plays only after click, closes, reopens, handles failure"
   );
   await button.click();
   await expect(page.locator("dialog [role=alert]")).toContainText(
-    "unavailable",
+    "could not play",
   );
   await page.getByRole("button", { name: "Close", exact: true }).click();
   await expect(page.locator("dialog")).toHaveCount(0);

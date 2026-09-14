@@ -5,6 +5,7 @@ const config: NextConfig = {
   images: { loader:"custom", loaderFile:"./src/lib/image-loader.ts", deviceSizes:[320,640,960,1280,1920,2560], imageSizes:[48] },
   async headers() {
     return [
+      { source: "/media/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] },
       { source: "/delivery/hero/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
       { source: "/delivery/art/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] },
       { source: "/delivery/brand/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] },

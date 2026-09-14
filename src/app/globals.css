@@ -279,8 +279,27 @@ summary:focus-visible {
   padding-bottom: 20px;
 }
 .modal video {
+  display: block;
   width: 100%;
   max-height: 65vh;
+  background: var(--navy);
+  border-radius: var(--radius-md);
+}
+.video-error {
+  padding: 28px;
+  background: var(--pale);
+  border: 2px solid var(--navy);
+  border-radius: var(--radius-md);
+}
+.video-error strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.video-error p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
 }
 .modal .proof-window {
   max-width: 760px;

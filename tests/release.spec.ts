@@ -76,14 +76,20 @@ test("oversized bodies, unsupported media and invalid choices cannot reach a rec
   expect((await request.post("/api/operations-review",{data:"name=test",headers:{"Content-Type":"text/plain"}})).status()).toBe(415);
 });
 
-test("supplied video uses native external navigation without an embedded focus trap", async ({page}) => {
+test("supplied videos open in the native player without Drive embeds", async ({page}) => {
   for (const route of ["/", "/en"]) {
     await page.goto(route);
-    const trigger = page.locator(".strategy-video-cover");
-    await expect(trigger).toHaveAttribute("href", "https://drive.google.com/file/d/1fMEnIthjp5DJ_iot-cUua40-U6_ac1jR/view");
-    await expect(trigger).toHaveAttribute("target", "_blank");
-    await expect(trigger).toHaveAttribute("rel", "noopener noreferrer");
-    await expect(trigger).toHaveAccessibleName(/Google Drive/);
+    const strategyTrigger = page.locator(".strategy-video-cover");
+    await expect(strategyTrigger).toHaveAccessibleName(/(?:الاستراتيجيات|strategies)/i);
+    await strategyTrigger.click();
+    await expect(page.locator('dialog video[src="/media/strategy-overview.mp4"]')).toHaveCount(1);
     await expect(page.locator("iframe")).toHaveCount(0);
+    await page.keyboard.press("Escape");
+
+    const systemTrigger = page.locator(".system-video-trigger");
+    await systemTrigger.click();
+    await expect(page.locator('dialog video[src="/media/system-overview.mp4"]')).toHaveCount(1);
+    await expect(page.locator("iframe")).toHaveCount(0);
+    await page.keyboard.press("Escape");
   }
 });

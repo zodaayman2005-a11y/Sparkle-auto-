@@ -1,7 +1,6 @@
 "use client";
-import { Modal } from "./Modal";
 import { ScreenshotDialog } from "./ProductProof";
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 import {
   strategies,
   screens,
@@ -15,59 +14,7 @@ import { StorySequence } from "./StorySequence";
 import { SystemOverviewVideo } from "./SystemOverviewVideo";
 import { StrategyVideo } from "./StrategyVideo";
 import { type VideoAsset } from "@/content/media";
-export function VideoPlayer({
-  asset,
-  locale,
-  onClose,
-}: {
-  asset: VideoAsset;
-  locale: Locale;
-  onClose: () => void;
-}) {
-  const [error, setError] = useState(false);
-  const ref = useRef<HTMLVideoElement>(null);
-  useEffect(() => {
-    const v = ref.current;
-    return () => {
-      v?.pause();
-    };
-  }, []);
-  return (
-    <Modal
-      label={locale === "ar" ? "فيديو الشرح" : "Video explanation"}
-      onClose={onClose}
-      kind="media"
-    >
-      <video
-        ref={ref}
-        src={asset.src}
-        poster={asset.poster}
-        controls
-        autoPlay
-        playsInline
-        preload="none"
-        onError={() => setError(true)}
-      >
-        {asset.captions?.map((c) => (
-          <track
-            key={c.lang}
-            src={c.src}
-            srcLang={c.lang}
-            label={c.label}
-            kind="captions"
-          />
-        ))}
-      </video>
-      {error && (
-        <p role="alert">
-          {locale === "ar"
-            ? "الفيديو مش متاح حاليًا. تقدر تقفل النافذة وتكمل الشرح المكتوب."
-            : "This video is unavailable. You can close this window and continue with the written explanation."}
-        </p>
-      )}
-    </Modal>
-  );
-}
+import { VideoPlayer } from "./VideoPlayer";
 export function ScrollStory({
   locale,
   chapters = strategies,

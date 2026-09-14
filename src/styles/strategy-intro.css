@@ -53,6 +53,11 @@
   border: 2px solid var(--navy);
   border-radius: var(--radius-panel);
   box-shadow: 8px 8px 0 var(--navy);
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
 }
 
 .strategy-video-image {
