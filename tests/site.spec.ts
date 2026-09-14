@@ -47,7 +47,7 @@ for (const lang of ["ar", "en"])
 test("mobile menu, Escape, focus return and locale link", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
-  for (const target of await page.locator(".header > a, .language-link, .footer nav a").all()) {
+  for (const target of await page.locator(".header > a, .language-link, .site-footer nav a").all()) {
     const box = await target.boundingBox();
     expect(box && box.width >= 44 && box.height >= 44).toBeTruthy();
   }

@@ -1,13 +1,12 @@
 import Image from "next/image";
 import { AudienceStory, SetupStory } from "./AudienceStory";
 import { OperationGlyph } from "./VisualDetails";
-import { SectionLabel, Brand } from "./Primitives";
+import { SectionLabel } from "./Primitives";
 import {
   painQuestions,
   pick,
   journey,
   cta,
-  nav,
   type Locale,
 } from "@/content/site";
 export function OpeningNarrative({ locale }: { locale: Locale }) {
@@ -255,38 +254,6 @@ export function JourneyAndSetup({ locale }: { locale: Locale }) {
             : "The goal is not just to create an account. It is to make the operation clearer."}
         </div>
       </section>
-    </>
-  );
-}
-export function Footer({ locale }: { locale: Locale }) {
-  const ar = locale === "ar";
-  return (
-    <>
-      <footer className="footer shell">
-        <div>
-          <Brand />
-          <p>
-            {ar
-              ? "تشغيل أوضح لمغاسل السيارات."
-              : "Clearer operations for car washes."}
-          </p>
-        </div>
-        <nav aria-label={ar ? "روابط التذييل" : "Footer navigation"}>
-          {nav.map((n) => (
-            <a href={`#${n.id}`} key={n.id}>
-              {pick(n.label, locale)}
-            </a>
-          ))}
-        </nav>
-        <div className="footer-bottom">
-          <span>
-            {ar
-              ? "معاينة للمراجعة · البيانات التجارية لم تُعتمد بعد"
-              : "REVIEW PREVIEW · COMMERCIAL DETAILS AWAIT APPROVAL"}
-          </span>
-          <a href={ar ? "/en" : "/"}>{ar ? "English" : "العربية"}</a>
-        </div>
-      </footer>
     </>
   );
 }

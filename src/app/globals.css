@@ -6,14 +6,18 @@
 html {
   scroll-behavior: auto;
   scroll-padding-top: 105px;
+  overscroll-behavior: none;
+  background: var(--navy);
 }
 body {
   margin: 0;
-  background: var(--white);
+  background: var(--navy);
+  overscroll-behavior: none;
   color: var(--navy);
   font-family: Alexandria, "Space Grotesk", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+.site { display:flow-root; background:var(--white); }
 .site[lang="en"] {
   font-family: "Space Grotesk", sans-serif;
 }
@@ -432,9 +436,6 @@ summary:focus-visible {
   width: 1px;
   height: 1px;
   overflow: hidden;
-}
-.footer {
-  position: relative;
 }
 .screen-chapter p {
   font-size: 15px;

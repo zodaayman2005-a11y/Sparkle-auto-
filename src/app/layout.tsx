@@ -14,6 +14,7 @@ import "../styles/pricing-addons.css";
 import "../styles/faq-enhanced.css";
 import "../styles/review.css";
 import "../styles/header.css";
+import "../styles/footer.css";
 export const metadata: Metadata = {
   title: "Sparkle Auto — معاينة التصميم",
   description: "Sparkle Auto · Your car wash, in your pocket.",

@@ -117,7 +117,6 @@
 .final-grid .final-sign > span:first-child { position: absolute; top: 18px; inset-inline-end: 22px; font-size: 36px; }
 .final-sign p { font-size: 34px; margin-top: 26px; }
 .final-sign > span:first-child { font-size: 90px; }
-.footer { padding-block: 40px 20px; }
 @media (min-width:1024px) {
   .faq-layout > div:first-child { position: sticky; top: 112px; align-self: start; }
 }
@@ -216,7 +215,6 @@
   .final-telephone { height: 220px; max-width: 280px; }
   .final-sign p { font-size: 30px; margin-top: 20px; }
   .final-sign > span:first-child { font-size: 66px; }
-  .footer { padding-block: 30px 18px; gap: 24px; }
 }
 @media (max-width:359px) {
   .two-surfaces > article:last-child { grid-template-columns: 1fr 86px; }

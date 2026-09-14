@@ -1,5 +1,7 @@
 import type { NextConfig } from "next";
 const config: NextConfig = {
+  // Optional isolated local verification when OneDrive locks generated output.
+  distDir: process.env.SPARKLE_BUILD_DIR || ".next",
   poweredByHeader: false,
   devIndicators: false,
   images: { loader:"custom", loaderFile:"./src/lib/image-loader.ts", deviceSizes:[320,640,960,1280,1920,2560], imageSizes:[48] },

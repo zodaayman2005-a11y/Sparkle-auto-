@@ -799,42 +799,6 @@
   font: 700 12px "Space Grotesk";
   letter-spacing: 5px;
 }
-.footer {
-  padding-block: 55px 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  flex-wrap: wrap;
-  gap: 45px;
-}
-.footer > div > p {
-  font-size: 11px;
-  margin-top: 15px;
-}
-.footer nav {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  font-size: 12px;
-}
-.footer-bottom {
-  width: 100%;
-  border-top: 1px solid var(--navy);
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
-  padding-top: 20px;
-  font-size: 9px;
-  line-height: 1.8;
-}
-.footer-bottom a {
-  min-width: 44px;
-  min-height: 44px;
-  display: flex;
-  align-items: start;
-  font-size: 12px;
-}
 .site[lang="en"] .price > strong.custom-price {
   font-family: "Space Grotesk";
   line-height: 1.2;
@@ -970,9 +934,6 @@
   }
   .final-sign > span:first-child {
     font-size: 100px;
-  }
-  .footer nav {
-    gap: 22px;
   }
 }
 @media (max-width: 767px) {
@@ -1274,24 +1235,6 @@
   .final-button {
     width: 100%;
     font-size: 12px;
-  }
-  .footer {
-    padding-block: 40px 20px;
-    gap: 25px;
-  }
-  .footer nav {
-    gap: 10px 24px;
-    padding-top: 10px;
-    max-width: 300px;
-  }
-  .footer nav a {
-    min-width: 44px;
-    min-height: 44px;
-    display: flex;
-    align-items: center;
-  }
-  .footer-bottom {
-    font-size: 8px;
   }
   .site[lang="en"] .final-grid h2 {
     font-size: 47px;

@@ -17,16 +17,21 @@ export function localeMetadata(locale: Locale): Metadata {
     ? "نظّم حجوزات وتشغيل وفريق ومالية ومخزون وعملاء مغسلتك من مكان واحد. تابع فروعك واعرف اللي بيحصل من غير مكالمات وتقارير متفرقة."
     : "Manage your car wash’s bookings, operations, team, finances, inventory and customers in one place. Follow your branches without piecing together calls and reports.";
   const origin = siteOrigin();
+  // Owner-used production address; social cards must not depend on optional
+  // canonical configuration or inherit an ephemeral deployment hostname.
+  const sharingOrigin = origin ?? new URL("https://sparkle-auto-landing.vercel.app");
+  const shareImage = new URL("/brand/share-cover-v1.jpg", sharingOrigin).href;
   return {
-    title, description,
+    title, description, metadataBase:sharingOrigin,
     // Commercial and delivery gates remain open; a hostname alone never authorizes indexing.
     robots: { index:false, follow:false },
     ...(origin ? { metadataBase:origin, alternates:{ canonical:ar ? "/" : "/en", languages:{ ar:"/", en:"/en", "x-default":"/" } } } : {}),
     openGraph: {
       type:"website", siteName:"Sparkle Auto", title, description,
+      url:new URL(ar ? "/" : "/en", sharingOrigin).href,
       locale:ar ? "ar_EG" : "en_GB", alternateLocale:ar ? "en_GB" : "ar_EG",
-      ...(origin ? { images:[{ url:`/brand/social-${locale}.jpg`, width:1280, height:720, alt:"Sparkle Auto" }] } : {}),
+      images:[{ url:shareImage, width:1280, height:720, type:"image/jpeg", alt:ar ? "سباركل أوتو — كل اللي هتحتاجه هنا" : "Sparkle Auto — everything you need in one place" }],
     },
-    twitter:{ card:"summary_large_image", title, description, ...(origin ? { images:[`/brand/social-${locale}.jpg`] } : {}) },
+    twitter:{ card:"summary_large_image", title, description, images:[shareImage] },
   };
 }
