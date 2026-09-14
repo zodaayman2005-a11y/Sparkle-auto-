@@ -1,0 +1,48 @@
+{
+  "baseURL": "https://sparkle-auto-landing.vercel.app",
+  "checkedAt": "2026-09-14T01:10:17.378Z",
+  "results": [
+    {
+      "locale": "ar",
+      "width": 1440,
+      "stories": "passed",
+      "videos": "not loaded before interaction",
+      "pageErrors": []
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "stories": "passed",
+      "videos": "played, seeked, closed, focus and scroll restored",
+      "pageErrors": []
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "stories": "passed",
+      "videos": "not loaded before interaction",
+      "pageErrors": []
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "stories": "passed",
+      "videos": "played, seeked, closed, focus and scroll restored",
+      "pageErrors": []
+    }
+  ],
+  "ranges": [
+    {
+      "name": "strategy-overview.mp4",
+      "status": 206,
+      "type": "video/mp4",
+      "contentRange": "bytes 0-1023/18765300"
+    },
+    {
+      "name": "system-overview.mp4",
+      "status": 206,
+      "type": "video/mp4",
+      "contentRange": "bytes 0-1023/40825413"
+    }
+  ]
+}

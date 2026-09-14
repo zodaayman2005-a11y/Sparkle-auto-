@@ -58,4 +58,12 @@ Rendered review includes Arabic/English at 1440×900, 1366×768, 768×1024, 390�
 
 After V03, rebuild/lint/typecheck passed again. Final affected checks: WebKit native video suite **3/3 passed**, including actual playback, seeking, focus/scroll restoration and a genuine missing-source error; Chromium video/dialog/inspection selection **7/7 passed**. No known blocking or major scroll/video finding remains in this tested scope. The full Chromium suite was run before this final focus-only correction; affected interactions were explicitly retested afterward.
 
-Release state at implementation commit: local verification complete; production delivery is verified separately below.
+## Release evidence
+
+Implementation commit: `a906c1b02cc3f862087dac88fc3d41f418c9174d`, pushed to `main` at `https://github.com/zodaayman2005-a11y/Sparkle-auto-`.
+
+`vercel --prod --yes` succeeded; `vercel inspect` confirmed **Ready**, deployment `dpl_5QWhMxKPdek9itPpNQvEJMSMbCgB`, immutable URL `https://sparkle-auto-landing-81pgp91w3-zodaayman2005-3362s-projects.vercel.app`, production alias `https://sparkle-auto-landing.vercel.app`. The remote build passed asset validation and TypeScript. Its npm tooling emitted a pending postinstall notice for existing `unrs-resolver@1.12.2`; no installation policy or dependency was changed to suppress it.
+
+Live check completed 2026-09-14 01:10 UTC using `node artifacts/scroll-stability/verify-live.mjs`: Arabic and English at 1440×900 and 390×844 passed all four stories, setup title position, decoded artwork, no unintended horizontal overflow and no captured page errors. Both real videos played and sought to 75% on each mobile locale; closing preserved focus and scroll position. Both video URLs returned HTTP **206**, `video/mp4`, and the requested 1024-byte range. No video request occurred before interaction. Raw results: `artifacts/scroll-stability/live-verification.json`; four live screenshots use the `live-` prefix in the same directory.
+
+**Verdict:** scroll/video corrections are released and verified within the stated browser, viewport and network scope. Full commercial launch remains distinct: the pre-existing form receiver configuration is still missing, and no real request-delivery success is claimed. Physical-device and field-performance coverage remains unavailable.
