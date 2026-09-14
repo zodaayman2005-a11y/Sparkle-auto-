@@ -23,7 +23,7 @@
 .system-proof-story .audience-art .proof-window { width:100%; margin:0; box-shadow:none; }
 .system-proof-story .audience-art .proof-image { aspect-ratio:1280 / 837 !important; height:auto; }
 .system-proof-story .audience-art img { width:100%; height:auto; max-height:none; transform:none; }
-.system-proof-story[data-pinned="true"] .audience-scene[data-current="true"] .audience-art { animation:proof-enter 220ms ease both; }
+.system-proof-story[data-pinned="true"] .audience-scene[data-current="true"] .audience-art { animation:proof-enter 520ms var(--ease-story) both; }
 @keyframes proof-enter { from { opacity:.4; } to { opacity:1; } }
 .system-proof-story .audience-nav a[aria-current] { background:var(--blue); color:var(--navy); }
 .system-proof-story .audience-nav { border-color:var(--soft); }

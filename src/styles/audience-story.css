@@ -26,11 +26,11 @@
 .audience-story[data-pinned="true"] .audience-scenes { position:relative; min-height:0; }
 .audience-story[data-pinned="true"] .audience-scene { position:absolute; inset:0; min-height:0; grid-template-rows:minmax(0,1fr); padding-block:16px; border:0; visibility:hidden; pointer-events:none; }
 .audience-story[data-pinned="true"] .audience-scene[data-current="true"] { visibility:visible; pointer-events:auto; }
-.audience-story[data-pinned="true"] .audience-scene[data-current="true"] .audience-art { animation:story-art-enter 420ms var(--ease-story) both; }
+.audience-story[data-pinned="true"] .audience-scene[data-current="true"] .audience-art { animation:story-art-enter 620ms var(--ease-story) both; }
 .audience-story[data-pinned="true"] .audience-art img { max-height:100%; }
 .audience-story[data-enhanced="false"] .audience-position { visibility:hidden; }
-.audience-story[data-pinned="false"][data-enhanced="true"] .audience-scene[data-entered="true"] .audience-art { animation:story-art-enter 520ms var(--ease-story) both; }
-@keyframes story-art-enter { from { opacity:.35; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.audience-story[data-pinned="false"][data-enhanced="true"] .audience-scene[data-entered="true"] .audience-art { animation:story-art-enter 620ms var(--ease-story) both; }
+@keyframes story-art-enter { from { opacity:.15; transform:translateY(18px); } to { opacity:1; transform:none; } }
 .fit .fit-notes { margin-top:40px; }
 #fit-after,#setup-after { scroll-margin-top:var(--anchor-offset); }
 .fit .audience-scene:last-child .audience-scene-copy p { font-size:clamp(20px,2vw,28px); }
@@ -56,7 +56,7 @@
 }
 @media(max-width:767px) {
  .audience-story { margin-top:28px; }
- .audience-scene { display:flex; flex-direction:column; gap:20px; padding-block:28px; }
+ .audience-scene { display:flex; flex-direction:column; gap:20px; padding-block:36px; }
  .audience-scene-copy { width:100%; }
  .audience-scene-number { font-size:28px; margin-bottom:12px; }
  .audience-scene-copy p,.fit .audience-scene:last-child .audience-scene-copy p { font-size:20px; line-height:1.65; }
@@ -73,7 +73,7 @@
 @media(prefers-reduced-motion:reduce) { .audience-scene,.audience-art { transition:none !important; animation:none !important; } }
 /* Compact recognition list: preserve all ten supplied scenes without ten full-screen stops. */
 @media(max-width:767px) {
- .fit .audience-scene { display:grid; grid-template-columns:minmax(0,1fr) 116px; gap:18px; padding-block:24px; }
+ .fit .audience-scene { display:grid; grid-template-columns:minmax(0,1fr) 116px; gap:18px; padding-block:32px; }
  .fit .audience-scene-copy p,.fit .audience-scene:last-child .audience-scene-copy p { font-size:16px; font-weight:500; line-height:1.85; }
  .fit .audience-scene-number { font-size:24px; margin-bottom:10px; }
  .fit .audience-art { height:160px; }

@@ -6,6 +6,8 @@ import type { Locale } from "@/content/site";
 
 export type StorySlide = { id: string; label: string; image?: string; media?: ReactNode; content: ReactNode; loading?: "eager" | "lazy" };
 const eligibleQuery = "(min-width:1024px) and (min-height:680px) and (prefers-reduced-motion:no-preference)";
+// Preserve each story's relative reading time while giving every chapter more dwell.
+const readingDistanceScale = 1.4;
 
 /** Native scroll with one interruptible visual state; mobile and overflowing copy stay in flow. */
 export function StorySequence({ slides, locale, after, label, className = "", dwell = 100 }: {
@@ -155,7 +157,7 @@ export function StorySequence({ slides, locale, after, label, className = "", dw
 
   if (!count) return null;
   const style: CSSProperties & { "--story-count": number; "--story-distance": string } = {
-    "--story-count": count, "--story-distance": `${count * dwell}svh`,
+    "--story-count": count, "--story-distance": `${count * dwell * readingDistanceScale}svh`,
   };
   return (
     <div className={`audience-story ${className}`} data-pinned={pinned} data-enhanced={enhanced} data-active={active + 1} style={style}>
