@@ -795,6 +795,13 @@ navy rather than blue. Times, labels, destinations and video behavior are unchan
 Production build with TypeScript passed before push. Live interaction proof and
 deployment metadata are recorded in task outputs after release verification.
 
+## Homepage feature list wording — 2 November 2026
+
+Added the owner's requested “and much more” to the Home description, with the
+equivalent Arabic wording, making the feature list explicitly non-exhaustive.
+The sentence still identifies the connected workspace. Content lint and the
+production build with TypeScript passed before release.
+
 ## Remaining inputs
 
 Monthly applicability of the one-time additional-branch fee; reviewed timed video captions; receiver/deployment configuration verification before release. Publish only within an explicit release request.

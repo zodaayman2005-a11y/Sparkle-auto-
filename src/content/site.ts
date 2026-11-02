@@ -18,8 +18,8 @@ export const hero = {
   last: pair("عشان تكون", "to stay"),
   accent: pair("مسيطر عليها.", "in control."),
   body: pair(
-    "اربط الحجز والتشغيل والفريق والمالية والعملاء والحملات والواتساب، مع الوصول لدعم المنصة من نفس مساحة العمل.",
-    "Connect bookings, operations, workforce, finance, customers, campaigns and WhatsApp, with platform support in the same workspace.",
+    "اربط الحجز والتشغيل والفريق والمالية والعملاء والحملات والواتساب، مع دعم المنصة وحاجات أكتر بكتير، في نفس مساحة العمل.",
+    "Connect bookings, operations, workforce, finance, customers, campaigns, WhatsApp, platform support and much more—all in one workspace.",
   ),
   more: pair(
     "بدل ما تفضل تتصل وتسأل وتجمع تقارير… افتح واعرف إيه اللي بيحصل في مغسلتك، حتى لو إنت بعيد عنها.",
