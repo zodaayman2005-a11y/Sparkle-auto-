@@ -1,0 +1,49 @@
+{
+  "captureDate": "2026-10-31",
+  "language": "ar",
+  "mode": "light",
+  "device": "desktop",
+  "transformation": "none; byte-for-byte copies",
+  "images": [
+    {
+      "name": "whatsapp",
+      "source": "Screenshot 2026-10-31 155458.png",
+      "width": 1279,
+      "height": 603,
+      "bytes": 169179,
+      "sha256": "4f190e48a725750194ac5bea26ff43c05d323de7f7942efc76a7234a5e108eb3"
+    },
+    {
+      "name": "customers",
+      "source": "Screenshot 2026-10-31 140026.png",
+      "width": 1279,
+      "height": 601,
+      "bytes": 137495,
+      "sha256": "6e4789659c62704d82fb2e7b361946ef1a2722c8f6e06037b6515d0c045cf68f"
+    },
+    {
+      "name": "finance",
+      "source": "Screenshot 2026-10-31 135828.png",
+      "width": 1279,
+      "height": 604,
+      "bytes": 137825,
+      "sha256": "192da545705dfc1fae3603e172733331f9976c159632b1ecf0fb45852d111792"
+    },
+    {
+      "name": "workforce",
+      "source": "Screenshot 2026-10-31 134944.png",
+      "width": 1279,
+      "height": 604,
+      "bytes": 134193,
+      "sha256": "ee9e18836dbe8885171a181c97ff6f8a3f43bc08bfeb8347abea6d9b0df4568b"
+    },
+    {
+      "name": "bookings",
+      "source": "Screenshot 2026-10-31 134849.png",
+      "width": 1279,
+      "height": 601,
+      "bytes": 141115,
+      "sha256": "4dd667b2927428e99d03ab2b592169dd6f36591d8893c39d769eb2b0b8927cb0"
+    }
+  ]
+}

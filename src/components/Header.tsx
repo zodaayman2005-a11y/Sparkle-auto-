@@ -48,7 +48,7 @@ export function Header({ locale }: { locale: Locale }) {
               {locale === "ar" ? "EN" : "عربي"}
             </a>
             <a className="button primary header-cta" href="#review">
-              {locale === "ar" ? "احجز مراجعة" : "Book a Review"}
+              {pick(cta, locale)}
             </a>
             <button
               className="icon-button menu-trigger"

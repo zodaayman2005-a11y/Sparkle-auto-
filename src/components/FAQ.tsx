@@ -7,12 +7,13 @@ import { SectionLabel } from "./Primitives";
 
 type ActiveCategory = "all" | FaqCategory;
 
-export function FAQ({ locale }: { locale: Locale }) {
+export function FAQ({ locale, standalone = false }: { locale: Locale; standalone?: boolean }) {
   const ar = locale === "ar";
   const [opened, setOpened] = useState<number | null>(1);
   const [category, setCategory] = useState<ActiveCategory>("all");
   const [query, setQuery] = useState("");
   const results = useRef<HTMLDivElement>(null);
+  const intro = useRef<HTMLDivElement>(null);
   const pendingPosition = useRef<{ button: HTMLButtonElement; top: number } | "results" | null>(null);
 
   // Preserve the clicked question when closing an earlier, taller answer.
@@ -23,7 +24,8 @@ export function FAQ({ locale }: { locale: Locale }) {
     if (!position) return;
     if (position === "results") {
       const top = results.current?.getBoundingClientRect().top;
-      const inset = (document.querySelector(".header-wrap")?.getBoundingClientRect().height ?? 88) + 24;
+      const toolsHeight = matchMedia("(max-width: 980px)").matches ? intro.current?.getBoundingClientRect().height ?? 0 : 0;
+      const inset = (document.querySelector(".header-wrap")?.getBoundingClientRect().height ?? 88) + toolsHeight + 24;
       if (top !== undefined) scrollTo({ top: scrollY + top - inset, behavior: "instant" });
     } else if (position.button.isConnected) {
       const delta = position.button.getBoundingClientRect().top - position.top;
@@ -56,14 +58,14 @@ export function FAQ({ locale }: { locale: Locale }) {
   };
 
   return (
-    <section className="section faq-section" id="faq">
+    <section className={`section faq-section ${standalone ? "faq-standalone" : ""}`} id="faq">
       <div className="shell faq-layout">
-        <div className="faq-intro">
-          <SectionLabel number="10">
+        <div className="faq-intro" ref={intro}>
+          {!standalone && <SectionLabel number="10">
             {ar ? "كل اللي محتاج تعرفه" : "EVERYTHING YOU NEED TO KNOW"}
-          </SectionLabel>
-          <h2>{ar ? "اسأل براحتك. الإجابة هنا." : "Good questions. Clear answers."}</h2>
-          <p>
+          </SectionLabel>}
+          {standalone ? <h1>{ar ? "اسأل براحتك. الإجابة هنا." : "Good questions. Clear answers."}</h1> : <h2>{ar ? "اسأل براحتك. الإجابة هنا." : "Good questions. Clear answers."}</h2>}
+          <p className="faq-description">
             {ar
               ? "اختار الموضوع اللي يهمك أو ابحث بكلمة، وهتلاقي إجابة مباشرة من غير ما تلف في الصفحة."
               : "Choose a topic or search for a phrase to find a direct answer without scanning the whole page."}
@@ -136,7 +138,7 @@ export function FAQ({ locale }: { locale: Locale }) {
             <div className="faq-empty" role="status">
               <strong>{ar ? "ملقيناش السؤال ده." : "We couldn’t find that question."}</strong>
               <p>{ar ? "جرّب كلمة تانية أو اعرض كل الأسئلة." : "Try another phrase or return to all questions."}</p>
-              <button type="button" className="button secondary" onClick={() => { setQuery(""); chooseCategory("all"); }}>
+              <button type="button" className="button secondary" onClick={() => { prepareFilter(); setQuery(""); setCategory("all"); setOpened(null); document.getElementById("faq-search-input")?.focus({ preventScroll: true }); }}>
                 {ar ? "اعرض كل الأسئلة" : "Show all questions"}
               </button>
             </div>

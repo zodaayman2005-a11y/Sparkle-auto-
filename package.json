@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1 --port 3100",
     "build": "next build",
-    "prebuild": "npm run assets:check",
+    "prebuild": "node scripts/check-website-assets.mjs",
     "start": "next start --hostname 127.0.0.1 --port 3100",
     "lint": "eslint src tests",
     "typecheck": "tsc --noEmit",
@@ -13,7 +13,9 @@
     "test:production": "playwright test --grep-invert @development",
     "test:development": "playwright test --grep @development",
     "assets:build": "node scripts/build-assets.mjs",
-    "assets:check": "node scripts/build-assets.mjs --check"
+    "assets:check": "node scripts/check-website-assets.mjs",
+    "assets:legacy:check": "node scripts/build-assets.mjs --check",
+    "test:website-contract": "node scripts/verify-website.mjs"
   },
   "dependencies": {
     "next": "16.3.4",

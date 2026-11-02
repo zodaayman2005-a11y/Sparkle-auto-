@@ -1,0 +1,30 @@
+/* Full-screen navigation keeps the close control visible while links can scroll. */
+.mp .modal.mp-site-menu { inset: 0; margin: 0; width: 100%; max-width: none; height: 100dvh; max-height: 100dvh; padding: 0; border: 0; border-radius: 0; box-shadow: none; overflow: hidden; }
+.mp .modal.mp-site-menu[open] { display: flex; flex-direction: column; }
+.mp-site-menu .modal-head { flex: none; min-height: 76px; margin: 0; padding: max(16px, env(safe-area-inset-top)) 20px 16px; border-bottom: 1px solid var(--mp-line); }
+.mp-site-menu .modal-head strong { font-size: 20px; }
+.mp-menu-content { display: flex; flex-direction: column; flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 20px 20px max(20px, env(safe-area-inset-bottom)); }
+.mp-site-menu .mp-drawer { gap: 4px; margin-bottom: 28px; }
+.mp-site-menu .mp-drawer a { min-height: 60px; flex: none; border: 0; border-radius: 10px; padding: 12px 16px; font-size: 24px; font-weight: 500; }
+.mp-site-menu .mp-drawer a[aria-current] { background: var(--ice); color: var(--dark); font-weight: 700; }
+.mp-site-menu .mp-drawer a:hover { background: var(--pale); }
+.mp-site-menu .mp-menu-book { display: flex; flex: none; justify-content: center; margin-top: auto; min-height: 54px; padding: 12px 14px; font-size: 14px; border-radius: 12px; }
+.mp-menu-language { display: flex; flex: none; align-items: center; justify-content: space-between; gap: 16px; margin-top: 24px; border-top: 1px solid var(--mp-line); padding-top: 12px; }
+.mp-menu-language > span { font-size: 12px; color: var(--dark); }
+.mp-menu-language .drawer-language { min-height: 44px; margin: 0; padding: 8px 10px; border: 0; gap: 10px; font-size: 14px; }
+@media (max-width: 900px) {
+  .mp .mp-header-actions > .mp-locale { display: none; }
+  .mp .mp-header-cta { display: none; }
+  .mp-header { gap: 12px; }
+  .mp-header-actions { gap: 8px; }
+  .mp-menu { flex: none; }
+}
+@media (max-width: 600px) {
+  .mp .mp-header { gap: 8px; }
+  .mp .mp-header-actions { gap: 6px; }
+  .mp .mp-brand img { width: 40px; height: 40px; }
+}
+@media (max-height: 660px) {
+  .mp-site-menu .mp-drawer { margin-bottom: 20px; }
+  .mp-site-menu .mp-drawer a { min-height: 48px; font-size: 20px; padding-block: 8px; }
+}

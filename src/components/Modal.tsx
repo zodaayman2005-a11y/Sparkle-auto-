@@ -5,11 +5,13 @@ export function Modal({
   onClose,
   children,
   kind = "media",
+  hideTitle = false,
 }: {
   label: string;
   onClose: () => void;
   children: ReactNode;
   kind?: string;
+  hideTitle?: boolean;
 }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -38,7 +40,7 @@ export function Modal({
       }}
     >
       <div className="modal-head">
-        <strong>{label}</strong>
+        {!hideTitle && <strong>{label}</strong>}
         <button
           className="icon-button"
           onClick={onClose}

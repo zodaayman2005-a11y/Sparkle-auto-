@@ -1,10 +1,16 @@
 import { pair, type Pair } from "./site";
+import { pricingOptions, pricingTerms } from "./pricing";
+
+const pricingAnswer = pair(
+  pricingOptions.map(p => `${p.title.ar}: ${p.oneTime.toLocaleString("ar-EG")} جنيه للدفع مرة واحدة، مع صيانة ${p.maintenance.toLocaleString("ar-EG")} جنيه شهريًا بعد ${pricingTerms.maintenanceAfterMonths} شهور. أو اشتراك ${p.monthly.toLocaleString("ar-EG")} جنيه شهريًا شامل الصيانة، بحد أدنى ${pricingTerms.minimumSubscriptionMonths} شهر.`).join("\n\n"),
+  pricingOptions.map(p => `${p.title.en}: EGP ${p.oneTime.toLocaleString("en-GB")} pay-once, with EGP ${p.maintenance.toLocaleString("en-GB")} monthly maintenance after ${pricingTerms.maintenanceAfterMonths} months. Alternatively, EGP ${p.monthly.toLocaleString("en-GB")} per month, including maintenance, with a ${pricingTerms.minimumSubscriptionMonths}-month minimum.`).join("\n\n"),
+);
 
 export type FaqCategory = "system" | "value" | "operation" | "fit" | "setup" | "commercial";
 
 export const faqCategories: { id: "all" | FaqCategory; label: Pair }[] = [
   { id: "all", label: pair("كل الأسئلة", "All questions") },
-  { id: "system", label: pair("عن السيستم", "The system") },
+  { id: "system", label: pair("عن المنصة", "The platform") },
   { id: "value", label: pair("القيمة والفرق", "Value") },
   { id: "operation", label: pair("التشغيل اليومي", "Operations") },
   { id: "fit", label: pair("مناسب لمين؟", "Who it fits") },
@@ -15,29 +21,29 @@ export const faqCategories: { id: "all" | FaqCategory; label: Pair }[] = [
 const item = (id: number, category: FaqCategory, question: Pair, answer: Pair) => ({ id, category, question, answer });
 
 const faqItems = [
-  item(1, "system", pair("هل فيه فيديو يشرح سباركل أوتو والسيستم وهو شغال؟", "Is there a video showing Sparkle Auto in action?"), pair(
-    "أيوه. تقدر تشوف فيديو يشرح السيستم بشكل عملي، وتشوف بنفسك إزاي بتتم إدارة التشغيل والحجوزات والعملاء والموظفين والمالية وباقي أجزاء المغسلة من مكان واحد.",
-    "Yes. You can watch a practical walkthrough of the live system and see how bookings, customers, employees, finance and the rest of the car wash operation are managed from one place.",
+  item(1, "system", pair("هل فيه فيديو يشرح سباركل أوتو؟", "Is there a video showing Sparkle Auto?"), pair(
+    "أيوه. صفحة الفيلم بتشرح رحلة تشغيل المغسلة وإزاي أجزاء المنصة بتكمل بعض. وتقدر تشوف لقطات حقيقية للشاشات في صفحة المنصة، وتتواصل معانا عشان نساعدك تبدأ استخدام المنصة على شغلك.",
+    "Yes. The film explains the car wash journey and how the platform connects it. The Platform page shows actual product screens. Tell us about your business so we can help you get started with the platform.",
   )),
-  item(2, "value", pair("إيه الفرق بين سباركل أوتو وبرنامج فواتير أو كاشير عادي؟", "How is Sparkle Auto different from ordinary billing or POS software?"), pair(
-    "سباركل أوتو مش مجرد برنامج فواتير أو سيستم تسجل عليه البيع.\n\nهو نظام متطور معمول مخصوص علشان يطوّر كل طريقة تشغيل المغسلة: تنظيم الحجوزات والمواعيد، متابعة العربيات، توزيع وتنظيم شغل الفريق، العملاء، المالية، المخزون والفروع وغيرهم.\n\nبدل ما كل جزء من المغسلة يتدار لوحده بطريقة مختلفة، سباركل بيجمع التشغيل كله في نظام واحد يخليه أسرع وأوضح ومنظم أكتر.",
-    "Sparkle Auto goes beyond invoicing and recording sales. It is built around the complete car wash workflow: bookings, vehicle progress, team assignments, customers, finance, inventory and branches.\n\nInstead of managing each area through a separate tool or process, Sparkle brings the operation together so work is faster, clearer and more consistent.",
+  item(2, "value", pair("إيه الفرق بين سباركل أوتو وبرنامج حسابات أو كاشير عادي؟", "How is Sparkle Auto different from accounting or POS software?"), pair(
+    "الحسابات جزء من Sparkle Auto، لكن المنصة بتربط شغل المغسلة كله: الحجز والجدول، حالة العربيات ولوحة التشغيل، الفريق والورديات والرواتب والعمولات، الإيرادات والمصروفات والمخزون، والعملاء والحملات والولاء.\n\nوفي نفس مساحة العمل تقدر تتابع واتساب المرتبط بمغسلتك وتوصل لدعم المنصة. الفكرة إن الشغل والناس والفلوس وعلاقة العميل يبقوا متصلين، بدل ما كل جزء يعيش في برنامج لوحده.",
+    "Finance is one part of Sparkle Auto. The platform connects bookings and schedules, vehicle progress and the operations board, staff and shifts, payroll and commissions, revenue and expenses, inventory, and customer relationships, campaigns and loyalty.\n\nYour connected WhatsApp inbox and platform support sit alongside that work. The aim is to connect the operation, people, money and customer experience in one place.",
   )),
-  item(3, "value", pair("ليه أشترك في سباركل أوتو بدل ما أعمل سيستم خاص وأدفع مرة واحدة؟", "Why subscribe instead of building a custom system once?"), pair(
+  item(3, "value", pair("ليه أختار سباركل أوتو بدل ما أعمل سيستم خاص؟", "Why choose Sparkle Auto instead of building a custom system?"), pair(
     "لأن بناء سيستم بنفس حجم وجودة سباركل أوتو مش مجرد تصميم كام شاشة. هتحتاج تحليل وتشغيل وتصميم وبرمجة واختبارات وقاعدة بيانات واستضافة وأمان وصيانة وتحديثات مستمرة، وده معناه تكلفة أولية كبيرة جدًا ووقت تطوير طويل.\n\nوحتى بعد ما السيستم يخلص، هيفضل عندك مصاريف مستمرة للاستضافة وقاعدة البيانات والصيانة وحل المشاكل والتطوير.\n\nمع سباركل أوتو إنت بتبدأ فورًا بنظام تم بناؤه وتطويره بالفعل، وبتستفيد من التحديثات والدعم والتطوير المستمر من غير ما تتحول من صاحب مغسلة لصاحب مشروع برمجي كمان.",
     "A system at Sparkle Auto’s scope is more than a few screens. It requires operational analysis, product design, engineering, testing, databases, hosting, security, maintenance and ongoing updates. That means a large initial investment, a long build and continuing costs after launch.\n\nWith Sparkle Auto, you start with an established product and benefit from support and continuous development without having to run a software project alongside your car wash.",
   )),
-  item(4, "value", pair("ليه أدفع اشتراك في سباركل أوتو؟ إيه القيمة اللي هاخدها فعلًا؟", "What value do I actually get from the subscription?"), pair(
+  item(4, "value", pair("إيه القيمة اللي هاخدها من سباركل أوتو؟", "What value do I actually get from Sparkle Auto?"), pair(
     "الهدف مش إن يبقى عندك «برنامج جديد»؛ الهدف إن طريقة إدارة المغسلة نفسها تبقى أفضل.\n\nبدل ما الحجوزات تبقى في المكالمات والواتساب، والأرقام في دفتر، والمخزون عند موظف، وحالة العربيات محتاجة سؤال… يبقى عندك نظام واحد يربط كل ده ببعضه.\n\nفتعرف شغلك ماشي إزاي، فريقك بيعمل إيه، العربيات وصلت لفين، دخلك ومصروفاتك، عملاءك ومخزونك من غير ما كل معلومة تحتاج مكالمة. القيمة الحقيقية في الوقت والتنظيم والسيطرة على شغلك حتى وإنت مش واقف في المغسلة طول اليوم.",
     "The value is not simply having another piece of software. It is running the car wash better.\n\nBookings, vehicle progress, team activity, income, expenses, customers and inventory sit in one connected system instead of being scattered across calls, WhatsApp, notebooks and individual employees. You save time, gain clarity and stay in control even when you are away from the site.",
   )),
-  item(5, "value", pair("أعرف إزاي إن سباركل أوتو فعلًا مناسب لمغسلتي ويستاهل التكلفة؟", "How do I know Sparkle Auto fits my car wash and is worth the cost?"), pair(
-    "علشان كده عندك 14 يوم تجربة مجانية بدون التزام.\n\nمتتعاملش مع الـ14 يوم على إنهم مجرد حساب مجاني تتفرج عليه. استخدمه على شغلك الحقيقي وتعاون مع فريقنا في التجهيز والتجربة. هنساعدك خلال الفترة دي بدون مقابل علشان تطبق السيستم فعليًا.\n\nبعدها تقدر تحكم بنفسك بمنتهى الوضوح: هل وفرلك وقت؟ هل نظم التشغيل؟ هل خلاك تتابع أفضل؟ وفي النهاية القرار عندك بالكامل.",
-    "That is why you get a 14-day free trial with no commitment. Use it with real operational data rather than treating it as a demo account. Our team will help you set it up and apply it to your actual workflow at no charge during the trial.\n\nBy the end, you can judge it on evidence: did it save time, organise the operation and improve visibility? The decision remains entirely yours.",
+  item(5, "value", pair("أعرف إزاي إن سباركل أوتو مناسب لمغسلتي؟", "How do I know Sparkle Auto fits my car wash?"), pair(
+    "ابدأ بإنك تعرّفنا بطريقة شغلك والمشاكل اللي عايز تحلّها. وللمغاسل الجديدة، فترة التقييم بتساعدك تختبر المنصة على بيانات وتشغيل حقيقي.\n\nراجع النتيجة مع فريقك: هل الحجوزات أوضح؟ متابعة العربيات أسهل؟ الإيرادات والمصروفات والمسؤوليات مرتبطة بالشغل؟ قرارك يبقى مبني على استخدام فعلي.",
+    "Start by telling us about your workflow and the problems you want to solve. For new businesses, the evaluation period lets you try the platform with real data and operations.\n\nReview the result with your team: are bookings clearer, vehicles easier to follow, and money and responsibilities connected to the work? Base the decision on actual use.",
   )),
-  item(6, "system", pair("سباركل أوتو هيفيد مغسلتي إزاي بشكل عملي؟", "How does Sparkle Auto help my car wash in practice?"), pair(
-    "بيجمعلك أهم أجزاء تشغيل المغسلة في مكان واحد: الحجوزات، العربيات، الخدمات، الموظفين والصلاحيات، العملاء، الإيرادات والمصروفات، المخزون والفروع.\n\nبدل ما إدارة المغسلة تبقى موزعة بين واتساب ومكالمات ودفاتر وExcel وأشخاص مختلفين، يبقى عندك نظام واحد واضح.",
-    "It brings the core parts of your operation into one place: bookings, vehicles, services, staff and permissions, customers, revenue, expenses, inventory and branches. Instead of piecing the day together from WhatsApp, calls, notebooks, spreadsheets and different people, you work from one clear system.",
+  item(6, "system", pair("إزاي سباركل أوتو يساعد مغسلتي فعليًا؟", "How does Sparkle Auto help my car wash in practice?"), pair(
+    "بدل ما تجمع صورة اليوم من مكالمات ودفاتر وبرامج منفصلة، Sparkle Auto بيربط الحجوزات والجدول والتشغيل والفريق والمالية والمخزون والعملاء والحملات ومحادثات واتساب في منصة واحدة.\n\nتتابع كل عربية، توزّع المسؤوليات، تراجع الإيراد والمصروف، وتكمّل علاقتك بالعميل بعد الزيارة. وكل شخص بيستخدم الأجزاء المناسبة لصلاحياته، مع الوصول لدعم المنصة من نفس مساحة العمل.",
+    "Sparkle Auto brings bookings, schedules, operations, workforce, finance, inventory, customers, campaigns and WhatsApp conversations into one platform.\n\nFollow each vehicle, assign responsibility, review income and expenses, and keep the customer relationship going after the visit. Each person uses the parts allowed by their permissions, with platform support accessible from the same workspace.",
   )),
   item(7, "setup", pair("لو بدأت معاكم، إزاي هنطبق سباركل أوتو على مغسلتي؟", "How will Sparkle Auto be introduced into my car wash?"), pair(
     "مش هنديك حساب ونقولك اتصرف.\n\nبنبدأ نفهم طريقة تشغيل مغسلتك، وبعدها نجهز الفروع والخدمات والأسعار ومواعيد العمل والموظفين والصلاحيات، ونساعدك تبدأ تستخدم السيستم على شغلك الحقيقي خطوة بخطوة.",
@@ -87,21 +93,18 @@ const faqItems = [
     "أيوه. تقدر تدير الفروع من نفس النظام وتتابع بيانات وتشغيل كل فرع بشكل منفصل، وفي نفس الوقت يبقى عندك رؤية أوضح للمشروع كله.",
     "Yes. You can manage branches from the same system, follow each branch separately and retain a clearer view of the business as a whole.",
   )),
-  item(19, "commercial", pair("أختار أنهي باقة؟", "Which plan should I choose?"), pair(
-    "ده بيعتمد على حجم التشغيل وعدد الفروع والخصائص اللي محتاج تستخدمها.\n\nمش هدفنا نحطك في أغلى باقة؛ الهدف إنك تبدأ بالمستوى اللي يناسب شغلك حاليًا، وتقدر تطوره بعدين مع نمو المشروع.",
-    "It depends on your operating volume, number of branches and the capabilities you need. The aim is to start at the level that fits your business now, then expand as the operation grows—not to push you into the most expensive plan.",
-  )),
-  item(20, "commercial", pair("هل فيه مصاريف إضافية غير الاشتراك؟", "Are there costs beyond the subscription?"), pair(
-    "الاشتراك وخدماته بيبقوا موضحين بشكل واضح.\n\nولو احتجت خدمة إضافية زي تجهيز كامل للسيستم، نقل كمية كبيرة من البيانات، وحدة تشغيل أو فرع إضافي، أو شغل خاص خارج الباقة، التكلفة بتكون واضحة قبل ما تطلب الخدمة.",
-    "Your subscription and included services are stated clearly. If you need an optional service—such as complete setup, substantial data migration, extra operating capacity, another branch or custom work outside the plan—we confirm the cost before you request it.",
+  item(19, "commercial", pair("إيه أسعار سباركل أوتو وطرق الدفع؟", "What does Sparkle Auto cost, and how can I pay?"), pricingAnswer),
+  item(20, "commercial", pair("هل فيه تكاليف إضافية؟", "Are there additional costs?"), pair(
+    "في خيار الدفع مرة واحدة، الصيانة الشهرية بتبدأ بعد 6 شهور. الاشتراك الشهري شامل الصيانة. الفروع الإضافية ليها الرسوم الموضحة في صفحة الأسعار.\n\nأي خدمات إضافية، زي تجهيز أو نقل بيانات أو استخدام خدمات متصلة، بنراجع نطاقها وتكلفتها معاك قبل الاتفاق.",
+    "With pay-once, monthly maintenance starts after six months. The monthly subscription includes maintenance. Additional branches have the fees shown on the Pricing page.\n\nAdditional services such as data setup, migration or connected-service usage need their scope and cost confirmed before agreement.",
   )),
   item(21, "commercial", pair("هل بتاخدوا عمولة على الحجوزات؟", "Do you charge commission on bookings?"), pair(
-    "لا. سباركل أوتو قائم على اشتراك واضح، مش نسبة من كل حجز يدخل لمغسلتك.",
-    "No. Sparkle Auto uses a clear subscription model rather than taking a percentage of every booking.",
+    "لا. التسعير قائم على طريقة الدفع المختارة ورسوم الفروع، مش نسبة من كل حجز يدخل لمغسلتك.",
+    "No. Pricing is based on your selected payment option and branch fees rather than a percentage of each booking.",
   )),
-  item(22, "setup", pair("إيه اللي بيحصل خلال الـ14 يوم تجربة مجانية؟", "What happens during the 14-day free trial?"), pair(
-    "الفكرة مش إننا نفتحلك Account وخلاص.\n\nبنساعدك تجهز البداية، وتدخل بيانات حقيقية، وتجرب السيستم على تشغيل مغسلتك قدر الإمكان، علشان قرارك في آخر التجربة يبقى مبني على تجربة فعلية.",
-    "We do more than open an account. We help you prepare the essentials, enter real data and use the system with your actual operation as far as possible, so your decision at the end is based on experience rather than a sales demonstration.",
+  item(22, "setup", pair("إزاي أستفيد من فترة التقييم؟", "How should I use the evaluation period?"), pair(
+    "جهّز بياناتك الأساسية، وابدأ بحجوزات وزيارات فعلية، وخلّي الفريق يجرّب الأجزاء اللي تخصه. الهدف إنك تقيّم تنظيم التشغيل ومتابعة الفريق والأرقام، مش تتفرج على حساب تجريبي فاضي. تفاصيل التجهيز والدعم بتتراجع معاك في البداية.",
+    "Prepare your essential data, use actual bookings and visits, and let each team member try the parts relevant to their work. Evaluate operations, team visibility and the numbers rather than an empty demo account. Setup and support details are reviewed at the start.",
   )),
   item(23, "setup", pair("لو عندي بيانات على Excel أو برنامج قديم، ينفع أنقلها؟", "Can you move data from Excel or an old system?"), pair(
     "أيوه، حسب شكل وحجم البيانات.\n\nبنراجعها الأول، ولو البيانات كبيرة أو معقدة ممكن تحتاج خدمة Data Migration منفصلة علشان تتنقل بشكل منظم بدل ما نبدأ نقل عشوائي يسبب مشاكل.",
@@ -123,24 +126,29 @@ const faqItems = [
     "Excel والـERP والبرامج العامة أدوات قوية، وكل واحد ليه استخدامه.\n\nالفرق إن سباركل أوتو معمول من الأساس حوالين طريقة تشغيل مشروع العناية بالسيارات، بدل ما تاخد برنامج عام وتحاول تعدّله وتبني عليه Workflow يناسب المغسلة.",
     "Excel and general ERP products are powerful tools with valid uses. Sparkle Auto is different because it starts with the workflow of a vehicle care business, rather than asking you to reshape a general-purpose system around the car wash.",
   )),
-  item(28, "fit", pair("لو فتحت فرع جديد أو كبرت بعدين، هحتاج أغير السيستم؟", "Will I need a different system when I grow or open another branch?"), pair(
-    "لا. الفكرة إن سباركل أوتو يكبر مع المشروع. تقدر تضيف فروع أو وحدات تشغيل حسب الباقة المناسبة بدل ما تبدأ من الصفر كل ما المشروع يتوسع.",
-    "No. Sparkle Auto is designed to grow with the business. You can add branches or operating capacity under the appropriate plan instead of starting again every time the operation expands.",
+  item(28, "fit", pair("لو فتحت فرع جديد، هحتاج أغيّر المنصة؟", "Will I need a different platform when I open another branch?"), pair(
+    "Sparkle Auto بيدعم إدارة الفروع ومتابعة بيانات وتشغيل كل فرع من مكان واحد. بنراجع إعداد الفرع والخدمات والصلاحيات معاك وقت التوسع، علشان يفضل التشغيل متصل بنفس المنصة.",
+    "Sparkle Auto supports managing branches and following each branch’s operation from one place. As you expand, we review branch setup, services and permissions so the operation stays connected within the same platform.",
   )),
-  item(29, "setup", pair("لو حصلت مشكلة، فيه دعم؟", "Is support available when there is a problem?"), pair(
-    "أيوه. فريق سباركل أوتو موجود لمساعدتك في مرحلة التجهيز والاستخدام والمشاكل الفنية المتعلقة بالسيستم.\n\nهدفنا مش إننا نبيعلك الاشتراك ونسيبك؛ نجاح السيستم مرتبط أصلًا بإنك تعرف تستخدمه صح.",
-    "Yes. The Sparkle Auto team supports setup, day-to-day use and technical issues related to the system. Successful adoption depends on your team knowing how to use it well, so support is part of the relationship.",
+  item(29, "setup", pair("هل أقدر أوصل لدعم المنصة من جوّه Sparkle Auto؟", "Can I access platform support inside Sparkle Auto?"), pair(
+    "أيوه، فيه مساحة لدعم المنصة جوّه لوحة التحكم، علشان تتواصل بخصوص الاستخدام أو مشكلة فنية من نفس مكان إدارة شغلك. تقدر تستخدمها للوصول لفريق الدعم، وتتراجع تفاصيل التجهيز والدعم معاك في البداية.",
+    "Yes. The dashboard includes a platform support area so you can get help with using Sparkle Auto or a technical issue from the same workspace. Setup and support arrangements are reviewed with you at the start.",
   )),
-  item(30, "commercial", pair("هل أقدر أشوف وأجرب السيستم قبل ما أدفع؟", "Can I see and try the system before paying?"), pair(
-    "أكيد. تقدر تشوف شرح حقيقي للسيستم، وبعدها عندك 14 يوم تجربة مجانية بدون بطاقة وبدون التزام علشان تجرب سباركل أوتو على شغلك وتقرر بنفسك.",
-    "Absolutely. You can watch a real system walkthrough, then use a 14-day free trial with no card and no commitment to test Sparkle Auto with your operation and decide for yourself.",
+  item(30, "commercial", pair("هل أقدر أشوف وأقيّم المنصة قبل الدفع؟", "Can I see and evaluate the platform before paying?"), pair(
+    `تقدر تشوف الفيلم ولقطات الشاشات الحقيقية، وتتواصل معانا عشان تبدأ. وفيه تجربة مجانية ${pricingTerms.trialDays} يوم لتقييم المنصة على شغل حقيقي، مع مناقشة تفاصيل البداية معاك.`,
+    `You can watch the film, explore actual product screens and contact us to get started. A ${pricingTerms.trialDays}-day free trial lets you evaluate the platform with real operations, with onboarding details discussed together.`,
+  )),
+
+  item(31, "operation", pair("إزاي واتساب بيشتغل جوّه المنصة؟", "How does WhatsApp work inside the platform?"), pair(
+    "بعد تجهيز وربط رقم واتساب الخاص بمغسلتك وتفعيل الخدمة، رسائل العملاء بتظهر في صندوق المحادثات داخل Sparkle Auto. تقدر تتابع المحادثة وترد وفق الصلاحيات وقواعد الخدمة، وتشوف معاينة آخر رسالة وتوقيتها.\n\nده مش معناه إن كل الرسائل التلقائية شغالة تلقائيًا؛ الربط والتفعيل وإعدادات الرسائل وشروط الإرسال بتتراجع بشكل منفصل.",
+    "Once your business WhatsApp number is connected and the service is activated, customer messages appear in Sparkle Auto’s inbox. Your team can follow conversations and reply according to permissions and service rules, with the latest-message preview and time visible in the list.\n\nThis does not mean every automation is active by default. Connection, activation, message settings and sending requirements are reviewed separately.",
   )),
 ];
 
 // Ordered by the buyer's decision journey: understand the product, see its value,
 // assess daily use and adoption, then review setup, commercial terms and edge cases.
 const faqPriority = [
-  6, 1, 2, 12, 30, 5, 22, 25, 10, 8,
+  6, 1, 2, 31, 12, 30, 5, 22, 25, 10, 8,
   9, 17, 26, 4, 3, 27, 24, 11, 18, 28,
   7, 23, 29, 19, 20, 21, 16, 13, 14, 15,
 ];

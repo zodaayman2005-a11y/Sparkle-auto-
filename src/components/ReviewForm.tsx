@@ -1,10 +1,11 @@
 "use client";
 import { useState, useRef, useEffect, type FormEvent } from "react";
 import { SectionLabel } from "./Primitives";
+import { FormSelect } from "./FormSelect";
 import { reviewFieldError, normalizeDigits } from "@/content/validation";
 import { formFields, problems } from "@/content/commercial";
 import { pick, cta, type Locale } from "@/content/site";
-export function ReviewForm({ locale }: { locale: Locale }) {
+export function ReviewForm({ locale, compact = false }: { locale: Locale; compact?: boolean }) {
   const ar = locale === "ar";
   const [step, setStep] = useState(0);
   const [values, setValues] = useState<Record<string, string>>({});
@@ -89,15 +90,15 @@ export function ReviewForm({ locale }: { locale: Locale }) {
     <section className="section review-section" id="review">
       <div className="shell review-layout">
         <div className="review-intro">
-          <SectionLabel number="11">
+          {!compact && <SectionLabel number="05">
             {ar ? "نبدأ من تشغيلك" : "LET’S START WITH YOUR OPERATION"}
-          </SectionLabel>
-          <h2>{ar ? "خلّينا نرتّب الخطوة الجاية لمغسلتك." : "Let’s plan your car wash’s next step."}</h2>
-          <p>
+          </SectionLabel>}
+          {!compact && <h2>{ar ? "خلّينا نرتّب الخطوة الجاية لمغسلتك." : "Let’s plan your car wash’s next step."}</h2>}
+          {!compact && <p>
             {ar
               ? "عرّفنا بيك وبطريقة شغلك، علشان نراجع احتياج مغسلتك مع بعض ونوضح إزاي Sparkle Auto ممكن يساعدك."
               : "Tell us about your business so we can review your needs together and explore how Sparkle Auto could help."}
-          </p>
+          </p>}
           <div className="review-path">
             <div>
               <span>01</span>
@@ -128,8 +129,8 @@ export function ReviewForm({ locale }: { locale: Locale }) {
               </h3>
               <p>
                 {ar
-                  ? "هنراجع المعلومات اللي بعتها ونتواصل معاك عشان نحدد مراجعة تشغيل مناسبة لمغسلتك."
-                  : "We will review the information you sent and contact you to arrange an operations review that fits your car wash."}
+                  ? "هنتواصل معاك عشان نساعدك تبدأ مع سباركل أوتو ونرتّب إعداد المنصة لشغلك."
+                  : "We’ll contact you to help you get started with Sparkle Auto and discuss the setup for your business."}
               </p>
             </div>
           ) : (
@@ -196,34 +197,27 @@ export function ReviewForm({ locale }: { locale: Locale }) {
                 ))}
                 {step === 1 && (
                   <div className="field field-wide">
-                    <label htmlFor="field-problem">
+                    <label htmlFor="field-problem" id="field-problem-label">
                       {ar ? "أكتر مشكلة محتاج تحلها" : "Main problem to solve"}{" "}
                       *
                     </label>
-                    <select
+                    <FormSelect
                       id="field-problem"
                       name="problem"
+                      labelId="field-problem-label"
+                      placeholder={ar ? "اختار المشكلة الأقرب" : "Choose the closest match"}
+                      options={problems.map((problem, index) => ({ value: String(index), label: pick(problem, locale) }))}
                       value={values.problem || ""}
-                      onChange={(e) =>
-                        setValues({ ...values, problem: e.target.value })
-                      }
-                      required
-                      aria-invalid={!!errors.problem}
-                      aria-describedby={
-                        errors.problem ? "error-problem" : undefined
-                      }
-                    >
-                      <option value="">
-                        {ar
-                          ? "اختار المشكلة الأقرب"
-                          : "Choose the closest match"}
-                      </option>
-                      {problems.map((p, i) => (
-                        <option value={String(i)} key={i}>
-                          {pick(p, locale)}
-                        </option>
-                      ))}
-                    </select>
+                      onChange={(problem) => {
+                        setValues({ ...values, problem });
+                        setErrors(current => {
+                          const next = { ...current };
+                          delete next.problem;
+                          return next;
+                        });
+                      }}
+                      errorId={errors.problem ? "error-problem" : undefined}
+                    />
                     {errors.problem && (
                       <p className="field-error" id="error-problem">
                         {errors.problem}
@@ -275,7 +269,6 @@ export function ReviewForm({ locale }: { locale: Locale }) {
                         ? "نكمل عن التشغيل"
                         : "Continue"
                       : pick(cta, locale)}
-                  
                 </button>
               </div>
               {(status === "error" || status === "unconfigured") && (

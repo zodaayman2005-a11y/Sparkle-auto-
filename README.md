@@ -1,5 +1,23 @@
 # Sparkle Auto landing page
 
+## Current six-page review — updated 2 November 2026
+
+The owner-approved primary label is now **Get Started / ابدأ الآن**, replacing all review/demo booking wording. Desktop retains its header action. Mobile shows the header action in the menu only. The owner subsequently restored the homepage hero action on both devices. End-of-page actions remain; footer navigation does not repeat the form link. Both pricing cards also use the central Get Started label beneath their prices. The existing contact form collects details for follow-up and setup; it does not create an account automatically.
+
+The active site now has six pages in each locale: home (`/`), platform (`/platform`), the supplied film (`/film`), subscription (`/subscription`), FAQs (`/faq`) and contact (`/contact`). English uses the corresponding `/en` paths. The FAQ page preserves the owner's requested detailed answers with persistent search/categories. Product screenshots open in a borderless full-screen viewer: Close/Escape, direct image zoom and native panning replace the former title and mode toolbar. The October user direction supersedes the previous long single-page narrative described below. No deployment was performed.
+
+The product is presented as a connected platform for management, operations and growth. Owner-confirmed car-wash and PPF pricing is maintained in `src/content/pricing.ts`, including pay-once/installments, monthly subscription, maintenance, branch fees and a 14-day free trial. The monthly subscription includes maintenance; pay-once maintenance starts after six months. PPF installments are explicitly confirmed as 3 × EGP 3,334 (EGP 10,002 total). Do not restore the historical three-tier prices or add-ons. Source image: `docs/references/owner-pricing-2026-11-01.jpg`.
+
+The pricing page switches between pay-once and monthly terms, with larger prices and a concise list of included platform capabilities in both business cards. The owner explicitly confirmed that the first six months of maintenance are free with purchase; monthly subscriptions include maintenance throughout the subscription. The original “Not sure the system fits?” 14-day trial invitation remains below the prices. The mobile menu now covers the full screen, with plain page links, a booking action and language selection at the bottom. Page-name eyebrows and their decorative squares are removed; pricing FAQ disclosures use consistent plus/minus controls. Monthly applicability of the one-time additional-branch fee is awaiting owner clarification; the local review retains the existing source-table charges. Confirm that detail before release.
+
+The supplied 9:52 Arabic film uses a complete 16:9 frame, a custom play cover, native playback/fullscreen controls after starting, opt-in loading and topic shortcuts. Why Sparkle combines its intro, three short points and booking action beside the player on laptops, then stacks them on phones. Its 720p web derivative is 64,536,476 bytes. The source file and poster are retained unchanged. No reviewed timed caption file was supplied. Header booking actions and Platform screenshot previews use the same dark-shadow press interaction as Home cards. The 14-day invitation uses the owner's preferred blue banner, large 14 and white booking button.
+
+`npm run build` checks only assets used by the new site, then builds. `npm run test:website-contract` checks the running local server. The default Playwright suite is now `tests/website.spec.ts`; the retained older specs describe the superseded scroll page. The new Playwright suite was collected, not executed in this chat; direct browser QA and HTTP contract checks are recorded in `docs/WEBSITE-REFRESH-2026-10-31.md`.
+
+The existing review receiver contract remains unchanged. Local delivery is unconfigured; a receipt is never shown without a confirmed successful receiver response. Deployment configuration must be verified separately.
+
+## Previous single-page implementation reference
+
 Arabic-first Next.js 16.3.4 / React 19.2.8 site with an independently composed English route. The project owner approved the complete Arabic and English website content on 13 September 2026. Public metadata is enabled for the confirmed production origin. Live lead delivery remains a separate technical dependency.
 
 ## Run and verify
@@ -49,6 +67,14 @@ When a receiver is available, copy `.env.example` to `.env.local` and set `OPERA
 `SITE_URL` can override the confirmed production origin. Without it, metadata and canonical links use `https://sparkle-auto-landing.vercel.app`.
 
 ## Current evidence
+
+The independent phone redesign was undone at the owner's request. The earlier
+responsive layouts and shared platform sections are restored. See
+`docs/WEBSITE-REFRESH-2026-10-31.md` for current implementation and actual QA evidence.
+The demo form refinement was reverted after the owner clarified that they meant
+the Platform page. Platform now has consistent screenshot cards, phone layouts
+and section shortcuts at the top; the demo page retains its earlier layout.
+Only the main site header stays fixed while reading Platform.
 
 - [Implementation and direction](artifacts/release-hardening/IMPLEMENTATION-MAP.md)
 - [Asset manifest](artifacts/release-hardening/ASSET-MANIFEST.json)

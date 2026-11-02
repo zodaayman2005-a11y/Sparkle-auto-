@@ -15,9 +15,15 @@ import "../styles/faq-enhanced.css";
 import "../styles/review.css";
 import "../styles/header.css";
 import "../styles/footer.css";
+import "../styles/website.css";
+import "../styles/platform-page.css";
+import "../styles/film-page.css";
+import "../styles/home-overview.css";
+import "../styles/pricing-options.css";
+import "../styles/mobile-site-menu.css";
 export const metadata: Metadata = {
-  title: "Sparkle Auto | نظام إدارة مغاسل السيارات",
-  description: "Sparkle Auto · Your car wash, in your pocket.",
+  title: "Sparkle Auto | منصة إدارة وتشغيل ونمو المغاسل",
+  description: "Sparkle Auto · Management, operations and growth in one platform.",
   robots: { index: true, follow: true },
 };
 export default async function Layout({

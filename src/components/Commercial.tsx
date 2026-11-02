@@ -126,7 +126,7 @@ export function Commercial({ locale }: { locale: Locale }) {
               </p>
             </div>
             <a className="button secondary" href="#review">
-              {ar ? "احجز مراجعة الأول" : "Book a Review First"}
+              {pick(cta, locale)}
               
             </a>
           </div>

@@ -1,52 +1,60 @@
-import { hero, pick, cta, type Locale } from "@/content/site";
+import { hero, pick, type Locale } from "@/content/site";
 import Image from "next/image";
 import heroMedia from "@/content/hero-media.json";
+import type { ReactNode } from "react";
+import { pageUrl, websiteTitles } from "@/content/website";
 export function Hero({
   locale,
   variant = "a",
   onReview,
+  headline,
+  compact = false,
+  showPrimaryCta = true,
 }: {
   locale: Locale;
   variant?: "a" | "b";
   onReview?: () => void;
+  headline?: ReactNode;
+  compact?: boolean;
+  showPrimaryCta?: boolean;
 }) {
   return (
     <section className={`hero hero-${variant} hero-background`} aria-labelledby="hero-title">
       <div className="hero-grid">
         <div className="hero-copy">
           <h1 id="hero-title">
+            {headline ?? <>
             <span>{pick(hero.first, locale)}</span>{" "}
             <span>{pick(hero.mid, locale)}</span>{" "}
             <span>
               {pick(hero.last, locale)} <span>{pick(hero.accent, locale)}</span>
             </span>
+            </>}
           </h1>
           <p className="hero-body">{pick(hero.body, locale)}</p>
-          <p className="hero-more">{pick(hero.more, locale)}</p>
+          {!compact && <p className="hero-more">{pick(hero.more, locale)}</p>}
           <div className="cta-row">
-            {onReview ? (
+            {showPrimaryCta && (onReview ? (
               <button className="button primary" onClick={onReview}>
-                {pick(cta, locale)}
+                {pick(hero.primaryCta, locale)}
                 
               </button>
             ) : (
-              <a className="button primary" href="#review">
-                {pick(cta, locale)}
+              <a className="button primary" href={pageUrl("contact", locale)}>
+                {pick(hero.primaryCta, locale)}
                 
               </a>
-            )}
-            <a className="button hero-secondary" href="#showcase">
+            ))}
+            <a className="button hero-secondary" href={pageUrl("film", locale)}>
               <span className="hero-play-icon" aria-hidden="true">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
               </span>
               <span>
-              {locale === "ar"
-                ? "شوف السيستم وهو شغال"
-                : "See the System in Action"}
+              {pick(websiteTitles.film, locale)}
               </span>
             </a>
           </div>
-          <p className="reassurance">{pick(hero.reassurance, locale)}</p>
+          {!compact && <p className="reassurance">{pick(hero.reassurance, locale)}</p>}
         </div>
         <div className="hero-stage hero-owner-stage" id="hero-proof" aria-hidden="true">
           <div className="hero-art-layer">
@@ -56,6 +64,7 @@ export function Hero({
               src={locale === "en" ? "/hero/hero-en-original.png" : "/hero/hero-ar-original.png"}
               alt=""
               fill
+              unoptimized
               preload
               sizes="(max-width: 480px) 480px, 100vw"
               placeholder="blur"

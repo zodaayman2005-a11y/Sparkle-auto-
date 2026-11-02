@@ -4,9 +4,10 @@ export const pair = (ar: string, en: string): Pair => ({ ar, en });
 export const pick = (value: Pair, locale: Locale) => value[locale];
 export const sourceStatus = "user_approved" as const;
 export const hero = {
+  primaryCta: pair("ابدأ الآن", "Get Started"),
   eyebrow: pair(
-    "نظام إدارة متكامل لمغاسل السيارات",
-    "An integrated management system for car washes",
+    "منصة لإدارة وتشغيل ونمو مغسلتك",
+    "One platform for car wash operations and growth",
   ),
   title: pair(
     "مش لازم تفضل في المغسلة عشان تكون مسيطر عليها.",
@@ -17,19 +18,19 @@ export const hero = {
   last: pair("عشان تكون", "to stay"),
   accent: pair("مسيطر عليها.", "in control."),
   body: pair(
-    "Sparkle Auto بيجمع تشغيل مغسلتك في مكان واحد: الحجوزات، حالة كل عربية، الفريق، المخزون، الإيرادات، والعملاء.",
-    "Sparkle Auto brings your operation into one place: bookings, vehicle status, your team, inventory, revenue and customers.",
+    "اربط الحجز والتشغيل والفريق والمالية والعملاء والحملات والواتساب، مع الوصول لدعم المنصة من نفس مساحة العمل.",
+    "Connect bookings, operations, workforce, finance, customers, campaigns and WhatsApp, with platform support in the same workspace.",
   ),
   more: pair(
     "بدل ما تفضل تتصل وتسأل وتجمع تقارير… افتح واعرف إيه اللي بيحصل في مغسلتك، حتى لو إنت بعيد عنها.",
     "Instead of calling around and piecing reports together, see what is happening at your car wash—even when you are away.",
   ),
   reassurance: pair(
-    "مراجعة قصيرة نفهم فيها طريقة شغلك، ونقولك بصراحة هل Sparkle Auto مناسب لمغسلتك ولا لأ.",
-    "A short review to understand how you work and tell you honestly whether Sparkle Auto fits your car wash.",
+    "عرّفنا بشغلك، وهنساعدك تبدأ مع سباركل أوتو.",
+    "Tell us about your business. We’ll help you get started with Sparkle Auto.",
   ),
 };
-export const cta = pair("احجز مراجعة تشغيل", "Book an Operations Review");
+export const cta = hero.primaryCta;
 export const nav = [
   { id: "system", label: pair("سباركل أوتو", "Sparkle Auto") },
   { id: "fit", label: pair("لمين؟", "Who It’s For") },
@@ -38,7 +39,7 @@ export const nav = [
   { id: "setup", label: pair("التجهيز", "Setup") },
   { id: "pricing", label: pair("الأسعار", "Pricing") },
   { id: "faq", label: pair("الأسئلة", "FAQs") },
-  { id: "review", label: pair("احجز", "Book") },
+  { id: "review", label: cta },
 ];
 export const painQuestions = [
   pair("العربية دي خلصت ولا لسه؟", "Is this car finished yet?"),

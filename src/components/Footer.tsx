@@ -1,5 +1,5 @@
 import { Brand } from "./Primitives";
-import { nav, pick, type Locale } from "@/content/site";
+import { nav, pick, cta, type Locale } from "@/content/site";
 
 export function Footer({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
@@ -26,7 +26,7 @@ export function Footer({ locale }: { locale: Locale }) {
           </nav>
         </div>
         <div className="footer-actions">
-          <a className="button primary" href="#review">{ar ? "احجز مراجعة تشغيل" : "Book an Operations Review"}</a>
+          <a className="button primary" href="#review">{pick(cta, locale)}</a>
           <a className="footer-top" href="#main">{ar ? "الرجوع للأعلى" : "Back to top"}<span aria-hidden="true">↑</span></a>
         </div>
         <div className="footer-meta">

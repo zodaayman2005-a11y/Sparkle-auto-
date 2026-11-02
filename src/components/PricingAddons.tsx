@@ -28,7 +28,7 @@ export function PricingAddons({ locale }: { locale: Locale }) {
         ))}
       </div>
       <div className="addons-footer">
-        <p>{ar ? "نحدد معاك الإضافات المناسبة أثناء مراجعة التشغيل." : "We’ll help you choose the right add-ons during your Operations Review."}</p>
+        <p>{ar ? "هنساعدك تختار الإضافات المناسبة وقت البداية." : "We’ll help you choose any relevant add-ons when you get started."}</p>
         <a className="button secondary" href="#review">{ar ? "ناقش احتياجاتك معانا" : "Discuss your needs"}</a>
       </div>
     </section>

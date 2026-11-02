@@ -1,0 +1,55 @@
+/* Homepage capability overview; no changes to other page layouts. */
+.mp-overview { background: linear-gradient(180deg,#f2faff 0%,#eaf6ff 100%); padding-block: 64px 46px; }
+.mp-overview-heading { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-bottom: 32px; }
+.mp-overview-heading .mp-eyebrow { margin-bottom: 18px; }
+.mp .mp-overview-heading h2 { font-size: clamp(32px,3.2vw,46px); margin: 0; }
+.mp-overview-heading h2 > span { color: #0967b1; }
+.mp .mp-overview-intro { margin-top: 18px; font-size: 14px; line-height: 1.8; max-width: 570px; }
+.mp-overview-all { display: flex; align-items: center; justify-content: center; text-align: center; min-height: 50px; padding: 12px 18px; border-radius: 12px; background: white; font-size: 12px; font-weight: 700; flex: none; }
+.mp-overview-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 16px; }
+.mp-overview-card { display: flex; flex-direction: column; min-width: 0; padding: 22px; border-radius: 20px; background: white; }
+.mp-overview-card, .mp-overview-all { border: var(--border); box-shadow: var(--shadow-md); transition: transform 160ms,box-shadow 160ms; }
+.mp-overview-card-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 22px; }
+.mp-overview-icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 15px; background: var(--ice); color: #0967b1; flex: none; }
+.mp-overview-index { font: 500 11px "Space Grotesk",sans-serif; color: var(--muted); }
+.mp .mp-overview-card h3 { font-size: 20px; margin: 0 0 12px; min-height: 50px; }
+.mp .mp-overview-card p { font-size: 13px; line-height: 1.85; margin: 0; color: var(--dark); }
+.mp-overview-card-open { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: auto; padding-top: 24px; font-size: 11px; font-weight: 700; }
+.mp-overview-card:hover, .mp-overview-all:hover { transform: translate(3px,3px); box-shadow: 2px 2px 0 var(--navy); }
+.mp-overview-card:active, .mp-overview-all:active { transform: translate(4px,4px); box-shadow: 1px 1px 0 var(--navy); }
+.mp-overview-all:hover { background: var(--ice); }
+.mp-overview-card:focus-visible, .mp-overview-all:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+.mp-overview-bottom { display: flex; align-items: start; justify-content: space-between; gap: 20px 40px; margin-top: 26px; padding-top: 22px; border-top: 1px solid #b6ccdf; }
+.mp .mp-overview-bottom p { display: flex; align-items: start; gap: 9px; font-size: 12px; font-weight: 500; line-height: 1.8; }
+.mp-overview-connection { width: 8px; height: 8px; border-radius: 50%; background: #0967b1; flex: none; margin-top: 7px; }
+.mp-overview-bottom > span { max-width: 360px; font-size: 11px; color: var(--dark); line-height: 1.8; }
+@media (min-width: 901px) and (max-width: 1100px) {
+  .mp-overview-grid { gap: 12px; }
+  .mp-overview-card { padding: 18px; }
+  .mp .mp-overview-card h3 { font-size: 18px; }
+}
+@media (max-width: 900px) {
+  .mp-overview-heading { align-items: start; flex-direction: column; gap: 22px; }
+  .mp-overview-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .mp-overview-bottom { flex-direction: column; gap: 12px; }
+}
+@media (max-width: 600px) {
+  .mp-overview { padding-block: 38px 32px; }
+  .mp-overview-heading { margin-bottom: 24px; gap: 18px; }
+  .mp .mp-overview-heading h2 { font-size: clamp(28px,7.2vw,34px); }
+  .mp-overview-heading .mp-eyebrow { font-size: 9px; margin-bottom: 16px; }
+  .mp .mp-overview-intro { font-size: 13px; margin-top: 14px; }
+  .mp-overview-all { width: 100%; min-height: 48px; font-size: 12px; }
+  .mp-overview-grid { grid-template-columns: 1fr; gap: 12px; }
+  .mp-overview-card { display: grid; grid-template-columns: 40px minmax(0,1fr); align-items: start; gap: 12px; padding: 18px 14px; border-radius: 16px; }
+  .mp-overview-card-top { margin: 0; }
+  .mp-overview-icon { width: 40px; height: 40px; border-radius: 12px; }
+  .mp-overview-icon svg { width: 22px; height: 22px; }
+  .mp-overview-index { display: none; }
+  .mp .mp-overview-card h3 { font-size: 17px; min-height: 0; margin-bottom: 8px; }
+  .mp .mp-overview-card p { font-size: 12px; line-height: 1.85; }
+  .mp-overview-card-open { display: none; }
+  .mp-overview-bottom { margin-top: 24px; padding-top: 20px; }
+  .mp .mp-overview-bottom p, .mp-overview-bottom > span { font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { .mp-overview-card, .mp-overview-all { transition: none; } }
