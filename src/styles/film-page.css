@@ -1,15 +1,25 @@
 /* A complete 16:9 film frame with native playback and fullscreen controls. */
-.mp-film-layout { display: grid; grid-template-columns: minmax(0,.72fr) minmax(0,1.28fr); grid-template-rows: auto 1fr; align-items: start; gap: 24px 40px; padding-block: 36px; }
-.mp-film .mp-page-intro { grid-column: 1; grid-row: 1; width: 100%; padding: 0; margin: 0; }
-.mp-film .mp-page-intro h1 { font-size: clamp(36px,3.2vw,46px); }
-.mp-film .mp-page-intro > p:last-child { margin-top: 14px; max-width: 800px; font-size: 14px; }
-.mp-cinema { grid-column: 2; grid-row: 1 / span 2; width: 100%; max-width: none; min-width: 0; padding: 0; }
-.mp-film .mp-film-summary { grid-column: 1; grid-row: 2; display: grid; grid-template-columns: 1fr; gap: 8px; padding: 0; }
-.mp-film .mp-film-summary > div { display: grid; grid-template-columns: 24px minmax(0,1fr); gap: 6px 12px; padding-block: 14px; border-top: 1px solid var(--mp-line); }
-.mp-film .mp-film-summary .mp-code { grid-column: 1; grid-row: 1 / span 2; padding-top: 3px; font-size: 10px; }
-.mp-film .mp-film-summary h2 { grid-column: 2; margin: 0; font-size: 18px; }
-.mp-film .mp-film-summary p { grid-column: 2; font-size: 12px; }
-.mp-film-summary > .button { justify-self: start; min-height: 50px; margin-top: 8px; font-size: 12px; }
+.mp-film main { background:var(--pale); }
+.mp-film-layout { padding-block:32px 40px; }
+.mp-film-intro { display:flex; align-items:center; justify-content:space-between; gap:28px; margin-bottom:26px; }
+.mp .mp-film-intro h1 { font-size:clamp(44px,5vw,68px); letter-spacing:-.05em; }
+.mp-film-intro h1 span { color:#0967b1; }
+.mp[lang="ar"] .mp-film-intro h1 { letter-spacing:0; }
+.mp .mp-film-intro p { max-width:390px; margin:0; font-size:14px; line-height:1.85; }
+.mp-cinema { width:min(100%,960px,calc((100svh - 270px) * 16 / 9)); margin-inline:auto; min-width:0; padding:0; }
+.mp-film .mp-film-summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; padding:26px 0 0; margin-top:28px; border-top:1px solid var(--mp-line); }
+.mp-film .mp-film-summary > div { display:grid; grid-template-columns:28px minmax(0,1fr); gap:6px 12px; }
+.mp-film .mp-film-summary .mp-code { grid-column:1; grid-row:1 / span 2; padding-top:2px; font-size:11px; color:#0967b1; }
+.mp-film .mp-film-summary h2 { grid-column:2; margin:0; font-size:19px; }
+.mp-film .mp-film-summary p { grid-column:2; font-size:12px; }
+.mp-film .mp-film-meta { margin-block:14px 18px; }
+.mp-film .mp-chapters { display:flex; gap:10px; overflow-x:auto; padding:2px 5px 7px 0; border:0; scrollbar-width:none; }
+.mp-film .mp-chapters::-webkit-scrollbar { display:none; }
+.mp-film .mp-chapters button { flex:1; min-width:0; gap:5px; padding:12px; min-height:76px; border:1px solid var(--navy); border-radius:12px; background:white; box-shadow:3px 3px 0 var(--navy); font-size:11px; transition:transform 160ms,box-shadow 160ms; }
+.mp-film .mp-chapters button span { color:#0967b1; font-size:12px; font-weight:700; }
+.mp-film .mp-chapters button:hover { background:var(--ice); transform:translate(2px,2px); box-shadow:1px 1px 0 var(--navy); }
+.mp-film .mp-chapters button:active { transform:translate(3px,3px); box-shadow:none; }
+.mp-film .mp-chapters button:focus-visible { outline:2px solid var(--blue); outline-offset:-5px; }
 .mp-film-stage { position: relative; aspect-ratio: 16/9; width: 100%; border: var(--border); border-radius: 18px; background: var(--navy); box-shadow: var(--shadow-md); overflow: hidden; }
 .mp-film-stage video { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; background: var(--navy); }
 .mp-film-start { position: absolute; inset: 0; display: grid; place-items: center; width: 100%; height: 100%; border: 0; padding: 0; background: transparent; color: var(--navy); cursor: pointer; }
@@ -20,12 +30,19 @@
 .mp-film-start:active .mp-film-play { transform: translate(4px,4px); box-shadow: 1px 1px 0 var(--navy); }
 .mp-film-start-caption { position: absolute; bottom: 16px; padding: 8px 14px; border-radius: 8px; background: var(--navy); color: white; font: 500 12px/1.7 "Space Grotesk",Alexandria,sans-serif; }
 @media (max-width: 900px) {
-  .mp-film-layout { display: flex; flex-direction: column; gap: 22px; padding-block: 26px; }
-  .mp-film .mp-film-summary { width: 100%; }
+  .mp-film-intro { align-items:start; }
+  .mp .mp-film-intro p { max-width:340px; }
 }
 @media (max-width: 600px) {
-  .mp-film .mp-page-intro h1 { font-size: 36px; }
-  .mp-film .mp-page-intro > p:last-child { font-size: 13px; }
+  .mp-film-layout { padding-block:26px 30px; }
+  .mp-film-intro { flex-direction:column; gap:12px; margin-bottom:22px; }
+  .mp .mp-film-intro h1 { font-size:44px; }
+  .mp .mp-film-intro p { font-size:13px; max-width:none; }
+  .mp-cinema { width:100%; }
+  .mp-film .mp-chapters { margin-inline-end:-4px; padding-bottom:8px; }
+  .mp-film .mp-chapters button { flex:0 0 142px; flex-direction:column; align-items:start; gap:5px; min-height:78px; font-size:11px; border:1px solid var(--navy); padding:12px; }
+  .mp-film .mp-film-summary { grid-template-columns:1fr; gap:18px; margin-top:20px; padding-top:22px; }
+  .mp-film .mp-film-summary > div + div { border-top:1px solid var(--mp-line); padding-top:18px; }
   .mp-film-stage { border-radius: 14px; }
   .mp-film-play { width: 64px; height: 64px; }
   .mp-film-start-caption { bottom: 10px; padding: 6px 10px; font-size: 11px; }
@@ -34,4 +51,4 @@
   .mp-film-play { width: 48px; height: 48px; }
   .mp-film-start-caption { bottom: 8px; padding: 4px 10px; font-size: 10px; }
 }
-@media (prefers-reduced-motion: reduce) { .mp-film-play { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .mp-film-play, .mp-film .mp-chapters button { transition: none; } }

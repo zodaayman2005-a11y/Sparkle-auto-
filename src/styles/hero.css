@@ -31,6 +31,23 @@
  .site[lang="en"] .hero-backdrop { object-position:right bottom; }
  .hero-owner-stage { position:relative; aspect-ratio:16/9; min-height:270px; width:calc(100% + 48px); align-self:center; }
 }
+/* The phone hero is one continuous scene, with the copy over the quiet floor. */
+@media (max-width:767px) {
+ .mp.mp-home .hero { background:var(--white); }
+ .mp.mp-home .hero-grid { display:block; position:relative; min-height:0; padding-block:30px 28px; }
+ .mp.mp-home .hero-copy { position:relative; z-index:1; background:transparent; padding:0; }
+ .mp.mp-home .hero h1 { margin-block-end:clamp(190px,57vw,280px); }
+ .mp.mp-home[lang="en"] .hero h1 { font-size:clamp(34px,10vw,42px); line-height:1.14; }
+ .mp.mp-home[lang="ar"] .hero h1 { font-size:clamp(30px,8.4vw,36px); line-height:1.43; letter-spacing:0; }
+ .mp.mp-home .hero h1 > .mp-hero-platform { font-size:1.13em; line-height:1.2; }
+ .mp.mp-home .hero-body { font-size:14px; line-height:1.85; max-width:none; }
+ .mp.mp-home .hero-owner-stage { position:absolute; inset:0; z-index:0; width:100%; height:100%; min-height:0; aspect-ratio:auto; margin:0; pointer-events:none; }
+ .mp.mp-home .hero-art-layer { z-index:0; inset:auto; top:clamp(163px,calc(44vw + 18px),208px); right:-70px; width:calc(100% + 160px); height:auto; aspect-ratio:6688 / 3764; mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 76%,transparent); }
+ .mp.mp-home[lang="ar"] .hero-art-layer { right:auto; left:-70px; top:clamp(175px,50vw,215px); }
+ .mp.mp-home .hero-backdrop { object-fit:contain; object-position:center; }
+ .mp.mp-home .hero .cta-row { margin-top:20px; gap:12px; }
+ .mp.mp-home .hero .button { min-height:50px; }
+}
 @media(max-width:767px) {
  .hero { padding-inline:20px; }
  .hero-grid { padding-block:36px 24px; gap:20px; }

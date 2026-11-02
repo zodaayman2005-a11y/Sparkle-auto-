@@ -747,6 +747,45 @@ Production build with TypeScript passed; ten browser layouts (320/390/768/1280/
 1440px, both locales) confirmed the 24px gap and no horizontal overflow. Desktop
 and phone Arabic views were inspected. Local preview only; no deployment.
 
+## Production release and subsequent visual refinement — 2 November 2026
+
+At the owner's explicit push request, commit 6ab0ee7 was pushed to main and the
+refresh branch. The existing Vercel project was connected to its verified repository
+with main as the production branch. Production deployment
+dpl_HtbtMj7vsv3hcu6uqjGS5ZzxP195 reached READY in 52 seconds at the existing domain.
+All 33 live HTTP checks passed, alongside live pricing and Arabic spacing checks.
+The project had no environment variables; form delivery remains unconfigured and
+was reported to the owner. No real lead was submitted. The release receipt is in
+task outputs. Connector deployment permissions failed; the authenticated Vercel
+dashboard supplied the actual project, repository and deployment evidence.
+
+The owner's subsequent request improves Why Sparkle and the phone Home hero in
+local preview. The film now has a compact editorial heading, a centered complete
+16:9 player sized to the viewport height, five chapter cards and three concise
+points beneath. Its internal Get Started action is removed. The global navigation
+action follows its existing rules. Phone Home uses the unchanged locale-specific
+hero art as one blended background scene, with localized crops, room for the
+character, readable copy and normal-flow buttons. Desktop Home is unchanged.
+
+Validation: production build with TypeScript, component lint, asset integrity and
+33 local HTTP checks passed. Twenty browser layouts (Home/film, both locales,
+320/390/768/1280/1440px) had no document overflow; all fitted the complete video,
+and Film had no main-content contact action. Opt-in loading, native controls,
+cold chapter playback at 220 seconds and pause were checked. Screenshots were
+inspected at narrow-phone and laptop sizes. The standalone Playwright suite was
+not run. No image generation, new dependencies or subagents; responsive RTL and
+existing Sparkle design/quality guidance applied. These refinements are not published.
+
+## Why Sparkle and mobile Home release authorized — 2 November 2026
+
+The owner explicitly requested publishing the preceding local refinements. The
+release uses the same verified repository, main branch and existing Vercel project.
+Full source/test lint, asset integrity and 33 local HTTP checks passed before push;
+the unchanged application files had already passed a production build and the
+twenty-layout browser review above. Production status and post-release evidence
+are recorded in task outputs after the deployment finishes. No receiver changes
+or form submissions are part of this visual release.
+
 ## Remaining inputs
 
 Monthly applicability of the one-time additional-branch fee; reviewed timed video captions; receiver/deployment configuration verification before release. Publish only within an explicit release request.
