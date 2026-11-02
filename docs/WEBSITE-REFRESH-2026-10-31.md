@@ -786,6 +786,15 @@ twenty-layout browser review above. Production status and post-release evidence
 are recorded in task outputs after the deployment finishes. No receiver changes
 or form submissions are part of this visual release.
 
+## Film chapter interaction color — 2 November 2026
+
+The owner requested removing the blue hover fill from the five film chapter
+buttons and publishing the fix. Buttons retain a white surface while translating
+into their dark offset shadow. Keyboard focus keeps a visible inset outline in
+navy rather than blue. Times, labels, destinations and video behavior are unchanged.
+Production build with TypeScript passed before push. Live interaction proof and
+deployment metadata are recorded in task outputs after release verification.
+
 ## Remaining inputs
 
 Monthly applicability of the one-time additional-branch fee; reviewed timed video captions; receiver/deployment configuration verification before release. Publish only within an explicit release request.
