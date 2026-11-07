@@ -25,7 +25,7 @@ export function FilmPlayer({ locale }: { locale: Locale }) {
       player.load();
     }
     if (seconds !== undefined) {
-      if (player.readyState >= 1) player.currentTime = seconds;
+      if (player.readyState >= 3) player.currentTime = seconds;
       else pendingSeek.current = seconds;
     }
     player.focus({ preventScroll: true });
@@ -33,7 +33,7 @@ export function FilmPlayer({ locale }: { locale: Locale }) {
   }
   return <div className="mp-film-player">
     <div className="mp-film-stage">
-    <video ref={video} controls={started} aria-hidden={!started} tabIndex={started ? 0 : -1} playsInline preload="none" poster="/media/sparkle-film-poster-v1.webp" onLoadedMetadata={() => {
+    <video ref={video} controls={started} aria-hidden={!started} tabIndex={started ? 0 : -1} playsInline preload="none" poster="/media/sparkle-film-poster-v1.webp" onCanPlay={() => {
       if (video.current && pendingSeek.current !== null) {
         video.current.currentTime = pendingSeek.current;
         pendingSeek.current = null;

@@ -819,6 +819,9 @@ keyframes. Original footage, duration and chapters are preserved; originals rema
 untouched. Phone or reported slower/Save-Data connections use 480p, other visitors
 720p, selected once on an explicit play/chapter action. Metadata-aware chapter
 jumps and a localized loading status cover cold starts. No pre-play video source.
+Public playback exposed an initial seek stalling when performed immediately on
+metadata arrival. Pending chapter seeks now wait for `canplay`, allowing the
+browser to establish playback before requesting the target range.
 
 Evidence: full source/test lint and production build/TypeScript; 33 HTTP route,
 pricing, metadata, asset and boundary checks; new responsive-source/cache/deferred
