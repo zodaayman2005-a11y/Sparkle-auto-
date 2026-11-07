@@ -40,7 +40,7 @@ for (const locale of ["ar", "en"]) {
       assert.equal(new Set(imageSources).size, 5, `${route}: five distinct product screens`);
       assert.ok(imageSources.every(src => src?.startsWith(`/product/2026-10-31/${locale === "en" ? "en/" : ""}`) && (locale === "en" || !src.includes("/en/"))), `${route}: every screenshot matches the locale`);
       for (const image of ["bookings", "workforce", "finance", "customers", "whatsapp"]) {
-        assert.ok(imageSources.includes(`/product/2026-10-31/${locale === "en" ? "en/" : ""}${image}.png`), `${route}: ${image} in ${locale}`);
+        assert.ok(imageSources.includes(`/product/2026-10-31/${locale === "en" ? "en/" : ""}${image}.webp`), `${route}: ${image} in ${locale}`);
       }
       assert.ok(html.includes(locale === "en" ? "Platform screenshot · English interface" : "لقطة من المنصة · واجهة عربية"), route);
     }

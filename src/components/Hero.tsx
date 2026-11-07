@@ -64,9 +64,8 @@ export function Hero({
               src={locale === "en" ? "/hero/hero-en-original.png" : "/hero/hero-ar-original.png"}
               alt=""
               fill
-              unoptimized
               preload
-              sizes="(max-width: 480px) 480px, 100vw"
+              sizes="(max-width: 767px) calc(100vw + 160px), 100vw"
               placeholder="blur"
               blurDataURL={heroMedia[locale].blurDataURL}
             />

@@ -7,7 +7,7 @@ import { pick, hero, type Locale } from "@/content/site";
 import { websitePages, pageUrl, type WebsitePage } from "@/content/website";
 
 export function WebsiteBrand() {
-  return <span className="mp-brand"><Image src="/brand/logo.jpg" width={48} height={48} alt="" unoptimized /><span dir="ltr">sparkle<span>AUTO</span></span></span>;
+  return <span className="mp-brand"><Image src="/delivery/brand/logo-144.webp" width={48} height={48} alt="" unoptimized /><span dir="ltr">sparkle<span>AUTO</span></span></span>;
 }
 export function WebsiteHeader({ locale, page }: { locale: Locale; page: WebsitePage }) {
   const [open, setOpen] = useState(false);

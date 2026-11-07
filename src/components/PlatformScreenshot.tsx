@@ -19,7 +19,7 @@ export function PlatformScreenshot({ locale, screen }: { locale: Locale; screen:
   return <figure className="mp-product-shot">
     <figcaption className="mp-shot-heading">{title}</figcaption>
     <button type="button" className="mp-shot-preview" aria-haspopup="dialog" aria-label={`${ar ? "كبّر الصورة" : "Enlarge screenshot"}: ${title}`} onClick={openScreenshot}>
-      <Image src={image.src} alt={pick(screen.alt, locale)} width={image.width} height={image.height} unoptimized loading="lazy" className="mp-shot-image" />
+      <Image src={image.src.replace(/\.png$/, ".webp")} alt={pick(screen.alt, locale)} width={image.width} height={image.height} unoptimized loading="lazy" className="mp-shot-image" />
       <span className="mp-shot-preview-action">{ar ? "كبّر الصورة واستكشف التفاصيل" : "Enlarge and explore the screen"}<span aria-hidden="true">↗</span></span>
     </button>
     <div className="mp-proof-caption"><span>{ar ? "لقطة من المنصة · واجهة عربية" : "Platform screenshot · English interface"}</span></div>

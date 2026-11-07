@@ -84,3 +84,23 @@ Only the main site header stays fixed while reading Platform.
 - [Preview deployment history](docs/VERCEL-DEPLOYMENT.md)
 
 Older `artifacts/visual` and refinement reports document earlier implementation stages. The current application code and latest release reports take precedence. Installed skill archives and original assets remain preserved.
+
+## Current media delivery — 7 November 2026
+
+The six-page site uses the existing responsive hero WebPs (25–294 KB instead of
+29.5 MB originals), the 144px logo, and pixel-identical lossless WebP screenshot
+previews. Full-size screenshot inspection still opens the original PNG.
+`node scripts/prepare-website-images.mjs` reproduces screenshot/poster derivatives.
+
+Film playback selects the 24.9 MB 480p file for phones, Save-Data, reported 2G/3G
+or downlink below 2 Mbps; other visitors use the 40.5 MB 720p file. Selection occurs
+once on explicit Play/chapter input, with no video URL attached beforehand. Both
+MP4s have front-loaded metadata, two-second keyframes and byte-range support.
+The original 64.5 MB, 592-second film remains untouched. Reproduce derivatives
+with `FFMPEG_BIN` pointing to a local FFmpeg/libx264 binary and
+`node scripts/prepare-film.mjs`. No runtime encoder, new service or dependency.
+
+Run `node scripts/check-website-assets.mjs`, `node scripts/verify-website.mjs` and
+`node scripts/verify-delivery.mjs` against a production build. Set `QA_URL` for the
+HTTP checks against a deployed origin. These verify delivery budgets/contracts;
+they do not establish field Core Web Vitals or a guaranteed loading duration.

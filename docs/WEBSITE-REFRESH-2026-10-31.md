@@ -802,6 +802,33 @@ equivalent Arabic wording, making the feature list explicitly non-exhaustive.
 The sentence still identifies the connected workspace. Content lint and the
 production build with TypeScript passed before release.
 
+## Media performance — 7 November 2026
+
+The owner reported slow page/video loading and requested a fix. Live DOM inspection
+confirmed the Home hero bypassed the existing loader with `unoptimized`, downloading
+the 29.6 MB PNG. Removed that bypass and supplied the actual mobile art width in
+`sizes`; both original hero scenes are preserved. The shared header/footer now use
+the existing 12.4 KB logo instead of its 111 KB master. Product previews use
+70–84 KB lossless WebPs verified against the original decoded pixels; the image
+viewer continues using PNG originals. The poster drops from 295 KB to 177 KB.
+
+The source film was already fast-start 720p H.264, 592 seconds and 64,536,476 bytes.
+Created separate H.264/AAC web derivatives: 40,543,035-byte 720p and 24,910,962-byte
+480p, 24 fps, capped video bitrates of 550/300 kbps, 64 kbps audio and two-second
+keyframes. Original footage, duration and chapters are preserved; originals remain
+untouched. Phone or reported slower/Save-Data connections use 480p, other visitors
+720p, selected once on an explicit play/chapter action. Metadata-aware chapter
+jumps and a localized loading status cover cold starts. No pre-play video source.
+
+Evidence: full source/test lint and production build/TypeScript; 33 HTTP route,
+pricing, metadata, asset and boundary checks; new responsive-source/cache/deferred
+video/range checks; byte budgets and fast-start boxes; lossless screenshot pixel
+comparison; complete FFmpeg decode of both new videos; inspected 480p/720p frames.
+Browser checks covered desktop/phone Home in both locales, English cold jump to
+220 seconds, Arabic phone play and native pause. No real form submission, field
+Core Web Vitals measurement, throttled lab benchmark or full Playwright suite.
+Release and public checks are recorded in task outputs after deployment.
+
 ## Remaining inputs
 
 Monthly applicability of the one-time additional-branch fee; reviewed timed video captions; receiver/deployment configuration verification before release. Publish only within an explicit release request.

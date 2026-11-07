@@ -22,6 +22,7 @@
 .mp-film .mp-chapters button:focus-visible { outline:2px solid var(--navy); outline-offset:-5px; }
 .mp-film-stage { position: relative; aspect-ratio: 16/9; width: 100%; border: var(--border); border-radius: 18px; background: var(--navy); box-shadow: var(--shadow-md); overflow: hidden; }
 .mp-film-stage video { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; background: var(--navy); }
+.mp-film-loading { position:absolute; inset-block-start:12px; inset-inline-start:12px; padding:6px 10px; border-radius:8px; background:var(--navy); color:white; font-size:12px; pointer-events:none; }
 .mp-film-start { position: absolute; inset: 0; display: grid; place-items: center; width: 100%; height: 100%; border: 0; padding: 0; background: transparent; color: var(--navy); cursor: pointer; }
 .mp-film-start:focus-visible { outline: 3px solid var(--blue); outline-offset: -6px; }
 .mp-film-play { display: grid; place-items: center; width: 72px; height: 72px; border: var(--border); border-radius: 50%; background: var(--blue); box-shadow: var(--shadow-md); transition: transform 160ms,box-shadow 160ms; }
