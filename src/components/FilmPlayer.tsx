@@ -16,12 +16,9 @@ export function FilmPlayer({ locale }: { locale: Locale }) {
     setStarted(true);
     setLoading(true);
     setError(false);
-    // Select once after explicit input; no video download on page load.
+    // Keep the original 720p/30fps footage on every device, deferred until input.
     if (!player.getAttribute("src")) {
-      const connection = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string; downlink?: number } }).connection;
-      const compact = window.matchMedia("(max-width: 767px)").matches;
-      const slow = connection?.saveData || /(^|-)2g$|3g/.test(connection?.effectiveType ?? "") || (connection?.downlink !== undefined && connection.downlink < 2);
-      player.src = `/media/sparkle-film-${compact || slow ? "480" : "720"}-v1.mp4`;
+      player.src = "/media/sparkle-auto-film.mp4";
       player.load();
     }
     if (seconds !== undefined) {
@@ -33,7 +30,7 @@ export function FilmPlayer({ locale }: { locale: Locale }) {
   }
   return <div className="mp-film-player">
     <div className="mp-film-stage">
-    <video ref={video} controls={started} aria-hidden={!started} tabIndex={started ? 0 : -1} playsInline preload="none" poster="/media/sparkle-film-poster-v1.webp" onCanPlay={() => {
+    <video ref={video} controls={started} aria-hidden={!started} tabIndex={started ? 0 : -1} playsInline preload="none" poster="/media/sparkle-film-poster.jpg" onCanPlay={() => {
       if (video.current && pendingSeek.current !== null) {
         video.current.currentTime = pendingSeek.current;
         pendingSeek.current = null;

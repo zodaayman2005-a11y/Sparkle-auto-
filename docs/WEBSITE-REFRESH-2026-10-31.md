@@ -832,6 +832,25 @@ Browser checks covered desktop/phone Home in both locales, English cold jump to
 Core Web Vitals measurement, throttled lab benchmark or full Playwright suite.
 Release and public checks are recorded in task outputs after deployment.
 
+## Higher-quality media — 7 November 2026
+
+The owner found the compressed media too soft and requested higher quality.
+FilmPlayer now uses the original 720p/30fps, 64.5 MB film on every device and the
+original JPEG poster. Removed screen/network-based selection of the 480p and
+re-encoded 720p files. Deferred loading, native controls and the `canplay` chapter
+startup fix remain. The larger video is an explicit quality trade-off, without
+reintroducing video download during page load.
+
+Hero derivatives are regenerated from the unchanged PNGs at quality 98, with
+1280px minimum and 3840px maximum width. Their versioned URLs bypass immutable
+cached v1 images. Transfer size is 151–159 KB at 1280px, 347–376 KB at 1920px,
+610–658 KB at 2560px and 1.34–1.43 MB at 3840px. Updated budgets intentionally
+prioritize the owner's sharper-image request. Lossless screenshots remain intact.
+
+The hero builder is shared by the full asset pipeline and its standalone script
+to prevent a future asset build from restoring the softer variants. Actual
+verification and release receipts are recorded in task outputs.
+
 ## Remaining inputs
 
 Monthly applicability of the one-time additional-branch fee; reviewed timed video captions; receiver/deployment configuration verification before release. Publish only within an explicit release request.

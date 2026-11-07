@@ -4,7 +4,7 @@ const config: NextConfig = {
   distDir: process.env.SPARKLE_BUILD_DIR || ".next",
   poweredByHeader: false,
   devIndicators: false,
-  images: { loader:"custom", loaderFile:"./src/lib/image-loader.ts", deviceSizes:[320,640,960,1280,1920,2560], imageSizes:[48] },
+  images: { loader:"custom", loaderFile:"./src/lib/image-loader.ts", deviceSizes:[320,640,960,1280,1920,2560,3840], imageSizes:[48] },
   async headers() {
     return [
       { source: "/media/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }] },

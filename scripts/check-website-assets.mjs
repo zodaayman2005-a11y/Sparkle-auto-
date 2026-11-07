@@ -25,7 +25,8 @@ assert.ok(filmBytes > 0 && filmBytes < 80_000_000, "Film must meet the selected 
 for (const locale of ["ar", "en"]) {
   const manifest = JSON.parse(await readFile("src/content/hero-media.json", "utf8"))[locale];
   for (const width of manifest.sizes) {
-    assert.ok((await stat(`public${manifest.base}-${width}.webp`)).size < (width <= 960 ? 100_000 : 400_000), "Responsive hero budget");
+    assert.ok(width >= 1280, "Sharper hero minimum resolution");
+    assert.ok((await stat(`public${manifest.base}-${width}.webp`)).size < 2_000_000, "High-quality responsive hero budget");
   }
 }
 assert.ok((await stat("public/delivery/brand/logo-144.webp")).size < 20_000, "Logo delivery budget");

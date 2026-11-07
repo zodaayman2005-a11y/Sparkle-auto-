@@ -87,18 +87,20 @@ Older `artifacts/visual` and refinement reports document earlier implementation 
 
 ## Current media delivery — 7 November 2026
 
-The six-page site uses the existing responsive hero WebPs (25–294 KB instead of
-29.5 MB originals), the 144px logo, and pixel-identical lossless WebP screenshot
-previews. Full-size screenshot inspection still opens the original PNG.
+The owner requested higher visual quality after the first performance pass. The
+site now uses quality-98 hero WebPs at 1280–3840px (151 KB–1.43 MB), with a 1280px
+minimum even on phones. `node scripts/prepare-hero.mjs` reproduces them from the
+unchanged 29.5 MB originals. Versioned URLs prevent stale low-quality cached art.
+The 144px logo and pixel-identical lossless WebP screenshot previews remain.
+Full-size screenshot inspection still opens the original PNG.
 `node scripts/prepare-website-images.mjs` reproduces screenshot/poster derivatives.
 
-Film playback selects the 24.9 MB 480p file for phones, Save-Data, reported 2G/3G
-or downlink below 2 Mbps; other visitors use the 40.5 MB 720p file. Selection occurs
-once on explicit Play/chapter input, with no video URL attached beforehand. Both
-MP4s have front-loaded metadata, two-second keyframes and byte-range support.
-The original 64.5 MB, 592-second film remains untouched. Reproduce derivatives
-with `FFMPEG_BIN` pointing to a local FFmpeg/libx264 binary and
-`node scripts/prepare-film.mjs`. No runtime encoder, new service or dependency.
+Film playback now uses the original 64.5 MB, 592-second 720p/30fps film and original
+JPEG poster on every device. No automatic downgrade to 480p or re-encoded 24fps
+footage. The video URL is still attached only on Play/chapter input, with native
+byte-range playback and the playable-data chapter startup fix retained. Older v1
+derivatives and their preparation script are preserved but no longer selected.
+No runtime encoder, new service or dependency.
 
 Run `node scripts/check-website-assets.mjs`, `node scripts/verify-website.mjs` and
 `node scripts/verify-delivery.mjs` against a production build. Set `QA_URL` for the
